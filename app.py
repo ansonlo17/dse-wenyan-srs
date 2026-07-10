@@ -32,8 +32,10 @@ from src.suggest import (  # noqa: E402
     suggest_for_paragraph,
 )
 
+APP_NAME = "ansonlochinese12篇範文語譯溫習"
+
 st.set_page_config(
-    page_title="文言精華 · DSE",
+    page_title=APP_NAME,
     page_icon="📜",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -178,7 +180,7 @@ def _render_new_creds_panel() -> None:
     st.download_button(
         "下載帳號表（CSV）",
         data=csv.encode("utf-8-sig"),
-        file_name="文言精華_帳號PIN.csv",
+        file_name="ansonlochinese_帳號PIN.csv",
         mime="text/csv",
         use_container_width=True,
         key="dl_creds",
@@ -202,9 +204,9 @@ def _render_new_creds_panel() -> None:
 def page_login() -> None:
     """方案 A：名稱 + 隨機 PIN；老師區需密碼。"""
     st.markdown(
-        """
+        f"""
         <div class="wy-hero">
-          <h1>文言精華</h1>
+          <h1>{APP_NAME}</h1>
           <p>選擇你的名稱 · 每人獨立進度</p>
         </div>
         """,
@@ -318,7 +320,7 @@ def nav() -> str:
     """
     uid = current_user_id()
     with st.sidebar:
-        st.markdown("### 📜 文言精華")
+        st.markdown(f"### 📜 {APP_NAME}")
         st.caption("HKDSE 指定文言 · 字詞複習")
         if current_user_name():
             st.markdown(f"**👤 {current_user_name()}**")
@@ -392,7 +394,7 @@ def page_home() -> None:
     st.markdown(
         f"""
         <div class="wy-hero">
-          <h1>文言精華</h1>
+          <h1>{APP_NAME}</h1>
           <p>指定文言 · 字詞對照 · 間隔複習 · {current_user_name()}</p>
         </div>
         <div class="wy-stat-row">
