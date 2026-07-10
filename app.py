@@ -32,7 +32,7 @@ from src.suggest import (  # noqa: E402
     suggest_for_paragraph,
 )
 
-APP_NAME = "ansonlochinese12篇範文語譯溫習"
+APP_NAME = "12篇範文語譯溫習"
 
 st.set_page_config(
     page_title=APP_NAME,
