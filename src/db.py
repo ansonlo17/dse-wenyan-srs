@@ -476,6 +476,40 @@ def user_count() -> int:
         return int(conn.execute("SELECT COUNT(*) AS c FROM users").fetchone()["c"])
 
 
+def delete_user(user_id: int) -> tuple[bool, str]:
+    """
+    Delete one user and all of their progress (SRS, logs, status, settings).
+    Shared content (texts / vocab) is kept.
+    Returns (ok, message).
+    """
+    with connect() as conn:
+        row = conn.execute(
+            "SELECT id, name FROM users WHERE id=?", (user_id,)
+        ).fetchone()
+        if not row:
+            return False, "找不到此用戶"
+        name = row["name"]
+        # Explicit cleanup (in case FK cascade is off on older DBs)
+        conn.execute("DELETE FROM review_logs WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM srs_cards WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM user_vocab_status WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM user_settings WHERE user_id=?", (user_id,))
+        conn.execute("DELETE FROM users WHERE id=?", (user_id,))
+        return True, f"已刪除「{name}」及其進度"
+
+
+def delete_users(user_ids: list[int]) -> tuple[int, list[str]]:
+    """Delete multiple users. Returns (deleted_count, messages)."""
+    deleted = 0
+    messages: list[str] = []
+    for uid in user_ids:
+        ok, msg = delete_user(int(uid))
+        if ok:
+            deleted += 1
+        messages.append(msg)
+    return deleted, messages
+
+
 def get_user(user_id: int) -> Optional[dict[str, Any]]:
     with connect() as conn:
         row = conn.execute(

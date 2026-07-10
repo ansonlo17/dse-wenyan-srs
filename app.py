@@ -311,6 +311,43 @@ def page_login() -> None:
                 ]
                 st.rerun()
 
+        st.markdown("---")
+        st.markdown("#### 刪除用戶")
+        st.caption("刪除後，該用戶的複習進度一併清除；篇章內容不受影響。")
+        all_users = db.list_users()
+        if not all_users:
+            st.info("目前沒有可刪除的用戶。")
+        else:
+            label_to_id = {f"{u['name']}（id {u['id']}）": u["id"] for u in all_users}
+            pick_labels = st.multiselect(
+                "選擇要刪除的用戶（可多選）",
+                options=list(label_to_id.keys()),
+                key="teacher_delete_users",
+            )
+            confirm = st.checkbox(
+                "我確認要永久刪除所選用戶及其進度",
+                key="teacher_delete_confirm",
+            )
+            if st.button(
+                "刪除所選用戶",
+                type="secondary",
+                use_container_width=True,
+                key="teacher_delete_go",
+                disabled=not pick_labels or not confirm,
+            ):
+                ids = [label_to_id[lab] for lab in pick_labels]
+                # If currently logged in as one of them, log out after delete
+                cur = current_user_id()
+                n, msgs = db.delete_users(ids)
+                if cur is not None and cur in ids:
+                    _logout()
+                st.session_state.pop("new_user_creds", None)
+                if n:
+                    st.success("；".join(msgs))
+                else:
+                    st.error("；".join(msgs) if msgs else "刪除失敗")
+                st.rerun()
+
 
 def nav() -> str:
     """
