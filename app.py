@@ -146,8 +146,8 @@ def page_home() -> None:
     st.markdown(
         f"""
         <div class="wy-hero">
-          <h1>今日文言</h1>
-          <p>十二篇字詞 · 對照閱讀 · 聰明複習</p>
+          <h1>文言精華</h1>
+          <p>指定十二篇 · 字詞對照 · 間隔複習<br/>在星空下，把經典一點一點讀通。</p>
         </div>
         <div class="wy-stat-row">
           <div class="wy-stat"><div class="num">{s['due']}</div><div class="label">到期</div></div>

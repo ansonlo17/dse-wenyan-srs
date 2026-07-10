@@ -1,23 +1,26 @@
-/* HKDSE 文言文精華 — blue mobile-first card UI */
+/* HKDSE 文言文精華 — night-sky magical blue (inspired by HP-style dark UI) */
 
 :root {
-  /* Cool paper + deep blue brand */
-  --bg: #eef3fa;
-  --card: #ffffff;
-  --ink: #152238;
-  --muted: #5a6b85;
-  --primary: #1e5aa8;
-  --primary-mid: #2f74c8;
-  --primary-soft: #e3eefb;
-  --accent: #3d9cf0;
-  --accent-soft: #e8f4ff;
-  --accent-ink: #0c4a7a;
-  --danger: #c44b4b;
-  --line: #d5e2f0;
-  --radius: 16px;
-  --shadow: 0 8px 24px rgba(21, 60, 120, 0.08);
+  --bg: #070b16;
+  --bg-mid: #0d1630;
+  --card: rgba(16, 28, 58, 0.78);
+  --card-solid: #121f3f;
+  --ink: #f3efe6;
+  --muted: #a8b6d4;
+  --primary: #7eb6ff;
+  --primary-deep: #3d7dd6;
+  --primary-soft: rgba(126, 182, 255, 0.14);
+  --accent: #c9a86c;
+  --accent-soft: rgba(201, 168, 108, 0.16);
+  --accent-ink: #f0e2c0;
+  --danger: #e07a7a;
+  --line: rgba(140, 170, 230, 0.22);
+  --radius: 18px;
+  --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
   --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC",
     sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", "Songti TC", "Noto Serif TC",
+    "Times New Roman", serif;
 }
 
 html, body, [data-testid="stAppViewContainer"] {
@@ -26,15 +29,25 @@ html, body, [data-testid="stAppViewContainer"] {
   color: var(--ink);
 }
 
-/* subtle page wash */
+/* Starfield + deep blue nebula wash */
 [data-testid="stAppViewContainer"] > .main {
   background:
-    radial-gradient(900px 420px at 10% -10%, rgba(61, 156, 240, 0.14), transparent 55%),
-    radial-gradient(700px 360px at 100% 0%, rgba(30, 90, 168, 0.10), transparent 50%),
-    var(--bg) !important;
+    radial-gradient(1.2px 1.2px at 8% 12%, rgba(255,255,255,0.75), transparent),
+    radial-gradient(1px 1px at 22% 40%, rgba(255,255,255,0.55), transparent),
+    radial-gradient(1.4px 1.4px at 40% 18%, rgba(255,255,255,0.65), transparent),
+    radial-gradient(1px 1px at 55% 70%, rgba(255,255,255,0.45), transparent),
+    radial-gradient(1.2px 1.2px at 72% 28%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 88% 55%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.3px 1.3px at 15% 78%, rgba(255,255,255,0.55), transparent),
+    radial-gradient(1px 1px at 63% 88%, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1.1px 1.1px at 92% 14%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(900px 500px at 80% 20%, rgba(45, 90, 180, 0.35), transparent 60%),
+    radial-gradient(700px 420px at 15% 80%, rgba(70, 50, 140, 0.22), transparent 55%),
+    radial-gradient(600px 360px at 50% 0%, rgba(30, 70, 150, 0.25), transparent 50%),
+    linear-gradient(165deg, #050812 0%, #0b1530 45%, #101c3c 100%) !important;
+  min-height: 100vh;
 }
 
-/* Center column for phone feel */
 .main .block-container {
   max-width: 480px !important;
   padding-top: 1rem !important;
@@ -43,7 +56,6 @@ html, body, [data-testid="stAppViewContainer"] {
   padding-right: 1rem !important;
 }
 
-/* Hide streamlit chrome noise */
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header[data-testid="stHeader"] {
@@ -51,120 +63,155 @@ header[data-testid="stHeader"] {
 }
 
 h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
-  font-family: var(--font) !important;
+  font-family: var(--serif) !important;
   color: var(--ink) !important;
   letter-spacing: 0.02em;
+  font-weight: 600;
 }
 
-/* Cards */
+.stMarkdown p, .stCaption, label, .stTextInput label {
+  color: var(--muted) !important;
+}
+
+/* Cards — glass on night sky */
 .wy-card {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 1rem 1.1rem;
-  margin: 0.65rem 0;
+  padding: 1.05rem 1.15rem;
+  margin: 0.7rem 0;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .wy-card-title {
-  font-size: 0.78rem;
-  color: var(--muted);
-  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  color: var(--accent);
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.4rem;
+  font-family: var(--font);
 }
 
 .wy-original {
-  font-size: 1.15rem;
-  line-height: 1.85;
+  font-size: 1.12rem;
+  line-height: 1.9;
   color: var(--ink);
   font-weight: 500;
 }
 
 .wy-translation {
-  font-size: 0.95rem;
+  font-size: 0.94rem;
   line-height: 1.7;
   color: var(--muted);
   margin-top: 0.65rem;
   padding-top: 0.65rem;
-  border-top: 1px dashed var(--line);
+  border-top: 1px dashed rgba(140, 170, 230, 0.28);
 }
 
+/* Hero like reference: dark panel + luminous blue art */
 .wy-hero {
-  background: linear-gradient(135deg, #163a72 0%, #1e5aa8 42%, #3d9cf0 100%);
-  color: #fff;
-  border-radius: 20px;
-  padding: 1.25rem 1.3rem;
-  box-shadow: 0 12px 32px rgba(30, 90, 168, 0.28);
+  background:
+    radial-gradient(circle at 85% 40%, rgba(90, 140, 220, 0.28), transparent 45%),
+    radial-gradient(circle at 70% 70%, rgba(40, 70, 150, 0.35), transparent 50%),
+    linear-gradient(135deg, rgba(12, 22, 48, 0.92) 0%, rgba(18, 36, 78, 0.88) 55%, rgba(22, 48, 100, 0.85) 100%);
+  color: #f7f3ea;
+  border-radius: 22px;
+  padding: 1.45rem 1.35rem 1.35rem;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
   margin-bottom: 1rem;
+  border: 1px solid rgba(150, 180, 240, 0.22);
   position: relative;
   overflow: hidden;
+}
+
+.wy-hero::before {
+  content: "INTRODUCING";
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  color: rgba(230, 220, 190, 0.72);
+  margin-bottom: 0.55rem;
+  font-family: var(--font);
+  font-weight: 500;
 }
 
 .wy-hero::after {
   content: "";
   position: absolute;
-  right: -20%;
-  top: -40%;
-  width: 55%;
-  height: 160%;
-  background: radial-gradient(circle, rgba(255,255,255,0.16), transparent 65%);
+  right: -8%;
+  top: 10%;
+  width: 46%;
+  height: 80%;
+  background:
+    radial-gradient(ellipse at center, rgba(120, 170, 255, 0.18), transparent 68%);
   pointer-events: none;
 }
 
 .wy-hero h1 {
-  color: #fff !important;
-  font-size: 1.45rem !important;
-  margin: 0 0 0.35rem 0 !important;
-  font-weight: 700;
+  color: #f7f3ea !important;
+  font-family: var(--serif) !important;
+  font-size: 1.65rem !important;
+  margin: 0 0 0.45rem 0 !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  line-height: 1.25;
   position: relative;
   z-index: 1;
 }
 
 .wy-hero p {
   margin: 0;
-  opacity: 0.94;
-  font-size: 0.95rem;
+  opacity: 0.88;
+  font-size: 0.92rem;
+  color: #d5dceb;
+  line-height: 1.55;
   position: relative;
   z-index: 1;
+  max-width: 92%;
 }
 
 .wy-stat-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.55rem;
-  margin: 0.85rem 0 0.2rem;
+  margin: 0.9rem 0 0.25rem;
 }
 
 .wy-stat {
-  background: var(--card);
+  background: rgba(14, 24, 52, 0.75);
   border-radius: 14px;
   border: 1px solid var(--line);
-  padding: 0.75rem 0.5rem;
+  padding: 0.8rem 0.45rem;
   text-align: center;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(8px);
 }
 
 .wy-stat .num {
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--primary);
   line-height: 1.1;
+  font-family: var(--serif);
 }
 
 .wy-stat .label {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--muted);
-  margin-top: 0.2rem;
+  margin-top: 0.25rem;
+  letter-spacing: 0.04em;
 }
 
 .wy-chip {
   display: inline-block;
   background: var(--primary-soft);
-  color: var(--primary);
+  color: #b9d7ff;
+  border: 1px solid rgba(126, 182, 255, 0.28);
   border-radius: 999px;
-  padding: 0.2rem 0.65rem;
-  font-size: 0.78rem;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.76rem;
   margin: 0.15rem 0.2rem 0.15rem 0;
   font-weight: 600;
 }
@@ -172,6 +219,7 @@ h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
 .wy-chip-accent {
   background: var(--accent-soft);
   color: var(--accent-ink);
+  border-color: rgba(201, 168, 108, 0.35);
 }
 
 .wy-progress-label {
@@ -179,6 +227,7 @@ h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
   justify-content: space-between;
   font-size: 0.85rem;
   margin-bottom: 0.25rem;
+  color: var(--ink);
 }
 
 .wy-muted {
@@ -187,22 +236,27 @@ h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
 }
 
 .wy-tip {
-  background: var(--accent-soft);
-  border-left: 4px solid var(--accent);
+  background: rgba(30, 55, 110, 0.45);
+  border-left: 4px solid var(--primary);
   border-radius: 0 12px 12px 0;
-  padding: 0.75rem 0.9rem;
-  color: var(--accent-ink);
+  padding: 0.8rem 0.95rem;
+  color: #d8e6ff;
   font-size: 0.92rem;
-  margin: 0.75rem 0;
+  margin: 0.8rem 0;
+  border-top: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 
 .wy-flash-term {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 2.1rem;
+  font-weight: 600;
   text-align: center;
-  color: var(--primary);
-  padding: 1.2rem 0.5rem 0.4rem;
-  letter-spacing: 0.06em;
+  color: #f4efe4;
+  padding: 1.25rem 0.5rem 0.45rem;
+  letter-spacing: 0.08em;
+  font-family: var(--serif);
+  text-shadow: 0 0 24px rgba(126, 182, 255, 0.25);
 }
 
 .wy-flash-meta {
@@ -210,94 +264,123 @@ h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
   color: var(--muted);
   font-size: 0.85rem;
   margin-bottom: 0.8rem;
+  letter-spacing: 0.06em;
 }
 
 .wy-term-title {
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #eef4ff;
+  font-family: var(--serif);
 }
 
 .wy-accept {
-  font-size: 1.1rem;
-  color: var(--primary);
+  font-size: 1.12rem;
+  color: #dce9ff;
+  font-family: var(--serif);
 }
 
-/* highlights in original text */
+/* highlights */
 mark.hl-weak {
-  background: #ffe6b8;
+  background: rgba(201, 168, 108, 0.35);
   color: inherit;
   padding: 0 0.12em;
   border-radius: 3px;
 }
 mark.hl-learning {
-  background: #cfe5fb;
+  background: rgba(90, 150, 230, 0.35);
   color: inherit;
   padding: 0 0.12em;
   border-radius: 3px;
 }
 mark.hl-mastered {
-  background: #c9ebdd;
+  background: rgba(90, 180, 150, 0.3);
   color: inherit;
   padding: 0 0.12em;
   border-radius: 3px;
 }
 
-/* Bigger touch targets — never block clicks */
+/* Buttons — outline pill like reference + filled primary */
 div.stButton > button {
-  border-radius: 12px !important;
-  min-height: 2.75rem;
+  border-radius: 999px !important;
+  min-height: 2.85rem;
   font-weight: 600;
-  border: 1px solid var(--line) !important;
+  letter-spacing: 0.04em;
+  border: 1.5px solid rgba(200, 215, 245, 0.45) !important;
   pointer-events: auto !important;
   cursor: pointer !important;
   position: relative;
   z-index: 2;
-  color: var(--ink) !important;
-  background: #fff !important;
+  color: #e8eefc !important;
+  background: rgba(12, 22, 48, 0.55) !important;
+  box-shadow: none !important;
 }
 
-/* Prevent decorative HTML blocks from intercepting clicks */
+div.stButton > button:hover {
+  border-color: rgba(180, 210, 255, 0.75) !important;
+  background: rgba(30, 55, 110, 0.55) !important;
+}
+
 .wy-hero, .wy-card, .wy-stat-row, .wy-tip {
   pointer-events: none;
 }
-/* But allow text selection inside cards */
 .wy-original, .wy-translation {
   pointer-events: auto;
 }
 
 div.stButton > button[kind="primary"],
 div.stButton > button[data-testid="baseButton-primary"] {
-  background: linear-gradient(180deg, #2f74c8 0%, #1e5aa8 100%) !important;
+  background: linear-gradient(180deg, #4f8fe0 0%, #2a6ec4 100%) !important;
   color: #fff !important;
-  border: none !important;
-  box-shadow: 0 6px 16px rgba(30, 90, 168, 0.28);
+  border: 1px solid rgba(170, 205, 255, 0.45) !important;
+  box-shadow: 0 8px 22px rgba(40, 100, 200, 0.35) !important;
 }
 
 div.stButton > button[kind="primary"]:hover,
 div.stButton > button[data-testid="baseButton-primary"]:hover {
-  filter: brightness(1.05);
+  filter: brightness(1.08);
 }
 
-/* Metric polish */
 [data-testid="stMetricValue"] {
   color: var(--primary) !important;
+  font-family: var(--serif) !important;
 }
 
-/* Sidebar */
+/* Sidebar night panel */
 section[data-testid="stSidebar"] {
-  background: linear-gradient(180deg, #e8f1fb 0%, #f5f8fd 100%);
+  background:
+    radial-gradient(500px 300px at 20% 0%, rgba(50, 90, 180, 0.25), transparent 60%),
+    linear-gradient(180deg, #0a1228 0%, #0e1834 100%) !important;
   border-right: 1px solid var(--line);
 }
 
 section[data-testid="stSidebar"] * {
   font-family: var(--font) !important;
+  color: var(--ink) !important;
 }
 
-/* Inputs */
+section[data-testid="stSidebar"] .stMarkdown h3 {
+  font-family: var(--serif) !important;
+  color: #f0ebe0 !important;
+}
+
+/* Inputs on dark */
 div[data-baseweb="input"] > div,
-div[data-baseweb="select"] > div {
-  border-radius: 12px !important;
+div[data-baseweb="select"] > div,
+div[data-baseweb="textarea"] > div {
+  border-radius: 14px !important;
+  background-color: rgba(10, 18, 40, 0.85) !important;
+  border-color: var(--line) !important;
+}
+
+div[data-baseweb="input"] input,
+div[data-baseweb="textarea"] textarea {
+  color: var(--ink) !important;
+}
+
+/* Progress bar */
+div[data-testid="stProgress"] > div > div {
+  background: linear-gradient(90deg, #2a6ec4, #7eb6ff) !important;
 }
 
 .wy-empty {
@@ -309,4 +392,10 @@ div[data-baseweb="select"] > div {
 .wy-empty .emoji {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
+  filter: drop-shadow(0 0 12px rgba(126, 182, 255, 0.4));
+}
+
+/* Alert boxes on dark */
+div[data-testid="stAlert"] {
+  border-radius: 14px;
 }
