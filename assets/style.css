@@ -204,12 +204,25 @@ mark.hl-mastered {
   border-radius: 3px;
 }
 
-/* Bigger touch targets */
+/* Bigger touch targets — never block clicks */
 div.stButton > button {
   border-radius: 12px !important;
   min-height: 2.75rem;
   font-weight: 600;
   border: 1px solid var(--line) !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* Prevent decorative HTML blocks from intercepting clicks */
+.wy-hero, .wy-card, .wy-stat-row, .wy-tip {
+  pointer-events: none;
+}
+/* But allow text selection inside cards */
+.wy-original, .wy-translation {
+  pointer-events: auto;
 }
 
 div.stButton > button[kind="primary"],

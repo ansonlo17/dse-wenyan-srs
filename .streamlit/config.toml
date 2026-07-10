@@ -1,6 +1,7 @@
 [server]
 headless = true
-enableCORS = false
+# 與 enableXsrfProtection 一併開啟，避免 cookie／點擊異常
+enableCORS = true
 enableXsrfProtection = true
 # 0.0.0.0 = 允許區網／部署平台用瀏覽器開啟
 address = "0.0.0.0"

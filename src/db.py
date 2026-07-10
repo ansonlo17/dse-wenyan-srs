@@ -90,6 +90,7 @@ CREATE TABLE IF NOT EXISTS vocab_items (
   sentence_snippet TEXT NOT NULL DEFAULT '',
   translation_gloss TEXT,
   dse_usage TEXT,
+  accepted_answers TEXT DEFAULT '',
   difficulty INTEGER DEFAULT 3,
   category TEXT,
   status TEXT DEFAULT 'learning',
@@ -128,10 +129,20 @@ CREATE TABLE IF NOT EXISTS settings (
 """
 
 
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Additive migrations for existing installs."""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(vocab_items)").fetchall()}
+    if "accepted_answers" not in cols:
+        conn.execute(
+            "ALTER TABLE vocab_items ADD COLUMN accepted_answers TEXT DEFAULT ''"
+        )
+
+
 def init_db(db_path: Path | None = None) -> None:
     ensure_dirs()
     with connect(db_path) as conn:
         conn.executescript(SCHEMA)
+        _migrate(conn)
         seed_texts(conn)
         seed_default_settings(conn)
 
@@ -396,12 +407,20 @@ def add_vocab(
     sentence_snippet: str = "",
     translation_gloss: str = "",
     dse_usage: str = "",
+    accepted_answers: str = "",
     difficulty: int = 3,
     category: str = "實詞",
     status: str = "learning",
 ) -> int:
     term = term.strip()
     snippet = (sentence_snippet or "")[:200]
+    # auto-build accept list if not provided: "窮困／貧困／困苦"
+    if not accepted_answers:
+        from .answers import merge_acceptables
+
+        accepted_answers = "／".join(
+            merge_acceptables(None, translation_gloss, dse_usage)
+        )
     with connect() as conn:
         existing = conn.execute(
             """
@@ -417,6 +436,7 @@ def add_vocab(
                 UPDATE vocab_items SET
                   translation_gloss=COALESCE(NULLIF(?,''), translation_gloss),
                   dse_usage=COALESCE(NULLIF(?,''), dse_usage),
+                  accepted_answers=COALESCE(NULLIF(?,''), accepted_answers),
                   difficulty=?,
                   category=?,
                   status=?,
@@ -426,6 +446,7 @@ def add_vocab(
                 (
                     translation_gloss,
                     dse_usage,
+                    accepted_answers,
                     difficulty,
                     category,
                     status,
@@ -438,8 +459,8 @@ def add_vocab(
                 """
                 INSERT INTO vocab_items
                   (term, text_id, paragraph_id, sentence_snippet, translation_gloss,
-                   dse_usage, difficulty, category, status, created_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                   dse_usage, accepted_answers, difficulty, category, status, created_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     term,
@@ -448,6 +469,7 @@ def add_vocab(
                     snippet,
                     translation_gloss,
                     dse_usage,
+                    accepted_answers,
                     difficulty,
                     category,
                     status,

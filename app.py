@@ -19,7 +19,12 @@ if str(ROOT) not in sys.path:
 from src import analytics, db  # noqa: E402
 from src.align import auto_align_text  # noqa: E402
 from src.parsers import parse_pdf_bytes, parse_text_bytes, parse_text_string  # noqa: E402
-from src.sm2 import RATING_LABELS, apply_review_to_db, touch_streak  # noqa: E402
+from src.sm2 import (  # noqa: E402
+    RATING_BUTTON_ORDER,
+    RATING_LABELS,
+    apply_review_to_db,
+    touch_streak,
+)
 from src.suggest import (  # noqa: E402
     gloss_from_translation,
     highlight_html,
@@ -40,10 +45,22 @@ def inject_css() -> None:
         st.markdown(f"<style>{css_path.read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 
 
+PAGES = ["首頁", "文庫", "閱讀", "難字審核", "複習", "統計", "設定"]
+
+
+def go_page(name: str) -> None:
+    """Navigate without fighting widget state."""
+    if name not in PAGES:
+        name = "首頁"
+    st.session_state.page = name
+    # Keep top selectbox (if keyed) in sync
+    st.session_state["nav_select"] = name
+
+
 def bootstrap() -> None:
     db.init_db()
     inject_css()
-    if "page" not in st.session_state:
+    if "page" not in st.session_state or st.session_state.page not in PAGES:
         st.session_state.page = "首頁"
     if "review_queue" not in st.session_state:
         st.session_state.review_queue = []
@@ -51,37 +68,49 @@ def bootstrap() -> None:
         st.session_state.review_idx = 0
     if "show_answer" not in st.session_state:
         st.session_state.show_answer = False
+    if "user_answer" not in st.session_state:
+        st.session_state.user_answer = ""
+    if "answer_feedback" not in st.session_state:
+        st.session_state.answer_feedback = None  # None | "exact" | "partial" | "miss" | "skip"
     if "session_stats" not in st.session_state:
-        st.session_state.session_stats = {"done": 0, "again": 0, "good": 0}
+        st.session_state.session_stats = {"done": 0, "again": 0, "good": 0, "typed_ok": 0}
 
 
 def nav() -> str:
-    pages = ["首頁", "文庫", "閱讀", "難字審核", "複習", "統計", "設定"]
+    """
+    Single source of truth: st.session_state.page
+    Only ONE selectbox controls navigation (avoids dual-widget overwrite bug
+    that made buttons appear unclickable / immediately reset).
+    """
     with st.sidebar:
         st.markdown("### 📜 文言精華")
         st.caption("HKDSE 指定文言 · 字詞複習")
-        choice = st.radio(
-            "導覽",
-            pages,
-            index=pages.index(st.session_state.page)
-            if st.session_state.page in pages
-            else 0,
-            label_visibility="collapsed",
-        )
-        st.session_state.page = choice
+        # Sidebar uses buttons so it never fights the top selectbox key
+        for p in PAGES:
+            is_here = st.session_state.page == p
+            if st.button(
+                f"{'● ' if is_here else '○ '}{p}",
+                key=f"side_btn_{p}",
+                use_container_width=True,
+                type="primary" if is_here else "secondary",
+            ):
+                go_page(p)
+                st.rerun()
         due = db.count_due()
         if due:
             st.info(f"今日到期 **{due}** 張")
-    # mobile top select
-    choice2 = st.selectbox(
+
+    # Top mobile nav: no sticky key conflict — drive purely from session_state.page
+    # (button navigation previously lost because a keyed selectbox overwrote page).
+    choice = st.selectbox(
         "頁面",
-        pages,
-        index=pages.index(st.session_state.page),
+        PAGES,
+        index=PAGES.index(st.session_state.page),
         label_visibility="collapsed",
-        key="top_nav",
     )
-    st.session_state.page = choice2
-    return choice2
+    if choice != st.session_state.page:
+        go_page(choice)
+    return st.session_state.page
 
 
 def file_to_paragraphs(uploaded, pasted: str) -> tuple[list[str], str | None]:
@@ -132,13 +161,15 @@ def page_home() -> None:
 
     c1, c2 = st.columns(2)
     with c1:
-        if st.button("▶ 開始複習", type="primary", use_container_width=True):
-            st.session_state.page = "複習"
+        if st.button("▶ 開始複習", type="primary", use_container_width=True, key="home_review"):
             st.session_state.review_queue = []
+            st.session_state.review_idx = 0
+            _reset_card_ui()
+            go_page("複習")
             st.rerun()
     with c2:
-        if st.button("📚 打開文庫", use_container_width=True):
-            st.session_state.page = "文庫"
+        if st.button("📚 打開文庫", use_container_width=True, key="home_library"):
+            go_page("文庫")
             st.rerun()
 
     st.markdown("#### 本週進度")
@@ -235,18 +266,18 @@ def page_library() -> None:
 
     c1, c2, c3 = st.columns(3)
     with c1:
-        if st.button("重新對齊", use_container_width=True):
+        if st.button("重新對齊", use_container_width=True, key="lib_realign"):
             n = auto_align_text(text_id)
             st.success(f"已對齊 {n} 組")
     with c2:
-        if st.button("去閱讀", type="primary", use_container_width=True):
+        if st.button("去閱讀", type="primary", use_container_width=True, key="lib_read"):
             st.session_state.reader_text_id = text_id
-            st.session_state.page = "閱讀"
+            go_page("閱讀")
             st.rerun()
     with c3:
-        if st.button("難字審核", use_container_width=True):
+        if st.button("難字審核", use_container_width=True, key="lib_queue"):
             st.session_state.reader_text_id = text_id
-            st.session_state.page = "難字審核"
+            go_page("難字審核")
             st.rerun()
 
     with st.expander("載入示範：《魚我所欲也》"):
@@ -570,20 +601,52 @@ def _build_review_queue() -> list[dict]:
     return due + news
 
 
+def _card_acceptables(card: dict) -> list[str]:
+    from src.answers import merge_acceptables
+
+    return merge_acceptables(
+        card.get("accepted_answers") or "",
+        card.get("translation_gloss") or "",
+        card.get("dse_usage") or "",
+    )
+
+
+def _grade_typed_answer(
+    user: str,
+    correct: str,
+    usage: str = "",
+    accepted_answers: str = "",
+) -> dict:
+    """Multi-answer grade: 窮困 OR 困苦 both OK."""
+    from src.answers import grade_answer, merge_acceptables
+
+    accepted = merge_acceptables(accepted_answers, correct, usage)
+    return grade_answer(user, accepted, full_gloss=f"{correct} {usage}")
+
+
+def _reset_card_ui() -> None:
+    st.session_state.show_answer = False
+    st.session_state.user_answer = ""
+    st.session_state.answer_feedback = None
+    # clear text input widget state for next card
+    if "typed_answer_box" in st.session_state:
+        del st.session_state["typed_answer_box"]
+
+
 def page_review() -> None:
     st.markdown("### 🔁 今日複習")
 
-    if st.button("重新整理佇列", use_container_width=True):
+    if st.button("重新整理佇列", use_container_width=True, key="review_rebuild"):
         st.session_state.review_queue = _build_review_queue()
         st.session_state.review_idx = 0
-        st.session_state.show_answer = False
-        st.session_state.session_stats = {"done": 0, "again": 0, "good": 0}
+        _reset_card_ui()
+        st.session_state.session_stats = {"done": 0, "again": 0, "good": 0, "typed_ok": 0}
         st.rerun()
 
     if not st.session_state.review_queue:
         st.session_state.review_queue = _build_review_queue()
         st.session_state.review_idx = 0
-        st.session_state.show_answer = False
+        _reset_card_ui()
 
     queue = st.session_state.review_queue
     idx = st.session_state.review_idx
@@ -603,18 +666,18 @@ def page_review() -> None:
             <div class="wy-card">
               <div class="wy-stat-row">
                 <div class="wy-stat"><div class="num">{stats['done']}</div><div class="label">完成</div></div>
-                <div class="wy-stat"><div class="num">{stats['good']}</div><div class="label">尚可+</div></div>
+                <div class="wy-stat"><div class="num">{stats.get('typed_ok', 0)}</div><div class="label">輸入接近</div></div>
                 <div class="wy-stat"><div class="num">{stats['again']}</div><div class="label">再來</div></div>
               </div>
             </div>
             """,
             unsafe_allow_html=True,
         )
-        if st.button("再來一輪", type="primary", use_container_width=True):
+        if st.button("再來一輪", type="primary", use_container_width=True, key="review_again_round"):
             st.session_state.review_queue = _build_review_queue()
             st.session_state.review_idx = 0
-            st.session_state.show_answer = False
-            st.session_state.session_stats = {"done": 0, "again": 0, "good": 0}
+            _reset_card_ui()
+            st.session_state.session_stats = {"done": 0, "again": 0, "good": 0, "typed_ok": 0}
             st.rerun()
         return
 
@@ -637,47 +700,125 @@ def page_review() -> None:
         unsafe_allow_html=True,
     )
 
+    correct = card.get("translation_gloss") or ""
+    usage = card.get("dse_usage") or ""
+    acceptables = _card_acceptables(card)
+
     if not st.session_state.show_answer:
-        if st.button("顯示解釋", type="primary", use_container_width=True):
-            st.session_state.show_answer = True
-            st.rerun()
+        st.text_input(
+            "你的答案",
+            key="typed_answer_box",
+            placeholder="",
+            label_visibility="collapsed",
+        )
+        c1, c2 = st.columns(2)
+        with c1:
+            if st.button("✓ 核對答案", type="primary", use_container_width=True, key="check_ans"):
+                typed = st.session_state.get("typed_answer_box", "")
+                st.session_state.user_answer = typed
+                result = _grade_typed_answer(
+                    typed,
+                    correct,
+                    usage,
+                    card.get("accepted_answers") or "",
+                )
+                st.session_state.answer_feedback = result
+                st.session_state.show_answer = True
+                if result.get("status") in ("exact", "partial"):
+                    st.session_state.session_stats["typed_ok"] = (
+                        st.session_state.session_stats.get("typed_ok", 0) + 1
+                    )
+                st.rerun()
+        with c2:
+            if st.button("直接看答案", use_container_width=True, key="skip_type"):
+                st.session_state.user_answer = ""
+                st.session_state.answer_feedback = {
+                    "status": "skip",
+                    "matched": None,
+                    "accepted": acceptables,
+                }
+                st.session_state.show_answer = True
+                st.rerun()
     else:
+        fb = st.session_state.answer_feedback or {}
+        if isinstance(fb, str):
+            # backward compat
+            fb = {"status": fb, "matched": None, "accepted": acceptables}
+        status = fb.get("status")
+        matched = fb.get("matched")
+        accepted = fb.get("accepted") or acceptables
+        user = st.session_state.user_answer or ""
+
+        from src.answers import format_accepted_display
+
+        if status == "exact":
+            msg = f"✅ 正確！「{_esc(user)}」算對"
+            if matched:
+                msg += f"（對上可接受答案：{_esc(matched)}）"
+            st.success(msg)
+        elif status == "partial":
+            st.info("🟡 有點接近，但還不夠準。請看下方可接受答案。")
+        elif status == "miss":
+            st.warning("❌ 未命中可接受答案。先記住其中一個意思即可。")
+        elif status == "empty":
+            st.warning("你沒有輸入答案。請對照可接受答案後自評。")
+        else:
+            st.caption("已顯示參考答案（未輸入）。")
+
+        if user.strip():
+            st.markdown(
+                f"""
+                <div class="wy-card">
+                  <div class="wy-card-title">你的輸入</div>
+                  <div class="wy-original" style="font-size:1.05rem;">{_esc(user)}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+
         st.markdown(
             f"""
             <div class="wy-card">
-              <div class="wy-card-title">白話解釋</div>
-              <div class="wy-original" style="font-size:1.05rem;">
-                {_esc(card.get('translation_gloss') or '（尚未填寫解釋）')}
+              <div class="wy-card-title">可接受答案（答中其中一個即可）</div>
+              <div class="wy-original" style="font-size:1.1rem;color:#2f5d50;">
+                {_esc(format_accepted_display(accepted))}
               </div>
               <div class="wy-translation">
+                <div class="wy-card-title">補充說明</div>
+                {_esc(correct or usage or '（無）')}<br/>
                 <span class="wy-chip">{_esc(card.get('category') or '')}</span>
-                {_esc(card.get('dse_usage') or '')}
+                {_esc(usage)}
               </div>
             </div>
             """,
             unsafe_allow_html=True,
         )
+
+        # Left → right: 簡單 | 尚可 | 困難 | 再來一次
         cols = st.columns(4)
-        for rating, col in zip(range(4), cols):
+        for col, rating in zip(cols, RATING_BUTTON_ORDER):
             with col:
-                if st.button(RATING_LABELS[rating], key=f"rate_{rating}", use_container_width=True):
+                if st.button(
+                    RATING_LABELS[rating],
+                    key=f"rate_{rating}",
+                    use_container_width=True,
+                ):
                     apply_review_to_db(card["id"], card, rating)
                     touch_streak()
                     st.session_state.session_stats["done"] += 1
                     if rating == 0:
                         st.session_state.session_stats["again"] += 1
-                        # re-queue again cards at end
                         st.session_state.review_queue.append(card)
                     else:
                         st.session_state.session_stats["good"] += 1
                     st.session_state.review_idx += 1
-                    st.session_state.show_answer = False
+                    _reset_card_ui()
                     st.rerun()
 
-        if st.button("標記已掌握", use_container_width=True):
+        if st.button("標記已掌握", use_container_width=True, key="review_master"):
             db.update_vocab_status(card["id"], "mastered")
             st.session_state.review_idx += 1
-            st.session_state.show_answer = False
+            _reset_card_ui()
             st.session_state.session_stats["done"] += 1
             st.session_state.session_stats["good"] += 1
             touch_streak()

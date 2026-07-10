@@ -15,11 +15,14 @@ RATING_QUALITY = {
 }
 
 RATING_LABELS = {
-    0: "再來",
+    0: "再來一次",
     1: "困難",
     2: "尚可",
     3: "簡單",
 }
+
+# UI left → right order (Easy … Again)
+RATING_BUTTON_ORDER = (3, 2, 1, 0)
 
 
 @dataclass
