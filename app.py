@@ -109,9 +109,13 @@ def bootstrap() -> None:
 
 
 def _login_as(user_id: int, name: str) -> None:
-    st.session_state.user_id = user_id
-    st.session_state.user_name = name
-    db.ensure_user_deck(user_id)
+    st.session_state.user_id = int(user_id)
+    st.session_state.user_name = db.normalize_display_name(name) or str(name)
+    try:
+        db.ensure_user_deck(int(user_id))
+    except Exception as e:  # noqa: BLE001
+        # Don't block login if deck seed fails; can retry next load
+        st.session_state["_deck_warn"] = str(e)
     # clear review session when switching accounts
     st.session_state.review_queue = []
     st.session_state.review_idx = 0
@@ -175,19 +179,16 @@ def _teacher_gate() -> bool:
 
 
 def _render_new_creds_panel() -> None:
-    """PIN list only visible after teacher unlock."""
+    """PIN list only visible after teacher unlock. Avoid pandas (CJK crash risk on Cloud)."""
     if not teacher_unlocked():
         return
     creds = st.session_state.get("new_user_creds")
     if not creds:
         return
     st.success("帳號已建立。**請立刻記下或下載 PIN**（系統不保存明文 PIN）。")
-    import pandas as pd
-
-    df = pd.DataFrame(
-        [{"名稱": c["name"], "PIN": c["pin"]} for c in creds]
-    )
-    st.dataframe(df, width="stretch", hide_index=True)
+    # Simple list + st.code — no pandas/Arrow (Chinese names safer)
+    for c in creds:
+        st.code(f"{c['name']}    PIN: {c['pin']}", language=None)
     csv = "名稱,PIN\n" + "\n".join(f"{c['name']},{c['pin']}" for c in creds)
     st.download_button(
         "下載帳號表（CSV）",
@@ -204,9 +205,12 @@ def _render_new_creds_panel() -> None:
             width="stretch",
             key="enter_new_one",
         ):
-            st.session_state.pop("new_user_creds", None)
-            _login_as(creds[0]["id"], creds[0]["name"])
-            st.rerun()
+            try:
+                st.session_state.pop("new_user_creds", None)
+                _login_as(creds[0]["id"], creds[0]["name"])
+                st.rerun()
+            except Exception as e:  # noqa: BLE001
+                st.error(f"進入失敗：{e}")
     if st.button("關閉帳號表", width="stretch", key="clear_creds"):
         st.session_state.pop("new_user_creds", None)
         st.rerun()
@@ -303,25 +307,32 @@ def page_login() -> None:
 
         st.markdown("---")
         st.markdown("#### 建立單個名稱")
+        st.caption("可用中文姓名（例如：陳小明）。PIN 自動隨機 4 位。")
         new_name = st.text_input(
-            "顯示名稱", key="create_name", placeholder="例如：陳小明"
+            "顯示名稱",
+            key="create_name",
+            placeholder="例如：陳小明",
+            max_chars=32,
         )
-        st.caption("PIN 會自動隨機產生（4 位），建立後請抄低。")
         if st.button(
             "建立（隨機 PIN）",
             type="primary",
             width="stretch",
             key="create_go",
         ):
-            uid, err, plain = db.create_user(new_name, None)
-            if err:
-                st.error(err)
-            else:
-                assert uid is not None
-                st.session_state.new_user_creds = [
-                    {"id": uid, "name": new_name.strip(), "pin": plain}
-                ]
-                st.rerun()
+            try:
+                uid, err, plain = db.create_user(new_name, None)
+                if err:
+                    st.error(err)
+                else:
+                    assert uid is not None
+                    display = db.normalize_display_name(new_name)
+                    st.session_state.new_user_creds = [
+                        {"id": uid, "name": display, "pin": plain}
+                    ]
+                    st.rerun()
+            except Exception as e:  # noqa: BLE001
+                st.error(f"建立失敗：{e}")
 
         st.markdown("---")
         st.markdown("#### 刪除用戶")
@@ -444,7 +455,7 @@ def page_home() -> None:
         f"""
         <div class="wy-hero">
           <h1>{APP_NAME}</h1>
-          <p>指定文言 · 字詞對照 · 間隔複習 · {current_user_name()}</p>
+          <p>指定文言 · 字詞對照 · 間隔複習 · {_esc(current_user_name())}</p>
         </div>
         <div class="wy-stat-row">
           <div class="wy-stat"><div class="num">{s['due']}</div><div class="label">到期</div></div>

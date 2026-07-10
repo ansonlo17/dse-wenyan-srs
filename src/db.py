@@ -386,18 +386,30 @@ def list_users() -> list[dict[str, Any]]:
         ]
 
 
+def normalize_display_name(name: str) -> str:
+    """Strip and NFC-normalize (Chinese IME / fullwidth safe)."""
+    import unicodedata
+
+    return unicodedata.normalize("NFC", (name or "").strip())
+
+
 def create_user(
     name: str, pin: str | None = None
 ) -> tuple[int | None, str, str]:
     """
     Create user with a PIN (auto random 4-digit if pin not given).
     Returns (user_id, error_message, plain_pin). Plain PIN only returned once.
+    Chinese / CJK names are fully supported.
     """
-    name = (name or "").strip()
+    name = normalize_display_name(name)
     if not name:
         return None, "請輸入名稱", ""
+    # Count Unicode code points (中文一字算一)
     if len(name) > 32:
         return None, "名稱太長（最多 32 字）", ""
+    # Block control chars / path-ish junk; allow CJK, letters, digits, common punctuation
+    if any(ord(ch) < 32 for ch in name):
+        return None, "名稱含有無效字元", ""
     plain = (pin or "").strip() or random_pin(4)
     if not plain.isdigit() or not (4 <= len(plain) <= 8):
         return None, "PIN 須為 4–8 位數字", ""
@@ -541,45 +553,35 @@ def verify_user_pin(user_id: int, pin: str) -> bool:
 def ensure_user_deck(user_id: int) -> None:
     """
     Make sure this user has status + SRS rows for all shared content cards.
+    Bulk SQL (fast on Cloud) — avoids per-card Python loops that can hang/crash.
     New users start with every seeded word as due 'learning' cards.
     """
+    now = now_iso()
     with connect() as conn:
-        vids = conn.execute(
+        # All content cards become 'learning' for this user if missing
+        conn.execute(
             """
-            SELECT id, status FROM vocab_items
-            WHERE status IN ('learning', 'mastered', 'ignored')
+            INSERT OR IGNORE INTO user_vocab_status (user_id, vocab_id, status)
+            SELECT ?, id, 'learning'
+            FROM vocab_items
+            WHERE status IN ('learning', 'mastered')
+            """,
+            (user_id,),
+        )
+        # SRS only for cards this user still has as learning
+        conn.execute(
             """
-        ).fetchall()
-        now = now_iso()
-        for v in vids:
-            vid = v["id"]
-            content_status = v["status"] or "learning"
-            conn.execute(
-                """
-                INSERT OR IGNORE INTO user_vocab_status (user_id, vocab_id, status)
-                VALUES (?, ?, ?)
-                """,
-                (user_id, vid, content_status if content_status != "ignored" else "learning"),
-            )
-            # ignored content stays available unless user ignores later
-            if content_status == "ignored":
-                continue
-            # only create SRS for learning (not yet mastered content default)
-            # but if user already has mastered status, skip
-            ust = conn.execute(
-                "SELECT status FROM user_vocab_status WHERE user_id=? AND vocab_id=?",
-                (user_id, vid),
-            ).fetchone()
-            status = ust["status"] if ust else "learning"
-            if status == "learning":
-                conn.execute(
-                    """
-                    INSERT OR IGNORE INTO srs_cards
-                      (user_id, vocab_id, ease_factor, interval_days, repetitions, due_at, lapses)
-                    VALUES (?, ?, 2.5, 0, 0, ?, 0)
-                    """,
-                    (user_id, vid, now),
-                )
+            INSERT OR IGNORE INTO srs_cards
+              (user_id, vocab_id, ease_factor, interval_days, repetitions, due_at, lapses)
+            SELECT ?, v.id, 2.5, 0, 0, ?, 0
+            FROM vocab_items v
+            LEFT JOIN user_vocab_status u
+              ON u.vocab_id = v.id AND u.user_id = ?
+            WHERE v.status IN ('learning', 'mastered')
+              AND COALESCE(u.status, 'learning') = 'learning'
+            """,
+            (user_id, now, user_id),
+        )
 
 
 # ── Global / user settings ─────────────────────────────────────────
