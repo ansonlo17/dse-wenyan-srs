@@ -57,6 +57,14 @@ def go_page(name: str) -> None:
     st.session_state["nav_select"] = name
 
 
+def current_user_id() -> int | None:
+    return st.session_state.get("user_id")
+
+
+def current_user_name() -> str:
+    return st.session_state.get("user_name") or ""
+
+
 def bootstrap() -> None:
     db.init_db()
     inject_css()
@@ -79,6 +87,167 @@ def bootstrap() -> None:
     # Which chapter the student is focusing on (None = 全部已載入篇章)
     if "study_text_id" not in st.session_state:
         st.session_state.study_text_id = None
+    if "user_id" not in st.session_state:
+        st.session_state.user_id = None
+    if "user_name" not in st.session_state:
+        st.session_state.user_name = None
+
+
+def _login_as(user_id: int, name: str) -> None:
+    st.session_state.user_id = user_id
+    st.session_state.user_name = name
+    db.ensure_user_deck(user_id)
+    # clear review session when switching accounts
+    st.session_state.review_queue = []
+    st.session_state.review_idx = 0
+    st.session_state.session_stats = {"done": 0, "again": 0, "good": 0, "typed_ok": 0}
+    _reset_card_ui()
+    go_page("首頁")
+
+
+def _logout() -> None:
+    st.session_state.user_id = None
+    st.session_state.user_name = None
+    st.session_state.review_queue = []
+    st.session_state.review_idx = 0
+    _reset_card_ui()
+
+
+def page_login() -> None:
+    """方案 A：名稱 + 隨機 PIN；可預開約 20 人，之後隨時追加。"""
+    st.markdown(
+        """
+        <div class="wy-hero">
+          <h1>文言精華</h1>
+          <p>選擇你的名稱 · 每人獨立進度</p>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    n_users = db.user_count()
+    st.caption(
+        f"同學用「名稱 + PIN」登入，進度互不影響。"
+        f" 目前已有 **{n_users}** 個帳號 · 之後可隨時再追加。"
+    )
+
+    # Show one-time credentials after batch / single create
+    creds = st.session_state.get("new_user_creds")
+    if creds:
+        st.success("帳號已建立。**請立刻記下或下載 PIN**（系統不保存明文 PIN）。")
+        import pandas as pd
+
+        df = pd.DataFrame(creds)
+        st.dataframe(df, use_container_width=True, hide_index=True)
+        csv = "名稱,PIN\n" + "\n".join(f"{c['name']},{c['pin']}" for c in creds)
+        st.download_button(
+            "下載帳號表（CSV）",
+            data=csv.encode("utf-8-sig"),
+            file_name="文言精華_帳號PIN.csv",
+            mime="text/csv",
+            use_container_width=True,
+            key="dl_creds",
+        )
+        if len(creds) == 1:
+            if st.button(
+                f"用「{creds[0]['name']}」直接進入",
+                type="primary",
+                use_container_width=True,
+                key="enter_new_one",
+            ):
+                st.session_state.pop("new_user_creds", None)
+                _login_as(creds[0]["id"], creds[0]["name"])
+                st.rerun()
+        if st.button("關閉帳號表", use_container_width=True, key="clear_creds"):
+            st.session_state.pop("new_user_creds", None)
+            st.rerun()
+        st.markdown("---")
+
+    users = db.list_users()
+    tab_enter, tab_batch, tab_one = st.tabs(
+        ["同學登入", "老師：預開／追加帳號", "建立單個名稱"]
+    )
+
+    with tab_enter:
+        if not users:
+            st.info("尚未有帳號。請老師到「預開／追加帳號」一次開約 20 個。")
+        else:
+            names = [u["name"] for u in users]
+            by_name = {u["name"]: u for u in users}
+            pick = st.selectbox("你的名稱", names, key="login_pick_name")
+            u = by_name[pick]
+            pin = st.text_input(
+                "PIN（4 位數字）",
+                type="password",
+                key="login_pin",
+                placeholder="例如 4821",
+            )
+            if st.button("進入溫習", type="primary", use_container_width=True, key="login_go"):
+                if u["has_pin"] and not db.verify_user_pin(u["id"], pin):
+                    st.error("PIN 不正確")
+                elif not u["has_pin"]:
+                    # legacy 無 PIN
+                    _login_as(u["id"], u["name"])
+                    st.rerun()
+                else:
+                    _login_as(u["id"], u["name"])
+                    st.rerun()
+
+    with tab_batch:
+        st.markdown(
+            "一次開好一班帳號（預設 **20** 人）。"
+            " PIN 自動隨機 4 位數。之後同一頁可再追加，編號會自動接續。"
+        )
+        c1, c2 = st.columns(2)
+        with c1:
+            batch_n = st.number_input(
+                "要新增幾個帳號",
+                min_value=1,
+                max_value=100,
+                value=20,
+                key="batch_n",
+            )
+        with c2:
+            prefix = st.text_input(
+                "名稱前綴",
+                value="同學",
+                key="batch_prefix",
+                help="會建成 同學01、同學02… 已有的會跳過並往後編",
+            )
+        st.caption(f"現有帳號數：{n_users}（無上限，之後再按一次即可追加）")
+        if st.button(
+            f"建立 {int(batch_n)} 個帳號（隨機 PIN）",
+            type="primary",
+            use_container_width=True,
+            key="batch_go",
+        ):
+            created = db.create_users_batch(
+                count=int(batch_n),
+                name_prefix=prefix.strip() or "同學",
+            )
+            if not created:
+                st.error("未能建立（名稱可能都已存在）。可改前綴或稍後再試。")
+            else:
+                st.session_state.new_user_creds = [
+                    {"id": c["id"], "name": c["name"], "pin": c["pin"]}
+                    for c in created
+                ]
+                st.rerun()
+
+    with tab_one:
+        new_name = st.text_input(
+            "顯示名稱", key="create_name", placeholder="例如：陳小明"
+        )
+        st.caption("PIN 會自動隨機產生（4 位），建立後請抄低。")
+        if st.button("建立（隨機 PIN）", type="primary", use_container_width=True, key="create_go"):
+            uid, err, plain = db.create_user(new_name, None)
+            if err:
+                st.error(err)
+            else:
+                assert uid is not None
+                st.session_state.new_user_creds = [
+                    {"id": uid, "name": new_name.strip(), "pin": plain}
+                ]
+                st.rerun()
 
 
 def nav() -> str:
@@ -87,9 +256,15 @@ def nav() -> str:
     Only ONE selectbox controls navigation (avoids dual-widget overwrite bug
     that made buttons appear unclickable / immediately reset).
     """
+    uid = current_user_id()
     with st.sidebar:
         st.markdown("### 📜 文言精華")
         st.caption("HKDSE 指定文言 · 字詞複習")
+        if current_user_name():
+            st.markdown(f"**👤 {current_user_name()}**")
+            if st.button("切換帳號", use_container_width=True, key="logout_btn"):
+                _logout()
+                st.rerun()
         # Sidebar uses buttons so it never fights the top selectbox key
         for p in PAGES:
             is_here = st.session_state.page == p
@@ -101,7 +276,7 @@ def nav() -> str:
             ):
                 go_page(p)
                 st.rerun()
-        due = db.count_due(st.session_state.get("study_text_id"))
+        due = db.count_due(st.session_state.get("study_text_id"), user_id=uid)
         if due:
             st.info(f"到期 **{due}** 張")
         focus = st.session_state.get("study_text_id")
@@ -152,12 +327,13 @@ def hash_bytes(data: bytes) -> str:
 
 
 def page_home() -> None:
-    s = analytics.home_summary()
+    uid = current_user_id()
+    s = analytics.home_summary(user_id=uid)
     st.markdown(
         f"""
         <div class="wy-hero">
           <h1>文言精華</h1>
-          <p>指定文言 · 字詞對照 · 間隔複習</p>
+          <p>指定文言 · 字詞對照 · 間隔複習 · {current_user_name()}</p>
         </div>
         <div class="wy-stat-row">
           <div class="wy-stat"><div class="num">{s['due']}</div><div class="label">到期</div></div>
@@ -198,8 +374,8 @@ def page_home() -> None:
             _reset_card_ui()
 
         focus_id = st.session_state.study_text_id
-        due_n = db.count_due(focus_id)
-        vocab_n = db.count_vocab(focus_id)
+        due_n = db.count_due(focus_id, user_id=uid)
+        vocab_n = db.count_vocab(focus_id, user_id=uid)
         scope = choice if choice == "全部已載入篇章" else f"《{choice}》"
         st.caption(f"目前範圍：{scope} · 字詞 {vocab_n} · 到期 {due_n}")
 
@@ -226,9 +402,6 @@ def page_home() -> None:
 
         st.markdown("#### 各篇進度")
         for p in ready:
-            active = focus_id == p["id"] or (
-                focus_id is None and choice == "全部已載入篇章"
-            )
             mark = "● " if st.session_state.study_text_id == p["id"] else ""
             st.markdown(
                 f"""
@@ -237,7 +410,7 @@ def page_home() -> None:
                     <span><strong>{mark}{p['title']}</strong></span>
                     <span>{p['mastery_pct']}%</span>
                   </div>
-                  <div class="wy-muted">字詞 {p['vocab_count']} · 到期 {db.count_due(p['id'])}</div>
+                  <div class="wy-muted">字詞 {p['vocab_count']} · 到期 {db.count_due(p['id'], user_id=uid)}</div>
                 </div>
                 """,
                 unsafe_allow_html=True,
@@ -325,12 +498,13 @@ def _ensure_content_seeded() -> None:
 def page_library() -> None:
     st.markdown("### 📚 文庫")
     st.caption("篇章已由系統自動載入，無需自行上傳。點篇章即可閱讀／複習。")
+    uid = current_user_id()
 
     texts = db.list_texts()
     ready_ids = {p[0] for p in SAMPLE_PACKS}
 
     for t in texts:
-        status = db.text_status(t["id"])
+        status = db.text_status(t["id"], user_id=uid)
         ready = t["id"] in ready_ids and status["has_original"]
         flag = "已載入" if ready else "準備中"
         st.markdown(
@@ -387,6 +561,7 @@ def page_library() -> None:
 
 def page_reader() -> None:
     st.markdown("### 📖 對照閱讀")
+    uid = current_user_id()
     texts = db.list_texts()
     # Prefer chapters that already have content
     content_ids = [
@@ -411,7 +586,7 @@ def page_reader() -> None:
     st.session_state.reader_text_id = text_id
     st.session_state.study_text_id = text_id  # keep study focus in sync
 
-    status = db.text_status(text_id)
+    status = db.text_status(text_id, user_id=uid)
     st.progress(min(100, int(status["mastery_pct"])) / 100.0)
     st.caption(f"掌握 {status['mastery_pct']}% · {status['vocab_count']} 詞")
 
@@ -423,7 +598,7 @@ def page_reader() -> None:
         )
         return
 
-    levels = db.known_terms_for_text(text_id)
+    levels = db.known_terms_for_text(text_id, user_id=uid)
 
     for i, pair in enumerate(pairs):
         orig = pair.get("original")
@@ -476,6 +651,7 @@ def page_reader() -> None:
                             difficulty=sug.get("difficulty", 3),
                             category=sug.get("category", "實詞"),
                             status="learning",
+                            user_id=uid,
                         )
                         st.toast(f"已加入：{sug['term']}")
                         st.rerun()
@@ -506,6 +682,7 @@ def page_reader() -> None:
                         difficulty=diff,
                         category=cat,
                         status="learning",
+                        user_id=uid,
                     )
                     st.success(f"已加入 {term.strip()}")
                     st.rerun()
@@ -524,6 +701,7 @@ def _esc(s: str) -> str:
 def page_review_queue() -> None:
     st.markdown("### ✍️ 難字審核")
     st.caption("半自動：系統建議 → 你確認加入或略過")
+    uid = current_user_id()
 
     texts = db.list_texts()
     labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
@@ -536,7 +714,7 @@ def page_review_queue() -> None:
 
     pairs = db.get_aligned_pairs(text_id)
     if not pairs:
-        st.info("請先在文庫上傳原文。")
+        st.info("請先在文庫確認原文已載入。")
         return
 
     # build full suggestion list
@@ -569,13 +747,16 @@ def page_review_queue() -> None:
     for s in all_sugs:
         if s["term"] in seen:
             continue
-        # skip already learning/mastered
         seen.add(s["term"])
         unique.append(s)
 
     existing = {
         v["term"]
-        for v in db.list_vocab(text_id=text_id, statuses=("learning", "mastered", "ignored"))
+        for v in db.list_vocab(
+            text_id=text_id,
+            statuses=("learning", "mastered", "ignored"),
+            user_id=uid,
+        )
     }
     unique = [u for u in unique if u["term"] not in existing]
 
@@ -593,6 +774,7 @@ def page_review_queue() -> None:
                 difficulty=sug.get("difficulty", 3),
                 category=sug.get("category", "實詞"),
                 status="learning",
+                user_id=uid,
             )
         st.success(f"已加入 {len(unique)} 詞")
         st.rerun()
@@ -625,11 +807,14 @@ def page_review_queue() -> None:
                     difficulty=sug.get("difficulty", 3),
                     category=sug.get("category", "實詞"),
                     status="learning",
+                    user_id=uid,
                 )
                 st.rerun()
         with c2:
             if st.button("略過", key=f"q_skip_{idx}", use_container_width=True):
-                db.ignore_vocab_term(sug["term"], text_id, sug["snippet"])
+                db.ignore_vocab_term(
+                    sug["term"], text_id, sug["snippet"], user_id=uid
+                )
                 st.rerun()
         with c3:
             with st.popover("編輯"):
@@ -647,6 +832,7 @@ def page_review_queue() -> None:
                         difficulty=d,
                         category=sug.get("category", "實詞"),
                         status="learning",
+                        user_id=uid,
                     )
                     st.rerun()
 
@@ -663,27 +849,27 @@ def page_review_queue() -> None:
                 translation_gloss=g,
                 dse_usage=u,
                 status="learning",
+                user_id=uid,
             )
             st.success("已新增")
             st.rerun()
 
 
 def _build_review_queue() -> list[dict]:
-    daily = int(db.get_setting("daily_limit", "50") or 50)
-    new_n = int(db.get_setting("new_cards_per_day", "10") or 10)
+    uid = current_user_id()
+    daily = int(db.get_setting("daily_limit", "50", user_id=uid) or 50)
+    new_n = int(db.get_setting("new_cards_per_day", "10", user_id=uid) or 10)
     focus = st.session_state.get("study_text_id")
-    due = db.due_cards(limit=daily, text_id=focus)
+    due = db.due_cards(limit=daily, text_id=focus, user_id=uid)
     have_ids = {c["id"] for c in due}
-    # fill with new if room
     remaining = max(0, daily - len(due))
     news = []
     if remaining and new_n:
-        for c in db.new_cards(limit=new_n, text_id=focus):
+        for c in db.new_cards(limit=new_n, text_id=focus, user_id=uid):
             if c["id"] not in have_ids:
                 news.append(c)
             if len(news) >= min(new_n, remaining):
                 break
-        # ensure srs rows
         for c in news:
             db.add_vocab(
                 term=c["term"],
@@ -695,6 +881,7 @@ def _build_review_queue() -> list[dict]:
                 difficulty=c.get("difficulty") or 3,
                 category=c.get("category") or "實詞",
                 status="learning",
+                user_id=uid,
             )
     return due + news
 
@@ -733,13 +920,14 @@ def _reset_card_ui() -> None:
 
 def page_review() -> None:
     st.markdown("### 🔁 今日複習")
+    uid = current_user_id()
 
     # Chapter filter on review page
     ready_texts = [
         t
         for t in db.list_texts()
-        if db.text_status(t["id"])["has_original"]
-        and db.text_status(t["id"])["vocab_count"] > 0
+        if db.text_status(t["id"], user_id=uid)["has_original"]
+        and db.text_status(t["id"], user_id=uid)["vocab_count"] > 0
     ]
     if ready_texts:
         labels = ["全部已載入篇章"] + [
@@ -810,7 +998,7 @@ def page_review() -> None:
 
     # refresh card from db
     card_meta = queue[idx]
-    card = db.get_vocab(card_meta["id"]) or card_meta
+    card = db.get_vocab(card_meta["id"], user_id=uid) or card_meta
     total = len(queue)
     st.caption(f"{idx + 1} / {total}")
     st.progress((idx) / max(1, total))
@@ -930,8 +1118,8 @@ def page_review() -> None:
                     key=f"rate_{rating}",
                     use_container_width=True,
                 ):
-                    apply_review_to_db(card["id"], card, rating)
-                    touch_streak()
+                    apply_review_to_db(card["id"], card, rating, user_id=uid)
+                    touch_streak(user_id=uid)
                     st.session_state.session_stats["done"] += 1
                     if rating == 0:
                         st.session_state.session_stats["again"] += 1
@@ -943,19 +1131,20 @@ def page_review() -> None:
                     st.rerun()
 
         if st.button("標記已掌握", use_container_width=True, key="review_master"):
-            db.update_vocab_status(card["id"], "mastered")
+            db.update_vocab_status(card["id"], "mastered", user_id=uid)
             st.session_state.review_idx += 1
             _reset_card_ui()
             st.session_state.session_stats["done"] += 1
             st.session_state.session_stats["good"] += 1
-            touch_streak()
+            touch_streak(user_id=uid)
             st.rerun()
 
 
 def page_stats() -> None:
     st.markdown("### 📊 統計與弱點")
-    report = analytics.weakness_report()
-    summary = analytics.home_summary()
+    uid = current_user_id()
+    report = analytics.weakness_report(user_id=uid)
+    summary = analytics.home_summary(user_id=uid)
 
     c1, c2, c3 = st.columns(3)
     c1.metric("字庫", summary["total_vocab"])
@@ -996,31 +1185,35 @@ def page_stats() -> None:
 
 def page_settings() -> None:
     st.markdown("### ⚙️ 設定")
+    uid = current_user_id()
+    st.caption(f"目前帳號：**{current_user_name()}**（設定與進度只影響自己）")
 
     daily = st.number_input(
         "每日複習上限",
         min_value=5,
         max_value=200,
-        value=int(db.get_setting("daily_limit", "50") or 50),
+        value=int(db.get_setting("daily_limit", "50", user_id=uid) or 50),
     )
     new_n = st.number_input(
         "每日新卡上限",
         min_value=0,
         max_value=50,
-        value=int(db.get_setting("new_cards_per_day", "10") or 10),
+        value=int(db.get_setting("new_cards_per_day", "10", user_id=uid) or 10),
     )
     if st.button("儲存設定", type="primary", use_container_width=True):
-        db.set_setting("daily_limit", str(int(daily)))
-        db.set_setting("new_cards_per_day", str(int(new_n)))
+        db.set_setting("daily_limit", str(int(daily)), user_id=uid)
+        db.set_setting("new_cards_per_day", str(int(new_n)), user_id=uid)
         st.success("已儲存")
 
-    st.markdown("#### 重置某篇進度")
+    st.markdown("#### 重置我的某篇進度")
     texts = db.list_texts()
     labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
     lab = st.selectbox("選擇篇章", list(labels.keys()), key="reset_sel")
-    if st.button("清除該篇字詞與 SRS", use_container_width=True):
-        db.reset_text_progress(labels[lab])
-        st.warning("已清除")
+    if st.button("重置此篇進度（只清自己）", use_container_width=True):
+        db.reset_text_progress(labels[lab], user_id=uid)
+        st.session_state.review_queue = []
+        st.session_state.review_idx = 0
+        st.warning("已重置你在此篇的進度")
 
     st.markdown("#### 備份")
     if st.button("匯出 JSON 備份", use_container_width=True):
@@ -1048,6 +1241,12 @@ def page_settings() -> None:
 
 def main() -> None:
     bootstrap()
+    # 方案 A：必須先選／建立名稱，才能進入 app
+    if not current_user_id():
+        page_login()
+        return
+    # ensure deck exists (e.g. after new content seed)
+    db.ensure_user_deck(current_user_id())
     page = nav()
     if page == "首頁":
         page_home()

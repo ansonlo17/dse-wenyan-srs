@@ -107,7 +107,9 @@ def state_from_card(card: dict[str, Any]) -> SRSState:
     )
 
 
-def apply_review_to_db(vocab_id: int, card: dict[str, Any], rating: int) -> SRSState:
+def apply_review_to_db(
+    vocab_id: int, card: dict[str, Any], rating: int, user_id: int
+) -> SRSState:
     from . import db
 
     new_state = review(state_from_card(card), rating)
@@ -119,20 +121,21 @@ def apply_review_to_db(vocab_id: int, card: dict[str, Any], rating: int) -> SRSS
         due_at=new_state.due_at or db.now_iso(),
         lapses=new_state.lapses,
         rating=rating,
+        user_id=user_id,
     )
     # auto-master if very stable
     if new_state.interval_days >= 60 and new_state.repetitions >= 5 and rating >= 2:
-        db.update_vocab_status(vocab_id, "mastered")
+        db.update_vocab_status(vocab_id, "mastered", user_id=user_id)
     return new_state
 
 
-def touch_streak() -> int:
-    """Update study streak; return current streak count."""
+def touch_streak(user_id: int) -> int:
+    """Update study streak for this user; return current streak count."""
     from . import db
 
     today = datetime.now().date().isoformat()
-    last = db.get_setting("streak_last_date", "")
-    count = int(db.get_setting("streak_count", "0") or 0)
+    last = db.get_setting("streak_last_date", "", user_id=user_id)
+    count = int(db.get_setting("streak_count", "0", user_id=user_id) or 0)
     if last == today:
         return count
     if last:
@@ -147,6 +150,6 @@ def touch_streak() -> int:
             count = 1
     else:
         count = 1
-    db.set_setting("streak_last_date", today)
-    db.set_setting("streak_count", str(count))
+    db.set_setting("streak_last_date", today, user_id=user_id)
+    db.set_setting("streak_count", str(count), user_id=user_id)
     return count

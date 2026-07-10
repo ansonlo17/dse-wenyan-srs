@@ -9,14 +9,14 @@ from typing import Any
 from . import db
 
 
-def home_summary() -> dict[str, Any]:
-    due = db.count_due()
-    new_n = len(db.new_cards(limit=100))
+def home_summary(user_id: int | None = None) -> dict[str, Any]:
+    due = db.count_due(user_id=user_id)
+    new_n = len(db.new_cards(limit=100, user_id=user_id))
     texts = db.list_texts()
     progress = []
     total_v = total_m = 0
     for t in texts:
-        st = db.text_status(t["id"])
+        st = db.text_status(t["id"], user_id=user_id)
         total_v += st["vocab_count"]
         total_m += st["mastered"]
         progress.append(
@@ -32,9 +32,9 @@ def home_summary() -> dict[str, Any]:
 
     today = datetime.now(timezone.utc).date().isoformat()
     week_ago = (datetime.now(timezone.utc) - timedelta(days=7)).isoformat()
-    today_reviews = db.review_count_since(today)
-    week_reviews = db.review_count_since(week_ago)
-    streak = int(db.get_setting("streak_count", "0") or 0)
+    today_reviews = db.review_count_since(today, user_id=user_id)
+    week_reviews = db.review_count_since(week_ago, user_id=user_id)
+    streak = int(db.get_setting("streak_count", "0", user_id=user_id) or 0)
 
     tip = _tip(due, progress)
 
@@ -64,12 +64,12 @@ def _tip(due: int, progress: list[dict[str, Any]]) -> str:
         return f"《{lagging[0]['title']}》掌握度較低，可到閱讀頁多加幾個字眼。"
     no_content = [p for p in progress if not p["has_original"]]
     if no_content:
-        return "先到文庫上傳一篇原文＋語譯，就可以開始對照與挑難詞。"
-    return "沒有到期卡片。可以閱讀範文，或手動加幾個新詞。"
+        return "先到文庫確認篇章已載入，就可以開始對照與挑難詞。"
+    return "沒有到期卡片。可以閱讀範文，或開始複習新詞。"
 
 
-def weakness_report() -> dict[str, Any]:
-    vocab = db.list_vocab(statuses=("learning", "mastered"))
+def weakness_report(user_id: int | None = None) -> dict[str, Any]:
+    vocab = db.list_vocab(statuses=("learning", "mastered"), user_id=user_id)
     by_text: dict[str, Counter] = defaultdict(Counter)
     by_cat: Counter = Counter()
     risky: list[dict[str, Any]] = []
