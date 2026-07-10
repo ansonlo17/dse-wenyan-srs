@@ -60,6 +60,8 @@ def go_page(name: str) -> None:
 def bootstrap() -> None:
     db.init_db()
     inject_css()
+    # Auto-load all prepared chapters — user never needs to upload
+    _ensure_content_seeded()
     if "page" not in st.session_state or st.session_state.page not in PAGES:
         st.session_state.page = "首頁"
     if "review_queue" not in st.session_state:
@@ -172,17 +174,6 @@ def page_home() -> None:
             go_page("文庫")
             st.rerun()
 
-    # Cloud empty-state hint
-    any_content = any(db.text_status(t["id"])["has_original"] for t in db.list_texts())
-    if not any_content:
-        st.markdown(
-            '<div class="wy-tip">尚未載入任何篇章。請到「文庫」按「一次載入全部已準備篇章」。</div>',
-            unsafe_allow_html=True,
-        )
-        if st.button("前往文庫載入篇章", use_container_width=True, key="home_to_lib_load"):
-            go_page("文庫")
-            st.rerun()
-
     st.markdown("#### 本週進度")
     st.caption(f"本週已複習 {s['week_reviews']} 次 · 字庫 {s['total_vocab']} 詞 · 已掌握 {s['total_mastered']}")
 
@@ -278,133 +269,65 @@ def _load_sample_pack(text_id: str, orig_name: str, trans_name: str, vocab_name:
     return f"已載入原文＋語譯＋{n_vocab} 詞"
 
 
+def _ensure_content_seeded() -> None:
+    """
+    Auto-import all prepared packs when a pack is missing content.
+    Users do not upload — content ships with the app under samples/.
+    """
+    for text_id, _title, on, tn, vn in SAMPLE_PACKS:
+        st_info = db.text_status(text_id)
+        # (Re)load if no original yet, or original exists but no vocab cards
+        if not st_info["has_original"] or st_info["vocab_count"] == 0:
+            _load_sample_pack(text_id, on, tn, vn)
+
+
 def page_library() -> None:
     st.markdown("### 📚 文庫")
-    st.caption("在這裡載入篇章與上傳檔案。雲端第一次使用請先按下方「一鍵載入」。")
-
-    # ── Prominent sample loader (for Streamlit Cloud empty DB) ──
-    st.markdown("#### ⚡ 一鍵載入已準備篇章")
-    st.markdown(
-        '<div class="wy-tip">若閱讀頁是空的，多半是資料庫尚未匯入。按下面按鈕即可載入教育局整理本。</div>',
-        unsafe_allow_html=True,
-    )
-    if st.button(
-        "🚀 一次載入全部已準備篇章（1–4 篇）",
-        type="primary",
-        use_container_width=True,
-        key="load_all_samples",
-    ):
-        msgs = []
-        for text_id, title, on, tn, vn in SAMPLE_PACKS:
-            msgs.append(f"《{title}》：{_load_sample_pack(text_id, on, tn, vn)}")
-        st.success("\n\n".join(msgs))
-        st.balloons()
-        st.rerun()
-
-    cols = st.columns(2)
-    for i, (text_id, title, on, tn, vn) in enumerate(SAMPLE_PACKS):
-        with cols[i % 2]:
-            if st.button(f"載入《{title}》", use_container_width=True, key=f"load_pack_{text_id}"):
-                msg = _load_sample_pack(text_id, on, tn, vn)
-                st.success(msg)
-                st.rerun()
-
-    st.markdown("---")
-    st.markdown("#### 選擇篇章")
+    st.caption("篇章已由系統自動載入，無需自行上傳。點篇章即可閱讀／複習。")
 
     texts = db.list_texts()
-    labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
-    selected_label = st.selectbox("篇章", list(labels.keys()), key="lib_select_text")
-    text_id = labels[selected_label]
-    text = db.get_text(text_id)
-    status = db.text_status(text_id)
+    ready_ids = {p[0] for p in SAMPLE_PACKS}
 
-    st.markdown(
-        f"""
-        <div class="wy-card">
-          <div class="wy-card-title">{text.get('genre') or ''} · {text.get('author') or ''}</div>
-          <div class="wy-term-title">{text['title']}</div>
-          <div class="wy-muted" style="margin-top:0.4rem;">
-            原文段落 {status['original_paras']} · 語譯段落 {status['translation_paras']} ·
-            字詞 {status['vocab_count']} · 掌握 {status['mastery_pct']}%
-          </div>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    c1, c2, c3 = st.columns(3)
-    with c1:
-        if st.button("重新對齊", use_container_width=True, key="lib_realign"):
-            n = auto_align_text(text_id)
-            st.success(f"已對齊 {n} 組")
-    with c2:
-        if st.button("去閱讀", type="primary", use_container_width=True, key="lib_read"):
-            st.session_state.reader_text_id = text_id
-            go_page("閱讀")
-            st.rerun()
-    with c3:
-        if st.button("難字審核", use_container_width=True, key="lib_queue"):
-            st.session_state.reader_text_id = text_id
-            go_page("難字審核")
-            st.rerun()
-
-    st.markdown("---")
-    st.markdown("#### 📤 自行上傳檔案")
-    st.caption("支援 PDF / TXT。先在上方選好篇章，再上傳對應的原文或語譯。")
-
-    with st.expander("匯入原文（點這裡展開）", expanded=False):
-        orig_file = st.file_uploader(
-            "選擇原文檔", type=["pdf", "txt", "md"], key="orig_up"
+    for t in texts:
+        status = db.text_status(t["id"])
+        ready = t["id"] in ready_ids and status["has_original"]
+        flag = "已載入" if ready else "準備中"
+        st.markdown(
+            f"""
+            <div class="wy-card">
+              <div class="wy-card-title">{t.get('genre') or ''} · {t.get('author') or ''} · {flag}</div>
+              <div class="wy-term-title">{t['order_index']:02d} · {t['title']}</div>
+              <div class="wy-muted" style="margin-top:0.4rem;">
+                原文 {status['original_paras']} 段 · 語譯 {status['translation_paras']} 段 ·
+                字詞 {status['vocab_count']} · 掌握 {status['mastery_pct']}%
+              </div>
+            </div>
+            """,
+            unsafe_allow_html=True,
         )
-        orig_paste = st.text_area("或直接貼上原文", height=140, key="orig_paste")
-        if st.button("解析並匯入原文", use_container_width=True, key="btn_import_orig"):
-            paras, warn = file_to_paragraphs(orig_file, orig_paste)
-            if warn and not paras:
-                st.error(warn)
-            elif not paras:
-                st.warning("沒有解析到段落。請先選檔或貼上文字。")
-            else:
-                fname = orig_file.name if orig_file else "pasted_original.txt"
-                fhash = (
-                    hash_bytes(orig_file.getvalue())
-                    if orig_file
-                    else hash_bytes(orig_paste.encode())
-                )
-                if orig_file:
-                    dest = db.UPLOADS_DIR / f"{text_id}_original_{fname}"
-                    dest.write_bytes(orig_file.getvalue())
-                n = db.import_paragraphs(text_id, "original", paras, fname, fhash)
-                auto_align_text(text_id)
-                st.success(f"已匯入原文 {n} 段。" + (f" {warn}" if warn else ""))
-                st.rerun()
-
-    with st.expander("匯入語譯（點這裡展開）", expanded=False):
-        st.caption("語譯來源：使用者上傳（非程式內建官方譯本）")
-        trans_file = st.file_uploader(
-            "選擇語譯檔", type=["pdf", "txt", "md"], key="trans_up"
-        )
-        trans_paste = st.text_area("或直接貼上語譯", height=140, key="trans_paste")
-        if st.button("解析並匯入語譯", use_container_width=True, key="btn_import_trans"):
-            paras, warn = file_to_paragraphs(trans_file, trans_paste)
-            if warn and not paras:
-                st.error(warn)
-            elif not paras:
-                st.warning("沒有解析到段落。請先選檔或貼上文字。")
-            else:
-                fname = trans_file.name if trans_file else "pasted_translation.txt"
-                fhash = (
-                    hash_bytes(trans_file.getvalue())
-                    if trans_file
-                    else hash_bytes(trans_paste.encode())
-                )
-                if trans_file:
-                    dest = db.UPLOADS_DIR / f"{text_id}_translation_{fname}"
-                    dest.write_bytes(trans_file.getvalue())
-                n = db.import_paragraphs(text_id, "translation", paras, fname, fhash)
-                auto_align_text(text_id)
-                st.success(f"已匯入語譯 {n} 段。" + (f" {warn}" if warn else ""))
-                st.rerun()
+        if ready:
+            b1, b2 = st.columns(2)
+            with b1:
+                if st.button(
+                    "閱讀",
+                    key=f"lib_read_{t['id']}",
+                    use_container_width=True,
+                    type="primary",
+                ):
+                    st.session_state.reader_text_id = t["id"]
+                    go_page("閱讀")
+                    st.rerun()
+            with b2:
+                if st.button(
+                    "難字",
+                    key=f"lib_q_{t['id']}",
+                    use_container_width=True,
+                ):
+                    st.session_state.reader_text_id = t["id"]
+                    go_page("難字審核")
+                    st.rerun()
+        else:
+            st.caption("此篇內容稍後會由系統加入。")
 
 
 def page_reader() -> None:
