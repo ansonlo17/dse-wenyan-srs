@@ -50,6 +50,21 @@ html, body, [data-testid="stAppViewContainer"] {
   padding-right: 1.2rem !important;
 }
 
+/* Top brand */
+.wy-brand-bar {
+  text-align: center;
+  font-family: var(--font);
+  font-size: 0.92rem;
+  font-weight: 560;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  padding: 0.15rem 0 0.55rem 0;
+  margin: 0 0 0.15rem 0;
+  border-bottom: 0.5px solid var(--line);
+  user-select: none;
+  pointer-events: none;
+}
+
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header[data-testid="stHeader"] {

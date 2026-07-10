@@ -33,6 +33,7 @@ from src.suggest import (  # noqa: E402
 )
 
 APP_NAME = "12篇範文語譯溫習"
+BRAND = "ansonlo.17"
 
 st.set_page_config(
     page_title=APP_NAME,
@@ -46,6 +47,14 @@ def inject_css() -> None:
     css_path = ROOT / "assets" / "style.css"
     if css_path.exists():
         st.markdown(f"<style>{css_path.read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
+
+
+def render_brand_header() -> None:
+    """Top-of-page brand label on every screen."""
+    st.markdown(
+        f'<div class="wy-brand-bar">{BRAND}</div>',
+        unsafe_allow_html=True,
+    )
 
 
 PAGES = ["首頁", "文庫", "閱讀", "難字審核", "複習", "統計", "設定"]
@@ -1340,6 +1349,7 @@ def page_settings() -> None:
 
 def main() -> None:
     bootstrap()
+    render_brand_header()
     # 方案 A：必須先選／建立名稱，才能進入 app
     if not current_user_id():
         page_login()
