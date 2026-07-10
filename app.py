@@ -135,7 +135,7 @@ def get_teacher_password() -> str:
             return str(st.secrets["teacher_password"])
     except Exception:  # noqa: BLE001
         pass
-    return os.environ.get("TEACHER_PASSWORD", "ansonlo17")
+    return os.environ.get("TEACHER_PASSWORD", "aA68181229")
 
 
 def teacher_unlocked() -> bool:
