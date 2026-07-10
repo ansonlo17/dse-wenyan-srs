@@ -1,4 +1,0 @@
-# Intentionally empty.
-# Do not install libjpeg/libpng/zlib-dev on Streamlit Cloud —
-# they reinstall every reboot and have caused Segmentation fault
-# with Pillow wheels. Content does not require PDF system libs.
