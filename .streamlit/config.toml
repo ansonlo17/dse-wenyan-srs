@@ -17,10 +17,10 @@ serverPort = 8501
 
 [theme]
 base = "light"
-primaryColor = "#2F5D50"
-backgroundColor = "#F7F4EF"
+primaryColor = "#1E5AA8"
+backgroundColor = "#EEF3FA"
 secondaryBackgroundColor = "#FFFFFF"
-textColor = "#1F2A24"
+textColor = "#152238"
 font = "sans serif"
 
 [client]

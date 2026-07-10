@@ -504,7 +504,7 @@ def page_review_queue() -> None:
         st.markdown(
             f"""
             <div class="wy-card">
-              <div style="font-size:1.25rem;font-weight:700;color:#2f5d50;">{sug['term']}</div>
+              <div class="wy-term-title">{sug['term']}</div>
               <div class="wy-muted">出處：{_esc(sug['snippet'])}</div>
               <div style="margin-top:0.35rem;">
                 <span class="wy-chip">{sug.get('category','')}</span>
@@ -780,7 +780,7 @@ def page_review() -> None:
             f"""
             <div class="wy-card">
               <div class="wy-card-title">可接受答案（答中其中一個即可）</div>
-              <div class="wy-original" style="font-size:1.1rem;color:#2f5d50;">
+              <div class="wy-original wy-accept">
                 {_esc(format_accepted_display(accepted))}
               </div>
               <div class="wy-translation">
