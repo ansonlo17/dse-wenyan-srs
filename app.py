@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -113,8 +114,93 @@ def _logout() -> None:
     _reset_card_ui()
 
 
+def get_teacher_password() -> str:
+    """
+    Teacher control password.
+    Priority: Streamlit secrets → env TEACHER_PASSWORD → default.
+    """
+    try:
+        if "teacher_password" in st.secrets:
+            return str(st.secrets["teacher_password"])
+    except Exception:  # noqa: BLE001
+        pass
+    return os.environ.get("TEACHER_PASSWORD", "ansonlo17")
+
+
+def teacher_unlocked() -> bool:
+    return bool(st.session_state.get("teacher_unlocked"))
+
+
+def _teacher_gate() -> bool:
+    """Return True if teacher may use admin controls this session."""
+    if teacher_unlocked():
+        c1, c2 = st.columns([3, 1])
+        with c1:
+            st.caption("老師模式已解鎖（僅此瀏覽器分頁）")
+        with c2:
+            if st.button("鎖定", use_container_width=True, key="teacher_lock"):
+                st.session_state.teacher_unlocked = False
+                st.session_state.pop("new_user_creds", None)
+                st.rerun()
+        return True
+
+    st.warning("此區需老師密碼，同學請用「同學登入」。")
+    pw = st.text_input(
+        "老師密碼",
+        type="password",
+        key="teacher_pw_input",
+        placeholder="輸入老師密碼",
+    )
+    if st.button("解鎖老師控制", type="primary", use_container_width=True, key="teacher_unlock"):
+        if pw == get_teacher_password():
+            st.session_state.teacher_unlocked = True
+            st.rerun()
+        else:
+            st.error("密碼不正確")
+    return False
+
+
+def _render_new_creds_panel() -> None:
+    """PIN list only visible after teacher unlock."""
+    if not teacher_unlocked():
+        return
+    creds = st.session_state.get("new_user_creds")
+    if not creds:
+        return
+    st.success("帳號已建立。**請立刻記下或下載 PIN**（系統不保存明文 PIN）。")
+    import pandas as pd
+
+    df = pd.DataFrame(
+        [{"名稱": c["name"], "PIN": c["pin"]} for c in creds]
+    )
+    st.dataframe(df, use_container_width=True, hide_index=True)
+    csv = "名稱,PIN\n" + "\n".join(f"{c['name']},{c['pin']}" for c in creds)
+    st.download_button(
+        "下載帳號表（CSV）",
+        data=csv.encode("utf-8-sig"),
+        file_name="文言精華_帳號PIN.csv",
+        mime="text/csv",
+        use_container_width=True,
+        key="dl_creds",
+    )
+    if len(creds) == 1:
+        if st.button(
+            f"用「{creds[0]['name']}」直接進入",
+            type="primary",
+            use_container_width=True,
+            key="enter_new_one",
+        ):
+            st.session_state.pop("new_user_creds", None)
+            _login_as(creds[0]["id"], creds[0]["name"])
+            st.rerun()
+    if st.button("關閉帳號表", use_container_width=True, key="clear_creds"):
+        st.session_state.pop("new_user_creds", None)
+        st.rerun()
+    st.markdown("---")
+
+
 def page_login() -> None:
-    """方案 A：名稱 + 隨機 PIN；可預開約 20 人，之後隨時追加。"""
+    """方案 A：名稱 + 隨機 PIN；老師區需密碼。"""
     st.markdown(
         """
         <div class="wy-hero">
@@ -127,49 +213,15 @@ def page_login() -> None:
     n_users = db.user_count()
     st.caption(
         f"同學用「名稱 + PIN」登入，進度互不影響。"
-        f" 目前已有 **{n_users}** 個帳號 · 之後可隨時再追加。"
+        f" 目前已有 **{n_users}** 個帳號。"
     )
-
-    # Show one-time credentials after batch / single create
-    creds = st.session_state.get("new_user_creds")
-    if creds:
-        st.success("帳號已建立。**請立刻記下或下載 PIN**（系統不保存明文 PIN）。")
-        import pandas as pd
-
-        df = pd.DataFrame(creds)
-        st.dataframe(df, use_container_width=True, hide_index=True)
-        csv = "名稱,PIN\n" + "\n".join(f"{c['name']},{c['pin']}" for c in creds)
-        st.download_button(
-            "下載帳號表（CSV）",
-            data=csv.encode("utf-8-sig"),
-            file_name="文言精華_帳號PIN.csv",
-            mime="text/csv",
-            use_container_width=True,
-            key="dl_creds",
-        )
-        if len(creds) == 1:
-            if st.button(
-                f"用「{creds[0]['name']}」直接進入",
-                type="primary",
-                use_container_width=True,
-                key="enter_new_one",
-            ):
-                st.session_state.pop("new_user_creds", None)
-                _login_as(creds[0]["id"], creds[0]["name"])
-                st.rerun()
-        if st.button("關閉帳號表", use_container_width=True, key="clear_creds"):
-            st.session_state.pop("new_user_creds", None)
-            st.rerun()
-        st.markdown("---")
 
     users = db.list_users()
-    tab_enter, tab_batch, tab_one = st.tabs(
-        ["同學登入", "老師：預開／追加帳號", "建立單個名稱"]
-    )
+    tab_enter, tab_teacher = st.tabs(["同學登入", "老師控制"])
 
     with tab_enter:
         if not users:
-            st.info("尚未有帳號。請老師到「預開／追加帳號」一次開約 20 個。")
+            st.info("尚未有帳號。請老師用「老師控制」預開約 20 個。")
         else:
             names = [u["name"] for u in users]
             by_name = {u["name"]: u for u in users}
@@ -184,18 +236,20 @@ def page_login() -> None:
             if st.button("進入溫習", type="primary", use_container_width=True, key="login_go"):
                 if u["has_pin"] and not db.verify_user_pin(u["id"], pin):
                     st.error("PIN 不正確")
-                elif not u["has_pin"]:
-                    # legacy 無 PIN
-                    _login_as(u["id"], u["name"])
-                    st.rerun()
                 else:
                     _login_as(u["id"], u["name"])
                     st.rerun()
 
-    with tab_batch:
+    with tab_teacher:
+        if not _teacher_gate():
+            return
+
+        _render_new_creds_panel()
+
+        st.markdown("#### 預開／追加帳號")
         st.markdown(
             "一次開好一班帳號（預設 **20** 人）。"
-            " PIN 自動隨機 4 位數。之後同一頁可再追加，編號會自動接續。"
+            " PIN 自動隨機 4 位數。之後可再追加，編號會自動接續。"
         )
         c1, c2 = st.columns(2)
         with c1:
@@ -233,12 +287,18 @@ def page_login() -> None:
                 ]
                 st.rerun()
 
-    with tab_one:
+        st.markdown("---")
+        st.markdown("#### 建立單個名稱")
         new_name = st.text_input(
             "顯示名稱", key="create_name", placeholder="例如：陳小明"
         )
         st.caption("PIN 會自動隨機產生（4 位），建立後請抄低。")
-        if st.button("建立（隨機 PIN）", type="primary", use_container_width=True, key="create_go"):
+        if st.button(
+            "建立（隨機 PIN）",
+            type="primary",
+            use_container_width=True,
+            key="create_go",
+        ):
             uid, err, plain = db.create_user(new_name, None)
             if err:
                 st.error(err)
