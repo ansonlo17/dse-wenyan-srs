@@ -17,9 +17,12 @@ ROOT = Path(__file__).resolve().parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src import analytics, db  # noqa: E402
+# Direct submodule imports (more reliable on Streamlit Cloud hot-reload)
+import src.analytics as analytics  # noqa: E402
+import src.db as db  # noqa: E402
 from src.align import auto_align_text  # noqa: E402
-from src.parsers import parse_pdf_bytes, parse_text_bytes, parse_text_string  # noqa: E402
+from src.parsers.pdf_parser import parse_pdf_bytes  # noqa: E402
+from src.parsers.text_parser import parse_text_bytes, parse_text_string  # noqa: E402
 from src.sm2 import (  # noqa: E402
     RATING_BUTTON_ORDER,
     RATING_LABELS,
@@ -149,7 +152,7 @@ def _teacher_gate() -> bool:
         with c1:
             st.caption("老師模式已解鎖（僅此瀏覽器分頁）")
         with c2:
-            if st.button("鎖定", use_container_width=True, key="teacher_lock"):
+            if st.button("鎖定", width="stretch", key="teacher_lock"):
                 st.session_state.teacher_unlocked = False
                 st.session_state.pop("new_user_creds", None)
                 st.rerun()
@@ -162,7 +165,7 @@ def _teacher_gate() -> bool:
         key="teacher_pw_input",
         placeholder="輸入老師密碼",
     )
-    if st.button("解鎖老師控制", type="primary", use_container_width=True, key="teacher_unlock"):
+    if st.button("解鎖老師控制", type="primary", width="stretch", key="teacher_unlock"):
         if pw == get_teacher_password():
             st.session_state.teacher_unlocked = True
             st.rerun()
@@ -184,27 +187,27 @@ def _render_new_creds_panel() -> None:
     df = pd.DataFrame(
         [{"名稱": c["name"], "PIN": c["pin"]} for c in creds]
     )
-    st.dataframe(df, use_container_width=True, hide_index=True)
+    st.dataframe(df, width="stretch", hide_index=True)
     csv = "名稱,PIN\n" + "\n".join(f"{c['name']},{c['pin']}" for c in creds)
     st.download_button(
         "下載帳號表（CSV）",
         data=csv.encode("utf-8-sig"),
         file_name="ansonlochinese_帳號PIN.csv",
         mime="text/csv",
-        use_container_width=True,
+        width="stretch",
         key="dl_creds",
     )
     if len(creds) == 1:
         if st.button(
             f"用「{creds[0]['name']}」直接進入",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             key="enter_new_one",
         ):
             st.session_state.pop("new_user_creds", None)
             _login_as(creds[0]["id"], creds[0]["name"])
             st.rerun()
-    if st.button("關閉帳號表", use_container_width=True, key="clear_creds"):
+    if st.button("關閉帳號表", width="stretch", key="clear_creds"):
         st.session_state.pop("new_user_creds", None)
         st.rerun()
     st.markdown("---")
@@ -244,7 +247,7 @@ def page_login() -> None:
                 key="login_pin",
                 placeholder="例如 4821",
             )
-            if st.button("進入溫習", type="primary", use_container_width=True, key="login_go"):
+            if st.button("進入溫習", type="primary", width="stretch", key="login_go"):
                 if u["has_pin"] and not db.verify_user_pin(u["id"], pin):
                     st.error("PIN 不正確")
                 else:
@@ -282,7 +285,7 @@ def page_login() -> None:
         if st.button(
             f"建立 {int(batch_n)} 個帳號（隨機 PIN）",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             key="batch_go",
         ):
             created = db.create_users_batch(
@@ -307,7 +310,7 @@ def page_login() -> None:
         if st.button(
             "建立（隨機 PIN）",
             type="primary",
-            use_container_width=True,
+            width="stretch",
             key="create_go",
         ):
             uid, err, plain = db.create_user(new_name, None)
@@ -340,7 +343,7 @@ def page_login() -> None:
             if st.button(
                 "刪除所選用戶",
                 type="secondary",
-                use_container_width=True,
+                width="stretch",
                 key="teacher_delete_go",
                 disabled=not pick_labels or not confirm,
             ):
@@ -370,7 +373,7 @@ def nav() -> str:
         st.caption("HKDSE 指定文言 · 字詞複習")
         if current_user_name():
             st.markdown(f"**👤 {current_user_name()}**")
-            if st.button("切換帳號", use_container_width=True, key="logout_btn"):
+            if st.button("切換帳號", width="stretch", key="logout_btn"):
                 _logout()
                 st.rerun()
         # Sidebar uses buttons so it never fights the top selectbox key
@@ -379,7 +382,7 @@ def nav() -> str:
             if st.button(
                 f"{'● ' if is_here else '○ '}{p}",
                 key=f"side_btn_{p}",
-                use_container_width=True,
+                width="stretch",
                 type="primary" if is_here else "secondary",
             ):
                 go_page(p)
@@ -489,14 +492,14 @@ def page_home() -> None:
 
         b1, b2, b3 = st.columns(3)
         with b1:
-            if st.button("▶ 複習此篇", type="primary", use_container_width=True, key="home_review"):
+            if st.button("▶ 複習此篇", type="primary", width="stretch", key="home_review"):
                 st.session_state.review_queue = []
                 st.session_state.review_idx = 0
                 _reset_card_ui()
                 go_page("複習")
                 st.rerun()
         with b2:
-            if st.button("📖 閱讀", use_container_width=True, key="home_read"):
+            if st.button("📖 閱讀", width="stretch", key="home_read"):
                 if focus_id:
                     st.session_state.reader_text_id = focus_id
                 elif ready:
@@ -504,7 +507,7 @@ def page_home() -> None:
                 go_page("閱讀")
                 st.rerun()
         with b3:
-            if st.button("📚 文庫", use_container_width=True, key="home_library"):
+            if st.button("📚 文庫", width="stretch", key="home_library"):
                 go_page("文庫")
                 st.rerun()
 
@@ -527,7 +530,7 @@ def page_home() -> None:
             if st.button(
                 f"溫習《{p['title']}》",
                 key=f"pick_{p['id']}",
-                use_container_width=True,
+                width="stretch",
             ):
                 st.session_state.study_text_id = p["id"]
                 st.session_state.reader_text_id = p["id"]
@@ -634,7 +637,7 @@ def page_library() -> None:
                 if st.button(
                     "閱讀",
                     key=f"lib_read_{t['id']}",
-                    use_container_width=True,
+                    width="stretch",
                     type="primary",
                 ):
                     st.session_state.reader_text_id = t["id"]
@@ -645,7 +648,7 @@ def page_library() -> None:
                 if st.button(
                     "複習",
                     key=f"lib_rev_{t['id']}",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     st.session_state.study_text_id = t["id"]
                     st.session_state.review_queue = []
@@ -657,7 +660,7 @@ def page_library() -> None:
                 if st.button(
                     "難字",
                     key=f"lib_q_{t['id']}",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     st.session_state.reader_text_id = t["id"]
                     st.session_state.study_text_id = t["id"]
@@ -745,7 +748,7 @@ def page_reader() -> None:
                     if st.button(
                         sug["term"],
                         key=f"sug_{text_id}_{i}_{sug['term']}",
-                        use_container_width=True,
+                        width="stretch",
                     ):
                         db.add_vocab(
                             term=sug["term"],
@@ -870,7 +873,7 @@ def page_review_queue() -> None:
 
     st.markdown(f"待確認建議：**{len(unique)}**")
 
-    if st.button("一鍵加入全部建議", use_container_width=True):
+    if st.button("一鍵加入全部建議", width="stretch"):
         for sug in unique:
             db.add_vocab(
                 term=sug["term"],
@@ -904,7 +907,7 @@ def page_review_queue() -> None:
         )
         c1, c2, c3 = st.columns(3)
         with c1:
-            if st.button("加入", key=f"q_add_{idx}", type="primary", use_container_width=True):
+            if st.button("加入", key=f"q_add_{idx}", type="primary", width="stretch"):
                 db.add_vocab(
                     term=sug["term"],
                     text_id=text_id,
@@ -919,7 +922,7 @@ def page_review_queue() -> None:
                 )
                 st.rerun()
         with c2:
-            if st.button("略過", key=f"q_skip_{idx}", use_container_width=True):
+            if st.button("略過", key=f"q_skip_{idx}", width="stretch"):
                 db.ignore_vocab_term(
                     sug["term"], text_id, sug["snippet"], user_id=uid
                 )
@@ -949,7 +952,7 @@ def page_review_queue() -> None:
     t = st.text_input("字詞", key="queue_manual_term")
     g = st.text_input("白話解釋", key="queue_manual_gloss")
     u = st.text_input("DSE 用法", key="queue_manual_usage")
-    if st.button("新增到字庫", use_container_width=True):
+    if st.button("新增到字庫", width="stretch"):
         if t.strip():
             db.add_vocab(
                 term=t.strip(),
@@ -1059,7 +1062,7 @@ def page_review() -> None:
             _reset_card_ui()
             st.rerun()
 
-    if st.button("重新整理佇列", use_container_width=True, key="review_rebuild"):
+    if st.button("重新整理佇列", width="stretch", key="review_rebuild"):
         st.session_state.review_queue = _build_review_queue()
         st.session_state.review_idx = 0
         _reset_card_ui()
@@ -1096,7 +1099,7 @@ def page_review() -> None:
             """,
             unsafe_allow_html=True,
         )
-        if st.button("再來一輪", type="primary", use_container_width=True, key="review_again_round"):
+        if st.button("再來一輪", type="primary", width="stretch", key="review_again_round"):
             st.session_state.review_queue = _build_review_queue()
             st.session_state.review_idx = 0
             _reset_card_ui()
@@ -1136,7 +1139,7 @@ def page_review() -> None:
         )
         c1, c2 = st.columns(2)
         with c1:
-            if st.button("✓ 核對答案", type="primary", use_container_width=True, key="check_ans"):
+            if st.button("✓ 核對答案", type="primary", width="stretch", key="check_ans"):
                 typed = st.session_state.get("typed_answer_box", "")
                 st.session_state.user_answer = typed
                 result = _grade_typed_answer(
@@ -1153,7 +1156,7 @@ def page_review() -> None:
                     )
                 st.rerun()
         with c2:
-            if st.button("直接看答案", use_container_width=True, key="skip_type"):
+            if st.button("直接看答案", width="stretch", key="skip_type"):
                 st.session_state.user_answer = ""
                 st.session_state.answer_feedback = {
                     "status": "skip",
@@ -1224,7 +1227,7 @@ def page_review() -> None:
                 if st.button(
                     RATING_LABELS[rating],
                     key=f"rate_{rating}",
-                    use_container_width=True,
+                    width="stretch",
                 ):
                     apply_review_to_db(card["id"], card, rating, user_id=uid)
                     touch_streak(user_id=uid)
@@ -1238,7 +1241,7 @@ def page_review() -> None:
                     _reset_card_ui()
                     st.rerun()
 
-        if st.button("標記已掌握", use_container_width=True, key="review_master"):
+        if st.button("標記已掌握", width="stretch", key="review_master"):
             db.update_vocab_status(card["id"], "mastered", user_id=uid)
             st.session_state.review_idx += 1
             _reset_card_ui()
@@ -1264,7 +1267,7 @@ def page_stats() -> None:
         import pandas as pd
 
         df = pd.DataFrame(report["by_text"])
-        st.dataframe(df, use_container_width=True, hide_index=True)
+        st.dataframe(df, width="stretch", hide_index=True)
         st.bar_chart(df.set_index("篇名")["掌握%"])
 
     if report["by_category"]:
@@ -1308,7 +1311,7 @@ def page_settings() -> None:
         max_value=50,
         value=int(db.get_setting("new_cards_per_day", "10", user_id=uid) or 10),
     )
-    if st.button("儲存設定", type="primary", use_container_width=True):
+    if st.button("儲存設定", type="primary", width="stretch"):
         db.set_setting("daily_limit", str(int(daily)), user_id=uid)
         db.set_setting("new_cards_per_day", str(int(new_n)), user_id=uid)
         st.success("已儲存")
@@ -1317,25 +1320,25 @@ def page_settings() -> None:
     texts = db.list_texts()
     labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
     lab = st.selectbox("選擇篇章", list(labels.keys()), key="reset_sel")
-    if st.button("重置此篇進度（只清自己）", use_container_width=True):
+    if st.button("重置此篇進度（只清自己）", width="stretch"):
         db.reset_text_progress(labels[lab], user_id=uid)
         st.session_state.review_queue = []
         st.session_state.review_idx = 0
         st.warning("已重置你在此篇的進度")
 
     st.markdown("#### 備份")
-    if st.button("匯出 JSON 備份", use_container_width=True):
+    if st.button("匯出 JSON 備份", width="stretch"):
         data = db.export_backup()
         st.download_button(
             "下載 backup.json",
             data=json.dumps(data, ensure_ascii=False, indent=2),
             file_name="dse_wenyan_backup.json",
             mime="application/json",
-            use_container_width=True,
+            width="stretch",
         )
 
     up = st.file_uploader("匯入 JSON 備份", type=["json"])
-    if up and st.button("確認匯入（會覆寫字詞與進度）", use_container_width=True):
+    if up and st.button("確認匯入（會覆寫字詞與進度）", width="stretch"):
         data = json.loads(up.getvalue().decode("utf-8"))
         db.import_backup(data)
         st.success("匯入完成")
