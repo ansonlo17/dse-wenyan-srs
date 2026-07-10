@@ -1,274 +1,555 @@
 [
   {
-    "term": "不以物喜",
-    "accepted": [
-      "不因外物而喜"
-    ],
-    "dse_usage": "不因外物環境而歡喜",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "不以物喜"
-  },
-  {
-    "term": "後天下之樂而樂",
-    "accepted": [
-      "後天下之樂",
-      "後樂"
-    ],
-    "dse_usage": "在天下人快樂之後才快樂",
-    "difficulty": 1,
-    "category": "結構",
-    "sentence_snippet": "後天下之樂而樂"
-  },
-  {
-    "term": "先天下之憂而憂",
-    "accepted": [
-      "先憂後樂",
-      "先天下之憂"
-    ],
-    "dse_usage": "在天下人擔憂之前先擔憂",
-    "difficulty": 1,
-    "category": "結構",
-    "sentence_snippet": "先天下之憂而憂"
-  },
-  {
     "term": "慶曆四年",
     "accepted": [
-      "即公元 1044"
+      "即公元 1044 年"
     ],
-    "dse_usage": "即公元 1044 年。慶曆：宋仁宗年號。當時正值慶曆新政",
+    "dse_usage": "即公元 1044 年",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "慶曆四年"
+    "sentence_snippet": "慶曆四年",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "慶曆",
+    "accepted": [
+      "宋仁宗年號",
+      "宋仁宗年號。當時正值慶曆新政"
+    ],
+    "dse_usage": "宋仁宗年號。當時正值慶曆新政",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "慶曆",
+    "source": "教育局注釋 1"
   },
   {
     "term": "滕子京",
     "accepted": [
+      "名宗諒，字子京",
       "名宗諒",
       "字子京"
     ],
     "dse_usage": "名宗諒，字子京",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "滕子京"
+    "sentence_snippet": "滕子京",
+    "source": "教育局注釋 2"
   },
   {
     "term": "謫",
     "accepted": [
+      "貶謫、貶官",
       "貶謫",
-      "太守並非正式官名",
-      "只用作知府",
-      "今 2 岳陽市"
+      "貶官"
     ],
-    "dse_usage": "貶謫、貶官。守︰此處作動詞用，指擔任太守。宋代地方長官是知 州，太守並非正式官名，只用作知府、知州的別稱。巴陵郡：即岳州，今 2 岳陽市",
+    "dse_usage": "貶謫、貶官",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "謫"
+    "sentence_snippet": "謫",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "守",
+    "accepted": [
+      "此處作動詞用，指擔任太守",
+      "此處作動詞用",
+      "指擔任太守。宋代地方長官是知 州",
+      "太守並非正式官名",
+      "只用作知府",
+      "知州的別稱"
+    ],
+    "dse_usage": "此處作動詞用，指擔任太守。宋代地方長官是知 州，太守並非正式官名，只用作知府、知州的別稱",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "守",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "巴陵郡",
+    "accepted": [
+      "即岳州，今 2 岳陽市",
+      "即岳州",
+      "今 2 岳陽市"
+    ],
+    "dse_usage": "即岳州，今 2 岳陽市",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "巴陵郡",
+    "source": "教育局注釋 3"
   },
   {
     "term": "越明年",
     "accepted": [
-      "及至第二年。越︰及至",
-      "到"
+      "及至第二年"
     ],
-    "dse_usage": "及至第二年。越︰及至、到",
+    "dse_usage": "及至第二年",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "越明年"
+    "sentence_snippet": "越明年",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "越",
+    "accepted": [
+      "及至、到",
+      "及至",
+      "到"
+    ],
+    "dse_usage": "及至、到",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "越",
+    "source": "教育局注釋 4"
   },
   {
     "term": "政通人和",
     "accepted": [
+      "政事通達，人民和樂",
       "政事通達",
       "人民和樂"
     ],
     "dse_usage": "政事通達，人民和樂",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "政通人和"
+    "sentence_snippet": "政通人和",
+    "source": "教育局注釋 5"
   },
   {
     "term": "具",
     "accepted": [
+      "通「俱」，全部",
       "通「俱」",
       "全部"
     ],
     "dse_usage": "通「俱」，全部",
     "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "具"
+    "category": "異義",
+    "sentence_snippet": "具",
+    "source": "教育局注釋 6"
   },
   {
     "term": "唐賢",
     "accepted": [
+      "唐代先賢如張九齡、杜甫、韓愈等",
       "唐代先賢如張九齡",
       "杜甫",
+      "韓愈等"
+    ],
+    "dse_usage": "唐代先賢如張九齡、杜甫、韓愈等",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "唐賢",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "今人",
+    "accepted": [
+      "當世名人如呂蒙正、夏 竦等",
+      "當世名人如呂蒙正",
       "夏 竦等"
     ],
-    "dse_usage": "唐代先賢如張九齡、杜甫、韓愈等。今人：當世名人如呂蒙正、夏 竦等",
-    "difficulty": 3,
+    "dse_usage": "當世名人如呂蒙正、夏 竦等",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "唐賢"
+    "sentence_snippet": "今人",
+    "source": "教育局注釋 7"
   },
   {
     "term": "屬",
     "accepted": [
+      "通「囑」，囑咐",
       "通「囑」",
       "囑咐"
     ],
     "dse_usage": "通「囑」，囑咐",
     "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "屬"
+    "category": "異義",
+    "sentence_snippet": "屬",
+    "source": "教育局注釋 8"
   },
   {
     "term": "勝狀",
     "accepted": [
-      "美景。勝︰美。狀︰狀貌",
-      "形勢"
+      "美景"
     ],
-    "dse_usage": "美景。勝︰美。狀︰狀貌、形勢",
+    "dse_usage": "美景",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "勝狀",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "勝",
+    "accepted": [
+      "美"
+    ],
+    "dse_usage": "美",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "勝狀"
+    "sentence_snippet": "勝",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "狀",
+    "accepted": [
+      "狀貌、形勢",
+      "狀貌",
+      "形勢"
+    ],
+    "dse_usage": "狀貌、形勢",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "狀",
+    "source": "教育局注釋 9"
   },
   {
     "term": "銜遠山",
     "accepted": [
-      "像張開口含着與岳"
+      "像張開口含着與岳陽樓遙遙"
     ],
-    "dse_usage": "像張開口含着與岳陽樓遙遙相對的君山。銜：即「啣」",
+    "dse_usage": "像張開口含着與岳陽樓遙遙相對的君山",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "銜遠山"
+    "sentence_snippet": "銜遠山",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "銜",
+    "accepted": [
+      "即「啣」"
+    ],
+    "dse_usage": "即「啣」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "銜",
+    "source": "教育局注釋 10"
   },
   {
     "term": "湯湯",
     "accepted": [
-      "形容水勢浩瀚。"
+      "形容水勢浩瀚"
     ],
-    "dse_usage": "形容水勢浩瀚。；",
-    "difficulty": 3,
+    "dse_usage": "形容水勢浩瀚",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "湯湯"
+    "sentence_snippet": "湯湯",
+    "source": "教育局注釋 11"
   },
   {
     "term": "大觀",
     "accepted": [
-      "盛大壯觀的景象"
+      "盛大壯觀的景象",
+      "或謂指景觀的大概情況"
     ],
     "dse_usage": "盛大壯觀的景象，或謂指景觀的大概情況",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "大觀"
+    "sentence_snippet": "大觀",
+    "source": "教育局注釋 12"
   },
   {
     "term": "備",
     "accepted": [
+      "完備、詳盡",
       "完備",
       "詳盡"
     ],
     "dse_usage": "完備、詳盡",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "備"
+    "sentence_snippet": "備",
+    "source": "教育局注釋 13"
   },
   {
     "term": "巫峽",
     "accepted": [
+      "長江三峽之一，位於四川省巫山縣",
       "長江三峽之一"
     ],
     "dse_usage": "長江三峽之一，位於四川省巫山縣。長江水經巫峽由西北方注入洞 庭湖",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "巫峽"
+    "sentence_snippet": "巫峽",
+    "source": "教育局注釋 14"
   },
   {
     "term": "瀟湘",
     "accepted": [
-      "於湖南省境內的瀟水和湘水"
+      "於湖南省境內的瀟水和湘水",
+      "向北流入洞庭湖"
     ],
-    "dse_usage": "於湖南省境內的瀟水和湘水，向北流入洞庭湖。瀟︰瀟水。湘︰湘 水",
+    "dse_usage": "於湖南省境內的瀟水和湘水，向北流入洞庭湖",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "瀟湘",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "瀟",
+    "accepted": [
+      "瀟水"
+    ],
+    "dse_usage": "瀟水",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "瀟湘"
+    "sentence_snippet": "瀟",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "湘",
+    "accepted": [
+      "湘 水"
+    ],
+    "dse_usage": "湘 水",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "湘",
+    "source": "教育局注釋 15"
   },
   {
     "term": "遷客騷人",
     "accepted": [
-      "指貶謫流放的官吏"
+      "指貶謫流放的官吏和失意的文人雅士"
     ],
-    "dse_usage": "指貶謫流放的官吏和失意的文人雅士。遷客：被貶謫的官吏。 騷人︰即詩人。因為屈原憂愁憂思而作《離騷》，故稱屈原或《楚辭》作 者為「騷人」",
+    "dse_usage": "指貶謫流放的官吏和失意的文人雅士",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "遷客騷人"
+    "sentence_snippet": "遷客騷人",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "遷客",
+    "accepted": [
+      "被貶謫的官吏"
+    ],
+    "dse_usage": "被貶謫的官吏",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "遷客",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "騷人",
+    "accepted": [
+      "即詩人"
+    ],
+    "dse_usage": "即詩人。因為屈原憂愁憂思而作《離騷》，故稱屈原或《楚辭》作 者為「騷人」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "騷人",
+    "source": "教育局注釋 16"
   },
   {
     "term": "霪雨",
     "accepted": [
-      "久雨。霪︰通「淫」",
+      "久雨"
+    ],
+    "dse_usage": "久雨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "霪雨",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "霪",
+    "accepted": [
+      "通「淫」，過量",
+      "通「淫」",
+      "過量"
+    ],
+    "dse_usage": "通「淫」，過量",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "霪",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "霏霏",
+    "accepted": [
+      "形容雨絲細密"
+    ],
+    "dse_usage": "形容雨絲細密",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "霏霏",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "開",
+    "accepted": [
+      "放晴，天 色開朗",
+      "放晴",
       "天 色開朗"
     ],
-    "dse_usage": "久雨。霪︰通「淫」，過量。霏霏︰形容雨絲細密。開：放晴，天 色開朗",
+    "dse_usage": "放晴，天 色開朗",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "霪雨"
+    "sentence_snippet": "開",
+    "source": "教育局注釋 17"
   },
   {
     "term": "陰",
     "accepted": [
-      "陰冷。怒號︰形容"
+      "陰冷"
     ],
-    "dse_usage": "陰冷。怒號︰形容風聲激越。號︰呼嘯。；",
+    "dse_usage": "陰冷",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "陰"
+    "sentence_snippet": "陰",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "怒號",
+    "accepted": [
+      "形容風聲激越"
+    ],
+    "dse_usage": "形容風聲激越",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "怒號",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "號",
+    "accepted": [
+      "呼嘯"
+    ],
+    "dse_usage": "呼嘯",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "號",
+    "source": "教育局注釋 18"
   },
   {
     "term": "排空",
     "accepted": [
+      "指浪濤洶湧，直上雲霄",
       "指浪濤洶湧",
       "直上雲霄"
     ],
     "dse_usage": "指浪濤洶湧，直上雲霄",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "排空"
+    "sentence_snippet": "排空",
+    "source": "教育局注釋 19"
   },
   {
     "term": "檣傾楫摧",
     "accepted": [
-      "船隻翻覆沉沒。檣︰船的桅杆。",
-      "。 傾：倒下。楫︰船槳。",
-      "。摧︰摧毀"
+      "船隻翻覆沉沒"
     ],
-    "dse_usage": "船隻翻覆沉沒。檣︰船的桅杆。；。 傾：倒下。楫︰船槳。；。摧︰摧毀",
+    "dse_usage": "船隻翻覆沉沒",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "檣傾楫摧"
+    "sentence_snippet": "檣傾楫摧",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "檣",
+    "accepted": [
+      "船的桅杆"
+    ],
+    "dse_usage": "船的桅杆",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "檣",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "傾",
+    "accepted": [
+      "倒下"
+    ],
+    "dse_usage": "倒下",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "傾",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "楫",
+    "accepted": [
+      "船槳"
+    ],
+    "dse_usage": "船槳",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "楫",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "摧",
+    "accepted": [
+      "摧毀"
+    ],
+    "dse_usage": "摧毀",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "摧",
+    "source": "教育局注釋 20"
   },
   {
     "term": "薄",
     "accepted": [
+      "通「迫」，迫近",
       "通「迫」",
-      "迫近。冥︰昏暗",
-      "陰沉。"
+      "迫近"
     ],
-    "dse_usage": "通「迫」，迫近。冥︰昏暗、陰沉。；",
+    "dse_usage": "通「迫」，迫近",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "薄",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "冥",
+    "accepted": [
+      "昏暗、陰沉",
+      "昏暗",
+      "陰沉"
+    ],
+    "dse_usage": "昏暗、陰沉",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "薄"
+    "sentence_snippet": "冥",
+    "source": "教育局注釋 21"
   },
   {
     "term": "去國",
     "accepted": [
+      "離開京城，指被貶謫遠方",
       "離開京城",
-      "即京師"
+      "指被貶謫遠方"
     ],
-    "dse_usage": "離開京城，指被貶謫遠方。去︰離開。國︰指國都，即京師",
+    "dse_usage": "離開京城，指被貶謫遠方",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "去國",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "去",
+    "accepted": [
+      "離開"
+    ],
+    "dse_usage": "離開",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "去國"
+    "sentence_snippet": "去",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "國",
+    "accepted": [
+      "指國都，即京師",
+      "指國都",
+      "即京師"
+    ],
+    "dse_usage": "指國都，即京師",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "國",
+    "source": "教育局注釋 22"
   },
   {
     "term": "蕭然",
@@ -276,104 +557,432 @@
       "蕭條冷落的景況"
     ],
     "dse_usage": "蕭條冷落的景況",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "蕭然"
+    "sentence_snippet": "蕭然",
+    "source": "教育局注釋 23"
   },
   {
     "term": "景明",
     "accepted": [
-      "陽光燦爛。景︰日光"
+      "陽光燦爛"
     ],
-    "dse_usage": "陽光燦爛。景︰日光",
+    "dse_usage": "陽光燦爛",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "景明",
+    "source": "教育局注釋 24"
+  },
+  {
+    "term": "景",
+    "accepted": [
+      "日光"
+    ],
+    "dse_usage": "日光",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "景明"
+    "sentence_snippet": "景",
+    "source": "教育局注釋 24"
   },
   {
     "term": "波瀾不驚",
     "accepted": [
+      "風平浪靜，沒有泛起半點波瀾",
       "風平浪靜",
       "沒有泛起半點波瀾"
     ],
     "dse_usage": "風平浪靜，沒有泛起半點波瀾",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "波瀾不驚"
+    "sentence_snippet": "波瀾不驚",
+    "source": "教育局注釋 25"
   },
   {
     "term": "翔",
     "accepted": [
-      "飛翔。集︰聚集",
-      "棲息"
+      "飛翔"
     ],
-    "dse_usage": "飛翔。集︰聚集、棲息",
+    "dse_usage": "飛翔",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "翔"
+    "sentence_snippet": "翔",
+    "source": "教育局注釋 26"
   },
   {
-    "term": "芷、蘭",
+    "term": "集",
     "accepted": [
-      "指白芷與蘭草一類"
+      "聚集、棲息",
+      "聚集",
+      "棲息"
     ],
-    "dse_usage": "指白芷與蘭草一類的香草。汀︰小洲",
-    "difficulty": 2,
+    "dse_usage": "聚集、棲息",
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "芷、蘭"
+    "sentence_snippet": "集",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "蘭",
+    "accepted": [
+      "指白芷與蘭草一類的香草"
+    ],
+    "dse_usage": "指白芷與蘭草一類的香草",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蘭",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "汀",
+    "accepted": [
+      "小洲"
+    ],
+    "dse_usage": "小洲",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "汀",
+    "source": "教育局注釋 27"
   },
   {
     "term": "郁郁",
     "accepted": [
+      "形容色彩爛漫、香氣馥郁",
       "形容色彩爛漫",
-      "香氣馥郁。青青︰形容花葉茂盛"
+      "香氣馥郁"
     ],
-    "dse_usage": "形容色彩爛漫、香氣馥郁。青青︰形容花葉茂盛",
-    "difficulty": 3,
+    "dse_usage": "形容色彩爛漫、香氣馥郁",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "郁郁"
+    "sentence_snippet": "郁郁",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "青青",
+    "accepted": [
+      "形容花葉茂盛"
+    ],
+    "dse_usage": "形容花葉茂盛",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "青青",
+    "source": "教育局注釋 28"
   },
   {
     "term": "長煙一空",
     "accepted": [
-      "漫天的雲霧全部消"
+      "漫天的雲霧全部消散"
     ],
-    "dse_usage": "漫天的雲霧全部消散。一：全部。空︰消散。 3",
+    "dse_usage": "漫天的雲霧全部消散",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "長煙一空"
+    "sentence_snippet": "長煙一空",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "一",
+    "accepted": [
+      "全部"
+    ],
+    "dse_usage": "全部",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "一",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "空",
+    "accepted": [
+      "消散",
+      "消散。 3"
+    ],
+    "dse_usage": "消散。 3",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "空",
+    "source": "教育局注釋 29"
   },
   {
     "term": "浮光躍金",
     "accepted": [
       "微風吹過",
-      "月影盪漾"
+      "月影盪漾",
+      "金光閃爍的景致"
     ],
-    "dse_usage": "微風吹過，月影盪漾，金光閃爍的景致。浮光︰浮於水面的月 影。躍金︰金光閃爍。躍︰跳動。一作「耀」",
+    "dse_usage": "微風吹過，月影盪漾，金光閃爍的景致",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "浮光躍金"
+    "sentence_snippet": "浮光躍金",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "浮光",
+    "accepted": [
+      "浮於水面的月 影"
+    ],
+    "dse_usage": "浮於水面的月 影",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "浮光",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "躍金",
+    "accepted": [
+      "金光閃爍"
+    ],
+    "dse_usage": "金光閃爍",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "躍金",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "躍",
+    "accepted": [
+      "跳動",
+      "跳動。一作「耀」"
+    ],
+    "dse_usage": "跳動。一作「耀」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "躍",
+    "source": "教育局注釋 30"
   },
   {
     "term": "靜影沉璧",
     "accepted": [
       "風平浪靜",
-      "月光的倒影明靜如白玉"
+      "月光的倒影明靜如白玉",
+      "沉於湖中"
     ],
-    "dse_usage": "風平浪靜，月光的倒影明靜如白玉，沉於湖中。影︰月影。 璧︰圓形而中間有孔的玉器",
+    "dse_usage": "風平浪靜，月光的倒影明靜如白玉，沉於湖中",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "靜影沉璧"
+    "sentence_snippet": "靜影沉璧",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "影",
+    "accepted": [
+      "月影"
+    ],
+    "dse_usage": "月影",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "影",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "璧",
+    "accepted": [
+      "圓形而中間有孔的玉器"
+    ],
+    "dse_usage": "圓形而中間有孔的玉器",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "璧",
+    "source": "教育局注釋 31"
   },
   {
     "term": "寵辱皆忘",
     "accepted": [
-      "得之若驚",
-      "失之若驚"
+      "把寵辱都豁出去"
     ],
-    "dse_usage": "把寵辱都豁出去。寵︰得寵。辱︰受辱。《老子‧十三章》︰ 「何謂寵辱若驚？寵為下，得之若驚，失之若驚，是謂寵辱若驚。」本句 反用《老子》之意",
+    "dse_usage": "把寵辱都豁出去",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "寵辱皆忘"
+    "sentence_snippet": "寵辱皆忘",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "寵",
+    "accepted": [
+      "得寵"
+    ],
+    "dse_usage": "得寵",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "寵",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "把",
+    "accepted": [
+      "持"
+    ],
+    "dse_usage": "持",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "把",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "臨",
+    "accepted": [
+      "對、迎",
+      "對",
+      "迎"
+    ],
+    "dse_usage": "對、迎",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "臨",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "古仁人之心",
+    "accepted": [
+      "古代那些品德高尚",
+      "憂國憂民的賢人之心境"
+    ],
+    "dse_usage": "古代那些品德高尚、憂國憂民的賢人之心境",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "古仁人之心",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "或",
+    "accepted": [
+      "或許，表示委婉的語氣",
+      "或許",
+      "表示委婉的語氣"
+    ],
+    "dse_usage": "或許，表示委婉的語氣",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "或",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "異",
+    "accepted": [
+      "不同"
+    ],
+    "dse_usage": "不同",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "異",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "二者之為",
+    "accepted": [
+      "指因景色慘淡「感極 而悲"
+    ],
+    "dse_usage": "指因景色慘淡「感極 而悲」和因景色秀美而「其喜洋洋」兩種表現",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "二者之為",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "不以己悲",
+    "accepted": [
+      "不因外物變化或一己際遇而悲喜"
+    ],
+    "dse_usage": "不因外物變化或一己際遇而悲喜",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不以己悲",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "居廟堂之高",
+    "accepted": [
+      "意謂在朝廷任官"
+    ],
+    "dse_usage": "意謂在朝廷任官",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "居廟堂之高",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "廟堂",
+    "accepted": [
+      "朝廷"
+    ],
+    "dse_usage": "朝廷",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "廟堂",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "江湖",
+    "accepted": [
+      "指民間或遠離朝廷的地方"
+    ],
+    "dse_usage": "指民間或遠離朝廷的地方",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "江湖",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "後天下之樂而樂",
+    "accepted": [
+      "在天下人面對危機而擔憂之前",
+      "憂心 忡忡地籌謀解決之道",
+      "待天下人都活得樂也融融之後",
+      "才引以為樂"
+    ],
+    "dse_usage": "在天下人面對危機而擔憂之前，憂心 忡忡地籌謀解決之道；待天下人都活得樂也融融之後，才引以為樂",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "後天下之樂而樂",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "微",
+    "accepted": [
+      "無、沒有",
+      "無",
+      "沒有"
+    ],
+    "dse_usage": "無、沒有",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "微",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "斯人",
+    "accepted": [
+      "這樣的人",
+      "指前文所說的「古仁人」",
+      "「先天下之 憂而憂",
+      "後天下之樂而樂」者"
+    ],
+    "dse_usage": "這樣的人，指前文所說的「古仁人」，「先天下之 憂而憂，後天下之樂而樂」者",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斯人",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "吾誰與歸",
+    "accepted": [
+      "即「吾與誰歸」的倒裝句"
+    ],
+    "dse_usage": "即「吾與誰歸」的倒裝句",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "吾誰與歸",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "歸",
+    "accepted": [
+      "效法、歸依",
+      "效法",
+      "歸依"
+    ],
+    "dse_usage": "效法、歸依",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "歸",
+    "source": "教育局注釋 41"
   }
 ]

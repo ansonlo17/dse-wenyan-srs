@@ -2,138 +2,267 @@
   {
     "term": "僇人",
     "accepted": [
+      "獲罪受刑戮的人，泛指罪人",
       "獲罪受刑戮的人",
-      "故以此自稱。僇：同「戮」",
-      "刑 戮。"
+      "革新失敗後受牽連而被貶為永州司馬",
+      "故以此自稱"
     ],
-    "dse_usage": "獲罪受刑戮的人，泛指罪人。柳宗元因參與王叔文的永貞革新， 革新失敗後受牽連而被貶為永州司馬，故以此自稱。僇：同「戮」，刑 戮。；",
+    "dse_usage": "獲罪受刑戮的人，泛指罪人。柳宗元因參與王叔文的永貞革新， 革新失敗後受牽連而被貶為永州司馬，故以此自稱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "僇人",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "僇",
+    "accepted": [
+      "同「戮」，刑 戮",
+      "同「戮」",
+      "刑 戮"
+    ],
+    "dse_usage": "同「戮」，刑 戮",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "僇人"
+    "sentence_snippet": "僇",
+    "source": "教育局注釋 1"
   },
   {
     "term": "恒",
     "accepted": [
+      "恆常、經常",
       "恆常",
-      "經常。惴：恐懼。",
-      "。慄：戰慄。○粵 [律]",
-      "[leot6]"
+      "經常"
     ],
-    "dse_usage": "恆常、經常。惴：恐懼。；。慄：戰慄。○粵 [律]，[leot6]；",
+    "dse_usage": "恆常、經常",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "恒"
+    "sentence_snippet": "恒",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "惴",
+    "accepted": [
+      "恐懼"
+    ],
+    "dse_usage": "恐懼",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "惴",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "慄",
+    "accepted": [
+      "戰慄",
+      "[leot6]"
+    ],
+    "dse_usage": "戰慄",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "慄",
+    "source": "教育局注釋 2"
   },
   {
     "term": "隙",
     "accepted": [
+      "空隙，指閒暇的時間",
       "空隙",
       "指閒暇的時間"
     ],
     "dse_usage": "空隙，指閒暇的時間",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "隙"
+    "sentence_snippet": "隙",
+    "source": "教育局注釋 3"
   },
   {
     "term": "施施",
     "accepted": [
-      "徐徐地行走的樣子。",
-      "。或解作喜悅自得的樣 子。"
+      "徐徐地行走的樣子"
     ],
-    "dse_usage": "徐徐地行走的樣子。；。或解作喜悅自得的樣 子。；",
-    "difficulty": 3,
+    "dse_usage": "徐徐地行走的樣子。。或解作喜悅自得的樣 子",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "施施"
+    "sentence_snippet": "施施",
+    "source": "教育局注釋 4"
   },
   {
     "term": "漫漫",
     "accepted": [
+      "隨意、無拘無束的樣子",
       "隨意",
       "無拘無束的樣子"
     ],
     "dse_usage": "隨意、無拘無束的樣子",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "漫漫"
+    "sentence_snippet": "漫漫",
+    "source": "教育局注釋 5"
   },
   {
     "term": "徒",
     "accepted": [
-      "意氣相投的朋友。"
+      "意氣相投的朋友"
     ],
     "dse_usage": "意氣相投的朋友。張衡《思玄賦》：「朋精粹而為徒。」",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "徒"
+    "sentence_snippet": "徒",
+    "source": "教育局注釋 6"
   },
   {
     "term": "窮迴溪",
     "accepted": [
-      "走到曲折溪流的盡處。窮：窮盡",
-      "指走到溪水盡頭處",
-      "動詞。 迴：迂迴曲折"
+      "走到曲折溪流的盡處"
     ],
-    "dse_usage": "走到曲折溪流的盡處。窮：窮盡，指走到溪水盡頭處，動詞。 迴：迂迴曲折",
+    "dse_usage": "走到曲折溪流的盡處",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "窮迴溪"
+    "sentence_snippet": "窮迴溪",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "窮",
+    "accepted": [
+      "窮盡，指走到溪水盡頭處，動詞",
+      "窮盡",
+      "指走到溪水盡頭處"
+    ],
+    "dse_usage": "窮盡，指走到溪水盡頭處，動詞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "窮",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "迴",
+    "accepted": [
+      "迂迴曲折"
+    ],
+    "dse_usage": "迂迴曲折",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "迴",
+    "source": "教育局注釋 7"
   },
   {
     "term": "幽泉",
     "accepted": [
+      "清幽、僻靜的泉水",
       "清幽",
       "僻靜的泉水"
     ],
     "dse_usage": "清幽、僻靜的泉水",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "幽泉"
+    "sentence_snippet": "幽泉",
+    "source": "教育局注釋 8"
   },
   {
     "term": "披草",
     "accepted": [
-      "撥開草叢。披：用手撥開"
+      "撥開草叢"
     ],
-    "dse_usage": "撥開草叢。披：用手撥開",
+    "dse_usage": "撥開草叢",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "披草",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "披",
+    "accepted": [
+      "用手撥開"
+    ],
+    "dse_usage": "用手撥開",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "披草"
+    "sentence_snippet": "披",
+    "source": "教育局注釋 9"
   },
   {
     "term": "更相枕",
     "accepted": [
-      "互相枕着對方的身"
+      "互相枕着對方的身體"
     ],
-    "dse_usage": "互相枕着對方的身體。更相：互相。枕：以頭枕物",
+    "dse_usage": "互相枕着對方的身體",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "更相枕"
+    "sentence_snippet": "更相枕",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "更相",
+    "accepted": [
+      "互相"
+    ],
+    "dse_usage": "互相",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "更相",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "枕",
+    "accepted": [
+      "以頭枕物"
+    ],
+    "dse_usage": "以頭枕物",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "枕",
+    "source": "教育局注釋 10"
   },
   {
     "term": "意有所極",
     "accepted": [
-      "彼此意趣淋漓之際。極：至",
-      "到"
+      "彼此意趣淋漓之際"
     ],
-    "dse_usage": "彼此意趣淋漓之際。極：至、到",
+    "dse_usage": "彼此意趣淋漓之際",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "意有所極"
+    "sentence_snippet": "意有所極",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "極",
+    "accepted": [
+      "至、到",
+      "至",
+      "到"
+    ],
+    "dse_usage": "至、到",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "極",
+    "source": "教育局注釋 11"
   },
   {
     "term": "夢亦同趣",
     "accepted": [
-      "連夢境也意趣相投。趣：情趣",
+      "連夢境也意趣相投"
+    ],
+    "dse_usage": "連夢境也意趣相投",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "夢亦同趣",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "趣",
+    "accepted": [
+      "情趣、意境",
+      "情趣",
       "意境",
       "或通「趨」",
       "前往",
       "朝着某方向"
     ],
-    "dse_usage": "連夢境也意趣相投。趣：情趣、意境；或通「趨」，前往、 朝着某方向",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "夢亦同趣"
+    "dse_usage": "情趣、意境；或通「趨」，前往、 朝着某方向",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "趣",
+    "source": "教育局注釋 12"
   },
   {
     "term": "覺",
@@ -143,7 +272,8 @@
     "dse_usage": "醒過來",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "覺"
+    "sentence_snippet": "覺",
+    "source": "教育局注釋 13"
   },
   {
     "term": "西山",
@@ -151,94 +281,176 @@
       "位於永州城西"
     ],
     "dse_usage": "位於永州城西",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "西山"
+    "sentence_snippet": "西山",
+    "source": "教育局注釋 14"
   },
   {
     "term": "法華西亭",
     "accepted": [
+      "位於永州法華寺西面，為柳宗元所建",
       "位於永州法華寺西面",
       "官外乎常員",
       "而心得無事。乃取官之祿 秩",
       "以為其亭",
-      "其高且廣"
+      "其高且廣",
+      "蓋方丈者二焉。」"
     ],
     "dse_usage": "位於永州法華寺西面，為柳宗元所建。《永州法華寺新作西 亭記》：「余時謫為州司馬，官外乎常員，而心得無事。乃取官之祿 秩，以為其亭，其高且廣，蓋方丈者二焉。」",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "法華西亭"
+    "sentence_snippet": "法華西亭",
+    "source": "教育局注釋 15"
   },
   {
     "term": "異之",
     "accepted": [
       "發現它",
-      "感到詫異。異：作動詞用",
+      "感到詫異"
+    ],
+    "dse_usage": "發現它（西山）與別不同之處，感到詫異",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "異之",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "異",
+    "accepted": [
+      "作動詞用",
       "感到 2 詫異",
       "驚訝",
       "在此句中解作褒義的驚喜"
     ],
-    "dse_usage": "發現它（西山）與別不同之處，感到詫異。異：作動詞用，感到 2 詫異、驚訝，在此句中解作褒義的驚喜",
+    "dse_usage": "作動詞用，感到 2 詫異、驚訝，在此句中解作褒義的驚喜",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "異之"
+    "sentence_snippet": "異",
+    "source": "教育局注釋 16"
   },
   {
     "term": "湘江",
     "accepted": [
+      "又名湘水",
+      "又名湘水。此處其實是瀟水",
       "為湘江的支流"
     ],
     "dse_usage": "又名湘水。此處其實是瀟水，為湘江的支流",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "湘江"
+    "sentence_snippet": "湘江",
+    "source": "教育局注釋 17"
   },
   {
     "term": "緣",
     "accepted": [
+      "沿着、順着",
       "沿着",
-      "順着。染溪：又名冉溪",
-      "柳宗元更名曰愚溪"
+      "順着"
     ],
-    "dse_usage": "沿着、順着。染溪：又名冉溪，柳宗元更名曰愚溪",
+    "dse_usage": "沿着、順着",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "緣"
+    "sentence_snippet": "緣",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "染溪",
+    "accepted": [
+      "又名冉溪，柳宗元更名曰愚溪",
+      "又名冉溪",
+      "柳宗元更名曰愚溪"
+    ],
+    "dse_usage": "又名冉溪，柳宗元更名曰愚溪",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "染溪",
+    "source": "教育局注釋 18"
   },
   {
     "term": "斫",
     "accepted": [
-      "砍伐。",
-      "。榛莽：雜亂叢生的草木"
+      "砍伐"
     ],
-    "dse_usage": "砍伐。；。榛莽：雜亂叢生的草木",
+    "dse_usage": "砍伐",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "斫"
+    "sentence_snippet": "斫",
+    "source": "教育局注釋 19"
+  },
+  {
+    "term": "榛莽",
+    "accepted": [
+      "雜亂叢生的草木"
+    ],
+    "dse_usage": "雜亂叢生的草木",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "榛莽",
+    "source": "教育局注釋 19"
   },
   {
     "term": "茅茷",
     "accepted": [
-      "茂密的茅草。茷："
+      "茂密的茅草"
     ],
-    "dse_usage": "茂密的茅草。茷：草葉茂盛的樣子",
+    "dse_usage": "茂密的茅草",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "茅茷",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "茷",
+    "accepted": [
+      "草葉茂盛的樣子"
+    ],
+    "dse_usage": "草葉茂盛的樣子",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "茅茷"
+    "sentence_snippet": "茷",
+    "source": "教育局注釋 20"
   },
   {
     "term": "箕踞而遨",
     "accepted": [
+      "隨意而坐，游目四盼",
       "隨意而坐",
-      "游目四盼。箕踞：張開雙腿而坐",
-      "形如筲箕",
-      "指 輕鬆隨意",
-      "不拘禮節的坐姿。"
+      "游目四盼"
     ],
-    "dse_usage": "隨意而坐，游目四盼。箕踞：張開雙腿而坐，形如筲箕，指 輕鬆隨意、不拘禮節的坐姿。；。遨：隨意 遊玩，在此句中解作游目四顧",
+    "dse_usage": "隨意而坐，游目四盼",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "箕踞而遨"
+    "sentence_snippet": "箕踞而遨",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "箕踞",
+    "accepted": [
+      "張開雙腿而坐",
+      "形如筲箕",
+      "指 輕鬆隨意",
+      "不拘禮節的坐姿"
+    ],
+    "dse_usage": "張開雙腿而坐，形如筲箕，指 輕鬆隨意、不拘禮節的坐姿",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "箕踞",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "遨",
+    "accepted": [
+      "隨意 遊玩，在此句中解作游目四顧",
+      "隨意 遊玩",
+      "在此句中解作游目四顧"
+    ],
+    "dse_usage": "隨意 遊玩，在此句中解作游目四顧",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "遨",
+    "source": "教育局注釋 21"
   },
   {
     "term": "土壤",
@@ -246,44 +458,69 @@
       "土地"
     ],
     "dse_usage": "土地",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "土壤"
+    "sentence_snippet": "土壤",
+    "source": "教育局注釋 22"
   },
   {
     "term": "衽席",
     "accepted": [
-      "座席。衽："
+      "座席"
     ],
-    "dse_usage": "座席。衽：；",
-    "difficulty": 3,
+    "dse_usage": "座席",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "衽席"
+    "sentence_snippet": "衽席",
+    "source": "教育局注釋 23"
   },
   {
     "term": "岈",
     "accepted": [
-      "山谷深邃",
-      "亦讀作[牙]",
-      "[ngaa4]",
-      "。窪：一作「洼」",
-      "低凹"
+      "山谷深邃"
     ],
-    "dse_usage": "山谷深邃；一說指山勢高峻的樣子。；亦讀作[牙]， [ngaa4]；。窪：一作「洼」，低凹",
+    "dse_usage": "山谷深邃；一說指山勢高峻的樣子。 [ngaa4]",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "岈"
+    "sentence_snippet": "岈",
+    "source": "教育局注釋 24"
+  },
+  {
+    "term": "窪",
+    "accepted": [
+      "一作「洼」，低凹",
+      "一作「洼」",
+      "低凹"
+    ],
+    "dse_usage": "一作「洼」，低凹",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "窪",
+    "source": "教育局注釋 24"
   },
   {
     "term": "若垤若穴",
     "accepted": [
       "這是指俯視四周",
-      "高山像一個一個小土堆"
+      "高山像一個一個小土堆",
+      "山谷恍如局促的 蟻穴"
     ],
-    "dse_usage": "這是指俯視四周，高山像一個一個小土堆，山谷恍如局促的 蟻穴。垤：蟻窩外沿堆積之浮土。；",
+    "dse_usage": "這是指俯視四周，高山像一個一個小土堆，山谷恍如局促的 蟻穴",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "若垤若穴"
+    "sentence_snippet": "若垤若穴",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "垤",
+    "accepted": [
+      "蟻窩外沿堆積之浮土"
+    ],
+    "dse_usage": "蟻窩外沿堆積之浮土",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "垤",
+    "source": "教育局注釋 25"
   },
   {
     "term": "尺寸千里",
@@ -294,43 +531,153 @@
     "dse_usage": "眼前尺寸之間的距離，實際上相隔千里之遙",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "尺寸千里"
+    "sentence_snippet": "尺寸千里",
+    "source": "教育局注釋 26"
   },
   {
     "term": "攢蹙累積",
     "accepted": [
+      "形容山勢之緊迫聚集，層疊累積",
       "形容山勢之緊迫聚集",
-      "[cyun4]",
-      "[cuk1]"
+      "層疊累積"
     ],
-    "dse_usage": "形容山勢之緊迫聚集，層疊累積。攢：聚集。○粵 [全]， [cyun4]；○普 [cuɑ́n]。蹙：緊迫。○粵 [速]，[cuk1]；○普 [cù]。累：堆疊。 積：積聚",
+    "dse_usage": "形容山勢之緊迫聚集，層疊累積",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "攢蹙累積"
+    "sentence_snippet": "攢蹙累積",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "攢",
+    "accepted": [
+      "聚集",
+      "[cyun4]"
+    ],
+    "dse_usage": "聚集",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "攢",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "蹙",
+    "accepted": [
+      "緊迫",
+      "[cuk1]"
+    ],
+    "dse_usage": "緊迫",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蹙",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "累",
+    "accepted": [
+      "堆疊"
+    ],
+    "dse_usage": "堆疊",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "累",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "積",
+    "accepted": [
+      "積聚"
+    ],
+    "dse_usage": "積聚",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "積",
+    "source": "教育局注釋 27"
   },
   {
     "term": "遯隱",
     "accepted": [
-      "隱藏。遯：通「遁」"
+      "隱藏"
     ],
-    "dse_usage": "隱藏。遯：通「遁」",
-    "difficulty": 3,
+    "dse_usage": "隱藏",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "遯隱"
+    "sentence_snippet": "遯隱",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "遯",
+    "accepted": [
+      "通「遁」"
+    ],
+    "dse_usage": "通「遁」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "遯",
+    "source": "教育局注釋 28"
   },
   {
     "term": "縈青繚白",
     "accepted": [
-      "環繞。繚：繚繞"
+      "意謂青山白水綢繆纏繞"
     ],
-    "dse_usage": "意謂青山白水綢繆纏繞。縈：縈繞、環繞。繚：繚繞、纏 繞。青：指山。白：指水",
+    "dse_usage": "意謂青山白水綢繆纏繞",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "縈青繚白"
+    "sentence_snippet": "縈青繚白",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "縈",
+    "accepted": [
+      "縈繞、環繞",
+      "縈繞",
+      "環繞"
+    ],
+    "dse_usage": "縈繞、環繞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "縈",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "繚",
+    "accepted": [
+      "繚繞、纏 繞",
+      "繚繞",
+      "纏 繞"
+    ],
+    "dse_usage": "繚繞、纏 繞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "繚",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "青",
+    "accepted": [
+      "指山"
+    ],
+    "dse_usage": "指山",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "青",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "白",
+    "accepted": [
+      "指水"
+    ],
+    "dse_usage": "指水",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "白",
+    "source": "教育局注釋 29"
   },
   {
     "term": "際",
     "accepted": [
+      "相連、匯合，作動詞用",
       "相連",
       "匯合",
       "作動詞用"
@@ -338,27 +685,275 @@
     "dse_usage": "相連、匯合，作動詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "際"
+    "sentence_snippet": "際",
+    "source": "教育局注釋 30"
   },
   {
-    "term": "培塿",
+    "term": "郭璞注",
     "accepted": [
-      "隆起的小丘。○粵 [堷柳]",
+      "「培 塿，亦堆高之貌",
+      "「培 塿",
       "亦堆高之貌。」"
     ],
-    "dse_usage": "隆起的小丘。○粵 [堷柳]，[bau6lau5]。《方言》：「冢，秦晉之 間……或謂之培……自關而東謂之丘，小者謂之塿。」郭璞注：「培 塿，亦堆高之貌。」",
-    "difficulty": 3,
+    "dse_usage": "「培 塿，亦堆高之貌。」",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "培塿"
+    "sentence_snippet": "郭璞注",
+    "source": "教育局注釋 31"
   },
   {
     "term": "顥氣",
     "accepted": [
-      "指洋溢天地之間的"
+      "指洋溢天地之間的大氣"
     ],
-    "dse_usage": "指洋溢天地之間的大氣。顥：通「灝」",
+    "dse_usage": "指洋溢天地之間的大氣",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "顥氣",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "顥",
+    "accepted": [
+      "通「灝」"
+    ],
+    "dse_usage": "通「灝」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "顥",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "莫得其涯",
+    "accepted": [
+      "不知道或看不見它的盡頭在哪裏"
+    ],
+    "dse_usage": "不知道或看不見它的盡頭在哪裏",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "莫得其涯",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "涯",
+    "accepted": [
+      "邊際、極限",
+      "邊際",
+      "極限"
+    ],
+    "dse_usage": "邊際、極限",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "顥氣"
+    "sentence_snippet": "涯",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "洋洋",
+    "accepted": [
+      "廣大無涯的樣子"
+    ],
+    "dse_usage": "廣大無涯的樣子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "洋洋",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "與造物者遊",
+    "accepted": [
+      "與造物者一起遨遊天地之間",
+      "而遊乎天地之一氣。」"
+    ],
+    "dse_usage": "與造物者一起遨遊天地之間，意謂與天地合而為一。《莊 子‧大宗師》：「彼方且與造物者為人，而遊乎天地之一氣。」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "與造物者遊",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "引",
+    "accepted": [
+      "取、拿起",
+      "取",
+      "拿起"
+    ],
+    "dse_usage": "取、拿起",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "引",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "觴",
+    "accepted": [
+      "酒器"
+    ],
+    "dse_usage": "酒器",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "觴",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "酌",
+    "accepted": [
+      "斟酒"
+    ],
+    "dse_usage": "斟酒",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "酌",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "頹然",
+    "accepted": [
+      "萎靡",
+      "萎靡。這裏形容作者站不穩",
+      "醉醺醺的樣子"
+    ],
+    "dse_usage": "萎靡。這裏形容作者站不穩、醉醺醺的樣子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "頹然",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "蒼然暮色",
+    "accepted": [
+      "暮色深沉"
+    ],
+    "dse_usage": "暮色深沉",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "蒼然暮色",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "蒼",
+    "accepted": [
+      "青色、深綠色",
+      "青色",
+      "深綠色"
+    ],
+    "dse_usage": "青色、深綠色",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蒼",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "色",
+    "accepted": [
+      "景色、天色",
+      "景色",
+      "天色"
+    ],
+    "dse_usage": "景色、天色",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "色",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "心凝形釋",
+    "accepted": [
+      "心神凝聚，形體不受拘束",
+      "心神凝聚",
+      "形體不受拘束"
+    ],
+    "dse_usage": "心神凝聚，形體不受拘束",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "心凝形釋",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "凝",
+    "accepted": [
+      "凝聚"
+    ],
+    "dse_usage": "凝聚",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "凝",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "釋",
+    "accepted": [
+      "釋放，把塵世的 禮俗規範豁出去",
+      "釋放",
+      "把塵世的 禮俗規範豁出去"
+    ],
+    "dse_usage": "釋放，把塵世的 禮俗規範豁出去",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "釋",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "萬化",
+    "accepted": [
+      "萬物，這裏指大自然",
+      "萬物",
+      "這裏指大自然"
+    ],
+    "dse_usage": "萬物，這裏指大自然",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "萬化",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "冥合",
+    "accepted": [
+      "相互契合"
+    ],
+    "dse_usage": "相互契合",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "冥合",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "嚮",
+    "accepted": [
+      "通「向」，從前、過往",
+      "通「向」",
+      "從前",
+      "過往。 3"
+    ],
+    "dse_usage": "通「向」，從前、過往。 3",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "嚮",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "未始",
+    "accepted": [
+      "未嘗、不曾",
+      "未嘗",
+      "不曾"
+    ],
+    "dse_usage": "未嘗、不曾",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "未始",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "志",
+    "accepted": [
+      "通「誌」，記述其事",
+      "通「誌」",
+      "記述其事"
+    ],
+    "dse_usage": "通「誌」，記述其事",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "志",
+    "source": "教育局注釋 44"
   }
 ]

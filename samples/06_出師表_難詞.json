@@ -1,36 +1,39 @@
 [
   {
-    "term": "秋",
-    "accepted": [
-      "時候",
-      "時刻"
-    ],
-    "dse_usage": "時候",
-    "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "危急存亡之秋"
-  },
-  {
-    "term": "三顧",
-    "accepted": [
-      "三次拜訪",
-      "三顧草廬"
-    ],
-    "dse_usage": "三次訪求",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "三顧臣於草廬之中"
-  },
-  {
     "term": "中道崩殂",
     "accepted": [
-      "[cou4]",
-      "沒有完成統一天下的大業"
+      "中途駕崩了"
     ],
-    "dse_usage": "中途駕崩了。崩殂︰指皇帝之死。殂︰死亡。○粵 [曹]， [cou4]；。劉備稱帝三年即死去，沒有完成統一天下的大業",
+    "dse_usage": "中途駕崩了",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "中道崩殂"
+    "sentence_snippet": "中道崩殂",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "崩殂",
+    "accepted": [
+      "指皇帝之死"
+    ],
+    "dse_usage": "指皇帝之死",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "崩殂",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "殂",
+    "accepted": [
+      "死亡",
+      "[cou4]",
+      "劉備稱帝三年即死去",
+      "沒有完成統一天下的大業"
+    ],
+    "dse_usage": "死亡。；。劉備稱帝三年即死去，沒有完成統一天下的大業",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "殂",
+    "source": "教育局注釋 1"
   },
   {
     "term": "今天下三分",
@@ -42,27 +45,87 @@
     "dse_usage": "如今天下已形成魏、蜀、吳三國鼎立的局面",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "今天下三分"
+    "sentence_snippet": "今天下三分",
+    "source": "教育局注釋 2"
   },
   {
     "term": "益州",
     "accepted": [
       "指蜀漢所在地"
     ],
-    "dse_usage": "指蜀漢所在地（今四川省一帶）。疲弊︰指國力困乏",
-    "difficulty": 3,
+    "dse_usage": "指蜀漢所在地（今四川省一帶）",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "益州"
+    "sentence_snippet": "益州",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "疲弊",
+    "accepted": [
+      "指國力困乏"
+    ],
+    "dse_usage": "指國力困乏",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "疲弊",
+    "source": "教育局注釋 3"
   },
   {
     "term": "懈",
     "accepted": [
-      "不怕犧牲"
+      "懈怠"
     ],
-    "dse_usage": "懈怠。內：指朝廷內。忠志：忠誠。士：將士。忘身：指奮不顧 身，不怕犧牲",
+    "dse_usage": "懈怠",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "懈"
+    "sentence_snippet": "懈",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "內",
+    "accepted": [
+      "指朝廷內"
+    ],
+    "dse_usage": "指朝廷內",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "內",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "忠志",
+    "accepted": [
+      "忠誠"
+    ],
+    "dse_usage": "忠誠",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "忠志",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "士",
+    "accepted": [
+      "將士"
+    ],
+    "dse_usage": "將士",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "士",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "忘身",
+    "accepted": [
+      "指奮不顧 身，不怕犧牲",
+      "指奮不顧 身",
+      "不怕犧牲"
+    ],
+    "dse_usage": "指奮不顧 身，不怕犧牲",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "忘身",
+    "source": "教育局注釋 4"
   },
   {
     "term": "蓋",
@@ -71,100 +134,277 @@
       "承接上文",
       "說明原因",
       "相當於因為",
-      "由於。殊遇︰特別優厚 的待遇"
+      "由於"
     ],
-    "dse_usage": "連詞，承接上文，說明原因，相當於因為、由於。殊遇︰特別優厚 的待遇",
+    "dse_usage": "連詞，承接上文，說明原因，相當於因為、由於",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "蓋"
+    "sentence_snippet": "蓋",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "殊遇",
+    "accepted": [
+      "特別優厚 的待遇"
+    ],
+    "dse_usage": "特別優厚 的待遇",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "殊遇",
+    "source": "教育局注釋 5"
   },
   {
     "term": "開張聖聽",
     "accepted": [
-      "對皇帝聽取意見的尊稱"
+      "廣泛地聽取群臣的意見"
     ],
-    "dse_usage": "廣泛地聽取群臣的意見。開張：開展之意。聖聽︰聖明之 聽，對皇帝聽取意見的尊稱",
+    "dse_usage": "廣泛地聽取群臣的意見",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "開張聖聽"
+    "sentence_snippet": "開張聖聽",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "開張",
+    "accepted": [
+      "開展之意"
+    ],
+    "dse_usage": "開展之意",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "開張",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "聖聽",
+    "accepted": [
+      "聖明之 聽，對皇帝聽取意見的尊稱",
+      "聖明之 聽",
+      "對皇帝聽取意見的尊稱"
+    ],
+    "dse_usage": "聖明之 聽，對皇帝聽取意見的尊稱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "聖聽",
+    "source": "教育局注釋 6"
   },
   {
     "term": "光",
     "accepted": [
+      "發揚光大，作動詞用",
       "發揚光大",
       "作動詞用"
     ],
     "dse_usage": "發揚光大，作動詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "光"
+    "sentence_snippet": "光",
+    "source": "教育局注釋 7"
   },
   {
     "term": "恢弘志士之氣",
     "accepted": [
+      "振奮、激勵志士的精神氣節",
       "振奮",
+      "激勵志士的精神氣節"
+    ],
+    "dse_usage": "振奮、激勵志士的精神氣節",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "恢弘志士之氣",
+    "source": "教育局注釋 8"
+  },
+  {
+    "term": "恢弘",
+    "accepted": [
+      "發揚、擴大，作動 詞用",
+      "發揚",
       "擴大",
       "作動 詞用"
     ],
-    "dse_usage": "振奮、激勵志士的精神氣節。恢弘︰發揚、擴大，作動 詞用",
+    "dse_usage": "發揚、擴大，作動 詞用",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "恢弘志士之氣"
+    "sentence_snippet": "恢弘",
+    "source": "教育局注釋 8"
   },
   {
     "term": "妄",
     "accepted": [
-      "胡亂地。菲薄︰輕視。菲︰"
+      "胡亂地"
     ],
-    "dse_usage": "胡亂地。菲薄︰輕視。菲︰；",
+    "dse_usage": "胡亂地",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "妄"
+    "sentence_snippet": "妄",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "菲薄",
+    "accepted": [
+      "輕視"
+    ],
+    "dse_usage": "輕視",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "菲薄",
+    "source": "教育局注釋 9"
   },
   {
     "term": "引喻失義",
     "accepted": [
-      "隨便引用不合道理"
+      "隨便引用不合道理的話"
     ],
-    "dse_usage": "隨便引用不合道理的話。義︰社會認為合宜的道理和行為",
+    "dse_usage": "隨便引用不合道理的話",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "引喻失義"
+    "sentence_snippet": "引喻失義",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "義",
+    "accepted": [
+      "社會認為合宜的道理和行為"
+    ],
+    "dse_usage": "社會認為合宜的道理和行為",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "義",
+    "source": "教育局注釋 10"
   },
   {
     "term": "宮中",
     "accepted": [
+      "指皇帝宮裏的侍臣"
+    ],
+    "dse_usage": "指皇帝宮裏的侍臣",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "宮中",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "府中",
+    "accepted": [
+      "指丞相府所屬的官吏，即一般官吏",
+      "指丞相府所屬的官吏",
       "即一般官吏"
     ],
-    "dse_usage": "指皇帝宮裏的侍臣。府中︰指丞相府所屬的官吏，即一般官吏",
-    "difficulty": 3,
+    "dse_usage": "指丞相府所屬的官吏，即一般官吏",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "宮中"
+    "sentence_snippet": "府中",
+    "source": "教育局注釋 11"
   },
   {
     "term": "陟罰臧否",
     "accepted": [
+      "即「陟臧罰否」，賞善罰惡",
       "即「陟臧罰否」",
-      "賞善罰惡。陟︰升。",
-      "或引申為褒賞。○粵 [莊]",
-      "[zong1]",
-      "或引申為貶斥。"
+      "賞善罰惡"
     ],
-    "dse_usage": "即「陟臧罰否」，賞善罰惡。陟︰升。；○普 [zhì]。罰：懲罰。臧︰善，或引申為褒賞。○粵 [莊]，[zong1]；○普 [zɑ̄ nɡ]。否︰惡，或引申為貶斥。；",
+    "dse_usage": "即「陟臧罰否」，賞善罰惡",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "陟罰臧否"
+    "sentence_snippet": "陟罰臧否",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "陟",
+    "accepted": [
+      "升"
+    ],
+    "dse_usage": "升",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "陟",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "罰",
+    "accepted": [
+      "懲罰"
+    ],
+    "dse_usage": "懲罰",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "罰",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "臧",
+    "accepted": [
+      "善，或引申為褒賞",
+      "善",
+      "或引申為褒賞",
+      "[zong1]"
+    ],
+    "dse_usage": "善，或引申為褒賞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "臧",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "否",
+    "accepted": [
+      "惡，或引申為貶斥",
+      "惡",
+      "或引申為貶斥"
+    ],
+    "dse_usage": "惡，或引申為貶斥",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "否",
+    "source": "教育局注釋 12"
   },
   {
     "term": "作姦犯科",
     "accepted": [
+      "為非作惡、干犯法紀",
       "為非作惡",
-      "干犯法紀。姦︰邪惡"
+      "干犯法紀"
     ],
-    "dse_usage": "為非作惡、干犯法紀。姦︰邪惡、不正當。科︰法律條文。 為忠善者：盡忠為善的人",
+    "dse_usage": "為非作惡、干犯法紀",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "作姦犯科"
+    "sentence_snippet": "作姦犯科",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "姦",
+    "accepted": [
+      "邪惡、不正當",
+      "邪惡",
+      "不正當"
+    ],
+    "dse_usage": "邪惡、不正當",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "姦",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "科",
+    "accepted": [
+      "法律條文"
+    ],
+    "dse_usage": "法律條文",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "科",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "為忠善者",
+    "accepted": [
+      "盡忠為善的人"
+    ],
+    "dse_usage": "盡忠為善的人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "為忠善者",
+    "source": "教育局注釋 13"
   },
   {
     "term": "有司",
@@ -172,182 +412,423 @@
       "官吏的通稱"
     ],
     "dse_usage": "官吏的通稱",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "有司"
+    "sentence_snippet": "有司",
+    "source": "教育局注釋 14"
   },
   {
     "term": "昭",
     "accepted": [
-      "彰顯。平明：公正"
+      "彰顯"
     ],
-    "dse_usage": "彰顯。平明：公正嚴明。治︰治理。「平明之治」一作「平明之 理」",
+    "dse_usage": "彰顯",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "昭"
+    "sentence_snippet": "昭",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "平明",
+    "accepted": [
+      "公正嚴明"
+    ],
+    "dse_usage": "公正嚴明",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "平明",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "治",
+    "accepted": [
+      "治理"
+    ],
+    "dse_usage": "治理。「平明之治」一作「平明之 理」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "治",
+    "source": "教育局注釋 15"
   },
   {
     "term": "內外異法",
     "accepted": [
-      "宮中"
+      "宮中、宮外執法有別",
+      "宮中",
+      "宮外執法有別"
     ],
-    "dse_usage": "宮中、宮外執法有別。異法：不同的準則",
+    "dse_usage": "宮中、宮外執法有別",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "內外異法"
+    "sentence_snippet": "內外異法",
+    "source": "教育局注釋 16"
   },
   {
-    "term": "侍中、侍郎",
+    "term": "異法",
     "accepted": [
-      "郭攸之",
-      "費禕",
-      "董允等：當時郭攸之任侍中",
-      "費禕曾任黃 門侍郎",
-      "後升為侍中"
+      "不同的準則"
     ],
-    "dse_usage": "郭攸之、費禕、董允等：當時郭攸之任侍中，費禕曾任黃 門侍郎，後升為侍中，董允任黃門侍郎。禕︰；",
+    "dse_usage": "不同的準則",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "侍中、侍郎"
+    "sentence_snippet": "異法",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "侍郎",
+    "accepted": [
+      "郭攸之、費禕、",
+      "郭攸之",
+      "費禕"
+    ],
+    "dse_usage": "郭攸之、費禕、",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "侍郎",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "董允等",
+    "accepted": [
+      "當時郭攸之任侍中",
+      "費禕曾任黃 門侍郎",
+      "後升為侍中",
+      "董允任黃門侍郎"
+    ],
+    "dse_usage": "當時郭攸之任侍中，費禕曾任黃 門侍郎，後升為侍中，董允任黃門侍郎",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "董允等",
+    "source": "教育局注釋 17"
   },
   {
     "term": "良實",
     "accepted": [
-      "善良忠實。志慮︰志向和心思"
+      "善良忠實"
     ],
-    "dse_usage": "善良忠實。志慮︰志向和心思",
-    "difficulty": 3,
+    "dse_usage": "善良忠實",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "良實"
+    "sentence_snippet": "良實",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "志慮",
+    "accepted": [
+      "志向和心思"
+    ],
+    "dse_usage": "志向和心思",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "志慮",
+    "source": "教育局注釋 18"
   },
   {
     "term": "遺",
     "accepted": [
-      "給予。"
+      "給予"
     ],
-    "dse_usage": "給予。；",
+    "dse_usage": "給予",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "遺"
+    "sentence_snippet": "遺",
+    "source": "教育局注釋 19"
   },
   {
-    "term": "悉以咨之",
+    "term": "悉",
     "accepted": [
-      "悉：全部。咨︰通「諮」",
-      "詢問。之︰代詞",
+      "全部"
+    ],
+    "dse_usage": "全部",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "悉",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "咨",
+    "accepted": [
+      "通「諮」，詢問",
+      "通「諮」",
+      "詢問"
+    ],
+    "dse_usage": "通「諮」，詢問",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "咨",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "之",
+    "accepted": [
+      "代詞，代上文所述各 人",
+      "代詞",
       "代上文所述各 人"
     ],
-    "dse_usage": "悉：全部。咨︰通「諮」，詢問。之︰代詞，代上文所述各 人",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "悉以咨之"
+    "dse_usage": "代詞，代上文所述各 人",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "之",
+    "source": "教育局注釋 20"
   },
   {
     "term": "裨",
     "accepted": [
+      "彌補、補益",
       "彌補",
-      "補益。",
-      "[kyut3]"
+      "補益"
     ],
-    "dse_usage": "彌補、補益。；。闕漏︰缺憾和遺漏之處。○粵 [缺]，[kyut3]；",
+    "dse_usage": "彌補、補益",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "裨"
+    "sentence_snippet": "裨",
+    "source": "教育局注釋 21"
   },
   {
-    "term": "將軍向寵，性行淑均",
+    "term": "闕漏",
     "accepted": [
-      "向寵︰當時任中部督",
+      "缺憾和遺漏之處",
+      "[kyut3]"
+    ],
+    "dse_usage": "缺憾和遺漏之處",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "闕漏",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "性行淑均",
+    "accepted": [
+      "向"
+    ],
+    "dse_usage": "向",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "性行淑均",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "寵",
+    "accepted": [
+      "當時任中部督",
       "掌宿衛兵",
       "負責保護皇 帝。劉備伐吳兵敗",
-      "為人公正。行︰品行"
+      "留他掌管 軍事"
     ],
-    "dse_usage": "向寵︰當時任中部督，掌宿衛兵，負責保護皇 帝。劉備伐吳兵敗，只有他的軍營完好無損。諸葛亮北伐時，留他掌管 軍事。性行淑均︰性格和善，為人公正。行︰品行",
-    "difficulty": 2,
+    "dse_usage": "當時任中部督，掌宿衛兵，負責保護皇 帝。劉備伐吳兵敗，只有他的軍營完好無損。諸葛亮北伐時，留他掌管 軍事",
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "將軍向寵，性行淑均"
+    "sentence_snippet": "寵",
+    "source": "教育局注釋 22"
   },
   {
-    "term": "必能使行陣和睦，優劣得所",
+    "term": "行",
     "accepted": [
-      "一定能使軍隊和睦",
-      "[hong4]",
-      "。 3"
+      "品行"
     ],
-    "dse_usage": "一定能使軍隊和睦，讓才能高低不同的將 士都會被安排擔當適當的職位。行陣︰行列，這裏指軍中將士。行︰○粵 [航]，[hong4]；。 3",
+    "dse_usage": "品行",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "行",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "優劣得所",
+    "accepted": [
+      "一定能使軍隊和睦"
+    ],
+    "dse_usage": "一定能使軍隊和睦，讓才能高低不同的將 士都會被安排擔當適當的職位",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "必能使行陣和睦，優劣得所"
+    "sentence_snippet": "優劣得所",
+    "source": "教育局注釋 23"
+  },
+  {
+    "term": "行陣",
+    "accepted": [
+      "行列，這裏指軍中將士",
+      "行列",
+      "這裏指軍中將士"
+    ],
+    "dse_usage": "行列，這裏指軍中將士",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "行陣",
+    "source": "教育局注釋 23"
   },
   {
     "term": "遠",
     "accepted": [
+      "疏遠，作動詞用",
       "疏遠",
-      "作動詞用。"
+      "作動詞用"
     ],
-    "dse_usage": "疏遠，作動詞用。；",
+    "dse_usage": "疏遠，作動詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "遠"
+    "sentence_snippet": "遠",
+    "source": "教育局注釋 24"
   },
   {
-    "term": "桓、靈",
+    "term": "靈",
     "accepted": [
+      "東漢末年桓帝和靈帝",
+      "東漢末年桓帝和靈帝。他們用人不當",
       "寵信宦官",
       "政治腐敗",
+      "造成漢末大亂。諸葛亮特意提及桓",
       "靈二帝",
       "是希望後主有所警惕"
     ],
     "dse_usage": "東漢末年桓帝和靈帝。他們用人不當，寵信宦官，政治腐敗， 造成漢末大亂。諸葛亮特意提及桓、靈二帝，是希望後主有所警惕",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "桓、靈"
+    "sentence_snippet": "靈",
+    "source": "教育局注釋 25"
   },
   {
-    "term": "侍中、尚書、長史、參軍",
+    "term": "參軍",
     "accepted": [
-      "侍中︰指前文提及"
+      "侍"
     ],
-    "dse_usage": "侍中︰指前文提及的郭攸之和費禕。尚書︰ 指陳震。長史︰指張裔。參軍︰指蔣琬",
+    "dse_usage": "侍",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "侍中、尚書、長史、參軍"
+    "sentence_snippet": "參軍",
+    "source": "教育局注釋 26"
   },
   {
-    "term": "臣本布衣，躬耕於南陽",
+    "term": "中",
+    "accepted": [
+      "指前文提及的郭攸之和費禕"
+    ],
+    "dse_usage": "指前文提及的郭攸之和費禕",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "中",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "尚書",
+    "accepted": [
+      "指陳震"
+    ],
+    "dse_usage": "指陳震",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "尚書",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "長史",
+    "accepted": [
+      "指張裔"
+    ],
+    "dse_usage": "指張裔",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "長史",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "躬耕於南陽",
     "accepted": [
       "諸葛亮早年隱居於南陽鄧縣",
       "後劉備三次前往他家中拜訪",
-      "借代平民"
+      "他才出山輔佐劉備"
     ],
-    "dse_usage": "諸葛亮早年隱居於南陽鄧縣 (今湖北省襄陽市) 的隆中，後劉備三次前往他家中拜訪，他才出山輔佐劉備。布衣：古代 庶民之服，借代平民",
+    "dse_usage": "諸葛亮早年隱居於南陽鄧縣 (今湖北省襄陽市) 的隆中，後劉備三次前往他家中拜訪，他才出山輔佐劉備",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "臣本布衣，躬耕於南陽"
+    "sentence_snippet": "躬耕於南陽",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "布衣",
+    "accepted": [
+      "古代 庶民之服，借代平民",
+      "古代 庶民之服",
+      "借代平民"
+    ],
+    "dse_usage": "古代 庶民之服，借代平民",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "布衣",
+    "source": "教育局注釋 27"
   },
   {
     "term": "聞",
     "accepted": [
+      "聞名、名聲",
       "聞名",
-      "名聲。達：顯達"
+      "名聲"
     ],
-    "dse_usage": "聞名、名聲。達：顯達",
+    "dse_usage": "聞名、名聲",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "聞"
+    "sentence_snippet": "聞",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "達",
+    "accepted": [
+      "顯達"
+    ],
+    "dse_usage": "顯達",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "達",
+    "source": "教育局注釋 28"
   },
   {
     "term": "卑鄙",
     "accepted": [
+      "指地位低微，見識鄙陋",
       "指地位低微",
-      "見識鄙陋。猥︰謙辭",
-      "降低身份之意。",
-      "拜訪"
+      "見識鄙陋"
     ],
-    "dse_usage": "指地位低微，見識鄙陋。猥︰謙辭，降低身份之意。；。枉屈︰即委屈之意。顧：看望、拜訪",
+    "dse_usage": "指地位低微，見識鄙陋",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "卑鄙",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "猥",
+    "accepted": [
+      "謙辭，降低身份之意",
+      "謙辭",
+      "降低身份之意。 [wai2]"
+    ],
+    "dse_usage": "謙辭，降低身份之意。 [wai2]",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "卑鄙"
+    "sentence_snippet": "猥",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "枉屈",
+    "accepted": [
+      "即委屈之意"
+    ],
+    "dse_usage": "即委屈之意",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "枉屈",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "顧",
+    "accepted": [
+      "看望、拜訪",
+      "看望",
+      "拜訪"
+    ],
+    "dse_usage": "看望、拜訪",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "顧",
+    "source": "教育局注釋 29"
   },
   {
     "term": "驅馳",
@@ -355,64 +836,306 @@
       "奔走效勞"
     ],
     "dse_usage": "奔走效勞",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "驅馳"
+    "sentence_snippet": "驅馳",
+    "source": "教育局注釋 30"
   },
   {
     "term": "傾覆",
     "accepted": [
+      "兵敗",
       "兵敗。公元 208 年",
       "劉備在當陽"
     ],
     "dse_usage": "兵敗。公元 208 年，劉備在當陽（今湖北省當陽東北）附近被曹 操打敗。「受任」一作「受命」",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "傾覆"
+    "sentence_snippet": "傾覆",
+    "source": "教育局注釋 31"
   },
   {
     "term": "爾來",
     "accepted": [
-      "從那時以來。有︰通「又」"
+      "從那時以來"
     ],
-    "dse_usage": "從那時以來。有︰通「又」",
-    "difficulty": 3,
+    "dse_usage": "從那時以來",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "爾來"
+    "sentence_snippet": "爾來",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "有",
+    "accepted": [
+      "通「又」"
+    ],
+    "dse_usage": "通「又」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "有",
+    "source": "教育局注釋 32"
   },
   {
     "term": "夙",
     "accepted": [
-      "早上。"
+      "早上"
     ],
-    "dse_usage": "早上。；",
+    "dse_usage": "早上",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "夙"
+    "sentence_snippet": "夙",
+    "source": "教育局注釋 33"
   },
   {
-    "term": "故五月渡瀘，深入不毛",
+    "term": "深入不毛",
     "accepted": [
+      "所以五月渡過瀘水，深入不毛之地",
       "所以五月渡過瀘水",
-      "深入不毛之地。瀘︰瀘 水",
-      "諸葛亮曾率軍南征"
+      "深入不毛之地"
     ],
-    "dse_usage": "所以五月渡過瀘水，深入不毛之地。瀘︰瀘 水，指今四川雅礱江下游和金沙江匯合雅礱江後一段。因為有瘴氣，三 四月渡河有生命危險。建興三年，諸葛亮曾率軍南征，平定了南方諸郡 的叛亂。不毛︰不生長草木，指土地貧瘠或未經開發之地",
+    "dse_usage": "所以五月渡過瀘水，深入不毛之地",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "故五月渡瀘，深入不毛"
+    "sentence_snippet": "深入不毛",
+    "source": "教育局注釋 34"
   },
   {
-    "term": "庶竭駑鈍，攘除姦凶",
+    "term": "瀘",
+    "accepted": [
+      "瀘 水",
+      "三 四月渡河有生命危險。建興三年",
+      "諸葛亮曾率軍南征",
+      "平定了南方諸郡 的叛亂"
+    ],
+    "dse_usage": "瀘 水，指今四川雅礱江下游和金沙江匯合雅礱江後一段。因為有瘴氣，三 四月渡河有生命危險。建興三年，諸葛亮曾率軍南征，平定了南方諸郡 的叛亂",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "瀘",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "不毛",
+    "accepted": [
+      "不生長草木",
+      "指土地貧瘠或未經開發之地"
+    ],
+    "dse_usage": "不生長草木，指土地貧瘠或未經開發之地",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不毛",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "攘除姦凶",
     "accepted": [
       "竭盡我平庸的才能",
-      "剷除姦險凶惡的勢力",
-      "愚鈍。駑︰劣馬。",
-      "。攘︰"
+      "剷除姦險凶惡的勢力"
     ],
-    "dse_usage": "竭盡我平庸的才能，剷除姦險凶惡的勢力（指曹 魏政權）。庶︰表示意願的副詞。駑鈍︰能力低下，愚鈍。駑︰劣馬。 ；。攘︰；",
+    "dse_usage": "竭盡我平庸的才能，剷除姦險凶惡的勢力（指曹 魏政權）",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "庶竭駑鈍，攘除姦凶"
+    "sentence_snippet": "攘除姦凶",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "庶",
+    "accepted": [
+      "表示意願的副詞"
+    ],
+    "dse_usage": "表示意願的副詞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "庶",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "駑鈍",
+    "accepted": [
+      "能力低下，愚鈍",
+      "能力低下",
+      "愚鈍"
+    ],
+    "dse_usage": "能力低下，愚鈍",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "駑鈍",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "駑",
+    "accepted": [
+      "劣馬"
+    ],
+    "dse_usage": "劣馬",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "駑",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "舊都",
+    "accepted": [
+      "指兩漢的都城長安和洛陽"
+    ],
+    "dse_usage": "指兩漢的都城長安和洛陽",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "舊都",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "斟酌",
+    "accepted": [
+      "反復衡量，考慮取捨",
+      "反復衡量",
+      "考慮取捨"
+    ],
+    "dse_usage": "反復衡量，考慮取捨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斟酌",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "損益",
+    "accepted": [
+      "減少和增加，也可解作利弊",
+      "減少和增加",
+      "也可解作利弊"
+    ],
+    "dse_usage": "減少和增加，也可解作利弊",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "損益",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "興",
+    "accepted": [
+      "發揚，動詞",
+      "發揚"
+    ],
+    "dse_usage": "發揚，動詞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "興",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "慢",
+    "accepted": [
+      "怠慢"
+    ],
+    "dse_usage": "怠慢",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "慢",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "彰",
+    "accepted": [
+      "彰顯"
+    ],
+    "dse_usage": "彰顯",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "彰",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "咎",
+    "accepted": [
+      "過失"
+    ],
+    "dse_usage": "過失",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "咎",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "諮諏善道",
+    "accepted": [
+      "詢問、商討治國良策",
+      "詢問",
+      "商討治國良策"
+    ],
+    "dse_usage": "詢問、商討治國良策",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "諮諏善道",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "諮諏",
+    "accepted": [
+      "商量事情，聽取意見",
+      "商量事情",
+      "聽取意見"
+    ],
+    "dse_usage": "商量事情，聽取意見",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "諮諏",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "諏",
+    "accepted": [
+      "[zau1]"
+    ],
+    "dse_usage": "",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "諏",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "雅言",
+    "accepted": [
+      "正確合理的言論"
+    ],
+    "dse_usage": "正確合理的言論",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "雅言",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "涕",
+    "accepted": [
+      "眼淚"
+    ],
+    "dse_usage": "眼淚",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "涕",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "零",
+    "accepted": [
+      "落下"
+    ],
+    "dse_usage": "落下",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "零",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "不知所言",
+    "accepted": [
+      "一作「不知所云」",
+      "表示因思緒 紊亂",
+      "不知道說了些甚麼"
+    ],
+    "dse_usage": "一作「不知所云」。奏表中常用的委婉結束語，表示因思緒 紊亂，不知道說了些甚麼",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不知所言",
+    "source": "教育局注釋 41"
   }
 ]

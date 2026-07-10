@@ -1,63 +1,46 @@
 [
   {
-    "term": "積威",
-    "accepted": [
-      "長期威勢",
-      "積累的威勢"
-    ],
-    "dse_usage": "長期累積的威勢",
-    "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "為秦人積威之所劫"
-  },
-  {
-    "term": "抱薪救火",
-    "accepted": [
-      "抱柴救火",
-      "方法錯"
-    ],
-    "dse_usage": "比喻方法不對，禍害更大",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "猶抱薪救火"
-  },
-  {
-    "term": "賂秦",
-    "accepted": [
-      "賄賂秦",
-      "割地事秦"
-    ],
-    "dse_usage": "割地賄賂秦國",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "弊在賂秦"
-  },
-  {
     "term": "六國",
     "accepted": [
       "戰國末期被秦國所滅的韓",
       "趙",
       "魏",
       "楚",
-      "燕"
+      "燕",
+      "齊"
     ],
     "dse_usage": "戰國末期被秦國所滅的韓、趙、魏、楚、燕、齊",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "六國"
+    "sentence_snippet": "六國",
+    "source": "教育局注釋 1"
   },
   {
     "term": "兵",
     "accepted": [
+      "兵器，借代為軍隊、兵力",
       "兵器",
       "借代為軍隊",
-      "兵力。利︰鋒利",
-      "厲害"
+      "兵力"
     ],
-    "dse_usage": "兵器，借代為軍隊、兵力。利︰鋒利、厲害",
+    "dse_usage": "兵器，借代為軍隊、兵力",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "兵"
+    "sentence_snippet": "兵",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "利",
+    "accepted": [
+      "鋒利、厲害",
+      "鋒利",
+      "厲害"
+    ],
+    "dse_usage": "鋒利、厲害",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "利",
+    "source": "教育局注釋 2"
   },
   {
     "term": "戰不善",
@@ -67,18 +50,32 @@
     "dse_usage": "作戰失誤",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "戰不善"
+    "sentence_snippet": "戰不善",
+    "source": "教育局注釋 3"
   },
   {
     "term": "弊",
     "accepted": [
+      "弊端、癥結",
       "弊端",
-      "癥結。賂︰贈送財物討好對方"
+      "癥結"
     ],
-    "dse_usage": "弊端、癥結。賂︰贈送財物討好對方",
+    "dse_usage": "弊端、癥結",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "弊"
+    "sentence_snippet": "弊",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "賂",
+    "accepted": [
+      "贈送財物討好對方"
+    ],
+    "dse_usage": "贈送財物討好對方",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "賂",
+    "source": "教育局注釋 4"
   },
   {
     "term": "力虧",
@@ -86,13 +83,15 @@
       "國力損耗"
     ],
     "dse_usage": "國力損耗",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "力虧"
+    "sentence_snippet": "力虧",
+    "source": "教育局注釋 5"
   },
   {
     "term": "道",
     "accepted": [
+      "道理、理由、關鍵原因",
       "道理",
       "理由",
       "關鍵原因"
@@ -100,7 +99,8 @@
     "dse_usage": "道理、理由、關鍵原因",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "道"
+    "sentence_snippet": "道",
+    "source": "教育局注釋 6"
   },
   {
     "term": "喪",
@@ -110,18 +110,21 @@
     "dse_usage": "滅亡",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "喪"
+    "sentence_snippet": "喪",
+    "source": "教育局注釋 7"
   },
   {
     "term": "率",
     "accepted": [
+      "皆、都",
       "皆",
       "都"
     ],
     "dse_usage": "皆、都",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "率"
+    "sentence_snippet": "率",
+    "source": "教育局注釋 8"
   },
   {
     "term": "強援",
@@ -129,20 +132,23 @@
       "強大支援"
     ],
     "dse_usage": "強大支援",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "強援"
+    "sentence_snippet": "強援",
+    "source": "教育局注釋 9"
   },
   {
     "term": "完",
     "accepted": [
+      "保全、完好無缺",
       "保全",
       "完好無缺"
     ],
     "dse_usage": "保全、完好無缺",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "完"
+    "sentence_snippet": "完",
+    "source": "教育局注釋 10"
   },
   {
     "term": "邑",
@@ -153,7 +159,8 @@
     "dse_usage": "古稱大城市為「都」，小城市為「邑」。引申作城市",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "邑"
+    "sentence_snippet": "邑",
+    "source": "教育局注釋 11"
   },
   {
     "term": "所得",
@@ -161,43 +168,106 @@
       "因六國奉獻而得到的"
     ],
     "dse_usage": "因六國奉獻而得到的（土地）",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "所得"
+    "sentence_snippet": "所得",
+    "source": "教育局注釋 12"
   },
   {
     "term": "所亡",
     "accepted": [
-      "因討好秦國而失去的",
+      "因討好秦國而失去的"
+    ],
+    "dse_usage": "因討好秦國而失去的（土地）",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "所亡",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "亡",
+    "accepted": [
+      "失去、喪失",
+      "失去",
       "喪失"
     ],
-    "dse_usage": "因討好秦國而失去的（土地）。亡︰失去、喪失",
+    "dse_usage": "失去、喪失",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "所亡"
+    "sentence_snippet": "亡",
+    "source": "教育局注釋 13"
   },
   {
     "term": "思",
     "accepted": [
       "想到",
       "一解作助語詞",
-      "泛指祖先"
+      "無實義"
     ],
-    "dse_usage": "想到；一解作助語詞，無實義。厥︰其。先：對去世尊長的敬稱。 祖父︰祖輩與父輩，泛指祖先",
+    "dse_usage": "想到；一解作助語詞，無實義",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "思"
+    "sentence_snippet": "思",
+    "source": "教育局注釋 14"
   },
   {
-    "term": "暴霜露，斬荊棘",
+    "term": "厥",
     "accepted": [
-      "冒着風霜雨露",
-      "斬除荊棘"
+      "其"
     ],
-    "dse_usage": "冒着風霜雨露，斬除荊棘，形容立國創始之難。斬荊 棘︰引申作開墾荒蕪之地",
+    "dse_usage": "其",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "厥",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "先",
+    "accepted": [
+      "對去世尊長的敬稱"
+    ],
+    "dse_usage": "對去世尊長的敬稱",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "先",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "祖父",
+    "accepted": [
+      "祖輩與父輩，泛指祖先",
+      "祖輩與父輩",
+      "泛指祖先"
+    ],
+    "dse_usage": "祖輩與父輩，泛指祖先",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "暴霜露，斬荊棘"
+    "sentence_snippet": "祖父",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "斬荊棘",
+    "accepted": [
+      "冒着風霜雨露",
+      "斬除荊棘",
+      "形容立國創始之難。斬荊"
+    ],
+    "dse_usage": "冒着風霜雨露，斬除荊棘，形容立國創始之難。斬荊",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斬荊棘",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "棘",
+    "accepted": [
+      "引申作開墾荒蕪之地"
+    ],
+    "dse_usage": "引申作開墾荒蕪之地",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "棘",
+    "source": "教育局注釋 15"
   },
   {
     "term": "尺寸",
@@ -205,9 +275,10 @@
       "形容土地之小"
     ],
     "dse_usage": "形容土地之小",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "尺寸"
+    "sentence_snippet": "尺寸",
+    "source": "教育局注釋 16"
   },
   {
     "term": "舉",
@@ -217,39 +288,56 @@
     "dse_usage": "全部",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "舉"
+    "sentence_snippet": "舉",
+    "source": "教育局注釋 17"
   },
   {
     "term": "草芥",
     "accepted": [
-      "形容輕賤之物。芥︰小草"
+      "形容輕賤之物"
     ],
-    "dse_usage": "形容輕賤之物。芥︰小草",
+    "dse_usage": "形容輕賤之物",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "草芥",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "芥",
+    "accepted": [
+      "小草"
+    ],
+    "dse_usage": "小草",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "草芥"
+    "sentence_snippet": "芥",
+    "source": "教育局注釋 18"
   },
   {
     "term": "厭",
     "accepted": [
+      "通「饜」，滿足的意思",
       "通「饜」",
       "滿足的意思"
     ],
     "dse_usage": "通「饜」，滿足的意思",
     "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "厭"
+    "category": "異義",
+    "sentence_snippet": "厭",
+    "source": "教育局注釋 19"
   },
   {
     "term": "彌",
     "accepted": [
+      "更甚、越加",
       "更甚",
       "越加"
     ],
     "dse_usage": "更甚、越加",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "彌"
+    "sentence_snippet": "彌",
+    "source": "教育局注釋 20"
   },
   {
     "term": "判",
@@ -259,18 +347,21 @@
     "dse_usage": "清晰分明的意思",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "判"
+    "sentence_snippet": "判",
+    "source": "教育局注釋 21"
   },
   {
     "term": "顛覆",
     "accepted": [
+      "敗亡、滅亡",
       "敗亡",
       "滅亡"
     ],
     "dse_usage": "敗亡、滅亡",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "顛覆"
+    "sentence_snippet": "顛覆",
+    "source": "教育局注釋 22"
   },
   {
     "term": "此言得之",
@@ -280,7 +371,8 @@
     "dse_usage": "這話說出了其中道理",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "此言得之"
+    "sentence_snippet": "此言得之",
+    "source": "教育局注釋 23"
   },
   {
     "term": "遷滅",
@@ -288,23 +380,38 @@
       "即亡國"
     ],
     "dse_usage": "即亡國",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "遷滅"
+    "sentence_snippet": "遷滅",
+    "source": "教育局注釋 24"
   },
   {
     "term": "與",
     "accepted": [
+      "幫助、親附、結交之意，作動詞用",
       "幫助",
       "親附",
       "結交之意",
-      "作動詞用。嬴︰秦王的姓氏",
-      "此處借代秦 國。"
+      "作動詞用"
     ],
-    "dse_usage": "幫助、親附、結交之意，作動詞用。嬴︰秦王的姓氏，此處借代秦 國。；",
+    "dse_usage": "幫助、親附、結交之意，作動詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "與"
+    "sentence_snippet": "與",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "嬴",
+    "accepted": [
+      "秦王的姓氏，此處借代秦 國",
+      "秦王的姓氏",
+      "此處借代秦 國"
+    ],
+    "dse_usage": "秦王的姓氏，此處借代秦 國",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "嬴",
+    "source": "教育局注釋 25"
   },
   {
     "term": "遠略",
@@ -312,31 +419,36 @@
       "長遠謀略"
     ],
     "dse_usage": "長遠謀略",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "遠略"
+    "sentence_snippet": "遠略",
+    "source": "教育局注釋 26"
   },
   {
     "term": "義不賂秦",
     "accepted": [
+      "堅守正義，不割地賄賂秦國",
       "堅守正義",
       "不割地賄賂秦國"
     ],
     "dse_usage": "堅守正義，不割地賄賂秦國",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "義不賂秦"
+    "sentence_snippet": "義不賂秦",
+    "source": "教育局注釋 27"
   },
   {
     "term": "斯",
     "accepted": [
+      "此、這",
       "此",
       "這"
     ],
     "dse_usage": "此、這",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "斯"
+    "sentence_snippet": "斯",
+    "source": "教育局注釋 28"
   },
   {
     "term": "丹以荊卿為計",
@@ -350,78 +462,495 @@
     "dse_usage": "指燕國太子丹使荊軻佯裝向秦王獻督亢地圖，密謀行刺 秦王一事。荊軻刺秦事敗被殺，秦王命將軍王翦攻打燕國，燕王逃至遼 東；及後，秦軍攻打遼東，俘虜燕王而殲滅燕國",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "丹以荊卿為計"
+    "sentence_snippet": "丹以荊卿為計",
+    "source": "教育局注釋 29"
   },
   {
     "term": "始",
     "accepted": [
-      "才。速︰加速",
-      "或解作「招致」"
+      "才"
     ],
-    "dse_usage": "才。速︰加速，或解作「招致」",
+    "dse_usage": "才",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "始"
+    "sentence_snippet": "始",
+    "source": "教育局注釋 30"
   },
   {
-    "term": "趙嘗五戰于秦，二敗而三勝",
+    "term": "速",
     "accepted": [
-      "據《戰國策．燕策》",
-      "「蘇秦將為從",
-      "北說燕文侯曰：『秦",
-      "趙五戰",
-      "秦"
+      "加速，或解作「招致」",
+      "加速",
+      "或解作「招致」"
     ],
-    "dse_usage": "據《戰國策．燕策》，「蘇秦將為從（合 縱），北說燕文侯曰：『秦、趙五戰，秦再勝而趙三勝。』」惟經後世 3 學者考證，秦、趙歷年交戰不只五次，然而，趙國確有至少三次擊敗秦 軍的戰績。蘇洵引用蘇秦之說，目的在增強本文的說服力",
+    "dse_usage": "加速，或解作「招致」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "速",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "二敗而三勝",
+    "accepted": [
+      "據《戰國策．燕策》，「蘇秦將為從",
+      "據《戰國策．燕策》",
+      "「蘇秦將為從"
+    ],
+    "dse_usage": "據《戰國策．燕策》，「蘇秦將為從（合 縱），",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "趙嘗五戰于秦，二敗而三勝"
+    "sentence_snippet": "二敗而三勝",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "北說燕文侯曰",
+    "accepted": [
+      "『秦、趙五戰，秦再勝而趙三勝",
+      "『秦",
+      "趙五戰",
+      "秦",
+      "趙歷年交戰不只五次",
+      "然而",
+      "目的在增強本文的說服力"
+    ],
+    "dse_usage": "『秦、趙五戰，秦再勝而趙三勝。』」惟經後世 3 學者考證，秦、趙歷年交戰不只五次，然而，趙國確有至少三次擊敗秦 軍的戰績。蘇洵引用蘇秦之說，目的在增強本文的說服力",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "北說燕文侯曰",
+    "source": "教育局注釋 31"
   },
   {
     "term": "李牧連卻之",
     "accepted": [
+      "趙幽繆王時，李牧屢次打敗秦軍",
       "趙幽繆王時",
-      "與白起",
-      "廉頗",
-      "秦攻赤麗",
-      "宜安"
+      "李牧屢次打敗秦軍"
     ],
-    "dse_usage": "趙幽繆王時，李牧屢次打敗秦軍。李牧：趙國將軍。戰功 顯赫，與白起、廉頗、王翦合稱戰國四大名將。連：接連。卻：擊退。 《史記‧趙世家》曰︰「趙王遷三年，秦攻赤麗、宜安，李牧率師與戰 肥下，卻之。四年，秦攻番吾，李牧與之戰，卻之。」",
+    "dse_usage": "趙幽繆王時，李牧屢次打敗秦軍",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "李牧連卻之"
+    "sentence_snippet": "李牧連卻之",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "李牧",
+    "accepted": [
+      "趙國將軍",
+      "趙國將軍。戰功 顯赫",
+      "與白起",
+      "廉頗",
+      "王翦合稱戰國四大名將"
+    ],
+    "dse_usage": "趙國將軍。戰功 顯赫，與白起、廉頗、王翦合稱戰國四大名將",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "李牧",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "連",
+    "accepted": [
+      "接連"
+    ],
+    "dse_usage": "接連",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "連",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "卻",
+    "accepted": [
+      "擊退",
+      "擊退。 《史記‧趙世家》"
+    ],
+    "dse_usage": "擊退。 《史記‧趙世家》",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "卻",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "曰",
+    "accepted": [
+      "「趙王遷三年",
+      "秦攻赤麗",
+      "宜安",
+      "李牧率師與戰 肥下",
+      "卻之。四年",
+      "秦攻番吾",
+      "李牧與之戰",
+      "卻之。」"
+    ],
+    "dse_usage": "「趙王遷三年，秦攻赤麗、宜安，李牧率師與戰 肥下，卻之。四年，秦攻番吾，李牧與之戰，卻之。」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "曰",
+    "source": "教育局注釋 32"
   },
   {
     "term": "洎",
     "accepted": [
-      "及至。",
-      "。誅︰誅殺"
+      "及至"
     ],
-    "dse_usage": "及至。；。誅︰誅殺",
+    "dse_usage": "及至",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "洎"
+    "sentence_snippet": "洎",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "誅",
+    "accepted": [
+      "誅殺"
+    ],
+    "dse_usage": "誅殺",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "誅",
+    "source": "教育局注釋 33"
   },
   {
     "term": "邯鄲為郡",
     "accepted": [
-      "指趙國滅亡。邯鄲"
+      "指趙國滅亡"
     ],
-    "dse_usage": "指趙國滅亡。邯鄲︰趙國首都。為郡︰成為秦郡",
+    "dse_usage": "指趙國滅亡",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "邯鄲為郡"
+    "sentence_snippet": "邯鄲為郡",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "邯鄲",
+    "accepted": [
+      "趙國首都"
+    ],
+    "dse_usage": "趙國首都",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "邯鄲",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "為郡",
+    "accepted": [
+      "成為秦郡"
+    ],
+    "dse_usage": "成為秦郡",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "為郡",
+    "source": "教育局注釋 34"
   },
   {
     "term": "用武",
     "accepted": [
+      "用兵，指以武力對抗秦國",
       "用兵",
+      "指以武力對抗秦國"
+    ],
+    "dse_usage": "用兵，指以武力對抗秦國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "用武",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "終",
+    "accepted": [
+      "終結、最後，指堅持到底",
+      "終結",
       "最後",
       "指堅持到底"
     ],
-    "dse_usage": "用兵，指以武力對抗秦國。終︰終結、最後，指堅持到底",
+    "dse_usage": "終結、最後，指堅持到底",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "用武"
+    "sentence_snippet": "終",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "革滅殆盡",
+    "accepted": [
+      "幾乎完全消滅",
+      "指秦國差不多完全消滅六國"
+    ],
+    "dse_usage": "幾乎完全消滅，指秦國差不多完全消滅六國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "革滅殆盡",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "革",
+    "accepted": [
+      "革除"
+    ],
+    "dse_usage": "革除",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "革",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "滅",
+    "accepted": [
+      "滅亡"
+    ],
+    "dse_usage": "滅亡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "滅",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "殆",
+    "accepted": [
+      "幾乎"
+    ],
+    "dse_usage": "幾乎",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "殆",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "盡",
+    "accepted": [
+      "完盡"
+    ],
+    "dse_usage": "完盡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "盡",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "孤危",
+    "accepted": [
+      "無援之意"
+    ],
+    "dse_usage": "無援之意",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "孤危",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "孤",
+    "accepted": [
+      "孤立"
+    ],
+    "dse_usage": "孤立",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "孤",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "向使",
+    "accepted": [
+      "假使"
+    ],
+    "dse_usage": "假使",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "向使",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "刺客不行",
+    "accepted": [
+      "指燕國不以刺客為計行刺秦王"
+    ],
+    "dse_usage": "指燕國不以刺客為計行刺秦王",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "刺客不行",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "不行",
+    "accepted": [
+      "不用、不實行",
+      "不用",
+      "不實行"
+    ],
+    "dse_usage": "不用、不實行",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不行",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "良將",
+    "accepted": [
+      "指李牧"
+    ],
+    "dse_usage": "指李牧",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "良將",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "數",
+    "accepted": [
+      "命運"
+    ],
+    "dse_usage": "命運",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "數",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "或未易量",
+    "accepted": [
+      "指勝負存亡，或許不易估量",
+      "指勝負存亡",
+      "或許不易估量"
+    ],
+    "dse_usage": "指勝負存亡，或許不易估量",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "或未易量",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "量",
+    "accepted": [
+      "估量、測度",
+      "估量",
+      "測度"
+    ],
+    "dse_usage": "估量、測度",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "量",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "禮",
+    "accepted": [
+      "禮賢下士，作動詞用",
+      "禮賢下士",
+      "作動詞用"
+    ],
+    "dse_usage": "禮賢下士，作動詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "禮",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "并力西嚮",
+    "accepted": [
+      "( 六國) 合力向西方"
+    ],
+    "dse_usage": "( 六國) 合力向西方 (秦國) 用兵",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "并力西嚮",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "并力",
+    "accepted": [
+      "合力"
+    ],
+    "dse_usage": "合力",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "并力",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "嚮",
+    "accepted": [
+      "通 「向」"
+    ],
+    "dse_usage": "通 「向」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "嚮",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "秦人食之不得下嚥",
+    "accepted": [
+      "指秦人惶恐，寢食難安",
+      "指秦人惶恐",
+      "寢食難安"
+    ],
+    "dse_usage": "指秦人惶恐，寢食難安",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "秦人食之不得下嚥",
+    "source": "教育局注釋 45"
+  },
+  {
+    "term": "嚥",
+    "accepted": [
+      "通「咽」，吞食",
+      "通「咽」",
+      "吞食",
+      "[jin3]"
+    ],
+    "dse_usage": "通「咽」，吞食",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "嚥",
+    "source": "教育局注釋 45"
+  },
+  {
+    "term": "劫",
+    "accepted": [
+      "威脅、懾服",
+      "威脅",
+      "懾服"
+    ],
+    "dse_usage": "威脅、懾服",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "劫",
+    "source": "教育局注釋 46"
+  },
+  {
+    "term": "從六國破亡之故事",
+    "accepted": [
+      "重蹈六國破亡的覆轍"
+    ],
+    "dse_usage": "重蹈六國破亡的覆轍",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "從六國破亡之故事",
+    "source": "教育局注釋 47"
+  },
+  {
+    "term": "從",
+    "accepted": [
+      "跟從"
+    ],
+    "dse_usage": "跟從",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "從",
+    "source": "教育局注釋 47"
+  },
+  {
+    "term": "故事",
+    "accepted": [
+      "舊事",
+      "前 例",
+      "此處取貶義",
+      "解作敗績"
+    ],
+    "dse_usage": "舊事、前 例，此處取貶義，解作敗績",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "故事",
+    "source": "教育局注釋 47"
   }
 ]

@@ -1,150 +1,481 @@
 [
   {
+    "term": "君子",
+    "accepted": [
+      "品格崇高的飽學之士",
+      "或荀子弟子對荀子的尊稱"
+    ],
+    "dse_usage": "品格崇高的飽學之士。在篇中可理解為荀子心目中的聖哲先賢， 或荀子弟子對荀子的尊稱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子",
+    "source": "教育局注釋 1"
+  },
+  {
     "term": "已",
     "accepted": [
-      "停止",
+      "終止、放棄",
       "終止",
       "放棄"
     ],
     "dse_usage": "終止、放棄",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "學不可以已"
+    "sentence_snippet": "已",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "青",
+    "accepted": [
+      "靛青色顏料"
+    ],
+    "dse_usage": "靛青色顏料",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "青",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "藍",
+    "accepted": [
+      "植物名稱，其葉可製作顏料",
+      "植物名稱",
+      "其葉可製作顏料"
+    ],
+    "dse_usage": "植物名稱，其葉可製作顏料",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "藍",
+    "source": "教育局注釋 3"
   },
   {
     "term": "青於藍",
     "accepted": [
-      "比藍更青",
-      "勝過原來"
+      "指經提煉出的靛青色顏料",
+      "比原本藍草的青色要青得多。這個"
     ],
-    "dse_usage": "比藍草更青；喻學習可提升",
+    "dse_usage": "指經提煉出的靛青色顏料，比原本藍草的青色要青得多。這個",
     "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "青於藍"
+    "category": "實詞",
+    "sentence_snippet": "青於藍",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "比喻包含兩方面的意思",
+    "accepted": [
+      "在知識上",
+      "不斷學習可以提升我們的學養識 見",
+      "在人格上"
+    ],
+    "dse_usage": "在知識上，不斷學習可以提升我們的學養識 見；在人格上，不斷學習可以提升我們的性情品位。《荀子》原文側重 於後者",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "比喻包含兩方面的意思",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "水為之",
+    "accepted": [
+      "冰是由水凝固而成的"
+    ],
+    "dse_usage": "冰是由水凝固而成的",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "水為之",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "寒於水",
+    "accepted": [
+      "比水更低溫"
+    ],
+    "dse_usage": "比水更低溫",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "寒於水",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "木直中繩",
+    "accepted": [
+      "指樹木的枝幹本來長得筆直"
+    ],
+    "dse_usage": "指樹木的枝幹本來長得筆直",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "木直中繩",
+    "source": "教育局注釋 7"
   },
   {
     "term": "中",
     "accepted": [
+      "符合、合於，動詞",
       "符合",
-      "合於"
+      "合於",
+      "動詞",
+      "[zung3]",
+      "繩",
+      "沾上墨的線",
+      "是古代工匠繪畫直線的工 具"
     ],
-    "dse_usage": "符合、合於",
+    "dse_usage": "符合、合於，動詞。 ；。繩，沾上墨的線，是古代工匠繪畫直線的工 具",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "木直中繩"
+    "category": "實詞",
+    "sentence_snippet": "中",
+    "source": "教育局注釋 7"
   },
   {
     "term": "輮",
     "accepted": [
-      "揉",
-      "煣",
-      "烘彎"
+      "通「揉」，屈曲",
+      "通「揉」",
+      "屈曲。一說通「煣」",
+      "指用火烘木材",
+      "使它彎曲",
+      "[jau4]"
     ],
-    "dse_usage": "通「揉／煣」，使木材彎曲",
-    "difficulty": 4,
-    "category": "實詞",
-    "sentence_snippet": "輮以為輪"
+    "dse_usage": "通「揉」，屈曲。一說通「煣」，指用火烘木材 ，使它彎曲",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "輮",
+    "source": "教育局注釋 8"
   },
   {
-    "term": "槁暴",
+    "term": "其曲中規",
     "accepted": [
-      "乾晒",
-      "枯乾曝晒"
+      "它的弧度合乎圓規畫出來的圖形"
     ],
-    "dse_usage": "槁：枯乾；暴通「曝」",
-    "difficulty": 4,
+    "dse_usage": "它的弧度合乎圓規畫出來的圖形",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "雖有槁暴"
+    "sentence_snippet": "其曲中規",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "規",
+    "accepted": [
+      "圓規"
+    ],
+    "dse_usage": "圓規",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "規",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "有",
+    "accepted": [
+      "通「又」"
+    ],
+    "dse_usage": "通「又」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "有",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "槁",
+    "accepted": [
+      "枯乾"
+    ],
+    "dse_usage": "枯乾",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "槁",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "暴",
+    "accepted": [
+      "通「曝」，曬乾",
+      "通「曝」",
+      "曬乾"
+    ],
+    "dse_usage": "通「曝」，曬乾",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "暴",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "不復挺",
+    "accepted": [
+      "不能回復筆直的樣子"
+    ],
+    "dse_usage": "不能回復筆直的樣子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不復挺",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "受繩",
+    "accepted": [
+      "被工匠以墨繩校正"
+    ],
+    "dse_usage": "被工匠以墨繩校正",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "受繩",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "金",
+    "accepted": [
+      "金屬，泛指刀劍等利器",
+      "金屬",
+      "泛指刀劍等利器"
+    ],
+    "dse_usage": "金屬，泛指刀劍等利器",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "金",
+    "source": "教育局注釋 13"
   },
   {
     "term": "就礪",
     "accepted": [
-      "上磨石",
-      "磨礪"
+      "在磨刀石上磨"
     ],
     "dse_usage": "在磨刀石上磨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "就礪",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "就",
+    "accepted": [
+      "接受，動詞",
+      "接受",
+      "動詞。 礪",
+      "磨刀石"
+    ],
+    "dse_usage": "接受，動詞。 礪，磨刀石",
     "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "金就礪則利"
+    "category": "實詞",
+    "sentence_snippet": "就",
+    "source": "教育局注釋 13"
   },
   {
     "term": "參省",
     "accepted": [
-      "反省",
-      "檢討",
-      "三省"
+      "檢討反省"
     ],
     "dse_usage": "檢討反省",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "參省",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "參",
+    "accepted": [
+      "檢視、審察",
+      "檢視",
+      "審察"
+    ],
+    "dse_usage": "檢視、審察",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "日參省乎己"
+    "sentence_snippet": "參",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "省",
+    "accepted": [
+      "省 察、反省",
+      "省 察",
+      "反省",
+      "[sing2]",
+      "另一解"
+    ],
+    "dse_usage": "省 察、反省。；。另一解，",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "省",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "楊倞注",
+    "accepted": [
+      "「參，同 三」",
+      "「參",
+      "同 三」。「參省乎己」",
+      "即《論語》"
+    ],
+    "dse_usage": "「參，同 三」。「參省乎己」，即《論語》",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "楊倞注",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "曾子曰",
+    "accepted": [
+      "「吾日三省吾身」之意",
+      "「吾日三省吾身」之意。 2"
+    ],
+    "dse_usage": "「吾日三省吾身」之意。 2",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "曾子曰",
+    "source": "教育局注釋 14"
   },
   {
     "term": "知明",
     "accepted": [
-      "智明",
       "心智清明"
     ],
-    "dse_usage": "知通「智」；心智清明",
-    "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "則知明而行無過矣"
-  },
-  {
-    "term": "須臾",
-    "accepted": [
-      "片刻",
-      "一會兒"
-    ],
-    "dse_usage": "片刻",
+    "dse_usage": "心智清明",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "須臾之所學"
+    "sentence_snippet": "知明",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "知",
+    "accepted": [
+      "通「智」，指心思、智慧",
+      "通「智」",
+      "指心思",
+      "智慧"
+    ],
+    "dse_usage": "通「智」，指心思、智慧",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "知",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "行",
+    "accepted": [
+      "行為"
+    ],
+    "dse_usage": "行為",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "行",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "吾嘗終日而思",
+    "accepted": [
+      "我曾經終日思考"
+    ],
+    "dse_usage": "我曾經終日思考（聖賢教化和人生禍福等道理 ）",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "吾嘗終日而思",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "須臾之所學",
+    "accepted": [
+      "片刻的學習"
+    ],
+    "dse_usage": "片刻的學習",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "須臾之所學",
+    "source": "教育局注釋 18"
   },
   {
     "term": "跂",
     "accepted": [
-      "踮腳",
       "踮起腳跟"
     ],
     "dse_usage": "踮起腳跟",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "吾嘗跂而望矣"
+    "sentence_snippet": "跂",
+    "source": "教育局注釋 19"
+  },
+  {
+    "term": "聲非加疾",
+    "accepted": [
+      "聲量沒有提高"
+    ],
+    "dse_usage": "聲量沒有提高",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "聲非加疾",
+    "source": "教育局注釋 20"
   },
   {
     "term": "疾",
     "accepted": [
-      "宏亮",
-      "猛烈"
+      "猛烈，這裏指聲音宏亮",
+      "猛烈",
+      "這裏指聲音宏亮"
     ],
-    "dse_usage": "聲音宏亮",
+    "dse_usage": "猛烈，這裏指聲音宏亮",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "聲非加疾也"
+    "category": "實詞",
+    "sentence_snippet": "疾",
+    "source": "教育局注釋 20"
   },
   {
     "term": "彰",
     "accepted": [
-      "清晰",
-      "明顯"
+      "明顯、清晰",
+      "明顯",
+      "清晰"
     ],
     "dse_usage": "明顯、清晰",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "而聞者彰"
+    "sentence_snippet": "彰",
+    "source": "教育局注釋 21"
   },
   {
     "term": "假",
     "accepted": [
-      "藉助",
+      "假借，憑藉、利用之意",
+      "假借",
       "憑藉",
-      "利用"
+      "利用之意"
     ],
-    "dse_usage": "假借、憑藉",
+    "dse_usage": "假借，憑藉、利用之意",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "假",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "輿馬",
+    "accepted": [
+      "車馬"
+    ],
+    "dse_usage": "車馬",
     "difficulty": 2,
-    "category": "異義",
-    "sentence_snippet": "假輿馬者"
+    "category": "實詞",
+    "sentence_snippet": "輿馬",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "利足",
+    "accepted": [
+      "跑得快"
+    ],
+    "dse_usage": "跑得快",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "利足",
+    "source": "教育局注釋 23"
+  },
+  {
+    "term": "利",
+    "accepted": [
+      "便利，迅疾",
+      "便利",
+      "迅疾"
+    ],
+    "dse_usage": "便利，迅疾",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "利",
+    "source": "教育局注釋 23"
   },
   {
     "term": "致",
@@ -152,162 +483,372 @@
       "達到"
     ],
     "dse_usage": "達到",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "致",
+    "source": "教育局注釋 24"
+  },
+  {
+    "term": "楫",
+    "accepted": [
+      "船槳",
+      "船槳。。這裏借代為船"
+    ],
+    "dse_usage": "船槳。。這裏借代為船",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "楫",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "能水",
+    "accepted": [
+      "善於游泳",
+      "善於游泳。水",
+      "作動詞用"
+    ],
+    "dse_usage": "善於游泳。水，作動詞用",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "而致千里"
+    "sentence_snippet": "能水",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "絕江河",
+    "accepted": [
+      "橫渡江河"
+    ],
+    "dse_usage": "橫渡江河",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "絕江河",
+    "source": "教育局注釋 27"
   },
   {
     "term": "絕",
     "accepted": [
-      "橫渡",
-      "渡過"
+      "渡過，作動詞用",
+      "渡過",
+      "作動詞用"
     ],
-    "dse_usage": "渡過",
+    "dse_usage": "渡過，作動詞用",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "而絕江河"
+    "category": "實詞",
+    "sentence_snippet": "絕",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "生非異",
+    "accepted": [
+      "本性與眾人沒有分別"
+    ],
+    "dse_usage": "本性與眾人沒有分別",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "生非異",
+    "source": "教育局注釋 28"
   },
   {
     "term": "生",
     "accepted": [
-      "性",
+      "通「性」，指天賦、本性",
+      "通「性」",
+      "指天賦",
       "本性"
     ],
-    "dse_usage": "通「性」，本性",
+    "dse_usage": "通「性」，指天賦、本性",
     "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "君子生非異也"
+    "sentence_snippet": "生",
+    "source": "教育局注釋 28"
   },
   {
     "term": "善假於物",
     "accepted": [
-      "善於藉助外物",
-      "善用外物"
+      "善於借助外在的條件"
     ],
-    "dse_usage": "善於借助外在條件",
+    "dse_usage": "善於借助外在的條件",
     "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "善假於物也"
+    "category": "實詞",
+    "sentence_snippet": "善假於物",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "物",
+    "accepted": [
+      "外物，即「外在條件」",
+      "外物",
+      "即「外在條件」"
+    ],
+    "dse_usage": "外物，即「外在條件」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "物",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "淵",
+    "accepted": [
+      "深水之處"
+    ],
+    "dse_usage": "深水之處",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "淵",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "蛟龍",
+    "accepted": [
+      "蛟",
+      "龍是兩種動物",
+      "相傳蛟能引發洪水",
+      "龍可翻雲覆雨"
+    ],
+    "dse_usage": "蛟、龍是兩種動物，相傳蛟能引發洪水，龍可翻雲覆雨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "蛟龍",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "神明自得",
+    "accepted": [
+      "自然得到智慧"
+    ],
+    "dse_usage": "自然得到智慧",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "神明自得",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "聖心",
+    "accepted": [
+      "聖人的精神境界"
+    ],
+    "dse_usage": "聖人的精神境界",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "聖心",
+    "source": "教育局注釋 33"
   },
   {
     "term": "跬步",
     "accepted": [
-      "半步",
-      "一小步"
+      "跬同「蹞」，半步",
+      "跬同「蹞」",
+      "半步。古人以一腳踏出為一蹞",
+      "兩腳各踏出一次為 一步"
     ],
-    "dse_usage": "半步",
-    "difficulty": 3,
+    "dse_usage": "跬同「蹞」，半步。古人以一腳踏出為一蹞，兩腳各踏出一次為 一步",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "不積跬步"
+    "sentence_snippet": "跬步",
+    "source": "教育局注釋 34"
   },
   {
     "term": "騏驥",
     "accepted": [
-      "駿馬",
-      "好馬"
+      "駿馬"
     ],
     "dse_usage": "駿馬",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "騏驥一躍"
+    "sentence_snippet": "騏驥",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "駑馬十駕",
+    "accepted": [
+      "縱使是質素低劣的馬",
+      "憑着十日的努力",
+      "也可以完成駿馬的 行程"
+    ],
+    "dse_usage": "縱使是質素低劣的馬，憑着十日的努力，也可以完成駿馬的 行程",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "駑馬十駕",
+    "source": "教育局注釋 36"
   },
   {
     "term": "駑馬",
     "accepted": [
       "劣馬",
-      "慢馬"
+      "劣馬。駑 ○漢[nú]"
     ],
-    "dse_usage": "劣馬",
+    "dse_usage": "劣馬。駑 ○漢[nú]",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "駑馬十駕"
+    "sentence_snippet": "駑馬",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "十駕",
+    "accepted": [
+      "十日之程"
+    ],
+    "dse_usage": "十日之程",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "十駕",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "功",
+    "accepted": [
+      "成效、功勞",
+      "成效",
+      "功勞"
+    ],
+    "dse_usage": "成效、功勞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "功",
+    "source": "教育局注釋 37"
   },
   {
     "term": "舍",
     "accepted": [
-      "捨",
+      "通「捨」，放棄",
+      "通「捨」",
       "放棄"
     ],
     "dse_usage": "通「捨」，放棄",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "功在不舍"
+    "sentence_snippet": "舍",
+    "source": "教育局注釋 38"
   },
   {
     "term": "鍥",
     "accepted": [
-      "雕刻",
-      "刻"
+      "雕刻"
     ],
     "dse_usage": "雕刻",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "鍥而不舍"
+    "sentence_snippet": "鍥",
+    "source": "教育局注釋 39"
   },
   {
     "term": "鏤",
     "accepted": [
-      "雕刻",
-      "鏤刻"
+      "雕刻"
     ],
     "dse_usage": "雕刻",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "金石可鏤"
+    "sentence_snippet": "鏤",
+    "source": "教育局注釋 40"
   },
   {
     "term": "螾",
     "accepted": [
-      "蚓",
+      "同「蚓」，蚯蚓",
+      "同「蚓」",
       "蚯蚓"
     ],
     "dse_usage": "同「蚓」，蚯蚓",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "螾無爪牙之利"
+    "sentence_snippet": "螾",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "埃",
+    "accepted": [
+      "細土，指土壤",
+      "細土",
+      "指土壤"
+    ],
+    "dse_usage": "細土，指土壤",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "埃",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "黃泉",
+    "accepted": [
+      "地底深處的水源"
+    ],
+    "dse_usage": "地底深處的水源",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "黃泉",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "蟹六跪而二螯",
+    "accepted": [
+      "「六跪」或作「八跪」"
+    ],
+    "dse_usage": "「六跪」或作「八跪」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "蟹六跪而二螯",
+    "source": "教育局注釋 44"
   },
   {
     "term": "跪",
     "accepted": [
-      "足",
-      "腳"
+      "足，名詞",
+      "足"
     ],
-    "dse_usage": "足",
+    "dse_usage": "足，名詞",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "蟹六跪而二螯"
+    "category": "實詞",
+    "sentence_snippet": "跪",
+    "source": "教育局注釋 44"
   },
   {
     "term": "螯",
     "accepted": [
-      "鉗",
-      "蟹鉗"
+      "蟹鉗",
+      "[nɡou4]"
     ],
     "dse_usage": "蟹鉗",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "二螯"
+    "sentence_snippet": "螯",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "蟺",
+    "accepted": [
+      "同「鱓」，今作「鱔」",
+      "同「鱓」",
+      "今作「鱔」"
+    ],
+    "dse_usage": "同「鱓」，今作「鱔」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蟺",
+    "source": "教育局注釋 45"
+  },
+  {
+    "term": "寄託",
+    "accepted": [
+      "寄居"
+    ],
+    "dse_usage": "寄居",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "寄託",
+    "source": "教育局注釋 46"
   },
   {
     "term": "躁",
     "accepted": [
+      "浮躁、不專心",
       "浮躁",
-      "不專心"
+      "不專心。 3"
     ],
-    "dse_usage": "浮躁、不專心",
-    "difficulty": 2,
+    "dse_usage": "浮躁、不專心。 3",
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "用心躁也"
-  },
-  {
-    "term": "鍥而不舍",
-    "accepted": [
-      "堅持不懈",
-      "不斷雕刻"
-    ],
-    "dse_usage": "堅持雕刻不停止",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "鍥而不舍"
+    "sentence_snippet": "躁",
+    "source": "教育局注釋 47"
   }
 ]

@@ -1,14 +1,42 @@
 [
   {
+    "term": "惠子",
+    "accepted": [
+      "姓惠名施，戰國時宋國人",
+      "姓惠名施",
+      "主張「泛 愛萬物",
+      "天地一體」",
+      "又認為萬物流變無常",
+      "所有東西的性質都是相對 的"
+    ],
+    "dse_usage": "姓惠名施，戰國時宋國人。他是「名家」的重要人物，主張「泛 愛萬物，天地一體」；又認為萬物流變無常，所有東西的性質都是相對 的，事物之間沒有絕對的區別。惠施的著作沒有傳下來，僅《莊子‧天 下篇》中記述了他的一些觀點",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "惠子",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "魏王貽我大瓠之種",
+    "accepted": [
+      "魏惠王送給我大葫蘆的種子"
+    ],
+    "dse_usage": "魏惠王送給我大葫蘆的種子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "魏王貽我大瓠之種",
+    "source": "教育局注釋 2"
+  },
+  {
     "term": "貽",
     "accepted": [
       "贈送",
-      "送給"
+      "贈送。 [ji4]"
     ],
-    "dse_usage": "贈送",
+    "dse_usage": "贈送。 [ji4]",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "魏王貽我大瓠之種"
+    "sentence_snippet": "貽",
+    "source": "教育局注釋 2"
   },
   {
     "term": "瓠",
@@ -18,291 +46,899 @@
     "dse_usage": "葫蘆",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "大瓠之種"
+    "sentence_snippet": "瓠",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "種",
+    "accepted": [
+      "種子"
+    ],
+    "dse_usage": "種子",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "種",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "我樹之成而實五石",
+    "accepted": [
+      "我種植了大瓠",
+      "它成長而結出的果實",
+      "有五石之大"
+    ],
+    "dse_usage": "我種植了大瓠，它成長而結出的果實，有五石之大",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "我樹之成而實五石",
+    "source": "教育局注釋 3"
   },
   {
     "term": "石",
     "accepted": [
-      "容量單位",
-      "十斗"
+      "中國古代容量單位，十斗為一石",
+      "中國古代容量單位",
+      "十斗為一石。 或[shí]"
     ],
-    "dse_usage": "古代容量單位，十斗為一石",
+    "dse_usage": "中國古代容量單位，十斗為一石。 或[shí]",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "實五石"
+    "category": "實詞",
+    "sentence_snippet": "石",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "其堅不能自舉也",
+    "accepted": [
+      "它",
+      "用以盛水",
+      "無法把它拿起 來"
+    ],
+    "dse_usage": "它(大瓠)的質地不夠堅硬，用以盛水，無法把它拿起 來",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "其堅不能自舉也",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "堅",
+    "accepted": [
+      "硬度"
+    ],
+    "dse_usage": "硬度",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "堅",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "舉",
+    "accepted": [
+      "擎、拿起",
+      "擎",
+      "拿起"
+    ],
+    "dse_usage": "擎、拿起",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "舉",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "剖之以為瓢",
+    "accepted": [
+      "把它割開來做瓢"
+    ],
+    "dse_usage": "把它割開來做瓢",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "剖之以為瓢",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "剖",
+    "accepted": [
+      "破開，中分",
+      "破開",
+      "中分"
+    ],
+    "dse_usage": "破開，中分",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "剖",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "瓢",
+    "accepted": [
+      "用以舀水或盛酒的器具"
+    ],
+    "dse_usage": "用以舀水或盛酒的器具",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "瓢",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "則瓠落無所容",
+    "accepted": [
+      "指瓢大而平淺，容不下東西",
+      "指瓢大而平淺"
+    ],
+    "dse_usage": "指瓢大而平淺，容不下東西。另一說瓢大而無處可安置",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "則瓠落無所容",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "瓠落",
+    "accepted": [
+      "同「廓落」，大，空廓的樣子",
+      "同「廓落」",
+      "大",
+      "空廓的樣子"
+    ],
+    "dse_usage": "同「廓落」，大，空廓的樣子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "瓠落",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "呺然",
+    "accepted": [
+      "虛空而巨大的樣子"
+    ],
+    "dse_usage": "虛空而巨大的樣子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "呺然",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "吾為其無用而掊之",
+    "accepted": [
+      "我因為它沒有用處，就把它打碎了",
+      "我因為它沒有用處",
+      "就把它打碎了"
+    ],
+    "dse_usage": "我因為它沒有用處，就把它打碎了",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "吾為其無用而掊之",
+    "source": "教育局注釋 8"
   },
   {
     "term": "掊",
     "accepted": [
       "擊破",
-      "打碎"
+      "[pau2]"
     ],
     "dse_usage": "擊破",
-    "difficulty": 4,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "掊之"
+    "sentence_snippet": "掊",
+    "source": "教育局注釋 8"
   },
   {
-    "term": "拙於用大",
+    "term": "拙於",
     "accepted": [
-      "不善用大",
-      "不會用大物"
+      "不善於"
     ],
-    "dse_usage": "不善於利用大物",
+    "dse_usage": "不善於",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "拙於",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "用",
+    "accepted": [
+      "利用"
+    ],
+    "dse_usage": "利用",
     "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "拙於用大"
+    "category": "實詞",
+    "sentence_snippet": "用",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "大",
+    "accepted": [
+      "指大物，作名詞用",
+      "指大物",
+      "作名詞用"
+    ],
+    "dse_usage": "指大物，作名詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "大",
+    "source": "教育局注釋 9"
   },
   {
     "term": "龜手",
     "accepted": [
-      "凍裂",
-      "手凍裂"
+      "皮膚受凍裂開"
     ],
-    "dse_usage": "皮膚受凍裂開；龜通「皸」",
-    "difficulty": 4,
+    "dse_usage": "皮膚受凍裂開",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "不龜手之藥"
+    "sentence_snippet": "龜手",
+    "source": "教育局注釋 10"
   },
   {
-    "term": "洴澼絖",
+    "term": "龜",
     "accepted": [
-      "漂洗棉絮",
-      "漂絮"
+      "通「皸」"
     ],
-    "dse_usage": "漂洗棉絮",
-    "difficulty": 5,
+    "dse_usage": "通「皸」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "龜",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "世世以洴澼絖為事",
+    "accepted": [
+      "世世代代都以漂洗棉絮為業"
+    ],
+    "dse_usage": "世世代代都以漂洗棉絮為業",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "洴澼絖為事"
+    "sentence_snippet": "世世以洴澼絖為事",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "洴澼",
+    "accepted": [
+      "漂洗"
+    ],
+    "dse_usage": "漂洗",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "洴澼",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "洴",
+    "accepted": [
+      "[ping4]"
+    ],
+    "dse_usage": "",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "洴",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "絖",
+    "accepted": [
+      "棉絮",
+      "棉絮。 [kwong3]"
+    ],
+    "dse_usage": "棉絮。 [kwong3]",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "絖",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "事",
+    "accepted": [
+      "事業"
+    ],
+    "dse_usage": "事業",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "事",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "今一朝而鬻技百金",
+    "accepted": [
+      "現在一旦賣出這個藥方就可"
+    ],
+    "dse_usage": "現在一旦賣出這個藥方就可以獲得百金",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "今一朝而鬻技百金",
+    "source": "教育局注釋 12"
   },
   {
     "term": "鬻",
     "accepted": [
-      "賣",
-      "出售"
+      "賣"
     ],
     "dse_usage": "賣",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "鬻技百金"
+    "sentence_snippet": "鬻",
+    "source": "教育局注釋 12"
   },
   {
     "term": "說",
     "accepted": [
-      "遊說"
+      "遊說",
+      "遊說。。 2"
     ],
-    "dse_usage": "遊說",
+    "dse_usage": "遊說。。 2",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "以說吳王"
+    "category": "實詞",
+    "sentence_snippet": "說",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "越有難",
+    "accepted": [
+      "指越國入侵"
+    ],
+    "dse_usage": "指越國入侵",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "越有難",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "吳王使之將",
+    "accepted": [
+      "吳王就派他領兵"
+    ],
+    "dse_usage": "吳王就派他領兵",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "吳王使之將",
+    "source": "教育局注釋 15"
   },
   {
     "term": "將",
     "accepted": [
+      "領兵，作動詞用",
       "領兵",
-      "率領"
+      "作動詞用"
     ],
-    "dse_usage": "領兵，動詞",
+    "dse_usage": "領兵，作動詞用",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "吳王使之將"
+    "category": "實詞",
+    "sentence_snippet": "將",
+    "source": "教育局注釋 15"
   },
   {
     "term": "裂地",
     "accepted": [
-      "割地",
-      "封地"
+      "割出一塊土地"
     ],
     "dse_usage": "割出一塊土地",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "裂地而封之"
+    "sentence_snippet": "裂地",
+    "source": "教育局注釋 16"
   },
   {
-    "term": "大樽",
+    "term": "能不龜手一也",
     "accepted": [
-      "腰舟",
-      "助浮器具"
+      "同樣一條能夠令手不龜裂的藥方"
     ],
-    "dse_usage": "形似酒器、可拴腰漂浮的工具",
-    "difficulty": 4,
+    "dse_usage": "同樣一條能夠令手不龜裂的藥方",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "大樽而浮於江湖"
+    "sentence_snippet": "能不龜手一也",
+    "source": "教育局注釋 17"
   },
   {
-    "term": "蓬之心",
+    "term": "一",
     "accepted": [
-      "心思閉塞",
-      "心塞不通"
+      "同樣、同一",
+      "同樣",
+      "同一"
     ],
-    "dse_usage": "心思閉塞不通",
-    "difficulty": 4,
-    "category": "結構",
-    "sentence_snippet": "有蓬之心"
+    "dse_usage": "同樣、同一",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "一",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "何不慮以為大樽而浮於江湖",
+    "accepted": [
+      "為何不考慮繫着當作腰舟而"
+    ],
+    "dse_usage": "為何不考慮繫着當作腰舟而浮游於江湖之 上？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "何不慮以為大樽而浮於江湖",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "樽",
+    "accepted": [
+      "古代盛酒的器具",
+      "古代盛酒的器具。這裏是指形似酒器",
+      "可以拴在腰間以助漂浮 的游泳工具",
+      "古時稱「腰舟」"
+    ],
+    "dse_usage": "古代盛酒的器具。這裏是指形似酒器，可以拴在腰間以助漂浮 的游泳工具，古時稱「腰舟」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "樽",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "有蓬之心",
+    "accepted": [
+      "一說指心中如塞了蓬草，閉塞不通",
+      "一說指心中如塞了蓬草",
+      "閉塞不通。一說指心思如蓬草",
+      "迂 曲不暢",
+      "閉塞不通"
+    ],
+    "dse_usage": "一說指心中如塞了蓬草，閉塞不通。一說指心思如蓬草，迂 曲不暢，閉塞不通",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "有蓬之心",
+    "source": "教育局注釋 19"
+  },
+  {
+    "term": "蓬",
+    "accepted": [
+      "一種卷曲不直的草"
+    ],
+    "dse_usage": "一種卷曲不直的草",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蓬",
+    "source": "教育局注釋 19"
+  },
+  {
+    "term": "人謂之樗",
+    "accepted": [
+      "人們都叫它做「樗」"
+    ],
+    "dse_usage": "人們都叫它做「樗」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "人謂之樗",
+    "source": "教育局注釋 20"
   },
   {
     "term": "樗",
     "accepted": [
-      "臭椿",
-      "劣質樹"
+      "落葉喬木，木材皮粗質劣",
+      "落葉喬木",
+      "木材皮粗質劣。 [syu1]"
     ],
-    "dse_usage": "落葉喬木，木材皮粗質劣",
-    "difficulty": 4,
-    "category": "實詞",
-    "sentence_snippet": "人謂之樗"
-  },
-  {
-    "term": "擁腫",
-    "accepted": [
-      "臃腫",
-      "盤結"
-    ],
-    "dse_usage": "擁通「臃」；盤結",
+    "dse_usage": "落葉喬木，木材皮粗質劣。 [syu1]",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "大本擁腫"
+    "sentence_snippet": "樗",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "其大本擁腫而不中繩墨",
+    "accepted": [
+      "它的大樹幹盤結而不合繩墨"
+    ],
+    "dse_usage": "它的大樹幹盤結而不合繩墨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "其大本擁腫而不中繩墨",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "擁",
+    "accepted": [
+      "通「臃」"
+    ],
+    "dse_usage": "通「臃」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "擁",
+    "source": "教育局注釋 21"
   },
   {
     "term": "中",
     "accepted": [
-      "符合",
-      "合於"
+      "符合"
     ],
     "dse_usage": "符合",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "不中繩墨"
+    "category": "實詞",
+    "sentence_snippet": "中",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "繩墨",
+    "accepted": [
+      "木匠用來畫直線的工具"
+    ],
+    "dse_usage": "木匠用來畫直線的工具",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "繩墨",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "其小枝卷曲而不中規矩",
+    "accepted": [
+      "它的小枝彎彎曲曲而不合規矩"
+    ],
+    "dse_usage": "它的小枝彎彎曲曲而不合規矩",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "其小枝卷曲而不中規矩",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "卷曲",
+    "accepted": [
+      "彎彎曲 曲"
+    ],
+    "dse_usage": "彎彎曲 曲",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "卷曲",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "卷",
+    "accepted": [
+      "屈曲"
+    ],
+    "dse_usage": "屈曲",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "卷",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "規矩",
+    "accepted": [
+      "兩種工具",
+      "規用以 畫圓",
+      "矩用以畫方"
+    ],
+    "dse_usage": "兩種工具，規用以 畫圓，矩用以畫方",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "規矩",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "立之塗",
+    "accepted": [
+      "生長在路上"
+    ],
+    "dse_usage": "生長在路上",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "立之塗",
+    "source": "教育局注釋 23"
   },
   {
     "term": "塗",
     "accepted": [
-      "途",
-      "路"
+      "通「途」"
     ],
     "dse_usage": "通「途」",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "立之塗"
+    "sentence_snippet": "塗",
+    "source": "教育局注釋 23"
   },
   {
     "term": "去",
     "accepted": [
-      "離棄",
-      "捨棄"
+      "離棄"
     ],
     "dse_usage": "離棄",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "去",
+    "source": "教育局注釋 24"
+  },
+  {
+    "term": "獨",
+    "accepted": [
+      "豈、難道",
+      "豈",
+      "難道"
+    ],
+    "dse_usage": "豈、難道",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "獨",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "狸",
+    "accepted": [
+      "狸子，也叫野貓、山貓",
+      "狸子",
+      "也叫野貓",
+      "山貓"
+    ],
+    "dse_usage": "狸子，也叫野貓、山貓",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "狸",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "狌",
+    "accepted": [
+      "同「鼪」，黄鼠狼",
+      "同「鼪」",
+      "黄鼠狼"
+    ],
+    "dse_usage": "同「鼪」，黄鼠狼",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "狌",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "以候敖者",
+    "accepted": [
+      "卑伏着身子，等待出遊的小動物",
+      "卑伏着身子",
+      "等待出遊的小動物"
+    ],
+    "dse_usage": "卑伏着身子，等待出遊的小動物",
     "difficulty": 2,
-    "category": "異義",
-    "sentence_snippet": "眾所同去也"
+    "category": "實詞",
+    "sentence_snippet": "以候敖者",
+    "source": "教育局注釋 26"
   },
   {
     "term": "敖",
     "accepted": [
-      "遨",
-      "出遊"
+      "通「遨」， 出遊、閒遊",
+      "通「遨」",
+      "出遊",
+      "閒遊"
     ],
-    "dse_usage": "通「遨」，出遊",
-    "difficulty": 4,
+    "dse_usage": "通「遨」， 出遊、閒遊",
+    "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "以候敖者"
+    "sentence_snippet": "敖",
+    "source": "教育局注釋 26"
   },
   {
-    "term": "跳梁",
+    "term": "不辟高下",
     "accepted": [
-      "跳躍",
-      "跳踉"
+      "東西跳躍，不避高低",
+      "東西跳躍",
+      "不避高低"
     ],
-    "dse_usage": "梁通「踉」，跳躍",
-    "difficulty": 3,
+    "dse_usage": "東西跳躍，不避高低",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "東西跳梁"
+    "sentence_snippet": "不辟高下",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "梁",
+    "accepted": [
+      "通「踉」，跳躍",
+      "通「踉」",
+      "跳躍"
+    ],
+    "dse_usage": "通「踉」，跳躍",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "梁",
+    "source": "教育局注釋 27"
   },
   {
     "term": "辟",
     "accepted": [
-      "避",
-      "躲避"
+      "通「避」"
     ],
     "dse_usage": "通「避」",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "不辟高下"
+    "sentence_snippet": "辟",
+    "source": "教育局注釋 27"
   },
   {
     "term": "機辟",
     "accepted": [
-      "陷阱",
-      "捕獸工具"
+      "捕捉鳥獸的工具"
     ],
     "dse_usage": "捕捉鳥獸的工具",
-    "difficulty": 4,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "中於機辟"
+    "sentence_snippet": "機辟",
+    "source": "教育局注釋 28"
   },
   {
     "term": "罔罟",
     "accepted": [
-      "網",
-      "羅網"
+      "漁獵的網具"
     ],
     "dse_usage": "漁獵的網具",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "死於罔罟"
+    "sentence_snippet": "罔罟",
+    "source": "教育局注釋 28"
   },
   {
-    "term": "無何有之鄉",
+    "term": "罔",
     "accepted": [
-      "空曠之處",
-      "虛無之境"
+      "通「網」",
+      "用繩線等 結成的捕魚捉鳥器具"
     ],
-    "dse_usage": "什麼都沒有的地方",
+    "dse_usage": "通「網」，用繩線等 結成的捕魚捉鳥器具",
     "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "無何有之鄉"
+    "category": "異義",
+    "sentence_snippet": "罔",
+    "source": "教育局注釋 28"
   },
   {
-    "term": "廣莫",
+    "term": "罟",
     "accepted": [
-      "廣漠",
-      "遼闊"
+      "魚網"
     ],
-    "dse_usage": "遼闊空曠",
+    "dse_usage": "魚網",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "廣莫之野"
+    "sentence_snippet": "罟",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "斄牛",
+    "accepted": [
+      "即旄牛",
+      "即旄牛。體矮身健",
+      "毛長",
+      "耐寒",
+      "耐粗飼",
+      "尾毛蓬生",
+      "可作旌旄"
+    ],
+    "dse_usage": "即旄牛。體矮身健，毛長，耐寒，耐粗飼，尾毛蓬生，可作旌旄",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斄牛",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "執",
+    "accepted": [
+      "捕捉"
+    ],
+    "dse_usage": "捕捉",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "執",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "何不樹之於無何有之鄉",
+    "accepted": [
+      "為何不把它種在空闊無垠的原野上？"
+    ],
+    "dse_usage": "為何不把它種在空闊無垠的原野上？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "何不樹之於無何有之鄉",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "樹",
+    "accepted": [
+      "種植"
+    ],
+    "dse_usage": "種植",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "樹",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "無何有",
+    "accepted": [
+      "甚麼都沒有"
+    ],
+    "dse_usage": "甚麼都沒有",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "無何有",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "鄉",
+    "accepted": [
+      "處所、地方",
+      "處所",
+      "地方"
+    ],
+    "dse_usage": "處所、地方",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "鄉",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "廣莫之野",
+    "accepted": [
+      "遼闊廣大的曠野",
+      "遼闊廣大的曠野。廣莫",
+      "亦作「廣漠」",
+      "遼闊空曠"
+    ],
+    "dse_usage": "遼闊廣大的曠野。廣莫，亦作「廣漠」，遼闊空曠",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "廣莫之野",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "逍遙乎寢卧其下",
+    "accepted": [
+      "隨意地在樹旁徜徉",
+      "自在地在樹下 躺卧"
+    ],
+    "dse_usage": "隨意地在樹旁徜徉，自在地在樹下 躺卧",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "逍遙乎寢卧其下",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "彷徨",
+    "accepted": [
+      "縱任不拘"
+    ],
+    "dse_usage": "縱任不拘",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "彷徨",
+    "source": "教育局注釋 33"
   },
   {
     "term": "逍遙",
     "accepted": [
-      "優游自在",
-      "自由自在"
+      "優游自在"
     ],
     "dse_usage": "優游自在",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "逍遙乎寢卧其下"
+    "sentence_snippet": "逍遙",
+    "source": "教育局注釋 33"
   },
   {
-    "term": "不夭斤斧",
+    "term": "物無害者",
     "accepted": [
-      "不被砍伐",
-      "不遭斧斤"
+      "不遭受斧頭砍伐，沒有東西來侵害它",
+      "不遭受斧頭砍伐",
+      "沒有東西來侵害它"
     ],
-    "dse_usage": "不遭受斧頭砍伐",
-    "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "不夭斤斧"
+    "dse_usage": "不遭受斧頭砍伐，沒有東西來侵害它",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "物無害者",
+    "source": "教育局注釋 34"
   },
   {
-    "term": "無用之用",
+    "term": "夭",
     "accepted": [
-      "無用也有用",
-      "大用"
+      "摧折"
     ],
-    "dse_usage": "看似無用而實有大用",
+    "dse_usage": "摧折",
     "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "患其無用"
+    "category": "實詞",
+    "sentence_snippet": "夭",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "安所困苦哉",
+    "accepted": [
+      "又有甚麼艱難困苦呢？ 3"
+    ],
+    "dse_usage": "又有甚麼艱難困苦呢？ 3",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "安所困苦哉",
+    "source": "教育局注釋 35"
   }
 ]

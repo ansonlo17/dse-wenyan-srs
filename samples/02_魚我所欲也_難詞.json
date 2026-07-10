@@ -1,243 +1,510 @@
 [
   {
+    "term": "魚",
+    "accepted": [
+      "魚營養豐富，是春秋戰國期間的美食",
+      "魚營養豐富",
+      "是春秋戰國期間的美食"
+    ],
+    "dse_usage": "魚營養豐富，是春秋戰國期間的美食",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "魚",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "熊掌",
+    "accepted": [
+      "熊是山中野獸",
+      "難以捕獵",
+      "是珍貴的美食"
+    ],
+    "dse_usage": "熊是山中野獸，難以捕獵，是珍貴的美食",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "熊掌",
+    "source": "教育局注釋 2"
+  },
+  {
     "term": "舍",
     "accepted": [
-      "捨",
-      "放棄",
-      "捨棄"
+      "通「捨」，放棄",
+      "通「捨」",
+      "放棄"
     ],
     "dse_usage": "通「捨」，放棄",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "舍魚而取熊掌"
+    "sentence_snippet": "舍",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "生",
+    "accepted": [
+      "生命、性命",
+      "生命",
+      "性命"
+    ],
+    "dse_usage": "生命、性命",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "生",
+    "source": "教育局注釋 4"
   },
   {
     "term": "義",
     "accepted": [
-      "道義",
+      "正義、道義",
       "正義",
-      "善性良知"
+      "道義。此處指善性良知的實踐"
     ],
-    "dse_usage": "正義、道義；善性良知的實踐",
-    "difficulty": 2,
+    "dse_usage": "正義、道義。此處指善性良知的實踐",
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "義亦我所欲也"
+    "sentence_snippet": "義",
+    "source": "教育局注釋 5"
   },
   {
     "term": "甚於",
     "accepted": [
-      "超過",
-      "勝過",
-      "比……更"
+      "在程度上超過"
     ],
     "dse_usage": "在程度上超過",
     "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "所欲有甚於生者"
+    "category": "實詞",
+    "sentence_snippet": "甚於",
+    "source": "教育局注釋 6"
   },
   {
     "term": "苟得",
     "accepted": [
-      "苟且偷生",
-      "隨便求生"
+      "指苟且偷生"
     ],
-    "dse_usage": "苟且偷生",
+    "dse_usage": "指苟且偷生",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "苟得",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "苟",
+    "accepted": [
+      "隨便、輕率",
+      "隨便",
+      "輕率"
+    ],
+    "dse_usage": "隨便、輕率",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "故不為苟得也"
+    "sentence_snippet": "苟",
+    "source": "教育局注釋 7"
   },
   {
     "term": "惡",
     "accepted": [
-      "憎厭",
-      "厭惡",
-      "討厭"
+      "憎厭"
     ],
     "dse_usage": "憎厭",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "死亦我所惡"
+    "sentence_snippet": "惡",
+    "source": "教育局注釋 8"
   },
   {
     "term": "辟",
     "accepted": [
-      "避",
-      "躲避"
+      "通「避」"
     ],
     "dse_usage": "通「避」",
     "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "故患有所不辟也"
+    "sentence_snippet": "辟",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "如",
+    "accepted": [
+      "假如、假設",
+      "假如",
+      "假設"
+    ],
+    "dse_usage": "假如、假設",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "如",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "可以得生者",
+    "accepted": [
+      "可以活下去的方法或機會"
+    ],
+    "dse_usage": "可以活下去的方法或機會",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "可以得生者",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "用",
+    "accepted": [
+      "選取、接受",
+      "選取",
+      "接受"
+    ],
+    "dse_usage": "選取、接受",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "用",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "由是則生而有不用",
+    "accepted": [
+      "承接上文的反問句",
+      "根據這些事例",
+      "可以活命的方 法竟然有人不接受"
+    ],
+    "dse_usage": "承接上文的反問句，根據這些事例，可以活命的方 法竟然有人不接受",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "由是則生而有不用",
+    "source": "教育局注釋 13"
   },
   {
     "term": "是故",
     "accepted": [
-      "因此",
-      "所以"
+      "因此之故"
     ],
     "dse_usage": "因此之故",
-    "difficulty": 1,
+    "difficulty": 2,
     "category": "結構",
-    "sentence_snippet": "是故所欲有甚於生者"
+    "sentence_snippet": "是故",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "所惡有甚於死者",
+    "accepted": [
+      "人所追求的東西",
+      "有些比生命更重 2 要",
+      "人所憎惡的東西",
+      "有些比死亡更嚴重"
+    ],
+    "dse_usage": "人所追求的東西，有些比生命更重 2 要；人所憎惡的東西，有些比死亡更嚴重",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "所惡有甚於死者",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "賢者能勿喪耳",
+    "accepted": [
+      "不僅賢人有這個「本 心」",
+      "其實人人都有",
+      "唯獨賢人能夠堅持本心",
+      "不讓它喪失罷了"
+    ],
+    "dse_usage": "不僅賢人有這個「本 心」，其實人人都有，唯獨賢人能夠堅持本心，不讓它喪失罷了",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "賢者能勿喪耳",
+    "source": "教育局注釋 16"
   },
   {
     "term": "耳",
     "accepted": [
-      "罷了",
-      "而已"
+      "這裏作為句末語助詞",
+      "是「而已」的合音字"
     ],
-    "dse_usage": "句末語助詞，「而已」合音",
-    "difficulty": 2,
+    "dse_usage": "這裏作為句末語助詞，是「而已」的合音字",
+    "difficulty": 3,
     "category": "虛詞",
-    "sentence_snippet": "賢者能勿喪耳"
+    "sentence_snippet": "耳",
+    "source": "教育局注釋 16"
   },
   {
     "term": "簞",
     "accepted": [
-      "竹器",
-      "盛飯竹器"
+      "盛飯的竹器"
     ],
     "dse_usage": "盛飯的竹器",
-    "difficulty": 4,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "一簞食"
+    "sentence_snippet": "簞",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "食",
+    "accepted": [
+      "飯食"
+    ],
+    "dse_usage": "飯食",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "食",
+    "source": "教育局注釋 17"
   },
   {
     "term": "豆",
     "accepted": [
-      "食器",
-      "高腳盤"
+      "盛載食物的器皿",
+      "形似高腳盤",
+      "象形字"
     ],
-    "dse_usage": "盛載食物的器皿，形似高腳盤",
+    "dse_usage": "盛載食物的器皿，形似高腳盤，象形字",
     "difficulty": 3,
-    "category": "異義",
-    "sentence_snippet": "一豆羹"
+    "category": "實詞",
+    "sentence_snippet": "豆",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "羹",
+    "accepted": [
+      "指帶汁的肉食"
+    ],
+    "dse_usage": "指帶汁的肉食",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "羹",
+    "source": "教育局注釋 18"
   },
   {
     "term": "弗",
     "accepted": [
-      "不"
+      "通「不」"
     ],
     "dse_usage": "通「不」",
-    "difficulty": 2,
-    "category": "虛詞",
-    "sentence_snippet": "弗得則死"
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "弗",
+    "source": "教育局注釋 19"
   },
   {
-    "term": "嘑爾",
+    "term": "嘑爾而與之",
     "accepted": [
-      "呵斥",
-      "呼叱",
-      "大聲喝斥"
+      "嘑"
     ],
-    "dse_usage": "大聲呼叱",
-    "difficulty": 4,
+    "dse_usage": "嘑",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "嘑爾而與之"
+    "sentence_snippet": "嘑爾而與之",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "爾",
+    "accepted": [
+      "大聲呼叱的意思"
+    ],
+    "dse_usage": "大聲呼叱的意思。一說「嘑」同「呼」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "爾",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "與",
+    "accepted": [
+      "給 予",
+      "給 予。《禮記‧檀弓》"
+    ],
+    "dse_usage": "給 予。《禮記‧檀弓》",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "與",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "記載",
+    "accepted": [
+      "「齊大饑",
+      "黔敖為食於路",
+      "以待餓者而食 之。有餓者蒙袂輯屨",
+      "貿貿然來。黔敖左奉食",
+      "右執飲"
+    ],
+    "dse_usage": "「齊大饑，黔敖為食於路，以待餓者而食 之。有餓者蒙袂輯屨，貿貿然來。黔敖左奉食，右執飲，",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "記載",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "曰",
+    "accepted": [
+      "『嗟！來 食",
+      "『嗟！來 食。』揚其目而視之"
+    ],
+    "dse_usage": "『嗟！來 食。』揚其目而視之，",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "曰",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "行道之人",
+    "accepted": [
+      "路人"
+    ],
+    "dse_usage": "路人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "行道之人",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "弗受",
+    "accepted": [
+      "不接受"
+    ],
+    "dse_usage": "不接受",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "弗受",
+    "source": "教育局注釋 21"
   },
   {
     "term": "蹴",
     "accepted": [
-      "踐踏",
-      "踩"
+      "踐踏"
     ],
     "dse_usage": "踐踏",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "蹴爾而與之"
+    "sentence_snippet": "蹴",
+    "source": "教育局注釋 22"
   },
   {
     "term": "不屑",
     "accepted": [
-      "輕視",
-      "不願意",
-      "瞧不起"
+      "輕視"
     ],
     "dse_usage": "輕視",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "乞人不屑也"
+    "sentence_snippet": "不屑",
+    "source": "教育局注釋 23"
   },
   {
     "term": "萬鍾",
     "accepted": [
-      "厚祿",
-      "豐厚俸祿",
-      "高官厚祿"
+      "這裏解作達官貴人豐厚的俸祿"
     ],
-    "dse_usage": "達官貴人豐厚的俸祿",
+    "dse_usage": "這裏解作達官貴人豐厚的俸祿",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "萬鍾",
+    "source": "教育局注釋 24"
+  },
+  {
+    "term": "鍾",
+    "accepted": [
+      "古代的一種量器",
+      "此處作量 詞用",
+      "表示俸祿的數量"
+    ],
+    "dse_usage": "古代的一種量器，此處作量 詞用，表示俸祿的數量",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "萬鍾則不辯禮義而受之"
+    "sentence_snippet": "鍾",
+    "source": "教育局注釋 24"
   },
   {
     "term": "辯",
     "accepted": [
-      "辨",
+      "通「辨」，辨別",
+      "通「辨」",
       "辨別"
     ],
     "dse_usage": "通「辨」，辨別",
     "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "不辯禮義而受之"
+    "sentence_snippet": "辯",
+    "source": "教育局注釋 25"
   },
   {
     "term": "何加",
     "accepted": [
-      "有什麼好處",
-      "有何益處"
+      "有甚麼好處？"
     ],
-    "dse_usage": "有甚麼好處？加：增益",
+    "dse_usage": "有甚麼好處？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "何加",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "加",
+    "accepted": [
+      "增益"
+    ],
+    "dse_usage": "增益",
     "difficulty": 3,
-    "category": "結構",
-    "sentence_snippet": "萬鍾於我何加焉"
+    "category": "實詞",
+    "sentence_snippet": "加",
+    "source": "教育局注釋 26"
   },
   {
     "term": "宮室",
     "accepted": [
       "居所",
-      "房屋",
-      "住宅"
+      "居所。並非後世「皇宮」之意"
     ],
-    "dse_usage": "居所（非皇宮）",
+    "dse_usage": "居所。並非後世「皇宮」之意",
     "difficulty": 2,
-    "category": "異義",
-    "sentence_snippet": "為宮室之美"
+    "category": "實詞",
+    "sentence_snippet": "宮室",
+    "source": "教育局注釋 27"
   },
   {
     "term": "奉",
     "accepted": [
-      "侍奉",
+      "供奉、服侍",
       "供奉",
       "服侍"
     ],
     "dse_usage": "供奉、服侍",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "奉",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "所識窮乏者得我與",
+    "accepted": [
+      "讓所認識的窮乏之人感謝我"
+    ],
+    "dse_usage": "讓所認識的窮乏之人感謝我的賙濟嗎？",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "妻妾之奉"
+    "sentence_snippet": "所識窮乏者得我與",
+    "source": "教育局注釋 29"
   },
   {
     "term": "得",
     "accepted": [
-      "德",
-      "感激"
+      "通 「德」，感激，作動詞用",
+      "通 「德」",
+      "感激",
+      "作動詞用"
     ],
-    "dse_usage": "通「德」，感激",
-    "difficulty": 4,
-    "category": "異義",
-    "sentence_snippet": "所識窮乏者得我與"
+    "dse_usage": "通 「德」，感激，作動詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "得",
+    "source": "教育局注釋 29"
   },
   {
     "term": "鄉",
     "accepted": [
-      "向",
-      "從前",
+      "通「向」，過往",
+      "通「向」",
       "過往"
     ],
     "dse_usage": "通「向」，過往",
     "difficulty": 3,
     "category": "異義",
-    "sentence_snippet": "鄉為身死而不受"
+    "sentence_snippet": "鄉",
+    "source": "教育局注釋 30"
   },
   {
     "term": "已",
@@ -245,31 +512,23 @@
       "停止"
     ],
     "dse_usage": "停止",
-    "difficulty": 2,
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "是亦不可以已乎"
+    "sentence_snippet": "已",
+    "source": "教育局注釋 31"
   },
   {
     "term": "本心",
     "accepted": [
-      "良心",
+      "指人人本來都有的良心",
       "本性",
-      "羞惡之心"
+      "如羞惡之心",
+      "重義之心"
     ],
-    "dse_usage": "本來就有的良心、本性",
+    "dse_usage": "指人人本來都有的良心、本性，如羞惡之心、重義之心",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "此之謂失其本心"
-  },
-  {
-    "term": "舍生而取義",
-    "accepted": [
-      "捨生取義",
-      "犧牲生命取道義"
-    ],
-    "dse_usage": "犧牲生命而選取道義",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "舍生而取義者也"
+    "sentence_snippet": "本心",
+    "source": "教育局注釋 32"
   }
 ]

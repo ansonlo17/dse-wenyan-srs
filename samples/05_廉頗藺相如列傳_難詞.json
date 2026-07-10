@@ -1,38 +1,5 @@
 [
   {
-    "term": "先國家之急而後私仇",
-    "accepted": [
-      "先公後私",
-      "先國後私"
-    ],
-    "dse_usage": "把國家急難放在前、私仇放在後",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "先國家之急而後私仇"
-  },
-  {
-    "term": "刎頸之交",
-    "accepted": [
-      "生死之交",
-      "至交"
-    ],
-    "dse_usage": "可同生共死的交情",
-    "difficulty": 2,
-    "category": "結構",
-    "sentence_snippet": "為刎頸之交"
-  },
-  {
-    "term": "負荊",
-    "accepted": [
-      "背荊請罪",
-      "請罪"
-    ],
-    "dse_usage": "背着荊條請罪",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "肉袒負荊"
-  },
-  {
     "term": "趙惠文王",
     "accepted": [
       "是趙武靈王的兒子"
@@ -40,41 +7,69 @@
     "dse_usage": "是趙武靈王的兒子",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "趙惠文王"
+    "sentence_snippet": "趙惠文王",
+    "source": "教育局注釋 1"
   },
   {
     "term": "為",
     "accepted": [
+      "做、作為",
       "做",
-      "作為。○粵 [圍]",
+      "作為",
       "[wai4]"
     ],
-    "dse_usage": "做、作為。○粵 [圍]，[wai4]；",
+    "dse_usage": "做、作為",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "為"
+    "sentence_snippet": "為",
+    "source": "教育局注釋 2"
   },
   {
     "term": "陽晉",
     "accepted": [
-      "在今山東省鄆城縣"
+      "在今山東省鄆城縣西"
     ],
-    "dse_usage": "在今山東省鄆城縣西。上卿：戰國時代的高級官員",
-    "difficulty": 3,
+    "dse_usage": "在今山東省鄆城縣西",
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "陽晉"
+    "sentence_snippet": "陽晉",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "上卿",
+    "accepted": [
+      "戰國時代的高級官員"
+    ],
+    "dse_usage": "戰國時代的高級官員",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "上卿",
+    "source": "教育局注釋 3"
   },
   {
     "term": "宦者令",
     "accepted": [
-      "宦官的頭目。舍人：戰國至漢初",
+      "宦官的頭目"
+    ],
+    "dse_usage": "宦官的頭目",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "宦者令",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "舍人",
+    "accepted": [
+      "戰國至漢初，王公貴族的侍從、賓客",
+      "戰國至漢初",
       "王公貴族的侍從",
       "賓客"
     ],
-    "dse_usage": "宦官的頭目。舍人：戰國至漢初，王公貴族的侍從、賓客",
+    "dse_usage": "戰國至漢初，王公貴族的侍從、賓客",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "宦者令"
+    "sentence_snippet": "舍人",
+    "source": "教育局注釋 4"
   },
   {
     "term": "楚和氏璧",
@@ -82,79 +77,128 @@
       "春秋時楚人卞和發現一塊璞玉",
       "先後獻給楚厲王和武王",
       "於是以為卞和存心欺 騙",
+      "結果分別斷其左足和右足。到文王時",
       "卞和抱玉哭於荊山下",
-      "王 使人剖璞"
+      "王 使人剖璞",
+      "果真得到寶玉",
+      "於是命人把它雕成玉璧"
     ],
     "dse_usage": "春秋時楚人卞和發現一塊璞玉，先後獻給楚厲王和武王， 但二人命人鑑別後都認為這只是普通的石頭，於是以為卞和存心欺 騙，結果分別斷其左足和右足。到文王時，卞和抱玉哭於荊山下，王 使人剖璞，果真得到寶玉，於是命人把它雕成玉璧，名為「和氏璧」。 璧，圓形而中間有孔的玉器",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "楚和氏璧"
+    "sentence_snippet": "楚和氏璧",
+    "source": "教育局注釋 5"
   },
   {
     "term": "遺",
     "accepted": [
+      "給予、送",
       "給予",
-      "送。○粵 [惠]",
+      "送",
       "[wai6]"
     ],
-    "dse_usage": "給予、送。○粵 [惠]，[wai6]；",
+    "dse_usage": "給予、送",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "遺"
+    "sentence_snippet": "遺",
+    "source": "教育局注釋 6"
   },
   {
     "term": "徒見欺",
     "accepted": [
-      "白白被欺騙。見：被",
+      "白白被欺騙"
+    ],
+    "dse_usage": "白白被欺騙",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "徒見欺",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "見",
+    "accepted": [
+      "被、受，表示被動的意思",
+      "被",
       "受",
       "表示被動的意思"
     ],
-    "dse_usage": "白白被欺騙。見：被、受，表示被動的意思",
-    "difficulty": 2,
+    "dse_usage": "被、受，表示被動的意思",
+    "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "徒見欺"
+    "sentence_snippet": "見",
+    "source": "教育局注釋 7"
   },
   {
     "term": "求人可使報秦者",
     "accepted": [
-      "回 覆"
+      "徵求可以作為使臣去答覆秦國的人"
     ],
-    "dse_usage": "徵求可以作為使臣去答覆秦國的人。報：答覆、回 覆",
+    "dse_usage": "徵求可以作為使臣去答覆秦國的人",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "求人可使報秦者"
+    "sentence_snippet": "求人可使報秦者",
+    "source": "教育局注釋 8"
+  },
+  {
+    "term": "報",
+    "accepted": [
+      "答覆、回 覆",
+      "答覆",
+      "回 覆"
+    ],
+    "dse_usage": "答覆、回 覆",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "報",
+    "source": "教育局注釋 8"
   },
   {
     "term": "使",
     "accepted": [
-      "出使。"
+      "出使"
     ],
-    "dse_usage": "出使。；",
+    "dse_usage": "出使",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "使"
+    "sentence_snippet": "使",
+    "source": "教育局注釋 9"
   },
   {
     "term": "竊",
     "accepted": [
+      "私下，多作謙詞用",
       "私下",
-      "多作謙詞用。亡：逃亡"
+      "多作謙詞用"
     ],
-    "dse_usage": "私下，多作謙詞用。亡：逃亡",
+    "dse_usage": "私下，多作謙詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "竊"
+    "sentence_snippet": "竊",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "亡",
+    "accepted": [
+      "逃亡"
+    ],
+    "dse_usage": "逃亡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "亡",
+    "source": "教育局注釋 10"
   },
   {
     "term": "語",
     "accepted": [
+      "告訴，作動詞用",
       "告訴",
-      "作動詞用。"
+      "作動詞用"
     ],
-    "dse_usage": "告訴，作動詞用。；",
+    "dse_usage": "告訴，作動詞用",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "語"
+    "sentence_snippet": "語",
+    "source": "教育局注釋 11"
   },
   {
     "term": "彊",
@@ -164,7 +208,8 @@
     "dse_usage": "同「強」",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "彊"
+    "sentence_snippet": "彊",
+    "source": "教育局注釋 12"
   },
   {
     "term": "幸",
@@ -174,18 +219,45 @@
     "dse_usage": "寵幸",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "幸"
+    "sentence_snippet": "幸",
+    "source": "教育局注釋 13"
   },
   {
     "term": "肉袒伏斧質請罪",
     "accepted": [
+      "赤身伏在斧質上，請求降罪",
       "赤身伏在斧質上",
-      "鐵砧"
+      "請求降罪"
     ],
-    "dse_usage": "赤身伏在斧質上，請求降罪。斧質：古代一種腰斬 的刑具。質：也寫作「鑕」，鐵砧",
+    "dse_usage": "赤身伏在斧質上，請求降罪",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "肉袒伏斧質請罪"
+    "sentence_snippet": "肉袒伏斧質請罪",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "斧質",
+    "accepted": [
+      "古代一種腰斬 的刑具"
+    ],
+    "dse_usage": "古代一種腰斬 的刑具",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斧質",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "質",
+    "accepted": [
+      "也寫作「鑕」，鐵砧",
+      "也寫作「鑕」",
+      "鐵砧"
+    ],
+    "dse_usage": "也寫作「鑕」，鐵砧",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "質",
+    "source": "教育局注釋 14"
   },
   {
     "term": "不",
@@ -194,8 +266,9 @@
     ],
     "dse_usage": "通「否」",
     "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "不"
+    "category": "虛詞",
+    "sentence_snippet": "不",
+    "source": "教育局注釋 15"
   },
   {
     "term": "曲",
@@ -205,17 +278,43 @@
     "dse_usage": "理虧",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "曲"
+    "sentence_snippet": "曲",
+    "source": "教育局注釋 16"
   },
   {
     "term": "均之二策",
     "accepted": [
-      "這"
+      "比較這兩個對策"
     ],
-    "dse_usage": "比較這兩個對策。均︰衡量。之：此、這",
+    "dse_usage": "比較這兩個對策",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "均之二策"
+    "sentence_snippet": "均之二策",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "均",
+    "accepted": [
+      "衡量"
+    ],
+    "dse_usage": "衡量",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "均",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "之",
+    "accepted": [
+      "此、這",
+      "此",
+      "這"
+    ],
+    "dse_usage": "此、這",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "之",
+    "source": "教育局注釋 17"
   },
   {
     "term": "寧許以負秦曲",
@@ -226,38 +325,46 @@
     "dse_usage": "寧可答應將和氏璧給予秦國（假如秦王受璧而不予 城），使秦負上理虧的責任",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "寧許以負秦曲"
+    "sentence_snippet": "寧許以負秦曲",
+    "source": "教育局注釋 18"
   },
   {
     "term": "必",
     "accepted": [
+      "倘若、如果",
       "倘若",
       "如果。 5"
     ],
     "dse_usage": "倘若、如果。 5",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "必"
+    "sentence_snippet": "必",
+    "source": "教育局注釋 19"
   },
   {
     "term": "完璧歸趙",
     "accepted": [
+      "把璧玉完完整整地帶回趙國",
       "表示物歸原主的意思"
     ],
     "dse_usage": "把璧玉完完整整地帶回趙國。「完璧歸趙」後來成為成語， 表示物歸原主的意思",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "完璧歸趙"
+    "sentence_snippet": "完璧歸趙",
+    "source": "教育局注釋 20"
   },
   {
     "term": "章臺",
     "accepted": [
+      "秦宮名",
+      "秦宮名。章臺本是供登臨遊樂的離宮",
       "有輕視之意"
     ],
     "dse_usage": "秦宮名。章臺本是供登臨遊樂的離宮，昭王不在正殿而在章臺 召見趙國使臣藺相如，有輕視之意",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "章臺"
+    "sentence_snippet": "章臺",
+    "source": "教育局注釋 21"
   },
   {
     "term": "瑕",
@@ -267,7 +374,8 @@
     "dse_usage": "玉石上的斑點",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "瑕"
+    "sentence_snippet": "瑕",
+    "source": "教育局注釋 22"
   },
   {
     "term": "卻立",
@@ -275,41 +383,58 @@
       "後退站立"
     ],
     "dse_usage": "後退站立",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "卻立"
+    "sentence_snippet": "卻立",
+    "source": "教育局注釋 23"
   },
   {
     "term": "負",
     "accepted": [
+      "倚仗、恃着",
       "倚仗",
       "恃着"
     ],
     "dse_usage": "倚仗、恃着",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "負"
+    "sentence_snippet": "負",
+    "source": "教育局注釋 24"
   },
   {
     "term": "布衣",
     "accepted": [
+      "麻布衣服，借指平民百姓",
       "麻布衣服",
       "借指平民百姓"
     ],
     "dse_usage": "麻布衣服，借指平民百姓",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "布衣"
+    "sentence_snippet": "布衣",
+    "source": "教育局注釋 25"
   },
   {
     "term": "逆",
     "accepted": [
-      "拂逆。驩：同「歡」"
+      "拂逆"
     ],
-    "dse_usage": "拂逆。驩：同「歡」",
+    "dse_usage": "拂逆",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "逆"
+    "sentence_snippet": "逆",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "驩",
+    "accepted": [
+      "同「歡」"
+    ],
+    "dse_usage": "同「歡」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "驩",
+    "source": "教育局注釋 26"
   },
   {
     "term": "齋戒",
@@ -321,51 +446,91 @@
       "誠心誠意準備敬神"
     ],
     "dse_usage": "古時候舉行祭祀，主祭的人先要齋戒，住在清淨的房子裏，不 同外人往來，誠心誠意準備敬神",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "齋戒"
+    "sentence_snippet": "齋戒",
+    "source": "教育局注釋 27"
   },
   {
     "term": "拜送書於庭",
     "accepted": [
-      "送出國書。庭：通「廷」",
-      "國君聽政的朝堂"
+      "送出國書"
     ],
-    "dse_usage": "（相如）在朝廷上行了禮，送出國書。庭：通「廷」， 國君聽政的朝堂",
+    "dse_usage": "（相如）在朝廷上行了禮，送出國書",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "拜送書於庭"
+    "sentence_snippet": "拜送書於庭",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "庭",
+    "accepted": [
+      "通「廷」， 國君聽政的朝堂",
+      "通「廷」",
+      "國君聽政的朝堂"
+    ],
+    "dse_usage": "通「廷」， 國君聽政的朝堂",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "庭",
+    "source": "教育局注釋 28"
   },
   {
     "term": "嚴大國之威以修敬也",
     "accepted": [
-      "尊重大國的威嚴而"
+      "尊重大國的威嚴而表達敬意"
     ],
-    "dse_usage": "尊重大國的威嚴而表達敬意。嚴：尊重",
+    "dse_usage": "尊重大國的威嚴而表達敬意",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "嚴大國之威以修敬也"
+    "sentence_snippet": "嚴大國之威以修敬也",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "嚴",
+    "accepted": [
+      "尊重"
+    ],
+    "dse_usage": "尊重",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "嚴",
+    "source": "教育局注釋 29"
   },
   {
     "term": "見臣列觀",
     "accepted": [
-      "於一般宮殿中",
-      "即指章臺。"
+      "於一般宮殿中"
     ],
-    "dse_usage": "於一般宮殿中（而不是正殿）接見微臣。觀：用作遊樂的 宮殿，即指章臺。；",
+    "dse_usage": "於一般宮殿中（而不是正殿）接見微臣",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "見臣列觀"
+    "sentence_snippet": "見臣列觀",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "觀",
+    "accepted": [
+      "用作遊樂的 宮殿，即指章臺",
+      "用作遊樂的 宮殿",
+      "即指章臺"
+    ],
+    "dse_usage": "用作遊樂的 宮殿，即指章臺",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "觀",
+    "source": "教育局注釋 30"
   },
   {
     "term": "倨",
     "accepted": [
-      "傲慢。"
+      "傲慢"
     ],
-    "dse_usage": "傲慢。；",
+    "dse_usage": "傲慢",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "倨"
+    "sentence_snippet": "倨",
+    "source": "教育局注釋 31"
   },
   {
     "term": "急",
@@ -375,48 +540,957 @@
     "dse_usage": "逼迫",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "急"
+    "sentence_snippet": "急",
+    "source": "教育局注釋 32"
   },
   {
     "term": "睨",
     "accepted": [
-      "斜視。"
+      "斜視"
     ],
-    "dse_usage": "斜視。；",
+    "dse_usage": "斜視",
     "difficulty": 3,
     "category": "實詞",
-    "sentence_snippet": "睨"
+    "sentence_snippet": "睨",
+    "source": "教育局注釋 33"
   },
   {
     "term": "乃辭謝固請",
     "accepted": [
-      "於是婉言道歉"
+      "於是婉言道歉",
+      "堅決請求藺相如不要這樣做"
     ],
-    "dse_usage": "於是婉言道歉，堅決請求藺相如不要這樣做。辭謝：婉 言道歉。固請：堅決請求",
+    "dse_usage": "於是婉言道歉，堅決請求藺相如不要這樣做",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "乃辭謝固請"
+    "sentence_snippet": "乃辭謝固請",
+    "source": "教育局注釋 34"
   },
   {
-    "term": "召有司案圖",
+    "term": "辭謝",
     "accepted": [
-      "查考",
-      "按照。都：城"
+      "婉 言道歉"
     ],
-    "dse_usage": "召喚負責掌管版圖的官吏查考 地圖，指着從這裏到那裏的十五座城給予趙國。有司：官吏的通稱。 案：通「按」，查考、按照。都：城",
+    "dse_usage": "婉 言道歉",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "召有司案圖"
+    "sentence_snippet": "辭謝",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "固請",
+    "accepted": [
+      "堅決請求"
+    ],
+    "dse_usage": "堅決請求",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "固請",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "指從此以往十五都予趙",
+    "accepted": [
+      "召喚負責掌管版圖的官吏查考 地圖"
+    ],
+    "dse_usage": "召喚負責掌管版圖的官吏查考 地圖，指着從這裏到那裏的十五座城給予趙國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "指從此以往十五都予趙",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "有司",
+    "accepted": [
+      "官吏的通稱"
+    ],
+    "dse_usage": "官吏的通稱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "有司",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "案",
+    "accepted": [
+      "通「按」，查考、按照",
+      "通「按」",
+      "查考",
+      "按照"
+    ],
+    "dse_usage": "通「按」，查考、按照",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "案",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "都",
+    "accepted": [
+      "城"
+    ],
+    "dse_usage": "城",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "都",
+    "source": "教育局注釋 35"
   },
   {
     "term": "相如度秦王特以詐佯為予趙城",
     "accepted": [
-      "。特：僅",
-      "只是。佯︰ 假裝。"
+      "相如估計秦王只是以狡詐的"
     ],
-    "dse_usage": "相如估計秦王只是以狡詐的話假裝給 趙國都城。度：揣度。；。特：僅、只是。佯︰ 假裝。；",
+    "dse_usage": "相如估計秦王只是以狡詐的話假裝給 趙國都城",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "相如度秦王特以詐佯為予趙城"
+    "sentence_snippet": "相如度秦王特以詐佯為予趙城",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "度",
+    "accepted": [
+      "揣度"
+    ],
+    "dse_usage": "揣度",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "度",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "特",
+    "accepted": [
+      "僅、只是",
+      "僅",
+      "只是"
+    ],
+    "dse_usage": "僅、只是",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "特",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "佯",
+    "accepted": [
+      "假裝"
+    ],
+    "dse_usage": "假裝",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "佯",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "設九賓於廷",
+    "accepted": [
+      "在宮廷正殿上設九賓之禮"
+    ],
+    "dse_usage": "在宮廷正殿上設九賓之禮",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "設九賓於廷",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "九賓",
+    "accepted": [
+      "也稱「九儀」",
+      "古時 外交上最隆重的禮節",
+      "由九個儐相依次傳呼接引上殿"
+    ],
+    "dse_usage": "也稱「九儀」，古時 外交上最隆重的禮節，由九個儐相依次傳呼接引上殿",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "九賓",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "舍",
+    "accepted": [
+      "安置，作動詞用",
+      "安置",
+      "作動詞用"
+    ],
+    "dse_usage": "安置，作動詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "舍",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "廣成傳",
+    "accepted": [
+      "賓館名"
+    ],
+    "dse_usage": "賓館名",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "廣成傳",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "傳",
+    "accepted": [
+      "設於驛站的房舍",
+      "設於驛站的房舍。 [zyun3]"
+    ],
+    "dse_usage": "設於驛站的房舍。 [zyun3]",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "傳",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "乃使其從者衣褐",
+    "accepted": [
+      "於是命令他的隨從穿着粗布便衣"
+    ],
+    "dse_usage": "於是命令他的隨從穿着粗布便衣（裝扮成平民模 樣）",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "乃使其從者衣褐",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "衣",
+    "accepted": [
+      "穿着，作動詞用",
+      "穿着",
+      "作動詞用"
+    ],
+    "dse_usage": "穿着，作動詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "衣",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "褐",
+    "accepted": [
+      "平民穿的粗 布便衣"
+    ],
+    "dse_usage": "平民穿的粗 布便衣",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "褐",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "徑道",
+    "accepted": [
+      "小路、便道",
+      "小路",
+      "便道"
+    ],
+    "dse_usage": "小路、便道",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "徑道",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "繆公",
+    "accepted": [
+      "即秦穆公，春秋五霸之一",
+      "即秦穆公",
+      "春秋五霸之一"
+    ],
+    "dse_usage": "即秦穆公，春秋五霸之一",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "繆公",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "繆",
+    "accepted": [
+      "通「穆」"
+    ],
+    "dse_usage": "通「穆」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "繆",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "未嘗有堅明約束者也",
+    "accepted": [
+      "未曾有堅守信約的君主"
+    ],
+    "dse_usage": "未曾有堅守信約的君主",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "未嘗有堅明約束者也",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "間至趙矣",
+    "accepted": [
+      "已從偏僻的小路回到趙國了"
+    ],
+    "dse_usage": "已從偏僻的小路回到趙國了",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "間至趙矣",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "間",
+    "accepted": [
+      "「間道」的簡縮",
+      "或解 作偷偷地"
+    ],
+    "dse_usage": "「間道」的簡縮；或解 作偷偷地",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "間",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "一介",
+    "accepted": [
+      "一個，有低小和微賤的意思",
+      "一個",
+      "有低小和微賤的意思。 6"
+    ],
+    "dse_usage": "一個，有低小和微賤的意思。 6",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "一介",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "湯鑊",
+    "accepted": [
+      "用滾湯烹煮罪犯，是古代酷刑",
+      "用滾湯烹煮罪犯",
+      "是古代酷刑"
+    ],
+    "dse_usage": "用滾湯烹煮罪犯，是古代酷刑",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "湯鑊",
+    "source": "教育局注釋 45"
+  },
+  {
+    "term": "唯",
+    "accepted": [
+      "表示「希望」的語氣助詞"
+    ],
+    "dse_usage": "表示「希望」的語氣助詞",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "唯",
+    "source": "教育局注釋 46"
+  },
+  {
+    "term": "孰",
+    "accepted": [
+      "通「熟」，詳細",
+      "通「熟」",
+      "詳細"
+    ],
+    "dse_usage": "通「熟」，詳細",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "孰",
+    "source": "教育局注釋 46"
+  },
+  {
+    "term": "嘻",
+    "accepted": [
+      "表示又驚又怒的聲音"
+    ],
+    "dse_usage": "表示又驚又怒的聲音",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "嘻",
+    "source": "教育局注釋 47"
+  },
+  {
+    "term": "趙王豈以一璧之故欺秦邪",
+    "accepted": [
+      "趙王怎會因為一塊璧玉的緣"
+    ],
+    "dse_usage": "趙王怎會因為一塊璧玉的緣故而欺騙我們 秦國呢？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "趙王豈以一璧之故欺秦邪",
+    "source": "教育局注釋 48"
+  },
+  {
+    "term": "邪",
+    "accepted": [
+      "通「耶」"
+    ],
+    "dse_usage": "通「耶」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "邪",
+    "source": "教育局注釋 48"
+  },
+  {
+    "term": "卒廷見相如",
+    "accepted": [
+      "終於在朝廷上召見相如"
+    ],
+    "dse_usage": "終於在朝廷上召見相如",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "卒廷見相如",
+    "source": "教育局注釋 49"
+  },
+  {
+    "term": "使不辱於諸侯",
+    "accepted": [
+      "出使諸侯之國，能不受欺辱",
+      "出使諸侯之國",
+      "能不受欺辱"
+    ],
+    "dse_usage": "出使諸侯之國，能不受欺辱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "使不辱於諸侯",
+    "source": "教育局注釋 50"
+  },
+  {
+    "term": "上大夫",
+    "accepted": [
+      "比卿低一級的官職"
+    ],
+    "dse_usage": "比卿低一級的官職",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "上大夫",
+    "source": "教育局注釋 51"
+  },
+  {
+    "term": "拔石城",
+    "accepted": [
+      "攻取了石城"
+    ],
+    "dse_usage": "攻取了石城",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "拔石城",
+    "source": "教育局注釋 52"
+  },
+  {
+    "term": "欲與王為好會於西河外澠池",
+    "accepted": [
+      "想與趙王會面於西河外的澠池",
+      "以示友 好"
+    ],
+    "dse_usage": "想與趙王會面於西河外的澠池，以示友 好",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "欲與王為好會於西河外澠池",
+    "source": "教育局注釋 53"
+  },
+  {
+    "term": "澠池",
+    "accepted": [
+      "在今河南省澠池縣境"
+    ],
+    "dse_usage": "在今河南省澠池縣境",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "澠池",
+    "source": "教育局注釋 53"
+  },
+  {
+    "term": "訣",
+    "accepted": [
+      "告別"
+    ],
+    "dse_usage": "告別",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "訣",
+    "source": "教育局注釋 54"
+  },
+  {
+    "term": "道里",
+    "accepted": [
+      "路程、里程",
+      "路程",
+      "里程"
+    ],
+    "dse_usage": "路程、里程",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "道里",
+    "source": "教育局注釋 55"
+  },
+  {
+    "term": "會遇",
+    "accepted": [
+      "會面"
+    ],
+    "dse_usage": "會面",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "會遇",
+    "source": "教育局注釋 55"
+  },
+  {
+    "term": "酣",
+    "accepted": [
+      "飲酒到高興的時候"
+    ],
+    "dse_usage": "飲酒到高興的時候",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "酣",
+    "source": "教育局注釋 56"
+  },
+  {
+    "term": "好音",
+    "accepted": [
+      "喜愛音樂"
+    ],
+    "dse_usage": "喜愛音樂",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "好音",
+    "source": "教育局注釋 57"
+  },
+  {
+    "term": "瑟",
+    "accepted": [
+      "古樂器"
+    ],
+    "dse_usage": "古樂器",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "瑟",
+    "source": "教育局注釋 57"
+  },
+  {
+    "term": "御史",
+    "accepted": [
+      "史官"
+    ],
+    "dse_usage": "史官",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "御史",
+    "source": "教育局注釋 58"
+  },
+  {
+    "term": "書",
+    "accepted": [
+      "書寫、記載",
+      "書寫",
+      "記載"
+    ],
+    "dse_usage": "書寫、記載",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "書",
+    "source": "教育局注釋 58"
+  },
+  {
+    "term": "善",
+    "accepted": [
+      "擅長"
+    ],
+    "dse_usage": "擅長",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "善",
+    "source": "教育局注釋 59"
+  },
+  {
+    "term": "秦聲",
+    "accepted": [
+      "秦地的音樂"
+    ],
+    "dse_usage": "秦地的音樂",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "秦聲",
+    "source": "教育局注釋 59"
+  },
+  {
+    "term": "缻",
+    "accepted": [
+      "同「缶」",
+      "本是盛酒漿的瓦器",
+      "秦人歌唱時用來敲打節拍"
+    ],
+    "dse_usage": "同「缶」，本是盛酒漿的瓦器， 秦人歌唱時用來敲打節拍",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "缻",
+    "source": "教育局注釋 59"
+  },
+  {
+    "term": "左右欲刃相如",
+    "accepted": [
+      "秦王的侍從想用刀刺殺相如"
+    ],
+    "dse_usage": "秦王的侍從想用刀刺殺相如",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "左右欲刃相如",
+    "source": "教育局注釋 60"
+  },
+  {
+    "term": "刃",
+    "accepted": [
+      "用刀刺"
+    ],
+    "dse_usage": "用刀刺",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "刃",
+    "source": "教育局注釋 60"
+  },
+  {
+    "term": "靡",
+    "accepted": [
+      "倒下，此處指秦王左右之人退卻",
+      "倒下",
+      "此處指秦王左右之人退卻"
+    ],
+    "dse_usage": "倒下，此處指秦王左右之人退卻",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "靡",
+    "source": "教育局注釋 61"
+  },
+  {
+    "term": "懌",
+    "accepted": [
+      "高興、喜悅",
+      "高興",
+      "喜悅"
+    ],
+    "dse_usage": "高興、喜悅",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "懌",
+    "source": "教育局注釋 62"
+  },
+  {
+    "term": "壽",
+    "accepted": [
+      "祝壽，作動詞用",
+      "祝壽",
+      "作動詞用"
+    ],
+    "dse_usage": "祝壽，作動詞用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "壽",
+    "source": "教育局注釋 63"
+  },
+  {
+    "term": "咸陽",
+    "accepted": [
+      "秦國的首都"
+    ],
+    "dse_usage": "秦國的首都",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "咸陽",
+    "source": "教育局注釋 64"
+  },
+  {
+    "term": "竟酒",
+    "accepted": [
+      "酒筵完畢"
+    ],
+    "dse_usage": "酒筵完畢",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "竟酒",
+    "source": "教育局注釋 65"
+  },
+  {
+    "term": "位在廉頗之右",
+    "accepted": [
+      "職位在廉頗之上"
+    ],
+    "dse_usage": "職位在廉頗之上",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "位在廉頗之右",
+    "source": "教育局注釋 66"
+  },
+  {
+    "term": "右",
+    "accepted": [
+      "古時以右為尊"
+    ],
+    "dse_usage": "古時以右為尊",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "右",
+    "source": "教育局注釋 66"
+  },
+  {
+    "term": "素",
+    "accepted": [
+      "向來、本來",
+      "向來",
+      "本來"
+    ],
+    "dse_usage": "向來、本來",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "素",
+    "source": "教育局注釋 67"
+  },
+  {
+    "term": "賤人",
+    "accepted": [
+      "地位卑下的人"
+    ],
+    "dse_usage": "地位卑下的人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "賤人",
+    "source": "教育局注釋 67"
+  },
+  {
+    "term": "不欲與廉頗爭列",
+    "accepted": [
+      "不想與廉頗爭官位的高低"
+    ],
+    "dse_usage": "不想與廉頗爭官位的高低",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不欲與廉頗爭列",
+    "source": "教育局注釋 68"
+  },
+  {
+    "term": "列",
+    "accepted": [
+      "排列的位置"
+    ],
+    "dse_usage": "排列的位置",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "列",
+    "source": "教育局注釋 68"
+  },
+  {
+    "term": "已而",
+    "accepted": [
+      "不久"
+    ],
+    "dse_usage": "不久",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "已而",
+    "source": "教育局注釋 69"
+  },
+  {
+    "term": "臣所以去親戚而事君者",
+    "accepted": [
+      "微臣之所以離開親人而侍奉你的原因"
+    ],
+    "dse_usage": "微臣之所以離開親人而侍奉你的原因",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "臣所以去親戚而事君者",
+    "source": "教育局注釋 70"
+  },
+  {
+    "term": "去",
+    "accepted": [
+      "離開"
+    ],
+    "dse_usage": "離開",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "去",
+    "source": "教育局注釋 70"
+  },
+  {
+    "term": "事君",
+    "accepted": [
+      "為你辦事"
+    ],
+    "dse_usage": "為你辦事",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "事君",
+    "source": "教育局注釋 70"
+  },
+  {
+    "term": "徒慕君之高義也",
+    "accepted": [
+      "只是仰慕你的崇高品德"
+    ],
+    "dse_usage": "只是仰慕你的崇高品德",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "徒慕君之高義也",
+    "source": "教育局注釋 71"
+  },
+  {
+    "term": "高義",
+    "accepted": [
+      "崇高品德"
+    ],
+    "dse_usage": "崇高品德",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "高義",
+    "source": "教育局注釋 71"
+  },
+  {
+    "term": "不肖",
+    "accepted": [
+      "不才，自謙之詞",
+      "不才",
+      "自謙之詞"
+    ],
+    "dse_usage": "不才，自謙之詞",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不肖",
+    "source": "教育局注釋 72"
+  },
+  {
+    "term": "公之視廉將軍孰與秦王",
+    "accepted": [
+      "你看廉頗將軍與秦王相比",
+      "誰較厲害？"
+    ],
+    "dse_usage": "你看廉頗將軍與秦王相比，誰較厲害？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "公之視廉將軍孰與秦王",
+    "source": "教育局注釋 73"
+  },
+  {
+    "term": "孰與",
+    "accepted": [
+      "比對方怎麼樣，表示疑問語氣",
+      "比對方怎麼樣",
+      "表示疑問語氣。用於比照"
+    ],
+    "dse_usage": "比對方怎麼樣，表示疑問語氣。用於比照",
+    "difficulty": 2,
+    "category": "虛詞",
+    "sentence_snippet": "孰與",
+    "source": "教育局注釋 73"
+  },
+  {
+    "term": "駑",
+    "accepted": [
+      "劣馬，喻愚鈍無能",
+      "劣馬",
+      "喻愚鈍無能"
+    ],
+    "dse_usage": "劣馬，喻愚鈍無能",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "駑",
+    "source": "教育局注釋 74"
+  },
+  {
+    "term": "獨",
+    "accepted": [
+      "豈、難道",
+      "豈",
+      "難道"
+    ],
+    "dse_usage": "豈、難道",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "獨",
+    "source": "教育局注釋 75"
+  },
+  {
+    "term": "顧",
+    "accepted": [
+      "只是、不過",
+      "只是",
+      "不過。用作連接分句",
+      "表示轉折。 7"
+    ],
+    "dse_usage": "只是、不過。用作連接分句，表示轉折。 7",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "顧",
+    "source": "教育局注釋 76"
+  },
+  {
+    "term": "以先國家之急而後私讎也",
+    "accepted": [
+      "以國家之急務為先",
+      "而以個人之私怨為後"
+    ],
+    "dse_usage": "以國家之急務為先，而以個人之私怨為後",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "以先國家之急而後私讎也",
+    "source": "教育局注釋 77"
+  },
+  {
+    "term": "讎",
+    "accepted": [
+      "同「仇」，怨恨",
+      "同「仇」",
+      "怨恨"
+    ],
+    "dse_usage": "同「仇」，怨恨",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "讎",
+    "source": "教育局注釋 77"
+  },
+  {
+    "term": "肉袒負荊",
+    "accepted": [
+      "光着身子",
+      "背着荊條",
+      "表示願受責罰",
+      "認錯賠罪"
+    ],
+    "dse_usage": "光着身子，背着荊條，表示願受責罰，認錯賠罪",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "肉袒負荊",
+    "source": "教育局注釋 78"
+  },
+  {
+    "term": "荊",
+    "accepted": [
+      "荊 條"
+    ],
+    "dse_usage": "荊 條",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "荊",
+    "source": "教育局注釋 78"
+  },
+  {
+    "term": "為刎頸之交",
+    "accepted": [
+      "成了誓同生死的朋友"
+    ],
+    "dse_usage": "成了誓同生死的朋友",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "為刎頸之交",
+    "source": "教育局注釋 79"
+  },
+  {
+    "term": "刎",
+    "accepted": [
+      "割"
+    ],
+    "dse_usage": "割",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "刎",
+    "source": "教育局注釋 79"
   }
 ]

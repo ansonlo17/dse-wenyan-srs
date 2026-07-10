@@ -1,32 +1,789 @@
 [
-  {"term": "約", "accepted": ["窮困", "貧困", "困苦", "貧乏"], "dse_usage": "窮困、貧困（久處約）", "difficulty": 3, "category": "異義", "sentence_snippet": "不可以久處約"},
-  {"term": "知", "accepted": ["智", "智慧", "聰明"], "dse_usage": "通「智」；知者利仁", "difficulty": 3, "category": "異義", "sentence_snippet": "知者利仁"},
-  {"term": "利仁", "accepted": ["以仁為利", "利用仁", "行仁求利"], "dse_usage": "認識到仁的長遠利益而實行仁", "difficulty": 4, "category": "結構", "sentence_snippet": "知者利仁"},
-  {"term": "處", "accepted": ["接受", "居於", "處於"], "dse_usage": "接受（不處也）", "difficulty": 3, "category": "異義", "sentence_snippet": "不以其道得之，不處也"},
-  {"term": "去", "accepted": ["捨棄", "離開", "拋棄"], "dse_usage": "捨棄、離開（不去也／君子去仁）", "difficulty": 3, "category": "異義", "sentence_snippet": "不以其道得之，不去也"},
-  {"term": "惡", "accepted": ["怎麼", "如何", "哪裏"], "dse_usage": "疑問代詞：怎麼、如何（惡乎成名）", "difficulty": 4, "category": "虛詞", "sentence_snippet": "惡乎成名"},
-  {"term": "終食之間", "accepted": ["一頓飯時間", "片刻", "很短時間"], "dse_usage": "一頓飯的時間；極短時間", "difficulty": 3, "category": "結構", "sentence_snippet": "無終食之間違仁"},
-  {"term": "違", "accepted": ["違背", "離開", "違反", "冒犯"], "dse_usage": "離開、違背；或觸忤、冒犯", "difficulty": 3, "category": "實詞", "sentence_snippet": "無終食之間違仁"},
-  {"term": "造次", "accepted": ["倉卒", "匆忙", "急遽"], "dse_usage": "倉卒匆忙", "difficulty": 4, "category": "實詞", "sentence_snippet": "造次必於是"},
-  {"term": "顛沛", "accepted": ["困頓", "挫折", "流離"], "dse_usage": "困頓挫折", "difficulty": 3, "category": "實詞", "sentence_snippet": "顛沛必於是"},
-  {"term": "克己復禮", "accepted": ["克制自己合於禮", "約己復禮", "克制私欲回歸禮"], "dse_usage": "抑制自己，使言行合於禮", "difficulty": 3, "category": "結構", "sentence_snippet": "克己復禮為仁"},
-  {"term": "目", "accepted": ["綱目", "要目", "條目"], "dse_usage": "綱目、要目（請問其目）", "difficulty": 3, "category": "異義", "sentence_snippet": "請問其目"},
-  {"term": "事", "accepted": ["實踐", "從事", "實行"], "dse_usage": "實踐、從事（請事斯語）", "difficulty": 3, "category": "異義", "sentence_snippet": "請事斯語矣"},
-  {"term": "殺身以成仁", "accepted": ["捨生取仁", "犧牲自己成全仁", "殺身成仁"], "dse_usage": "犧牲自己以成全仁德", "difficulty": 2, "category": "結構", "sentence_snippet": "有殺身以成仁"},
-  {"term": "無違", "accepted": ["不違禮", "不要違背禮", "不違背"], "dse_usage": "不要違背禮節", "difficulty": 2, "category": "結構", "sentence_snippet": "子曰：「無違。」"},
-  {"term": "御", "accepted": ["駕車", "駕駛", "趕車"], "dse_usage": "駕車", "difficulty": 2, "category": "實詞", "sentence_snippet": "樊遲御"},
-  {"term": "養", "accepted": ["供養", "養活", "飼養"], "dse_usage": "供養父母／飼養（犬馬）", "difficulty": 3, "category": "異義", "sentence_snippet": "是謂能養"},
-  {"term": "幾諫", "accepted": ["婉轉勸諫", "輕微勸諫", "委婉規勸"], "dse_usage": "輕微、婉轉地勸諫", "difficulty": 4, "category": "結構", "sentence_snippet": "事父母幾諫"},
-  {"term": "勞", "accepted": ["擔憂", "憂愁", "憂慮"], "dse_usage": "擔憂（勞而不怨）", "difficulty": 4, "category": "異義", "sentence_snippet": "勞而不怨"},
-  {"term": "重", "accepted": ["莊重", "穩重"], "dse_usage": "莊重（不重則不威）", "difficulty": 3, "category": "異義", "sentence_snippet": "君子不重則不威"},
-  {"term": "固", "accepted": ["鞏固", "牢固", "固陋"], "dse_usage": "鞏固／固陋（學則不固）", "difficulty": 4, "category": "異義", "sentence_snippet": "學則不固"},
-  {"term": "憚", "accepted": ["害怕", "畏懼", "怕"], "dse_usage": "害怕、畏懼（勿憚改）", "difficulty": 3, "category": "實詞", "sentence_snippet": "過則勿憚改"},
-  {"term": "坦蕩蕩", "accepted": ["坦蕩", "心胸寬廣", "舒坦"], "dse_usage": "心胸舒坦寬廣", "difficulty": 2, "category": "實詞", "sentence_snippet": "君子坦蕩蕩"},
-  {"term": "戚戚", "accepted": ["憂愁", "局促", "憂戚"], "dse_usage": "局促憂愁", "difficulty": 3, "category": "實詞", "sentence_snippet": "小人長戚戚"},
-  {"term": "內省不疚", "accepted": ["問心無愧", "自我反省無愧", "反省不疚"], "dse_usage": "自我反省而問心無愧", "difficulty": 3, "category": "結構", "sentence_snippet": "內省不疚"},
-  {"term": "成人之美", "accepted": ["成全別人好事", "成全好事", "助人為善"], "dse_usage": "成全別人的好事", "difficulty": 2, "category": "結構", "sentence_snippet": "君子成人之美"},
-  {"term": "孫", "accepted": ["遜", "謙遜", "謙虛"], "dse_usage": "通「遜」，謙遜", "difficulty": 4, "category": "異義", "sentence_snippet": "孫以出之"},
-  {"term": "病", "accepted": ["憂慮", "慚愧", "抱怨", "擔心"], "dse_usage": "憂慮、慚愧、抱怨", "difficulty": 3, "category": "異義", "sentence_snippet": "君子病無能焉"},
-  {"term": "不己知", "accepted": ["不了解自己", "別人不知己", "不為人知"], "dse_usage": "不了解自己（賓語前置）", "difficulty": 4, "category": "結構", "sentence_snippet": "不病人之不己知也"},
-  {"term": "諸", "accepted": ["之於", "之於合音"], "dse_usage": "之於（求諸己）", "difficulty": 3, "category": "虛詞", "sentence_snippet": "君子求諸己"}
+  {
+    "term": "不可以久處約",
+    "accepted": [
+      "不可以長久地居於窮困之中"
+    ],
+    "dse_usage": "不可以長久地居於窮困之中",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不可以久處約",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "約",
+    "accepted": [
+      "窮困、貧困",
+      "窮困",
+      "貧困"
+    ],
+    "dse_usage": "窮困、貧困",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "約",
+    "source": "教育局注釋 1"
+  },
+  {
+    "term": "知者利仁",
+    "accepted": [
+      "於是便實行 仁德"
+    ],
+    "dse_usage": "聰明的人認識到仁德對他有長遠而巨大的利益，於是便實行 仁德",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "知者利仁",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "知",
+    "accepted": [
+      "通「智」"
+    ],
+    "dse_usage": "通「智」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "知",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "利",
+    "accepted": [
+      "利用"
+    ],
+    "dse_usage": "利用",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "利",
+    "source": "教育局注釋 2"
+  },
+  {
+    "term": "處",
+    "accepted": [
+      "接受"
+    ],
+    "dse_usage": "接受",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "處",
+    "source": "教育局注釋 3"
+  },
+  {
+    "term": "不以其道得之",
+    "accepted": [
+      "不以正當的方法得以拋掉它",
+      "「不」字 乃衍文",
+      "或以為傳抄之誤",
+      "指君子行仁義之道卻得到貧賤"
+    ],
+    "dse_usage": "不以正當的方法得以拋掉它（貧困）。一說，「不」字 乃衍文，或以為傳抄之誤，指君子行仁義之道卻得到貧賤",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不以其道得之",
+    "source": "教育局注釋 4"
+  },
+  {
+    "term": "去",
+    "accepted": [
+      "捨棄"
+    ],
+    "dse_usage": "捨棄",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "去",
+    "source": "教育局注釋 5"
+  },
+  {
+    "term": "惡",
+    "accepted": [
+      "怎麼、如何，疑問代詞",
+      "怎麼",
+      "如何",
+      "疑問代詞"
+    ],
+    "dse_usage": "怎麼、如何，疑問代詞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "惡",
+    "source": "教育局注釋 6"
+  },
+  {
+    "term": "終食之間",
+    "accepted": [
+      "一頓飯的時間，指很短的時間",
+      "一頓飯的時間",
+      "指很短的時間"
+    ],
+    "dse_usage": "一頓飯的時間，指很短的時間",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "終食之間",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "違",
+    "accepted": [
+      "離開、違背",
+      "離開",
+      "違背"
+    ],
+    "dse_usage": "離開、違背",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "違",
+    "source": "教育局注釋 7"
+  },
+  {
+    "term": "顛沛必於是",
+    "accepted": [
+      "在倉卒匆忙",
+      "困頓挫折時也一定與仁德同 在"
+    ],
+    "dse_usage": "在倉卒匆忙、困頓挫折時也一定與仁德同 在",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "顛沛必於是",
+    "source": "教育局注釋 8"
+  },
+  {
+    "term": "顏淵",
+    "accepted": [
+      "孔子學生，名回，字子淵",
+      "孔子學生",
+      "名回",
+      "字子淵"
+    ],
+    "dse_usage": "孔子學生，名回，字子淵",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "顏淵",
+    "source": "教育局注釋 9"
+  },
+  {
+    "term": "克己復禮為仁",
+    "accepted": [
+      "抑制自己",
+      "使言語行動都合於禮",
+      "就是仁德"
+    ],
+    "dse_usage": "抑制自己，使言語行動都合於禮，就是仁德",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "克己復禮為仁",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "復",
+    "accepted": [
+      "回 復、回歸",
+      "回 復",
+      "回歸"
+    ],
+    "dse_usage": "回 復、回歸",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "復",
+    "source": "教育局注釋 10"
+  },
+  {
+    "term": "而由人乎哉",
+    "accepted": [
+      "實踐仁德",
+      "要憑自己",
+      "難道是憑別人嗎？"
+    ],
+    "dse_usage": "實踐仁德，要憑自己，難道是憑別人嗎？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "而由人乎哉",
+    "source": "教育局注釋 11"
+  },
+  {
+    "term": "其",
+    "accepted": [
+      "它的，指「為仁」的",
+      "它的",
+      "指「為仁」的"
+    ],
+    "dse_usage": "它的，指「為仁」的",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "其",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "目",
+    "accepted": [
+      "綱目、要目",
+      "綱目",
+      "要目"
+    ],
+    "dse_usage": "綱目、要目",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "目",
+    "source": "教育局注釋 12"
+  },
+  {
+    "term": "非禮勿動",
+    "accepted": [
+      "不合禮的事不看",
+      "不合禮 的話不聽",
+      "不合禮的話不說",
+      "不合禮的事不做"
+    ],
+    "dse_usage": "不合禮的事不看，不合禮 的話不聽，不合禮的話不說，不合禮的事不做",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "非禮勿動",
+    "source": "教育局注釋 13"
+  },
+  {
+    "term": "請事斯語矣",
+    "accepted": [
+      "請"
+    ],
+    "dse_usage": "請（讓我）實踐（你）這說話",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "請事斯語矣",
+    "source": "教育局注釋 14"
+  },
+  {
+    "term": "有殺身以成仁",
+    "accepted": [
+      "沒有為保存性命而損害仁德的，只有",
+      "沒有為保存性命而損害仁德的",
+      "只有"
+    ],
+    "dse_usage": "沒有為保存性命而損害仁德的，只有 （敢於）犧牲自己以成全仁德的",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "有殺身以成仁",
+    "source": "教育局注釋 15"
+  },
+  {
+    "term": "孟懿子",
+    "accepted": [
+      "魯國的大夫",
+      "姓仲孫",
+      "名何忌",
+      "孟僖子將死",
+      "囑咐兒子要向孔子 學禮"
+    ],
+    "dse_usage": "魯國的大夫，姓仲孫，名何忌，「懿」是謚號。他父親是孟僖 子仲孫貜。《左傳‧昭公七年》所載，孟僖子將死，囑咐兒子要向孔子 學禮",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "孟懿子",
+    "source": "教育局注釋 16"
+  },
+  {
+    "term": "無違",
+    "accepted": [
+      "不要違背禮節"
+    ],
+    "dse_usage": "不要違背禮節",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "無違",
+    "source": "教育局注釋 17"
+  },
+  {
+    "term": "樊遲御",
+    "accepted": [
+      "樊遲"
+    ],
+    "dse_usage": "樊遲（替孔子）驅車",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "樊遲御",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "樊遲",
+    "accepted": [
+      "孔子學生，名須，字子遲",
+      "孔子學生",
+      "名須",
+      "字子遲"
+    ],
+    "dse_usage": "孔子學生，名須，字子遲",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "樊遲",
+    "source": "教育局注釋 18"
+  },
+  {
+    "term": "孟孫",
+    "accepted": [
+      "即孟懿子"
+    ],
+    "dse_usage": "即孟懿子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "孟孫",
+    "source": "教育局注釋 19"
+  },
+  {
+    "term": "事之以禮",
+    "accepted": [
+      "依規定的禮節侍奉他們"
+    ],
+    "dse_usage": "（父母）健在，依規定的禮節侍奉他們",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "事之以禮",
+    "source": "教育局注釋 20"
+  },
+  {
+    "term": "祭之以禮",
+    "accepted": [
+      "依規定的禮節埋葬他們",
+      "祭 祀他們"
+    ],
+    "dse_usage": "（父母）死了，依規定的禮節埋葬他們，祭 祀他們",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "祭之以禮",
+    "source": "教育局注釋 21"
+  },
+  {
+    "term": "子游",
+    "accepted": [
+      "孔子學生，姓言，名偃，字子游",
+      "孔子學生",
+      "姓言",
+      "名偃",
+      "字子游"
+    ],
+    "dse_usage": "孔子學生，姓言，名偃，字子游",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "子游",
+    "source": "教育局注釋 22"
+  },
+  {
+    "term": "養",
+    "accepted": [
+      "供養"
+    ],
+    "dse_usage": "供養",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "養",
+    "source": "教育局注釋 23"
+  },
+  {
+    "term": "何以別乎",
+    "accepted": [
+      "若不心存敬意，",
+      "若不心存敬意"
+    ],
+    "dse_usage": "若不心存敬意，（那供養父母跟飼養犬馬）有甚麼分 別呢？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "何以別乎",
+    "source": "教育局注釋 25"
+  },
+  {
+    "term": "事父母幾諫",
+    "accepted": [
+      "侍奉父母，",
+      "侍奉父母",
+      "婉轉地勸止"
+    ],
+    "dse_usage": "侍奉父母，（如果他們有不對的地方）得點到即止地指 出，婉轉地勸止",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "事父母幾諫",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "幾",
+    "accepted": [
+      "輕微、婉轉",
+      "輕微",
+      "婉轉"
+    ],
+    "dse_usage": "輕微、婉轉",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "幾",
+    "source": "教育局注釋 26"
+  },
+  {
+    "term": "勞而不怨",
+    "accepted": [
+      "看到自己的意見沒有獲得接納",
+      "仍 然恭敬地不冒犯他們",
+      "雖然擔憂",
+      "但不抱怨"
+    ],
+    "dse_usage": "看到自己的意見沒有獲得接納，仍 然恭敬地不冒犯他們，雖然擔憂，但不抱怨",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "勞而不怨",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "勞",
+    "accepted": [
+      "擔憂"
+    ],
+    "dse_usage": "擔憂",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "勞",
+    "source": "教育局注釋 27"
+  },
+  {
+    "term": "一則以懼",
+    "accepted": [
+      "一方面因",
+      "另一方面又因"
+    ],
+    "dse_usage": "一方面因（其高壽）而歡喜，另一方面又因（其 壽高）而憂懼",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "一則以懼",
+    "source": "教育局注釋 28"
+  },
+  {
+    "term": "君子不重則不威",
+    "accepted": [
+      "君子如果不莊重，就沒有威儀",
+      "君子如果不莊重",
+      "就沒有威儀"
+    ],
+    "dse_usage": "君子如果不莊重，就沒有威儀",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子不重則不威",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "君子",
+    "accepted": [
+      "有德之人",
+      "有德之人。不"
+    ],
+    "dse_usage": "有德之人。不",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "重",
+    "accepted": [
+      "不莊重"
+    ],
+    "dse_usage": "不莊重",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "重",
+    "source": "教育局注釋 29"
+  },
+  {
+    "term": "學則不固",
+    "accepted": [
+      "「固」有「鞏固」、「固陋」兩解",
+      "「固」有「鞏固」",
+      "「固陋」兩解"
+    ],
+    "dse_usage": "「固」有「鞏固」、「固陋」兩解",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "學則不固",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "學則不固」有兩解",
+    "accepted": [
+      "一、即使讀書，所學也不會牢固",
+      "一",
+      "即使讀書",
+      "所學也不會牢固",
+      "二",
+      "學了就不會閉塞淺陋"
+    ],
+    "dse_usage": "一、即使讀書，所學也不會牢固；二、學了就不會閉塞淺陋",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "學則不固」有兩解",
+    "source": "教育局注釋 30"
+  },
+  {
+    "term": "主忠信",
+    "accepted": [
+      "以忠和信兩種道德為主"
+    ],
+    "dse_usage": "以忠和信兩種道德為主",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "主忠信",
+    "source": "教育局注釋 31"
+  },
+  {
+    "term": "無友不如己者",
+    "accepted": [
+      "(君子)不會跟不及自己的"
+    ],
+    "dse_usage": "(君子)不會跟不及自己的人交朋友。一說(君子)不會與自 己不同道的人交朋友",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "無友不如己者",
+    "source": "教育局注釋 32"
+  },
+  {
+    "term": "過則勿憚改",
+    "accepted": [
+      "有了過錯，就不要怕改正",
+      "有了過錯",
+      "就不要怕改正"
+    ],
+    "dse_usage": "有了過錯，就不要怕改正",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "過則勿憚改",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "過",
+    "accepted": [
+      "過錯"
+    ],
+    "dse_usage": "過錯",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "過",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "憚",
+    "accepted": [
+      "害怕、畏懼",
+      "害怕",
+      "畏懼"
+    ],
+    "dse_usage": "害怕、畏懼",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "憚",
+    "source": "教育局注釋 33"
+  },
+  {
+    "term": "小人長戚戚",
+    "accepted": [
+      "君子心胸舒坦寬廣",
+      "小人卻經常局促憂愁"
+    ],
+    "dse_usage": "君子心胸舒坦寬廣，小人卻經常局促憂愁",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "小人長戚戚",
+    "source": "教育局注釋 34"
+  },
+  {
+    "term": "司馬牛",
+    "accepted": [
+      "孔子學生，名耕，字子牛",
+      "孔子學生",
+      "名耕",
+      "字子牛"
+    ],
+    "dse_usage": "孔子學生，名耕，字子牛",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "司馬牛",
+    "source": "教育局注釋 35"
+  },
+  {
+    "term": "君子不憂不懼",
+    "accepted": [
+      "君子不憂愁，不恐懼",
+      "君子不憂愁",
+      "不恐懼"
+    ],
+    "dse_usage": "君子不憂愁，不恐懼",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子不憂不懼",
+    "source": "教育局注釋 36"
+  },
+  {
+    "term": "斯謂之君子已乎",
+    "accepted": [
+      "這樣就可以稱為君子了嗎？"
+    ],
+    "dse_usage": "這樣就可以稱為君子了嗎？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "斯謂之君子已乎",
+    "source": "教育局注釋 37"
+  },
+  {
+    "term": "夫何憂何懼",
+    "accepted": [
+      "自己問心無愧",
+      "還有甚麼需要憂愁和恐懼呢？"
+    ],
+    "dse_usage": "自己問心無愧，還有甚麼需要憂愁和恐懼呢？",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "夫何憂何懼",
+    "source": "教育局注釋 38"
+  },
+  {
+    "term": "不成人之惡",
+    "accepted": [
+      "君子成全別人的好事",
+      "不促成別人的壞 事"
+    ],
+    "dse_usage": "君子成全別人的好事，不促成別人的壞 事",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不成人之惡",
+    "source": "教育局注釋 39"
+  },
+  {
+    "term": "小人反是",
+    "accepted": [
+      "小人卻和這個相反"
+    ],
+    "dse_usage": "小人卻和這個相反",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "小人反是",
+    "source": "教育局注釋 40"
+  },
+  {
+    "term": "君子恥其言而過其行",
+    "accepted": [
+      "君子會因為自己說得多",
+      "但做得少而感到羞恥"
+    ],
+    "dse_usage": "君子會因為自己說得多，但做得少而感到羞恥",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子恥其言而過其行",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "行",
+    "accepted": [
+      "行為、行事",
+      "行為",
+      "行事"
+    ],
+    "dse_usage": "行為、行事",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "行",
+    "source": "教育局注釋 41"
+  },
+  {
+    "term": "君子義以為質",
+    "accepted": [
+      "君子處事，以合宜為原則",
+      "君子處事",
+      "以合宜為原則"
+    ],
+    "dse_usage": "君子處事，以合宜為原則",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "君子義以為質",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "質",
+    "accepted": [
+      "本質",
+      "本質。義以為質",
+      "即以 義為本"
+    ],
+    "dse_usage": "本質。義以為質，即以 義為本",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "質",
+    "source": "教育局注釋 42"
+  },
+  {
+    "term": "信以成之",
+    "accepted": [
+      "依禮節實行它",
+      "用謙遜的言語說出 它",
+      "用誠實的態度完成它"
+    ],
+    "dse_usage": "依禮節實行它，用謙遜的言語說出 它，用誠實的態度完成它",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "信以成之",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "孫",
+    "accepted": [
+      "通「遜」，謙遜",
+      "通「遜」",
+      "謙遜"
+    ],
+    "dse_usage": "通「遜」，謙遜",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "孫",
+    "source": "教育局注釋 43"
+  },
+  {
+    "term": "不病人之不己知也",
+    "accepted": [
+      "君子只會因自己沒有能力而慚愧",
+      "卻不會抱怨別人不了解自己"
+    ],
+    "dse_usage": "君子只會因自己沒有能力而慚愧， 卻不會抱怨別人不了解自己",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不病人之不己知也",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "病",
+    "accepted": [
+      "憂慮，擔心",
+      "憂慮",
+      "擔心",
+      "也可解作慚愧",
+      "抱怨"
+    ],
+    "dse_usage": "憂慮，擔心；也可解作慚愧、抱怨",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "病",
+    "source": "教育局注釋 44"
+  },
+  {
+    "term": "小人求諸人",
+    "accepted": [
+      "君子要求自己，小人則只會要求別人",
+      "君子要求自己",
+      "小人則只會要求別人"
+    ],
+    "dse_usage": "君子要求自己，小人則只會要求別人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "小人求諸人",
+    "source": "教育局注釋 45"
+  },
+  {
+    "term": "諸",
+    "accepted": [
+      "即「之於」，介詞",
+      "即「之於」",
+      "介詞。 5"
+    ],
+    "dse_usage": "即「之於」，介詞。 5",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "諸",
+    "source": "教育局注釋 45"
+  }
 ]
