@@ -172,6 +172,17 @@ def page_home() -> None:
             go_page("文庫")
             st.rerun()
 
+    # Cloud empty-state hint
+    any_content = any(db.text_status(t["id"])["has_original"] for t in db.list_texts())
+    if not any_content:
+        st.markdown(
+            '<div class="wy-tip">尚未載入任何篇章。請到「文庫」按「一次載入全部已準備篇章」。</div>',
+            unsafe_allow_html=True,
+        )
+        if st.button("前往文庫載入篇章", use_container_width=True, key="home_to_lib_load"):
+            go_page("文庫")
+            st.rerun()
+
     st.markdown("#### 本週進度")
     st.caption(f"本週已複習 {s['week_reviews']} 次 · 字庫 {s['total_vocab']} 詞 · 已掌握 {s['total_mastered']}")
 
@@ -198,13 +209,112 @@ def page_home() -> None:
         st.progress(min(100, int(p["mastery_pct"])) / 100.0)
 
 
+# Bundled sample packs: (text_id, display name, original path, translation path, vocab json path)
+SAMPLE_PACKS = [
+    (
+        "01_lunyu",
+        "論仁、論孝、論君子",
+        "01_論仁論孝論君子_原文.txt",
+        "01_論仁論孝論君子_語譯.txt",
+        "01_論仁論孝論君子_難詞.json",
+    ),
+    (
+        "02_yuwosuo",
+        "魚我所欲也",
+        "02_魚我所欲也_原文.txt",
+        "02_魚我所欲也_語譯.txt",
+        "02_魚我所欲也_難詞.json",
+    ),
+    (
+        "03_xiaoyaoyou",
+        "逍遙遊（節錄）",
+        "03_逍遙遊_原文.txt",
+        "03_逍遙遊_語譯.txt",
+        "03_逍遙遊_難詞.json",
+    ),
+    (
+        "04_quanxue",
+        "勸學（節錄）",
+        "04_勸學_原文.txt",
+        "04_勸學_語譯.txt",
+        "04_勸學_難詞.json",
+    ),
+]
+
+
+def _load_sample_pack(text_id: str, orig_name: str, trans_name: str, vocab_name: str) -> str:
+    """Load original + translation + vocab from samples/. Returns status message."""
+    base = ROOT / "samples"
+    op = base / orig_name
+    tp = base / trans_name
+    vp = base / vocab_name
+    if not op.exists() or not tp.exists():
+        return f"找不到示範檔：{orig_name}"
+    o = op.read_text(encoding="utf-8")
+    t = tp.read_text(encoding="utf-8")
+    db.import_paragraphs(
+        text_id, "original", parse_text_string(o), orig_name, hash_bytes(o.encode())
+    )
+    db.import_paragraphs(
+        text_id, "translation", parse_text_string(t), trans_name, hash_bytes(t.encode())
+    )
+    auto_align_text(text_id)
+    n_vocab = 0
+    if vp.exists():
+        items = json.loads(vp.read_text(encoding="utf-8"))
+        for w in items:
+            db.add_vocab(
+                term=w["term"],
+                text_id=text_id,
+                sentence_snippet=w.get("sentence_snippet", ""),
+                translation_gloss=w.get("dse_usage", ""),
+                dse_usage=w.get("dse_usage", ""),
+                accepted_answers="／".join(w.get("accepted") or []),
+                difficulty=int(w.get("difficulty", 3)),
+                category=w.get("category", "實詞"),
+                status="learning",
+            )
+            n_vocab += 1
+    return f"已載入原文＋語譯＋{n_vocab} 詞"
+
+
 def page_library() -> None:
     st.markdown("### 📚 文庫")
-    st.caption("上傳教育局原文／你的語譯檔（PDF 或 TXT）。內容來源標示為使用者上傳。")
+    st.caption("在這裡載入篇章與上傳檔案。雲端第一次使用請先按下方「一鍵載入」。")
+
+    # ── Prominent sample loader (for Streamlit Cloud empty DB) ──
+    st.markdown("#### ⚡ 一鍵載入已準備篇章")
+    st.markdown(
+        '<div class="wy-tip">若閱讀頁是空的，多半是資料庫尚未匯入。按下面按鈕即可載入教育局整理本。</div>',
+        unsafe_allow_html=True,
+    )
+    if st.button(
+        "🚀 一次載入全部已準備篇章（1–4 篇）",
+        type="primary",
+        use_container_width=True,
+        key="load_all_samples",
+    ):
+        msgs = []
+        for text_id, title, on, tn, vn in SAMPLE_PACKS:
+            msgs.append(f"《{title}》：{_load_sample_pack(text_id, on, tn, vn)}")
+        st.success("\n\n".join(msgs))
+        st.balloons()
+        st.rerun()
+
+    cols = st.columns(2)
+    for i, (text_id, title, on, tn, vn) in enumerate(SAMPLE_PACKS):
+        with cols[i % 2]:
+            if st.button(f"載入《{title}》", use_container_width=True, key=f"load_pack_{text_id}"):
+                msg = _load_sample_pack(text_id, on, tn, vn)
+                st.success(msg)
+                st.rerun()
+
+    st.markdown("---")
+    st.markdown("#### 選擇篇章")
 
     texts = db.list_texts()
     labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
-    selected_label = st.selectbox("選擇篇章", list(labels.keys()))
+    selected_label = st.selectbox("篇章", list(labels.keys()), key="lib_select_text")
     text_id = labels[selected_label]
     text = db.get_text(text_id)
     status = db.text_status(text_id)
@@ -213,7 +323,7 @@ def page_library() -> None:
         f"""
         <div class="wy-card">
           <div class="wy-card-title">{text.get('genre') or ''} · {text.get('author') or ''}</div>
-          <div style="font-size:1.15rem;font-weight:700;">{text['title']}</div>
+          <div class="wy-term-title">{text['title']}</div>
           <div class="wy-muted" style="margin-top:0.4rem;">
             原文段落 {status['original_paras']} · 語譯段落 {status['translation_paras']} ·
             字詞 {status['vocab_count']} · 掌握 {status['mastery_pct']}%
@@ -222,47 +332,6 @@ def page_library() -> None:
         """,
         unsafe_allow_html=True,
     )
-
-    st.markdown("##### 匯入原文")
-    orig_file = st.file_uploader("原文檔（PDF / TXT）", type=["pdf", "txt", "md"], key="orig_up")
-    orig_paste = st.text_area("或貼上原文", height=120, key="orig_paste")
-    if st.button("解析並匯入原文", use_container_width=True):
-        paras, warn = file_to_paragraphs(orig_file, orig_paste)
-        if warn and not paras:
-            st.error(warn)
-        elif not paras:
-            st.warning("沒有解析到段落。")
-        else:
-            fname = orig_file.name if orig_file else "pasted_original.txt"
-            fhash = hash_bytes(orig_file.getvalue()) if orig_file else hash_bytes(orig_paste.encode())
-            if orig_file:
-                dest = db.UPLOADS_DIR / f"{text_id}_original_{fname}"
-                dest.write_bytes(orig_file.getvalue())
-            n = db.import_paragraphs(text_id, "original", paras, fname, fhash)
-            auto_align_text(text_id)
-            st.success(f"已匯入原文 {n} 段。" + (f" 提示：{warn}" if warn else ""))
-            st.rerun()
-
-    st.markdown("##### 匯入語譯")
-    st.caption("語譯來源：使用者上傳（非程式內建）")
-    trans_file = st.file_uploader("語譯檔（PDF / TXT）", type=["pdf", "txt", "md"], key="trans_up")
-    trans_paste = st.text_area("或貼上語譯", height=120, key="trans_paste")
-    if st.button("解析並匯入語譯", use_container_width=True):
-        paras, warn = file_to_paragraphs(trans_file, trans_paste)
-        if warn and not paras:
-            st.error(warn)
-        elif not paras:
-            st.warning("沒有解析到段落。")
-        else:
-            fname = trans_file.name if trans_file else "pasted_translation.txt"
-            fhash = hash_bytes(trans_file.getvalue()) if trans_file else hash_bytes(trans_paste.encode())
-            if trans_file:
-                dest = db.UPLOADS_DIR / f"{text_id}_translation_{fname}"
-                dest.write_bytes(trans_file.getvalue())
-            n = db.import_paragraphs(text_id, "translation", paras, fname, fhash)
-            auto_align_text(text_id)
-            st.success(f"已匯入語譯 {n} 段。" + (f" 提示：{warn}" if warn else ""))
-            st.rerun()
 
     c1, c2, c3 = st.columns(3)
     with c1:
@@ -280,27 +349,62 @@ def page_library() -> None:
             go_page("難字審核")
             st.rerun()
 
-    with st.expander("載入示範：《魚我所欲也》"):
-        if st.button("一鍵載入 samples", use_container_width=True):
-            o = (ROOT / "samples" / "魚我所欲也_原文.txt").read_text(encoding="utf-8")
-            t = (ROOT / "samples" / "魚我所欲也_語譯.txt").read_text(encoding="utf-8")
-            db.import_paragraphs(
-                "02_yuwosuo",
-                "original",
-                parse_text_string(o),
-                "魚我所欲也_原文.txt",
-                hash_bytes(o.encode()),
-            )
-            db.import_paragraphs(
-                "02_yuwosuo",
-                "translation",
-                parse_text_string(t),
-                "魚我所欲也_語譯.txt",
-                hash_bytes(t.encode()),
-            )
-            auto_align_text("02_yuwosuo")
-            st.success("已載入《魚我所欲也》原文＋語譯示範。")
-            st.rerun()
+    st.markdown("---")
+    st.markdown("#### 📤 自行上傳檔案")
+    st.caption("支援 PDF / TXT。先在上方選好篇章，再上傳對應的原文或語譯。")
+
+    with st.expander("匯入原文（點這裡展開）", expanded=False):
+        orig_file = st.file_uploader(
+            "選擇原文檔", type=["pdf", "txt", "md"], key="orig_up"
+        )
+        orig_paste = st.text_area("或直接貼上原文", height=140, key="orig_paste")
+        if st.button("解析並匯入原文", use_container_width=True, key="btn_import_orig"):
+            paras, warn = file_to_paragraphs(orig_file, orig_paste)
+            if warn and not paras:
+                st.error(warn)
+            elif not paras:
+                st.warning("沒有解析到段落。請先選檔或貼上文字。")
+            else:
+                fname = orig_file.name if orig_file else "pasted_original.txt"
+                fhash = (
+                    hash_bytes(orig_file.getvalue())
+                    if orig_file
+                    else hash_bytes(orig_paste.encode())
+                )
+                if orig_file:
+                    dest = db.UPLOADS_DIR / f"{text_id}_original_{fname}"
+                    dest.write_bytes(orig_file.getvalue())
+                n = db.import_paragraphs(text_id, "original", paras, fname, fhash)
+                auto_align_text(text_id)
+                st.success(f"已匯入原文 {n} 段。" + (f" {warn}" if warn else ""))
+                st.rerun()
+
+    with st.expander("匯入語譯（點這裡展開）", expanded=False):
+        st.caption("語譯來源：使用者上傳（非程式內建官方譯本）")
+        trans_file = st.file_uploader(
+            "選擇語譯檔", type=["pdf", "txt", "md"], key="trans_up"
+        )
+        trans_paste = st.text_area("或直接貼上語譯", height=140, key="trans_paste")
+        if st.button("解析並匯入語譯", use_container_width=True, key="btn_import_trans"):
+            paras, warn = file_to_paragraphs(trans_file, trans_paste)
+            if warn and not paras:
+                st.error(warn)
+            elif not paras:
+                st.warning("沒有解析到段落。請先選檔或貼上文字。")
+            else:
+                fname = trans_file.name if trans_file else "pasted_translation.txt"
+                fhash = (
+                    hash_bytes(trans_file.getvalue())
+                    if trans_file
+                    else hash_bytes(trans_paste.encode())
+                )
+                if trans_file:
+                    dest = db.UPLOADS_DIR / f"{text_id}_translation_{fname}"
+                    dest.write_bytes(trans_file.getvalue())
+                n = db.import_paragraphs(text_id, "translation", paras, fname, fhash)
+                auto_align_text(text_id)
+                st.success(f"已匯入語譯 {n} 段。" + (f" {warn}" if warn else ""))
+                st.rerun()
 
 
 def page_reader() -> None:
