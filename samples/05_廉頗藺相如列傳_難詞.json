@@ -8,21 +8,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "趙惠文王",
-    "source": "教育局注釋 1"
+    "source": "KS4_08.pdf#1"
   },
   {
     "term": "為",
     "accepted": [
       "做、作為",
       "做",
-      "作為",
-      "[wai4]"
+      "作為"
     ],
     "dse_usage": "做、作為",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "為",
-    "source": "教育局注釋 2"
+    "source": "KS4_08.pdf#2"
   },
   {
     "term": "陽晉",
@@ -33,7 +32,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "陽晉",
-    "source": "教育局注釋 3"
+    "source": "KS4_08.pdf#3"
   },
   {
     "term": "上卿",
@@ -44,7 +43,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "上卿",
-    "source": "教育局注釋 3"
+    "source": "KS4_08.pdf#3"
   },
   {
     "term": "宦者令",
@@ -55,7 +54,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "宦者令",
-    "source": "教育局注釋 4"
+    "source": "KS4_08.pdf#4"
   },
   {
     "term": "舍人",
@@ -69,7 +68,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "舍人",
-    "source": "教育局注釋 4"
+    "source": "KS4_08.pdf#4"
   },
   {
     "term": "楚和氏璧",
@@ -87,21 +86,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "楚和氏璧",
-    "source": "教育局注釋 5"
+    "source": "KS4_08.pdf#5"
   },
   {
     "term": "遺",
     "accepted": [
       "給予、送",
       "給予",
-      "送",
-      "[wai6]"
+      "送"
     ],
     "dse_usage": "給予、送",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "遺",
-    "source": "教育局注釋 6"
+    "source": "KS4_08.pdf#6"
   },
   {
     "term": "徒見欺",
@@ -112,7 +110,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "徒見欺",
-    "source": "教育局注釋 7"
+    "source": "KS4_08.pdf#7"
   },
   {
     "term": "見",
@@ -126,7 +124,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "見",
-    "source": "教育局注釋 7"
+    "source": "KS4_08.pdf#7"
   },
   {
     "term": "求人可使報秦者",
@@ -137,7 +135,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "求人可使報秦者",
-    "source": "教育局注釋 8"
+    "source": "KS4_08.pdf#8"
   },
   {
     "term": "報",
@@ -150,7 +148,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "報",
-    "source": "教育局注釋 8"
+    "source": "KS4_08.pdf#8"
   },
   {
     "term": "使",
@@ -161,7 +159,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "使",
-    "source": "教育局注釋 9"
+    "source": "KS4_08.pdf#9"
   },
   {
     "term": "竊",
@@ -174,7 +172,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "竊",
-    "source": "教育局注釋 10"
+    "source": "KS4_08.pdf#10"
   },
   {
     "term": "亡",
@@ -185,7 +183,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "亡",
-    "source": "教育局注釋 10"
+    "source": "KS4_08.pdf#10"
   },
   {
     "term": "語",
@@ -198,18 +196,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "語",
-    "source": "教育局注釋 11"
+    "source": "KS4_08.pdf#11"
   },
   {
     "term": "彊",
     "accepted": [
-      "同「強」"
+      "同「強」",
+      "強"
     ],
     "dse_usage": "同「強」",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "彊",
-    "source": "教育局注釋 12"
+    "source": "KS4_08.pdf#12"
   },
   {
     "term": "幸",
@@ -220,7 +219,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "幸",
-    "source": "教育局注釋 13"
+    "source": "KS4_08.pdf#13"
   },
   {
     "term": "肉袒伏斧質請罪",
@@ -233,7 +232,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "肉袒伏斧質請罪",
-    "source": "教育局注釋 14"
+    "source": "KS4_08.pdf#14"
   },
   {
     "term": "斧質",
@@ -244,7 +243,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "斧質",
-    "source": "教育局注釋 14"
+    "source": "KS4_08.pdf#14"
   },
   {
     "term": "質",
@@ -257,18 +256,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "質",
-    "source": "教育局注釋 14"
+    "source": "KS4_08.pdf#14"
   },
   {
     "term": "不",
     "accepted": [
-      "通「否」"
+      "通「否」",
+      "否"
     ],
     "dse_usage": "通「否」",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "異義",
     "sentence_snippet": "不",
-    "source": "教育局注釋 15"
+    "source": "KS4_08.pdf#15"
   },
   {
     "term": "曲",
@@ -279,7 +279,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "曲",
-    "source": "教育局注釋 16"
+    "source": "KS4_08.pdf#16"
   },
   {
     "term": "均之二策",
@@ -290,7 +290,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "均之二策",
-    "source": "教育局注釋 17"
+    "source": "KS4_08.pdf#17"
   },
   {
     "term": "均",
@@ -301,7 +301,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "均",
-    "source": "教育局注釋 17"
+    "source": "KS4_08.pdf#17"
   },
   {
     "term": "之",
@@ -312,9 +312,9 @@
     ],
     "dse_usage": "此、這",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "實詞",
     "sentence_snippet": "之",
-    "source": "教育局注釋 17"
+    "source": "KS4_08.pdf#17"
   },
   {
     "term": "寧許以負秦曲",
@@ -326,20 +326,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "寧許以負秦曲",
-    "source": "教育局注釋 18"
+    "source": "KS4_08.pdf#18"
   },
   {
     "term": "必",
     "accepted": [
       "倘若、如果",
       "倘若",
-      "如果。 5"
+      "如果"
     ],
-    "dse_usage": "倘若、如果。 5",
+    "dse_usage": "倘若、如果",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "必",
-    "source": "教育局注釋 19"
+    "source": "KS4_08.pdf#19"
   },
   {
     "term": "完璧歸趙",
@@ -351,7 +351,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "完璧歸趙",
-    "source": "教育局注釋 20"
+    "source": "KS4_08.pdf#20"
   },
   {
     "term": "章臺",
@@ -364,7 +364,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "章臺",
-    "source": "教育局注釋 21"
+    "source": "KS4_08.pdf#21"
   },
   {
     "term": "瑕",
@@ -375,7 +375,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "瑕",
-    "source": "教育局注釋 22"
+    "source": "KS4_08.pdf#22"
   },
   {
     "term": "卻立",
@@ -386,7 +386,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "卻立",
-    "source": "教育局注釋 23"
+    "source": "KS4_08.pdf#23"
   },
   {
     "term": "負",
@@ -399,7 +399,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "負",
-    "source": "教育局注釋 24"
+    "source": "KS4_08.pdf#24"
   },
   {
     "term": "布衣",
@@ -412,7 +412,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "布衣",
-    "source": "教育局注釋 25"
+    "source": "KS4_08.pdf#25"
   },
   {
     "term": "逆",
@@ -423,18 +423,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "逆",
-    "source": "教育局注釋 26"
+    "source": "KS4_08.pdf#26"
   },
   {
     "term": "驩",
     "accepted": [
-      "同「歡」"
+      "同「歡」",
+      "歡"
     ],
     "dse_usage": "同「歡」",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "驩",
-    "source": "教育局注釋 26"
+    "source": "KS4_08.pdf#26"
   },
   {
     "term": "齋戒",
@@ -449,7 +450,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "齋戒",
-    "source": "教育局注釋 27"
+    "source": "KS4_08.pdf#27"
   },
   {
     "term": "拜送書於庭",
@@ -460,20 +461,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "拜送書於庭",
-    "source": "教育局注釋 28"
+    "source": "KS4_08.pdf#28"
   },
   {
     "term": "庭",
     "accepted": [
       "通「廷」， 國君聽政的朝堂",
       "通「廷」",
-      "國君聽政的朝堂"
+      "國君聽政的朝堂",
+      "廷"
     ],
     "dse_usage": "通「廷」， 國君聽政的朝堂",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "庭",
-    "source": "教育局注釋 28"
+    "source": "KS4_08.pdf#28"
   },
   {
     "term": "嚴大國之威以修敬也",
@@ -484,7 +486,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "嚴大國之威以修敬也",
-    "source": "教育局注釋 29"
+    "source": "KS4_08.pdf#29"
   },
   {
     "term": "嚴",
@@ -495,7 +497,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "嚴",
-    "source": "教育局注釋 29"
+    "source": "KS4_08.pdf#29"
   },
   {
     "term": "見臣列觀",
@@ -506,7 +508,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "見臣列觀",
-    "source": "教育局注釋 30"
+    "source": "KS4_08.pdf#30"
   },
   {
     "term": "觀",
@@ -519,7 +521,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "觀",
-    "source": "教育局注釋 30"
+    "source": "KS4_08.pdf#30"
   },
   {
     "term": "倨",
@@ -530,7 +532,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "倨",
-    "source": "教育局注釋 31"
+    "source": "KS4_08.pdf#31"
   },
   {
     "term": "急",
@@ -541,7 +543,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "急",
-    "source": "教育局注釋 32"
+    "source": "KS4_08.pdf#32"
   },
   {
     "term": "睨",
@@ -552,11 +554,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "睨",
-    "source": "教育局注釋 33"
+    "source": "KS4_08.pdf#33"
   },
   {
     "term": "乃辭謝固請",
     "accepted": [
+      "於是婉言道歉，堅決請求藺相如不要這樣做",
       "於是婉言道歉",
       "堅決請求藺相如不要這樣做"
     ],
@@ -564,7 +567,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "乃辭謝固請",
-    "source": "教育局注釋 34"
+    "source": "KS4_08.pdf#34"
   },
   {
     "term": "辭謝",
@@ -575,7 +578,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "辭謝",
-    "source": "教育局注釋 34"
+    "source": "KS4_08.pdf#34"
   },
   {
     "term": "固請",
@@ -586,7 +589,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "固請",
-    "source": "教育局注釋 34"
+    "source": "KS4_08.pdf#34"
   },
   {
     "term": "指從此以往十五都予趙",
@@ -597,7 +600,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "指從此以往十五都予趙",
-    "source": "教育局注釋 35"
+    "source": "KS4_08.pdf#35"
   },
   {
     "term": "有司",
@@ -608,7 +611,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "有司",
-    "source": "教育局注釋 35"
+    "source": "KS4_08.pdf#35"
   },
   {
     "term": "案",
@@ -616,13 +619,14 @@
       "通「按」，查考、按照",
       "通「按」",
       "查考",
-      "按照"
+      "按照",
+      "按"
     ],
     "dse_usage": "通「按」，查考、按照",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "案",
-    "source": "教育局注釋 35"
+    "source": "KS4_08.pdf#35"
   },
   {
     "term": "都",
@@ -633,7 +637,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "都",
-    "source": "教育局注釋 35"
+    "source": "KS4_08.pdf#35"
   },
   {
     "term": "相如度秦王特以詐佯為予趙城",
@@ -644,7 +648,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "相如度秦王特以詐佯為予趙城",
-    "source": "教育局注釋 36"
+    "source": "KS4_08.pdf#36"
   },
   {
     "term": "度",
@@ -655,7 +659,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "度",
-    "source": "教育局注釋 36"
+    "source": "KS4_08.pdf#36"
   },
   {
     "term": "特",
@@ -668,7 +672,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "特",
-    "source": "教育局注釋 36"
+    "source": "KS4_08.pdf#36"
   },
   {
     "term": "佯",
@@ -679,7 +683,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "佯",
-    "source": "教育局注釋 36"
+    "source": "KS4_08.pdf#36"
   },
   {
     "term": "設九賓於廷",
@@ -690,7 +694,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "設九賓於廷",
-    "source": "教育局注釋 37"
+    "source": "KS4_08.pdf#37"
   },
   {
     "term": "九賓",
@@ -703,7 +707,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "九賓",
-    "source": "教育局注釋 37"
+    "source": "KS4_08.pdf#37"
   },
   {
     "term": "舍",
@@ -716,7 +720,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "舍",
-    "source": "教育局注釋 38"
+    "source": "KS4_08.pdf#38"
   },
   {
     "term": "廣成傳",
@@ -727,7 +731,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "廣成傳",
-    "source": "教育局注釋 38"
+    "source": "KS4_08.pdf#38"
   },
   {
     "term": "傳",
@@ -739,7 +743,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "傳",
-    "source": "教育局注釋 38"
+    "source": "KS4_08.pdf#38"
   },
   {
     "term": "乃使其從者衣褐",
@@ -750,7 +754,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "乃使其從者衣褐",
-    "source": "教育局注釋 39"
+    "source": "KS4_08.pdf#39"
   },
   {
     "term": "衣",
@@ -763,7 +767,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "衣",
-    "source": "教育局注釋 39"
+    "source": "KS4_08.pdf#39"
   },
   {
     "term": "褐",
@@ -774,7 +778,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "褐",
-    "source": "教育局注釋 39"
+    "source": "KS4_08.pdf#39"
   },
   {
     "term": "徑道",
@@ -787,7 +791,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "徑道",
-    "source": "教育局注釋 40"
+    "source": "KS4_08.pdf#40"
   },
   {
     "term": "繆公",
@@ -800,18 +804,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "繆公",
-    "source": "教育局注釋 41"
+    "source": "KS4_08.pdf#41"
   },
   {
     "term": "繆",
     "accepted": [
-      "通「穆」"
+      "通「穆」",
+      "穆"
     ],
     "dse_usage": "通「穆」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "繆",
-    "source": "教育局注釋 41"
+    "source": "KS4_08.pdf#41"
   },
   {
     "term": "未嘗有堅明約束者也",
@@ -822,7 +827,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "未嘗有堅明約束者也",
-    "source": "教育局注釋 42"
+    "source": "KS4_08.pdf#42"
   },
   {
     "term": "間至趙矣",
@@ -833,32 +838,32 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "間至趙矣",
-    "source": "教育局注釋 43"
+    "source": "KS4_08.pdf#43"
   },
   {
     "term": "間",
     "accepted": [
       "「間道」的簡縮",
-      "或解 作偷偷地"
+      "「間道」的簡縮；或解 作偷偷地"
     ],
     "dse_usage": "「間道」的簡縮；或解 作偷偷地",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "間",
-    "source": "教育局注釋 43"
+    "source": "KS4_08.pdf#43"
   },
   {
     "term": "一介",
     "accepted": [
       "一個，有低小和微賤的意思",
       "一個",
-      "有低小和微賤的意思。 6"
+      "有低小和微賤的意思"
     ],
-    "dse_usage": "一個，有低小和微賤的意思。 6",
+    "dse_usage": "一個，有低小和微賤的意思",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "一介",
-    "source": "教育局注釋 44"
+    "source": "KS4_08.pdf#44"
   },
   {
     "term": "湯鑊",
@@ -871,7 +876,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "湯鑊",
-    "source": "教育局注釋 45"
+    "source": "KS4_08.pdf#45"
   },
   {
     "term": "唯",
@@ -882,20 +887,21 @@
     "difficulty": 3,
     "category": "虛詞",
     "sentence_snippet": "唯",
-    "source": "教育局注釋 46"
+    "source": "KS4_08.pdf#46"
   },
   {
     "term": "孰",
     "accepted": [
       "通「熟」，詳細",
       "通「熟」",
-      "詳細"
+      "詳細",
+      "熟"
     ],
     "dse_usage": "通「熟」，詳細",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "孰",
-    "source": "教育局注釋 46"
+    "source": "KS4_08.pdf#46"
   },
   {
     "term": "嘻",
@@ -906,7 +912,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "嘻",
-    "source": "教育局注釋 47"
+    "source": "KS4_08.pdf#47"
   },
   {
     "term": "趙王豈以一璧之故欺秦邪",
@@ -917,18 +923,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "趙王豈以一璧之故欺秦邪",
-    "source": "教育局注釋 48"
+    "source": "KS4_08.pdf#48"
   },
   {
     "term": "邪",
     "accepted": [
-      "通「耶」"
+      "通「耶」",
+      "耶"
     ],
     "dse_usage": "通「耶」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "邪",
-    "source": "教育局注釋 48"
+    "source": "KS4_08.pdf#48"
   },
   {
     "term": "卒廷見相如",
@@ -939,7 +946,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "卒廷見相如",
-    "source": "教育局注釋 49"
+    "source": "KS4_08.pdf#49"
   },
   {
     "term": "使不辱於諸侯",
@@ -952,7 +959,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "使不辱於諸侯",
-    "source": "教育局注釋 50"
+    "source": "KS4_08.pdf#50"
   },
   {
     "term": "上大夫",
@@ -963,7 +970,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "上大夫",
-    "source": "教育局注釋 51"
+    "source": "KS4_08.pdf#51"
   },
   {
     "term": "拔石城",
@@ -974,11 +981,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "拔石城",
-    "source": "教育局注釋 52"
+    "source": "KS4_08.pdf#52"
   },
   {
     "term": "欲與王為好會於西河外澠池",
     "accepted": [
+      "想與趙王會面於西河外的澠池，以示友 好",
       "想與趙王會面於西河外的澠池",
       "以示友 好"
     ],
@@ -986,7 +994,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "欲與王為好會於西河外澠池",
-    "source": "教育局注釋 53"
+    "source": "KS4_08.pdf#53"
   },
   {
     "term": "澠池",
@@ -997,7 +1005,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "澠池",
-    "source": "教育局注釋 53"
+    "source": "KS4_08.pdf#53"
   },
   {
     "term": "訣",
@@ -1008,7 +1016,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "訣",
-    "source": "教育局注釋 54"
+    "source": "KS4_08.pdf#54"
   },
   {
     "term": "道里",
@@ -1021,7 +1029,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "道里",
-    "source": "教育局注釋 55"
+    "source": "KS4_08.pdf#55"
   },
   {
     "term": "會遇",
@@ -1032,7 +1040,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "會遇",
-    "source": "教育局注釋 55"
+    "source": "KS4_08.pdf#55"
   },
   {
     "term": "酣",
@@ -1043,7 +1051,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "酣",
-    "source": "教育局注釋 56"
+    "source": "KS4_08.pdf#56"
   },
   {
     "term": "好音",
@@ -1054,7 +1062,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "好音",
-    "source": "教育局注釋 57"
+    "source": "KS4_08.pdf#57"
   },
   {
     "term": "瑟",
@@ -1065,7 +1073,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "瑟",
-    "source": "教育局注釋 57"
+    "source": "KS4_08.pdf#57"
   },
   {
     "term": "御史",
@@ -1076,7 +1084,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "御史",
-    "source": "教育局注釋 58"
+    "source": "KS4_08.pdf#58"
   },
   {
     "term": "書",
@@ -1089,7 +1097,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "書",
-    "source": "教育局注釋 58"
+    "source": "KS4_08.pdf#58"
   },
   {
     "term": "善",
@@ -1100,7 +1108,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "善",
-    "source": "教育局注釋 59"
+    "source": "KS4_08.pdf#59"
   },
   {
     "term": "秦聲",
@@ -1111,20 +1119,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "秦聲",
-    "source": "教育局注釋 59"
+    "source": "KS4_08.pdf#59"
   },
   {
     "term": "缻",
     "accepted": [
       "同「缶」",
       "本是盛酒漿的瓦器",
-      "秦人歌唱時用來敲打節拍"
+      "秦人歌唱時用來敲打節拍",
+      "缶"
     ],
     "dse_usage": "同「缶」，本是盛酒漿的瓦器， 秦人歌唱時用來敲打節拍",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "缻",
-    "source": "教育局注釋 59"
+    "source": "KS4_08.pdf#59"
   },
   {
     "term": "左右欲刃相如",
@@ -1135,7 +1144,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "左右欲刃相如",
-    "source": "教育局注釋 60"
+    "source": "KS4_08.pdf#60"
   },
   {
     "term": "刃",
@@ -1146,20 +1155,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "刃",
-    "source": "教育局注釋 60"
+    "source": "KS4_08.pdf#60"
   },
   {
     "term": "靡",
     "accepted": [
       "倒下，此處指秦王左右之人退卻",
-      "倒下",
-      "此處指秦王左右之人退卻"
+      "倒下"
     ],
     "dse_usage": "倒下，此處指秦王左右之人退卻",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "靡",
-    "source": "教育局注釋 61"
+    "source": "KS4_08.pdf#61"
   },
   {
     "term": "懌",
@@ -1172,7 +1180,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "懌",
-    "source": "教育局注釋 62"
+    "source": "KS4_08.pdf#62"
   },
   {
     "term": "壽",
@@ -1185,7 +1193,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "壽",
-    "source": "教育局注釋 63"
+    "source": "KS4_08.pdf#63"
   },
   {
     "term": "咸陽",
@@ -1196,7 +1204,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "咸陽",
-    "source": "教育局注釋 64"
+    "source": "KS4_08.pdf#64"
   },
   {
     "term": "竟酒",
@@ -1207,7 +1215,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "竟酒",
-    "source": "教育局注釋 65"
+    "source": "KS4_08.pdf#65"
   },
   {
     "term": "位在廉頗之右",
@@ -1218,7 +1226,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "位在廉頗之右",
-    "source": "教育局注釋 66"
+    "source": "KS4_08.pdf#66"
   },
   {
     "term": "右",
@@ -1229,7 +1237,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "右",
-    "source": "教育局注釋 66"
+    "source": "KS4_08.pdf#66"
   },
   {
     "term": "素",
@@ -1242,7 +1250,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "素",
-    "source": "教育局注釋 67"
+    "source": "KS4_08.pdf#67"
   },
   {
     "term": "賤人",
@@ -1253,7 +1261,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "賤人",
-    "source": "教育局注釋 67"
+    "source": "KS4_08.pdf#67"
   },
   {
     "term": "不欲與廉頗爭列",
@@ -1264,7 +1272,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不欲與廉頗爭列",
-    "source": "教育局注釋 68"
+    "source": "KS4_08.pdf#68"
   },
   {
     "term": "列",
@@ -1275,7 +1283,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "列",
-    "source": "教育局注釋 68"
+    "source": "KS4_08.pdf#68"
   },
   {
     "term": "已而",
@@ -1286,7 +1294,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "已而",
-    "source": "教育局注釋 69"
+    "source": "KS4_08.pdf#69"
   },
   {
     "term": "臣所以去親戚而事君者",
@@ -1295,9 +1303,9 @@
     ],
     "dse_usage": "微臣之所以離開親人而侍奉你的原因",
     "difficulty": 2,
-    "category": "結構",
+    "category": "實詞",
     "sentence_snippet": "臣所以去親戚而事君者",
-    "source": "教育局注釋 70"
+    "source": "KS4_08.pdf#70"
   },
   {
     "term": "去",
@@ -1308,7 +1316,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "去",
-    "source": "教育局注釋 70"
+    "source": "KS4_08.pdf#70"
   },
   {
     "term": "事君",
@@ -1319,7 +1327,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "事君",
-    "source": "教育局注釋 70"
+    "source": "KS4_08.pdf#70"
   },
   {
     "term": "徒慕君之高義也",
@@ -1330,7 +1338,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "徒慕君之高義也",
-    "source": "教育局注釋 71"
+    "source": "KS4_08.pdf#71"
   },
   {
     "term": "高義",
@@ -1341,7 +1349,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "高義",
-    "source": "教育局注釋 71"
+    "source": "KS4_08.pdf#71"
   },
   {
     "term": "不肖",
@@ -1354,11 +1362,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不肖",
-    "source": "教育局注釋 72"
+    "source": "KS4_08.pdf#72"
   },
   {
     "term": "公之視廉將軍孰與秦王",
     "accepted": [
+      "你看廉頗將軍與秦王相比，誰較厲害？",
       "你看廉頗將軍與秦王相比",
       "誰較厲害？"
     ],
@@ -1366,7 +1375,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "公之視廉將軍孰與秦王",
-    "source": "教育局注釋 73"
+    "source": "KS4_08.pdf#73"
   },
   {
     "term": "孰與",
@@ -1379,7 +1388,7 @@
     "difficulty": 2,
     "category": "虛詞",
     "sentence_snippet": "孰與",
-    "source": "教育局注釋 73"
+    "source": "KS4_08.pdf#73"
   },
   {
     "term": "駑",
@@ -1392,7 +1401,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "駑",
-    "source": "教育局注釋 74"
+    "source": "KS4_08.pdf#74"
   },
   {
     "term": "獨",
@@ -1405,7 +1414,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "獨",
-    "source": "教育局注釋 75"
+    "source": "KS4_08.pdf#75"
   },
   {
     "term": "顧",
@@ -1413,17 +1422,18 @@
       "只是、不過",
       "只是",
       "不過。用作連接分句",
-      "表示轉折。 7"
+      "表示轉折"
     ],
-    "dse_usage": "只是、不過。用作連接分句，表示轉折。 7",
+    "dse_usage": "只是、不過。用作連接分句，表示轉折",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "顧",
-    "source": "教育局注釋 76"
+    "source": "KS4_08.pdf#76"
   },
   {
     "term": "以先國家之急而後私讎也",
     "accepted": [
+      "以國家之急務為先，而以個人之私怨為後",
       "以國家之急務為先",
       "而以個人之私怨為後"
     ],
@@ -1431,20 +1441,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "以先國家之急而後私讎也",
-    "source": "教育局注釋 77"
+    "source": "KS4_08.pdf#77"
   },
   {
     "term": "讎",
     "accepted": [
       "同「仇」，怨恨",
       "同「仇」",
-      "怨恨"
+      "怨恨",
+      "仇"
     ],
     "dse_usage": "同「仇」，怨恨",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "讎",
-    "source": "教育局注釋 77"
+    "source": "KS4_08.pdf#77"
   },
   {
     "term": "肉袒負荊",
@@ -1458,7 +1469,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "肉袒負荊",
-    "source": "教育局注釋 78"
+    "source": "KS4_08.pdf#78"
   },
   {
     "term": "荊",
@@ -1469,7 +1480,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "荊",
-    "source": "教育局注釋 78"
+    "source": "KS4_08.pdf#78"
   },
   {
     "term": "為刎頸之交",
@@ -1480,7 +1491,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "為刎頸之交",
-    "source": "教育局注釋 79"
+    "source": "KS4_08.pdf#79"
   },
   {
     "term": "刎",
@@ -1491,6 +1502,6 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "刎",
-    "source": "教育局注釋 79"
+    "source": "KS4_08.pdf#79"
   }
 ]

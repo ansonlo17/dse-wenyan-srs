@@ -8,7 +8,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不可以久處約",
-    "source": "教育局注釋 1"
+    "source": "KS4_03_論仁論孝論君子.pdf#1"
   },
   {
     "term": "約",
@@ -21,7 +21,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "約",
-    "source": "教育局注釋 1"
+    "source": "KS4_03_論仁論孝論君子.pdf#1"
   },
   {
     "term": "知者利仁",
@@ -32,18 +32,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "知者利仁",
-    "source": "教育局注釋 2"
+    "source": "KS4_03_論仁論孝論君子.pdf#2"
   },
   {
     "term": "知",
     "accepted": [
-      "通「智」"
+      "通「智」",
+      "智"
     ],
     "dse_usage": "通「智」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "知",
-    "source": "教育局注釋 2"
+    "source": "KS4_03_論仁論孝論君子.pdf#2"
   },
   {
     "term": "利",
@@ -54,7 +55,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "利",
-    "source": "教育局注釋 2"
+    "source": "KS4_03_論仁論孝論君子.pdf#2"
   },
   {
     "term": "處",
@@ -65,21 +66,20 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "處",
-    "source": "教育局注釋 3"
+    "source": "KS4_03_論仁論孝論君子.pdf#3"
   },
   {
     "term": "不以其道得之",
     "accepted": [
       "不以正當的方法得以拋掉它",
       "「不」字 乃衍文",
-      "或以為傳抄之誤",
-      "指君子行仁義之道卻得到貧賤"
+      "或以為傳抄之誤"
     ],
     "dse_usage": "不以正當的方法得以拋掉它（貧困）。一說，「不」字 乃衍文，或以為傳抄之誤，指君子行仁義之道卻得到貧賤",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不以其道得之",
-    "source": "教育局注釋 4"
+    "source": "KS4_03_論仁論孝論君子.pdf#4"
   },
   {
     "term": "去",
@@ -90,7 +90,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "去",
-    "source": "教育局注釋 5"
+    "source": "KS4_03_論仁論孝論君子.pdf#5"
   },
   {
     "term": "惡",
@@ -104,7 +104,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "惡",
-    "source": "教育局注釋 6"
+    "source": "KS4_03_論仁論孝論君子.pdf#6"
   },
   {
     "term": "終食之間",
@@ -117,7 +117,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "終食之間",
-    "source": "教育局注釋 7"
+    "source": "KS4_03_論仁論孝論君子.pdf#7"
   },
   {
     "term": "違",
@@ -130,11 +130,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "違",
-    "source": "教育局注釋 7"
+    "source": "KS4_03_論仁論孝論君子.pdf#7"
   },
   {
     "term": "顛沛必於是",
     "accepted": [
+      "在倉卒匆忙、困頓挫折時也一定與仁德同 在",
       "在倉卒匆忙",
       "困頓挫折時也一定與仁德同 在"
     ],
@@ -142,7 +143,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "顛沛必於是",
-    "source": "教育局注釋 8"
+    "source": "KS4_03_論仁論孝論君子.pdf#8"
   },
   {
     "term": "顏淵",
@@ -156,11 +157,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "顏淵",
-    "source": "教育局注釋 9"
+    "source": "KS4_03_論仁論孝論君子.pdf#9"
   },
   {
     "term": "克己復禮為仁",
     "accepted": [
+      "抑制自己，使言語行動都合於禮，就是仁德",
       "抑制自己",
       "使言語行動都合於禮",
       "就是仁德"
@@ -169,7 +171,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "克己復禮為仁",
-    "source": "教育局注釋 10"
+    "source": "KS4_03_論仁論孝論君子.pdf#10"
   },
   {
     "term": "復",
@@ -182,11 +184,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "復",
-    "source": "教育局注釋 10"
+    "source": "KS4_03_論仁論孝論君子.pdf#10"
   },
   {
     "term": "而由人乎哉",
     "accepted": [
+      "實踐仁德，要憑自己，難道是憑別人嗎？",
       "實踐仁德",
       "要憑自己",
       "難道是憑別人嗎？"
@@ -195,7 +198,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "而由人乎哉",
-    "source": "教育局注釋 11"
+    "source": "KS4_03_論仁論孝論君子.pdf#11"
   },
   {
     "term": "其",
@@ -206,9 +209,9 @@
     ],
     "dse_usage": "它的，指「為仁」的",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "實詞",
     "sentence_snippet": "其",
-    "source": "教育局注釋 12"
+    "source": "KS4_03_論仁論孝論君子.pdf#12"
   },
   {
     "term": "目",
@@ -221,7 +224,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "目",
-    "source": "教育局注釋 12"
+    "source": "KS4_03_論仁論孝論君子.pdf#12"
   },
   {
     "term": "非禮勿動",
@@ -235,7 +238,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "非禮勿動",
-    "source": "教育局注釋 13"
+    "source": "KS4_03_論仁論孝論君子.pdf#13"
   },
   {
     "term": "請事斯語矣",
@@ -246,7 +249,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "請事斯語矣",
-    "source": "教育局注釋 14"
+    "source": "KS4_03_論仁論孝論君子.pdf#14"
   },
   {
     "term": "有殺身以成仁",
@@ -259,11 +262,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "有殺身以成仁",
-    "source": "教育局注釋 15"
+    "source": "KS4_03_論仁論孝論君子.pdf#15"
   },
   {
     "term": "孟懿子",
     "accepted": [
+      "魯國的大夫，姓仲孫，名何忌，「懿」是謚號",
       "魯國的大夫",
       "姓仲孫",
       "名何忌",
@@ -274,7 +278,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "孟懿子",
-    "source": "教育局注釋 16"
+    "source": "KS4_03_論仁論孝論君子.pdf#16"
   },
   {
     "term": "無違",
@@ -285,7 +289,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "無違",
-    "source": "教育局注釋 17"
+    "source": "KS4_03_論仁論孝論君子.pdf#17"
   },
   {
     "term": "樊遲御",
@@ -296,7 +300,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "樊遲御",
-    "source": "教育局注釋 18"
+    "source": "KS4_03_論仁論孝論君子.pdf#18"
   },
   {
     "term": "樊遲",
@@ -310,7 +314,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "樊遲",
-    "source": "教育局注釋 18"
+    "source": "KS4_03_論仁論孝論君子.pdf#18"
   },
   {
     "term": "孟孫",
@@ -321,7 +325,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "孟孫",
-    "source": "教育局注釋 19"
+    "source": "KS4_03_論仁論孝論君子.pdf#19"
   },
   {
     "term": "事之以禮",
@@ -332,7 +336,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "事之以禮",
-    "source": "教育局注釋 20"
+    "source": "KS4_03_論仁論孝論君子.pdf#20"
   },
   {
     "term": "祭之以禮",
@@ -344,7 +348,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "祭之以禮",
-    "source": "教育局注釋 21"
+    "source": "KS4_03_論仁論孝論君子.pdf#21"
   },
   {
     "term": "子游",
@@ -359,7 +363,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "子游",
-    "source": "教育局注釋 22"
+    "source": "KS4_03_論仁論孝論君子.pdf#22"
   },
   {
     "term": "養",
@@ -370,7 +374,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "養",
-    "source": "教育局注釋 23"
+    "source": "KS4_03_論仁論孝論君子.pdf#23"
   },
   {
     "term": "何以別乎",
@@ -382,7 +386,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "何以別乎",
-    "source": "教育局注釋 25"
+    "source": "KS4_03_論仁論孝論君子.pdf#25"
   },
   {
     "term": "事父母幾諫",
@@ -395,7 +399,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "事父母幾諫",
-    "source": "教育局注釋 26"
+    "source": "KS4_03_論仁論孝論君子.pdf#26"
   },
   {
     "term": "幾",
@@ -408,7 +412,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "幾",
-    "source": "教育局注釋 26"
+    "source": "KS4_03_論仁論孝論君子.pdf#26"
   },
   {
     "term": "勞而不怨",
@@ -422,7 +426,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "勞而不怨",
-    "source": "教育局注釋 27"
+    "source": "KS4_03_論仁論孝論君子.pdf#27"
   },
   {
     "term": "勞",
@@ -433,7 +437,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "勞",
-    "source": "教育局注釋 27"
+    "source": "KS4_03_論仁論孝論君子.pdf#27"
   },
   {
     "term": "一則以懼",
@@ -445,7 +449,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "一則以懼",
-    "source": "教育局注釋 28"
+    "source": "KS4_03_論仁論孝論君子.pdf#28"
   },
   {
     "term": "君子不重則不威",
@@ -458,7 +462,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子不重則不威",
-    "source": "教育局注釋 29"
+    "source": "KS4_03_論仁論孝論君子.pdf#29"
   },
   {
     "term": "君子",
@@ -470,7 +474,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子",
-    "source": "教育局注釋 29"
+    "source": "KS4_03_論仁論孝論君子.pdf#29"
   },
   {
     "term": "重",
@@ -481,7 +485,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "重",
-    "source": "教育局注釋 29"
+    "source": "KS4_03_論仁論孝論君子.pdf#29"
   },
   {
     "term": "學則不固",
@@ -494,23 +498,22 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "學則不固",
-    "source": "教育局注釋 30"
+    "source": "KS4_03_論仁論孝論君子.pdf#30"
   },
   {
-    "term": "學則不固」有兩解",
+    "term": "「學則不固」有兩解",
     "accepted": [
       "一、即使讀書，所學也不會牢固",
       "一",
       "即使讀書",
-      "所學也不會牢固",
-      "二",
+      "所學也不會牢固；二",
       "學了就不會閉塞淺陋"
     ],
     "dse_usage": "一、即使讀書，所學也不會牢固；二、學了就不會閉塞淺陋",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "學則不固」有兩解",
-    "source": "教育局注釋 30"
+    "sentence_snippet": "「學則不固」有兩解",
+    "source": "KS4_03_論仁論孝論君子.pdf#30"
   },
   {
     "term": "主忠信",
@@ -521,7 +524,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "主忠信",
-    "source": "教育局注釋 31"
+    "source": "KS4_03_論仁論孝論君子.pdf#31"
   },
   {
     "term": "無友不如己者",
@@ -532,7 +535,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "無友不如己者",
-    "source": "教育局注釋 32"
+    "source": "KS4_03_論仁論孝論君子.pdf#32"
   },
   {
     "term": "過則勿憚改",
@@ -545,7 +548,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "過則勿憚改",
-    "source": "教育局注釋 33"
+    "source": "KS4_03_論仁論孝論君子.pdf#33"
   },
   {
     "term": "過",
@@ -556,7 +559,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "過",
-    "source": "教育局注釋 33"
+    "source": "KS4_03_論仁論孝論君子.pdf#33"
   },
   {
     "term": "憚",
@@ -569,11 +572,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "憚",
-    "source": "教育局注釋 33"
+    "source": "KS4_03_論仁論孝論君子.pdf#33"
   },
   {
     "term": "小人長戚戚",
     "accepted": [
+      "君子心胸舒坦寬廣，小人卻經常局促憂愁",
       "君子心胸舒坦寬廣",
       "小人卻經常局促憂愁"
     ],
@@ -581,7 +585,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "小人長戚戚",
-    "source": "教育局注釋 34"
+    "source": "KS4_03_論仁論孝論君子.pdf#34"
   },
   {
     "term": "司馬牛",
@@ -595,7 +599,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "司馬牛",
-    "source": "教育局注釋 35"
+    "source": "KS4_03_論仁論孝論君子.pdf#35"
   },
   {
     "term": "君子不憂不懼",
@@ -608,7 +612,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子不憂不懼",
-    "source": "教育局注釋 36"
+    "source": "KS4_03_論仁論孝論君子.pdf#36"
   },
   {
     "term": "斯謂之君子已乎",
@@ -619,11 +623,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "斯謂之君子已乎",
-    "source": "教育局注釋 37"
+    "source": "KS4_03_論仁論孝論君子.pdf#37"
   },
   {
     "term": "夫何憂何懼",
     "accepted": [
+      "自己問心無愧，還有甚麼需要憂愁和恐懼呢？",
       "自己問心無愧",
       "還有甚麼需要憂愁和恐懼呢？"
     ],
@@ -631,11 +636,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "夫何憂何懼",
-    "source": "教育局注釋 38"
+    "source": "KS4_03_論仁論孝論君子.pdf#38"
   },
   {
     "term": "不成人之惡",
     "accepted": [
+      "君子成全別人的好事，不促成別人的壞 事",
       "君子成全別人的好事",
       "不促成別人的壞 事"
     ],
@@ -643,7 +649,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不成人之惡",
-    "source": "教育局注釋 39"
+    "source": "KS4_03_論仁論孝論君子.pdf#39"
   },
   {
     "term": "小人反是",
@@ -654,11 +660,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "小人反是",
-    "source": "教育局注釋 40"
+    "source": "KS4_03_論仁論孝論君子.pdf#40"
   },
   {
     "term": "君子恥其言而過其行",
     "accepted": [
+      "君子會因為自己說得多，但做得少而感到羞恥",
       "君子會因為自己說得多",
       "但做得少而感到羞恥"
     ],
@@ -666,7 +673,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子恥其言而過其行",
-    "source": "教育局注釋 41"
+    "source": "KS4_03_論仁論孝論君子.pdf#41"
   },
   {
     "term": "行",
@@ -679,7 +686,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "行",
-    "source": "教育局注釋 41"
+    "source": "KS4_03_論仁論孝論君子.pdf#41"
   },
   {
     "term": "君子義以為質",
@@ -692,7 +699,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子義以為質",
-    "source": "教育局注釋 42"
+    "source": "KS4_03_論仁論孝論君子.pdf#42"
   },
   {
     "term": "質",
@@ -705,7 +712,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "質",
-    "source": "教育局注釋 42"
+    "source": "KS4_03_論仁論孝論君子.pdf#42"
   },
   {
     "term": "信以成之",
@@ -718,20 +725,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "信以成之",
-    "source": "教育局注釋 43"
+    "source": "KS4_03_論仁論孝論君子.pdf#43"
   },
   {
     "term": "孫",
     "accepted": [
       "通「遜」，謙遜",
       "通「遜」",
-      "謙遜"
+      "謙遜",
+      "遜"
     ],
     "dse_usage": "通「遜」，謙遜",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "孫",
-    "source": "教育局注釋 43"
+    "source": "KS4_03_論仁論孝論君子.pdf#43"
   },
   {
     "term": "不病人之不己知也",
@@ -743,22 +751,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不病人之不己知也",
-    "source": "教育局注釋 44"
+    "source": "KS4_03_論仁論孝論君子.pdf#44"
   },
   {
     "term": "病",
     "accepted": [
       "憂慮，擔心",
       "憂慮",
-      "擔心",
-      "也可解作慚愧",
+      "擔心；也可解作慚愧",
       "抱怨"
     ],
     "dse_usage": "憂慮，擔心；也可解作慚愧、抱怨",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "病",
-    "source": "教育局注釋 44"
+    "source": "KS4_03_論仁論孝論君子.pdf#44"
   },
   {
     "term": "小人求諸人",
@@ -771,19 +778,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "小人求諸人",
-    "source": "教育局注釋 45"
+    "source": "KS4_03_論仁論孝論君子.pdf#45"
   },
   {
     "term": "諸",
     "accepted": [
       "即「之於」，介詞",
       "即「之於」",
-      "介詞。 5"
+      "介詞"
     ],
-    "dse_usage": "即「之於」，介詞。 5",
+    "dse_usage": "即「之於」，介詞",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "虛詞",
     "sentence_snippet": "諸",
-    "source": "教育局注釋 45"
+    "source": "KS4_03_論仁論孝論君子.pdf#45"
   }
 ]

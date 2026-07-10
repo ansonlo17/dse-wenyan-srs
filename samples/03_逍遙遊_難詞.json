@@ -5,15 +5,14 @@
       "姓惠名施，戰國時宋國人",
       "姓惠名施",
       "主張「泛 愛萬物",
-      "天地一體」",
-      "又認為萬物流變無常",
+      "天地一體」；又認為萬物流變無常",
       "所有東西的性質都是相對 的"
     ],
     "dse_usage": "姓惠名施，戰國時宋國人。他是「名家」的重要人物，主張「泛 愛萬物，天地一體」；又認為萬物流變無常，所有東西的性質都是相對 的，事物之間沒有絕對的區別。惠施的著作沒有傳下來，僅《莊子‧天 下篇》中記述了他的一些觀點",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "惠子",
-    "source": "教育局注釋 1"
+    "source": "KS4_05.pdf#1"
   },
   {
     "term": "魏王貽我大瓠之種",
@@ -24,7 +23,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "魏王貽我大瓠之種",
-    "source": "教育局注釋 2"
+    "source": "KS4_05.pdf#2"
   },
   {
     "term": "貽",
@@ -36,7 +35,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "貽",
-    "source": "教育局注釋 2"
+    "source": "KS4_05.pdf#2"
   },
   {
     "term": "瓠",
@@ -47,7 +46,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "瓠",
-    "source": "教育局注釋 2"
+    "source": "KS4_05.pdf#2"
   },
   {
     "term": "種",
@@ -58,7 +57,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "種",
-    "source": "教育局注釋 2"
+    "source": "KS4_05.pdf#2"
   },
   {
     "term": "我樹之成而實五石",
@@ -71,7 +70,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "我樹之成而實五石",
-    "source": "教育局注釋 3"
+    "source": "KS4_05.pdf#3"
   },
   {
     "term": "石",
@@ -84,7 +83,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "石",
-    "source": "教育局注釋 3"
+    "source": "KS4_05.pdf#3"
   },
   {
     "term": "其堅不能自舉也",
@@ -97,7 +96,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其堅不能自舉也",
-    "source": "教育局注釋 4"
+    "source": "KS4_05.pdf#4"
   },
   {
     "term": "堅",
@@ -108,7 +107,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "堅",
-    "source": "教育局注釋 4"
+    "source": "KS4_05.pdf#4"
   },
   {
     "term": "舉",
@@ -121,7 +120,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "舉",
-    "source": "教育局注釋 4"
+    "source": "KS4_05.pdf#4"
   },
   {
     "term": "剖之以為瓢",
@@ -132,7 +131,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "剖之以為瓢",
-    "source": "教育局注釋 5"
+    "source": "KS4_05.pdf#5"
   },
   {
     "term": "剖",
@@ -145,7 +144,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "剖",
-    "source": "教育局注釋 5"
+    "source": "KS4_05.pdf#5"
   },
   {
     "term": "瓢",
@@ -156,7 +155,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "瓢",
-    "source": "教育局注釋 5"
+    "source": "KS4_05.pdf#5"
   },
   {
     "term": "則瓠落無所容",
@@ -168,7 +167,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "則瓠落無所容",
-    "source": "教育局注釋 6"
+    "source": "KS4_05.pdf#6"
   },
   {
     "term": "瓠落",
@@ -176,13 +175,14 @@
       "同「廓落」，大，空廓的樣子",
       "同「廓落」",
       "大",
-      "空廓的樣子"
+      "空廓的樣子",
+      "廓落"
     ],
     "dse_usage": "同「廓落」，大，空廓的樣子",
     "difficulty": 2,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "瓠落",
-    "source": "教育局注釋 6"
+    "source": "KS4_05.pdf#6"
   },
   {
     "term": "呺然",
@@ -193,7 +193,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "呺然",
-    "source": "教育局注釋 7"
+    "source": "KS4_05.pdf#7"
   },
   {
     "term": "吾為其無用而掊之",
@@ -206,19 +206,18 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "吾為其無用而掊之",
-    "source": "教育局注釋 8"
+    "source": "KS4_05.pdf#8"
   },
   {
     "term": "掊",
     "accepted": [
-      "擊破",
-      "[pau2]"
+      "擊破"
     ],
     "dse_usage": "擊破",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "掊",
-    "source": "教育局注釋 8"
+    "source": "KS4_05.pdf#8"
   },
   {
     "term": "拙於",
@@ -229,7 +228,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "拙於",
-    "source": "教育局注釋 9"
+    "source": "KS4_05.pdf#9"
   },
   {
     "term": "用",
@@ -240,7 +239,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "用",
-    "source": "教育局注釋 9"
+    "source": "KS4_05.pdf#9"
   },
   {
     "term": "大",
@@ -253,7 +252,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "大",
-    "source": "教育局注釋 9"
+    "source": "KS4_05.pdf#9"
   },
   {
     "term": "龜手",
@@ -264,18 +263,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "龜手",
-    "source": "教育局注釋 10"
+    "source": "KS4_05.pdf#10"
   },
   {
     "term": "龜",
     "accepted": [
-      "通「皸」"
+      "通「皸」",
+      "皸"
     ],
     "dse_usage": "通「皸」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "龜",
-    "source": "教育局注釋 10"
+    "source": "KS4_05.pdf#10"
   },
   {
     "term": "世世以洴澼絖為事",
@@ -286,7 +286,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "世世以洴澼絖為事",
-    "source": "教育局注釋 11"
+    "source": "KS4_05.pdf#11"
   },
   {
     "term": "洴澼",
@@ -297,18 +297,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "洴澼",
-    "source": "教育局注釋 11"
-  },
-  {
-    "term": "洴",
-    "accepted": [
-      "[ping4]"
-    ],
-    "dse_usage": "",
-    "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "洴",
-    "source": "教育局注釋 11"
+    "source": "KS4_05.pdf#11"
   },
   {
     "term": "絖",
@@ -320,7 +309,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "絖",
-    "source": "教育局注釋 11"
+    "source": "KS4_05.pdf#11"
   },
   {
     "term": "事",
@@ -331,18 +320,18 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "事",
-    "source": "教育局注釋 11"
+    "source": "KS4_05.pdf#11"
   },
   {
     "term": "今一朝而鬻技百金",
     "accepted": [
-      "現在一旦賣出這個藥方就可"
+      "現在一旦賣出這個藥方就可以獲得百金"
     ],
     "dse_usage": "現在一旦賣出這個藥方就可以獲得百金",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "今一朝而鬻技百金",
-    "source": "教育局注釋 12"
+    "source": "KS4_05.pdf#12"
   },
   {
     "term": "鬻",
@@ -353,19 +342,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "鬻",
-    "source": "教育局注釋 12"
+    "source": "KS4_05.pdf#12"
   },
   {
     "term": "說",
     "accepted": [
       "遊說",
-      "遊說。。 2"
+      "遊說"
     ],
-    "dse_usage": "遊說。。 2",
+    "dse_usage": "遊說",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "說",
-    "source": "教育局注釋 13"
+    "source": "KS4_05.pdf#13"
   },
   {
     "term": "越有難",
@@ -376,7 +365,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "越有難",
-    "source": "教育局注釋 14"
+    "source": "KS4_05.pdf#14"
   },
   {
     "term": "吳王使之將",
@@ -387,7 +376,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "吳王使之將",
-    "source": "教育局注釋 15"
+    "source": "KS4_05.pdf#15"
   },
   {
     "term": "將",
@@ -400,7 +389,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "將",
-    "source": "教育局注釋 15"
+    "source": "KS4_05.pdf#15"
   },
   {
     "term": "裂地",
@@ -411,7 +400,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "裂地",
-    "source": "教育局注釋 16"
+    "source": "KS4_05.pdf#16"
   },
   {
     "term": "能不龜手一也",
@@ -422,20 +411,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "能不龜手一也",
-    "source": "教育局注釋 17"
-  },
-  {
-    "term": "一",
-    "accepted": [
-      "同樣、同一",
-      "同樣",
-      "同一"
-    ],
-    "dse_usage": "同樣、同一",
-    "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "一",
-    "source": "教育局注釋 17"
+    "source": "KS4_05.pdf#17"
   },
   {
     "term": "何不慮以為大樽而浮於江湖",
@@ -446,7 +422,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "何不慮以為大樽而浮於江湖",
-    "source": "教育局注釋 18"
+    "source": "KS4_05.pdf#18"
   },
   {
     "term": "樽",
@@ -460,7 +436,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "樽",
-    "source": "教育局注釋 18"
+    "source": "KS4_05.pdf#18"
   },
   {
     "term": "有蓬之心",
@@ -475,7 +451,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "有蓬之心",
-    "source": "教育局注釋 19"
+    "source": "KS4_05.pdf#19"
   },
   {
     "term": "蓬",
@@ -486,7 +462,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "蓬",
-    "source": "教育局注釋 19"
+    "source": "KS4_05.pdf#19"
   },
   {
     "term": "人謂之樗",
@@ -497,7 +473,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "人謂之樗",
-    "source": "教育局注釋 20"
+    "source": "KS4_05.pdf#20"
   },
   {
     "term": "樗",
@@ -510,7 +486,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "樗",
-    "source": "教育局注釋 20"
+    "source": "KS4_05.pdf#20"
   },
   {
     "term": "其大本擁腫而不中繩墨",
@@ -521,18 +497,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其大本擁腫而不中繩墨",
-    "source": "教育局注釋 21"
+    "source": "KS4_05.pdf#21"
   },
   {
     "term": "擁",
     "accepted": [
-      "通「臃」"
+      "通「臃」",
+      "臃"
     ],
     "dse_usage": "通「臃」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "擁",
-    "source": "教育局注釋 21"
+    "source": "KS4_05.pdf#21"
   },
   {
     "term": "中",
@@ -543,7 +520,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "中",
-    "source": "教育局注釋 21"
+    "source": "KS4_05.pdf#21"
   },
   {
     "term": "繩墨",
@@ -554,7 +531,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "繩墨",
-    "source": "教育局注釋 21"
+    "source": "KS4_05.pdf#21"
   },
   {
     "term": "其小枝卷曲而不中規矩",
@@ -565,7 +542,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其小枝卷曲而不中規矩",
-    "source": "教育局注釋 22"
+    "source": "KS4_05.pdf#22"
   },
   {
     "term": "卷曲",
@@ -576,7 +553,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "卷曲",
-    "source": "教育局注釋 22"
+    "source": "KS4_05.pdf#22"
   },
   {
     "term": "卷",
@@ -587,11 +564,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "卷",
-    "source": "教育局注釋 22"
+    "source": "KS4_05.pdf#22"
   },
   {
     "term": "規矩",
     "accepted": [
+      "兩種工具，規用以 畫圓，矩用以畫方",
       "兩種工具",
       "規用以 畫圓",
       "矩用以畫方"
@@ -600,7 +578,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "規矩",
-    "source": "教育局注釋 22"
+    "source": "KS4_05.pdf#22"
   },
   {
     "term": "立之塗",
@@ -611,18 +589,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "立之塗",
-    "source": "教育局注釋 23"
+    "source": "KS4_05.pdf#23"
   },
   {
     "term": "塗",
     "accepted": [
-      "通「途」"
+      "通「途」",
+      "途"
     ],
     "dse_usage": "通「途」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "塗",
-    "source": "教育局注釋 23"
+    "source": "KS4_05.pdf#23"
   },
   {
     "term": "去",
@@ -633,7 +612,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "去",
-    "source": "教育局注釋 24"
+    "source": "KS4_05.pdf#24"
   },
   {
     "term": "獨",
@@ -646,7 +625,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "獨",
-    "source": "教育局注釋 25"
+    "source": "KS4_05.pdf#25"
   },
   {
     "term": "狸",
@@ -660,20 +639,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "狸",
-    "source": "教育局注釋 25"
+    "source": "KS4_05.pdf#25"
   },
   {
     "term": "狌",
     "accepted": [
       "同「鼪」，黄鼠狼",
       "同「鼪」",
-      "黄鼠狼"
+      "黄鼠狼",
+      "鼪"
     ],
     "dse_usage": "同「鼪」，黄鼠狼",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "狌",
-    "source": "教育局注釋 25"
+    "source": "KS4_05.pdf#25"
   },
   {
     "term": "以候敖者",
@@ -686,7 +666,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "以候敖者",
-    "source": "教育局注釋 26"
+    "source": "KS4_05.pdf#26"
   },
   {
     "term": "敖",
@@ -694,13 +674,14 @@
       "通「遨」， 出遊、閒遊",
       "通「遨」",
       "出遊",
-      "閒遊"
+      "閒遊",
+      "遨"
     ],
     "dse_usage": "通「遨」， 出遊、閒遊",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "敖",
-    "source": "教育局注釋 26"
+    "source": "KS4_05.pdf#26"
   },
   {
     "term": "不辟高下",
@@ -713,31 +694,33 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不辟高下",
-    "source": "教育局注釋 27"
+    "source": "KS4_05.pdf#27"
   },
   {
     "term": "梁",
     "accepted": [
       "通「踉」，跳躍",
       "通「踉」",
-      "跳躍"
+      "跳躍",
+      "踉"
     ],
     "dse_usage": "通「踉」，跳躍",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "梁",
-    "source": "教育局注釋 27"
+    "source": "KS4_05.pdf#27"
   },
   {
     "term": "辟",
     "accepted": [
-      "通「避」"
+      "通「避」",
+      "避"
     ],
     "dse_usage": "通「避」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "辟",
-    "source": "教育局注釋 27"
+    "source": "KS4_05.pdf#27"
   },
   {
     "term": "機辟",
@@ -748,7 +731,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "機辟",
-    "source": "教育局注釋 28"
+    "source": "KS4_05.pdf#28"
   },
   {
     "term": "罔罟",
@@ -759,19 +742,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "罔罟",
-    "source": "教育局注釋 28"
+    "source": "KS4_05.pdf#28"
   },
   {
     "term": "罔",
     "accepted": [
+      "通「網」，用繩線等 結成的捕魚捉鳥器具",
       "通「網」",
-      "用繩線等 結成的捕魚捉鳥器具"
+      "用繩線等 結成的捕魚捉鳥器具",
+      "網"
     ],
     "dse_usage": "通「網」，用繩線等 結成的捕魚捉鳥器具",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "罔",
-    "source": "教育局注釋 28"
+    "source": "KS4_05.pdf#28"
   },
   {
     "term": "罟",
@@ -782,7 +767,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "罟",
-    "source": "教育局注釋 28"
+    "source": "KS4_05.pdf#28"
   },
   {
     "term": "斄牛",
@@ -799,7 +784,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "斄牛",
-    "source": "教育局注釋 29"
+    "source": "KS4_05.pdf#29"
   },
   {
     "term": "執",
@@ -810,7 +795,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "執",
-    "source": "教育局注釋 30"
+    "source": "KS4_05.pdf#30"
   },
   {
     "term": "何不樹之於無何有之鄉",
@@ -821,7 +806,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "何不樹之於無何有之鄉",
-    "source": "教育局注釋 31"
+    "source": "KS4_05.pdf#31"
   },
   {
     "term": "樹",
@@ -832,7 +817,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "樹",
-    "source": "教育局注釋 31"
+    "source": "KS4_05.pdf#31"
   },
   {
     "term": "無何有",
@@ -843,7 +828,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "無何有",
-    "source": "教育局注釋 31"
+    "source": "KS4_05.pdf#31"
   },
   {
     "term": "鄉",
@@ -856,7 +841,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "鄉",
-    "source": "教育局注釋 31"
+    "source": "KS4_05.pdf#31"
   },
   {
     "term": "廣莫之野",
@@ -870,11 +855,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "廣莫之野",
-    "source": "教育局注釋 32"
+    "source": "KS4_05.pdf#32"
   },
   {
     "term": "逍遙乎寢卧其下",
     "accepted": [
+      "隨意地在樹旁徜徉，自在地在樹下 躺卧",
       "隨意地在樹旁徜徉",
       "自在地在樹下 躺卧"
     ],
@@ -882,7 +868,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "逍遙乎寢卧其下",
-    "source": "教育局注釋 33"
+    "source": "KS4_05.pdf#33"
   },
   {
     "term": "彷徨",
@@ -893,7 +879,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "彷徨",
-    "source": "教育局注釋 33"
+    "source": "KS4_05.pdf#33"
   },
   {
     "term": "逍遙",
@@ -904,7 +890,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "逍遙",
-    "source": "教育局注釋 33"
+    "source": "KS4_05.pdf#33"
   },
   {
     "term": "物無害者",
@@ -917,7 +903,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "物無害者",
-    "source": "教育局注釋 34"
+    "source": "KS4_05.pdf#34"
   },
   {
     "term": "夭",
@@ -928,17 +914,17 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "夭",
-    "source": "教育局注釋 34"
+    "source": "KS4_05.pdf#34"
   },
   {
     "term": "安所困苦哉",
     "accepted": [
-      "又有甚麼艱難困苦呢？ 3"
+      "又有甚麼艱難困苦呢？"
     ],
-    "dse_usage": "又有甚麼艱難困苦呢？ 3",
+    "dse_usage": "又有甚麼艱難困苦呢？",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "安所困苦哉",
-    "source": "教育局注釋 35"
+    "source": "KS4_05.pdf#35"
   }
 ]

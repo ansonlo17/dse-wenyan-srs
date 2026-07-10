@@ -11,20 +11,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "僇人",
-    "source": "教育局注釋 1"
+    "source": "KS4_13.pdf#1"
   },
   {
     "term": "僇",
     "accepted": [
       "同「戮」，刑 戮",
       "同「戮」",
-      "刑 戮"
+      "刑 戮",
+      "戮"
     ],
     "dse_usage": "同「戮」，刑 戮",
     "difficulty": 3,
-    "category": "實詞",
+    "category": "異義",
     "sentence_snippet": "僇",
-    "source": "教育局注釋 1"
+    "source": "KS4_13.pdf#1"
   },
   {
     "term": "恒",
@@ -37,7 +38,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "恒",
-    "source": "教育局注釋 2"
+    "source": "KS4_13.pdf#2"
   },
   {
     "term": "惴",
@@ -48,19 +49,18 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "惴",
-    "source": "教育局注釋 2"
+    "source": "KS4_13.pdf#2"
   },
   {
     "term": "慄",
     "accepted": [
-      "戰慄",
-      "[leot6]"
+      "戰慄"
     ],
     "dse_usage": "戰慄",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "慄",
-    "source": "教育局注釋 2"
+    "source": "KS4_13.pdf#2"
   },
   {
     "term": "隙",
@@ -73,7 +73,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "隙",
-    "source": "教育局注釋 3"
+    "source": "KS4_13.pdf#3"
   },
   {
     "term": "施施",
@@ -84,7 +84,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "施施",
-    "source": "教育局注釋 4"
+    "source": "KS4_13.pdf#4"
   },
   {
     "term": "漫漫",
@@ -97,7 +97,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "漫漫",
-    "source": "教育局注釋 5"
+    "source": "KS4_13.pdf#5"
   },
   {
     "term": "徒",
@@ -108,7 +108,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "徒",
-    "source": "教育局注釋 6"
+    "source": "KS4_13.pdf#6"
   },
   {
     "term": "窮迴溪",
@@ -119,20 +119,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "窮迴溪",
-    "source": "教育局注釋 7"
+    "source": "KS4_13.pdf#7"
   },
   {
     "term": "窮",
     "accepted": [
       "窮盡，指走到溪水盡頭處，動詞",
       "窮盡",
-      "指走到溪水盡頭處"
+      "指走到溪水盡頭處",
+      "動詞"
     ],
     "dse_usage": "窮盡，指走到溪水盡頭處，動詞",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "窮",
-    "source": "教育局注釋 7"
+    "source": "KS4_13.pdf#7"
   },
   {
     "term": "迴",
@@ -143,7 +144,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "迴",
-    "source": "教育局注釋 7"
+    "source": "KS4_13.pdf#7"
   },
   {
     "term": "幽泉",
@@ -156,7 +157,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "幽泉",
-    "source": "教育局注釋 8"
+    "source": "KS4_13.pdf#8"
   },
   {
     "term": "披草",
@@ -167,7 +168,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "披草",
-    "source": "教育局注釋 9"
+    "source": "KS4_13.pdf#9"
   },
   {
     "term": "披",
@@ -178,7 +179,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "披",
-    "source": "教育局注釋 9"
+    "source": "KS4_13.pdf#9"
   },
   {
     "term": "更相枕",
@@ -189,7 +190,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "更相枕",
-    "source": "教育局注釋 10"
+    "source": "KS4_13.pdf#10"
   },
   {
     "term": "更相",
@@ -200,7 +201,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "更相",
-    "source": "教育局注釋 10"
+    "source": "KS4_13.pdf#10"
   },
   {
     "term": "枕",
@@ -211,7 +212,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "枕",
-    "source": "教育局注釋 10"
+    "source": "KS4_13.pdf#10"
   },
   {
     "term": "意有所極",
@@ -222,7 +223,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "意有所極",
-    "source": "教育局注釋 11"
+    "source": "KS4_13.pdf#11"
   },
   {
     "term": "極",
@@ -235,7 +236,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "極",
-    "source": "教育局注釋 11"
+    "source": "KS4_13.pdf#11"
   },
   {
     "term": "夢亦同趣",
@@ -246,23 +247,23 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "夢亦同趣",
-    "source": "教育局注釋 12"
+    "source": "KS4_13.pdf#12"
   },
   {
     "term": "趣",
     "accepted": [
       "情趣、意境",
       "情趣",
-      "意境",
-      "或通「趨」",
+      "意境；或通「趨」",
       "前往",
-      "朝着某方向"
+      "朝着某方向",
+      "趨"
     ],
     "dse_usage": "情趣、意境；或通「趨」，前往、 朝着某方向",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "趣",
-    "source": "教育局注釋 12"
+    "source": "KS4_13.pdf#12"
   },
   {
     "term": "覺",
@@ -273,7 +274,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "覺",
-    "source": "教育局注釋 13"
+    "source": "KS4_13.pdf#13"
   },
   {
     "term": "西山",
@@ -284,7 +285,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "西山",
-    "source": "教育局注釋 14"
+    "source": "KS4_13.pdf#14"
   },
   {
     "term": "法華西亭",
@@ -301,7 +302,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "法華西亭",
-    "source": "教育局注釋 15"
+    "source": "KS4_13.pdf#15"
   },
   {
     "term": "異之",
@@ -313,7 +314,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "異之",
-    "source": "教育局注釋 16"
+    "source": "KS4_13.pdf#16"
   },
   {
     "term": "異",
@@ -327,7 +328,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "異",
-    "source": "教育局注釋 16"
+    "source": "KS4_13.pdf#16"
   },
   {
     "term": "湘江",
@@ -337,10 +338,10 @@
       "為湘江的支流"
     ],
     "dse_usage": "又名湘水。此處其實是瀟水，為湘江的支流",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "湘江",
-    "source": "教育局注釋 17"
+    "source": "KS4_13.pdf#17"
   },
   {
     "term": "緣",
@@ -353,7 +354,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "緣",
-    "source": "教育局注釋 18"
+    "source": "KS4_13.pdf#18"
   },
   {
     "term": "染溪",
@@ -366,7 +367,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "染溪",
-    "source": "教育局注釋 18"
+    "source": "KS4_13.pdf#18"
   },
   {
     "term": "斫",
@@ -377,7 +378,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "斫",
-    "source": "教育局注釋 19"
+    "source": "KS4_13.pdf#19"
   },
   {
     "term": "榛莽",
@@ -388,7 +389,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "榛莽",
-    "source": "教育局注釋 19"
+    "source": "KS4_13.pdf#19"
   },
   {
     "term": "茅茷",
@@ -399,7 +400,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "茅茷",
-    "source": "教育局注釋 20"
+    "source": "KS4_13.pdf#20"
   },
   {
     "term": "茷",
@@ -410,7 +411,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "茷",
-    "source": "教育局注釋 20"
+    "source": "KS4_13.pdf#20"
   },
   {
     "term": "箕踞而遨",
@@ -423,7 +424,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "箕踞而遨",
-    "source": "教育局注釋 21"
+    "source": "KS4_13.pdf#21"
   },
   {
     "term": "箕踞",
@@ -437,7 +438,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "箕踞",
-    "source": "教育局注釋 21"
+    "source": "KS4_13.pdf#21"
   },
   {
     "term": "遨",
@@ -450,7 +451,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "遨",
-    "source": "教育局注釋 21"
+    "source": "KS4_13.pdf#21"
   },
   {
     "term": "土壤",
@@ -461,7 +462,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "土壤",
-    "source": "教育局注釋 22"
+    "source": "KS4_13.pdf#22"
   },
   {
     "term": "衽席",
@@ -472,7 +473,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "衽席",
-    "source": "教育局注釋 23"
+    "source": "KS4_13.pdf#23"
   },
   {
     "term": "岈",
@@ -483,7 +484,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "岈",
-    "source": "教育局注釋 24"
+    "source": "KS4_13.pdf#24"
   },
   {
     "term": "窪",
@@ -496,7 +497,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "窪",
-    "source": "教育局注釋 24"
+    "source": "KS4_13.pdf#24"
   },
   {
     "term": "若垤若穴",
@@ -509,7 +510,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "若垤若穴",
-    "source": "教育局注釋 25"
+    "source": "KS4_13.pdf#25"
   },
   {
     "term": "垤",
@@ -520,11 +521,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "垤",
-    "source": "教育局注釋 25"
+    "source": "KS4_13.pdf#25"
   },
   {
     "term": "尺寸千里",
     "accepted": [
+      "眼前尺寸之間的距離，實際上相隔千里之遙",
       "眼前尺寸之間的距離",
       "實際上相隔千里之遙"
     ],
@@ -532,7 +534,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "尺寸千里",
-    "source": "教育局注釋 26"
+    "source": "KS4_13.pdf#26"
   },
   {
     "term": "攢蹙累積",
@@ -545,31 +547,30 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "攢蹙累積",
-    "source": "教育局注釋 27"
+    "source": "KS4_13.pdf#27"
   },
   {
     "term": "攢",
     "accepted": [
       "聚集",
-      "[cyun4]"
+      "聚集。 [cyun4]"
     ],
-    "dse_usage": "聚集",
+    "dse_usage": "聚集。 [cyun4]",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "攢",
-    "source": "教育局注釋 27"
+    "source": "KS4_13.pdf#27"
   },
   {
     "term": "蹙",
     "accepted": [
-      "緊迫",
-      "[cuk1]"
+      "緊迫"
     ],
     "dse_usage": "緊迫",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "蹙",
-    "source": "教育局注釋 27"
+    "source": "KS4_13.pdf#27"
   },
   {
     "term": "累",
@@ -580,7 +581,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "累",
-    "source": "教育局注釋 27"
+    "source": "KS4_13.pdf#27"
   },
   {
     "term": "積",
@@ -591,7 +592,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "積",
-    "source": "教育局注釋 27"
+    "source": "KS4_13.pdf#27"
   },
   {
     "term": "遯隱",
@@ -602,18 +603,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "遯隱",
-    "source": "教育局注釋 28"
+    "source": "KS4_13.pdf#28"
   },
   {
     "term": "遯",
     "accepted": [
-      "通「遁」"
+      "通「遁」",
+      "遁"
     ],
     "dse_usage": "通「遁」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "遯",
-    "source": "教育局注釋 28"
+    "source": "KS4_13.pdf#28"
   },
   {
     "term": "縈青繚白",
@@ -624,7 +626,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "縈青繚白",
-    "source": "教育局注釋 29"
+    "source": "KS4_13.pdf#29"
   },
   {
     "term": "縈",
@@ -637,7 +639,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "縈",
-    "source": "教育局注釋 29"
+    "source": "KS4_13.pdf#29"
   },
   {
     "term": "繚",
@@ -650,7 +652,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "繚",
-    "source": "教育局注釋 29"
+    "source": "KS4_13.pdf#29"
   },
   {
     "term": "青",
@@ -661,7 +663,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "青",
-    "source": "教育局注釋 29"
+    "source": "KS4_13.pdf#29"
   },
   {
     "term": "白",
@@ -672,7 +674,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "白",
-    "source": "教育局注釋 29"
+    "source": "KS4_13.pdf#29"
   },
   {
     "term": "際",
@@ -686,10 +688,22 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "際",
-    "source": "教育局注釋 30"
+    "source": "KS4_13.pdf#30"
   },
   {
-    "term": "郭璞注",
+    "term": "培塿",
+    "accepted": [
+      "隆起的小丘",
+      "小者謂之塿"
+    ],
+    "dse_usage": "隆起的小丘。 間……或謂之培……自關而東謂之丘，小者謂之塿",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "培塿",
+    "source": "KS4_13.pdf#31"
+  },
+  {
+    "term": "」郭璞注",
     "accepted": [
       "「培 塿，亦堆高之貌",
       "「培 塿",
@@ -698,8 +712,8 @@
     "dse_usage": "「培 塿，亦堆高之貌。」",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "郭璞注",
-    "source": "教育局注釋 31"
+    "sentence_snippet": "」郭璞注",
+    "source": "KS4_13.pdf#31"
   },
   {
     "term": "顥氣",
@@ -710,18 +724,19 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "顥氣",
-    "source": "教育局注釋 32"
+    "source": "KS4_13.pdf#32"
   },
   {
     "term": "顥",
     "accepted": [
-      "通「灝」"
+      "通「灝」",
+      "灝"
     ],
     "dse_usage": "通「灝」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "顥",
-    "source": "教育局注釋 32"
+    "source": "KS4_13.pdf#32"
   },
   {
     "term": "莫得其涯",
@@ -732,7 +747,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "莫得其涯",
-    "source": "教育局注釋 33"
+    "source": "KS4_13.pdf#33"
   },
   {
     "term": "涯",
@@ -745,7 +760,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "涯",
-    "source": "教育局注釋 33"
+    "source": "KS4_13.pdf#33"
   },
   {
     "term": "洋洋",
@@ -756,7 +771,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "洋洋",
-    "source": "教育局注釋 34"
+    "source": "KS4_13.pdf#34"
   },
   {
     "term": "與造物者遊",
@@ -768,7 +783,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "與造物者遊",
-    "source": "教育局注釋 35"
+    "source": "KS4_13.pdf#35"
   },
   {
     "term": "引",
@@ -781,7 +796,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "引",
-    "source": "教育局注釋 37"
+    "source": "KS4_13.pdf#37"
   },
   {
     "term": "觴",
@@ -792,7 +807,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "觴",
-    "source": "教育局注釋 37"
+    "source": "KS4_13.pdf#37"
   },
   {
     "term": "酌",
@@ -803,7 +818,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "酌",
-    "source": "教育局注釋 37"
+    "source": "KS4_13.pdf#37"
   },
   {
     "term": "頹然",
@@ -816,7 +831,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "頹然",
-    "source": "教育局注釋 38"
+    "source": "KS4_13.pdf#38"
   },
   {
     "term": "蒼然暮色",
@@ -827,7 +842,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "蒼然暮色",
-    "source": "教育局注釋 39"
+    "source": "KS4_13.pdf#39"
   },
   {
     "term": "蒼",
@@ -840,7 +855,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "蒼",
-    "source": "教育局注釋 39"
+    "source": "KS4_13.pdf#39"
   },
   {
     "term": "色",
@@ -853,7 +868,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "色",
-    "source": "教育局注釋 39"
+    "source": "KS4_13.pdf#39"
   },
   {
     "term": "心凝形釋",
@@ -866,7 +881,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "心凝形釋",
-    "source": "教育局注釋 40"
+    "source": "KS4_13.pdf#40"
   },
   {
     "term": "凝",
@@ -877,7 +892,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "凝",
-    "source": "教育局注釋 40"
+    "source": "KS4_13.pdf#40"
   },
   {
     "term": "釋",
@@ -890,7 +905,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "釋",
-    "source": "教育局注釋 40"
+    "source": "KS4_13.pdf#40"
   },
   {
     "term": "萬化",
@@ -903,7 +918,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "萬化",
-    "source": "教育局注釋 41"
+    "source": "KS4_13.pdf#41"
   },
   {
     "term": "冥合",
@@ -914,7 +929,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "冥合",
-    "source": "教育局注釋 41"
+    "source": "KS4_13.pdf#41"
   },
   {
     "term": "嚮",
@@ -922,13 +937,14 @@
       "通「向」，從前、過往",
       "通「向」",
       "從前",
-      "過往。 3"
+      "過往",
+      "向"
     ],
-    "dse_usage": "通「向」，從前、過往。 3",
+    "dse_usage": "通「向」，從前、過往",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "嚮",
-    "source": "教育局注釋 42"
+    "source": "KS4_13.pdf#42"
   },
   {
     "term": "未始",
@@ -941,19 +957,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "未始",
-    "source": "教育局注釋 43"
+    "source": "KS4_13.pdf#43"
   },
   {
     "term": "志",
     "accepted": [
       "通「誌」，記述其事",
       "通「誌」",
-      "記述其事"
+      "記述其事",
+      "誌"
     ],
     "dse_usage": "通「誌」，記述其事",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "志",
-    "source": "教育局注釋 44"
+    "source": "KS4_13.pdf#44"
   }
 ]

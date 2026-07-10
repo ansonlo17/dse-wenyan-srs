@@ -10,11 +10,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "魚",
-    "source": "教育局注釋 1"
+    "source": "KS4_04.pdf#1"
   },
   {
     "term": "熊掌",
     "accepted": [
+      "熊是山中野獸，難以捕獵，是珍貴的美食",
       "熊是山中野獸",
       "難以捕獵",
       "是珍貴的美食"
@@ -23,20 +24,21 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "熊掌",
-    "source": "教育局注釋 2"
+    "source": "KS4_04.pdf#2"
   },
   {
     "term": "舍",
     "accepted": [
       "通「捨」，放棄",
       "通「捨」",
-      "放棄"
+      "放棄",
+      "捨"
     ],
     "dse_usage": "通「捨」，放棄",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "舍",
-    "source": "教育局注釋 3"
+    "source": "KS4_04.pdf#3"
   },
   {
     "term": "生",
@@ -49,7 +51,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "生",
-    "source": "教育局注釋 4"
+    "source": "KS4_04.pdf#4"
   },
   {
     "term": "義",
@@ -62,7 +64,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "義",
-    "source": "教育局注釋 5"
+    "source": "KS4_04.pdf#5"
   },
   {
     "term": "甚於",
@@ -73,7 +75,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "甚於",
-    "source": "教育局注釋 6"
+    "source": "KS4_04.pdf#6"
   },
   {
     "term": "苟得",
@@ -84,7 +86,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "苟得",
-    "source": "教育局注釋 7"
+    "source": "KS4_04.pdf#7"
   },
   {
     "term": "苟",
@@ -97,7 +99,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "苟",
-    "source": "教育局注釋 7"
+    "source": "KS4_04.pdf#7"
   },
   {
     "term": "惡",
@@ -108,18 +110,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "惡",
-    "source": "教育局注釋 8"
+    "source": "KS4_04.pdf#8"
   },
   {
     "term": "辟",
     "accepted": [
-      "通「避」"
+      "通「避」",
+      "避"
     ],
     "dse_usage": "通「避」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "辟",
-    "source": "教育局注釋 9"
+    "source": "KS4_04.pdf#9"
   },
   {
     "term": "如",
@@ -132,7 +135,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "如",
-    "source": "教育局注釋 10"
+    "source": "KS4_04.pdf#10"
   },
   {
     "term": "可以得生者",
@@ -143,7 +146,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "可以得生者",
-    "source": "教育局注釋 11"
+    "source": "KS4_04.pdf#11"
   },
   {
     "term": "用",
@@ -156,7 +159,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "用",
-    "source": "教育局注釋 12"
+    "source": "KS4_04.pdf#12"
   },
   {
     "term": "由是則生而有不用",
@@ -169,7 +172,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "由是則生而有不用",
-    "source": "教育局注釋 13"
+    "source": "KS4_04.pdf#13"
   },
   {
     "term": "是故",
@@ -178,23 +181,22 @@
     ],
     "dse_usage": "因此之故",
     "difficulty": 2,
-    "category": "結構",
+    "category": "實詞",
     "sentence_snippet": "是故",
-    "source": "教育局注釋 14"
+    "source": "KS4_04.pdf#14"
   },
   {
     "term": "所惡有甚於死者",
     "accepted": [
+      "人所追求的東西，有些比生命更重 2 要",
       "人所追求的東西",
-      "有些比生命更重 2 要",
-      "人所憎惡的東西",
       "有些比死亡更嚴重"
     ],
     "dse_usage": "人所追求的東西，有些比生命更重 2 要；人所憎惡的東西，有些比死亡更嚴重",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "所惡有甚於死者",
-    "source": "教育局注釋 15"
+    "source": "KS4_04.pdf#15"
   },
   {
     "term": "賢者能勿喪耳",
@@ -208,11 +210,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "賢者能勿喪耳",
-    "source": "教育局注釋 16"
+    "source": "KS4_04.pdf#16"
   },
   {
     "term": "耳",
     "accepted": [
+      "這裏作為句末語助詞，是「而已」的合音字",
       "這裏作為句末語助詞",
       "是「而已」的合音字"
     ],
@@ -220,7 +223,7 @@
     "difficulty": 3,
     "category": "虛詞",
     "sentence_snippet": "耳",
-    "source": "教育局注釋 16"
+    "source": "KS4_04.pdf#16"
   },
   {
     "term": "簞",
@@ -231,7 +234,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "簞",
-    "source": "教育局注釋 17"
+    "source": "KS4_04.pdf#17"
   },
   {
     "term": "食",
@@ -242,11 +245,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "食",
-    "source": "教育局注釋 17"
+    "source": "KS4_04.pdf#17"
   },
   {
     "term": "豆",
     "accepted": [
+      "盛載食物的器皿，形似高腳盤，象形字",
       "盛載食物的器皿",
       "形似高腳盤",
       "象形字"
@@ -255,7 +259,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "豆",
-    "source": "教育局注釋 18"
+    "source": "KS4_04.pdf#18"
   },
   {
     "term": "羹",
@@ -266,40 +270,31 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "羹",
-    "source": "教育局注釋 18"
+    "source": "KS4_04.pdf#18"
   },
   {
     "term": "弗",
     "accepted": [
-      "通「不」"
+      "通「不」",
+      "不"
     ],
     "dse_usage": "通「不」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "弗",
-    "source": "教育局注釋 19"
+    "source": "KS4_04.pdf#19"
   },
   {
-    "term": "嘑爾而與之",
+    "term": "嘑爾",
     "accepted": [
-      "嘑"
-    ],
-    "dse_usage": "嘑",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "嘑爾而與之",
-    "source": "教育局注釋 20"
-  },
-  {
-    "term": "爾",
-    "accepted": [
-      "大聲呼叱的意思"
+      "大聲呼叱的意思",
+      "呼"
     ],
     "dse_usage": "大聲呼叱的意思。一說「嘑」同「呼」",
-    "difficulty": 3,
-    "category": "實詞",
-    "sentence_snippet": "爾",
-    "source": "教育局注釋 20"
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "嘑爾",
+    "source": "KS4_04.pdf#20"
   },
   {
     "term": "與",
@@ -311,11 +306,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "與",
-    "source": "教育局注釋 20"
+    "source": "KS4_04.pdf#20"
   },
   {
     "term": "記載",
     "accepted": [
+      "「齊大饑，黔敖為食於路，以待餓者而食 之",
       "「齊大饑",
       "黔敖為食於路",
       "以待餓者而食 之。有餓者蒙袂輯屨",
@@ -326,7 +322,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "記載",
-    "source": "教育局注釋 20"
+    "source": "KS4_04.pdf#20"
   },
   {
     "term": "曰",
@@ -338,7 +334,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "曰",
-    "source": "教育局注釋 20"
+    "source": "KS4_04.pdf#20"
   },
   {
     "term": "行道之人",
@@ -349,7 +345,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "行道之人",
-    "source": "教育局注釋 21"
+    "source": "KS4_04.pdf#21"
   },
   {
     "term": "弗受",
@@ -360,7 +356,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "弗受",
-    "source": "教育局注釋 21"
+    "source": "KS4_04.pdf#21"
   },
   {
     "term": "蹴",
@@ -371,7 +367,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "蹴",
-    "source": "教育局注釋 22"
+    "source": "KS4_04.pdf#22"
+  },
+  {
+    "term": "爾",
+    "accepted": [
+      "助詞",
+      "此處用於動詞之後",
+      "表示狀態",
+      "相當於「着」"
+    ],
+    "dse_usage": "助詞，此處用於動詞之後，表示狀態，相當於「着」",
+    "difficulty": 3,
+    "category": "虛詞",
+    "sentence_snippet": "爾",
+    "source": "KS4_04.pdf#22"
   },
   {
     "term": "不屑",
@@ -382,7 +392,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不屑",
-    "source": "教育局注釋 23"
+    "source": "KS4_04.pdf#23"
   },
   {
     "term": "萬鍾",
@@ -393,7 +403,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "萬鍾",
-    "source": "教育局注釋 24"
+    "source": "KS4_04.pdf#24"
   },
   {
     "term": "鍾",
@@ -406,20 +416,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "鍾",
-    "source": "教育局注釋 24"
+    "source": "KS4_04.pdf#24"
   },
   {
     "term": "辯",
     "accepted": [
       "通「辨」，辨別",
       "通「辨」",
-      "辨別"
+      "辨別",
+      "辨"
     ],
     "dse_usage": "通「辨」，辨別",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "辯",
-    "source": "教育局注釋 25"
+    "source": "KS4_04.pdf#25"
   },
   {
     "term": "何加",
@@ -430,7 +441,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "何加",
-    "source": "教育局注釋 26"
+    "source": "KS4_04.pdf#26"
   },
   {
     "term": "加",
@@ -441,7 +452,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "加",
-    "source": "教育局注釋 26"
+    "source": "KS4_04.pdf#26"
   },
   {
     "term": "宮室",
@@ -453,7 +464,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "宮室",
-    "source": "教育局注釋 27"
+    "source": "KS4_04.pdf#27"
   },
   {
     "term": "奉",
@@ -466,18 +477,18 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "奉",
-    "source": "教育局注釋 28"
+    "source": "KS4_04.pdf#28"
   },
   {
     "term": "所識窮乏者得我與",
     "accepted": [
-      "讓所認識的窮乏之人感謝我"
+      "讓所認識的窮乏之人感謝我的賙濟嗎？"
     ],
     "dse_usage": "讓所認識的窮乏之人感謝我的賙濟嗎？",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "所識窮乏者得我與",
-    "source": "教育局注釋 29"
+    "source": "KS4_04.pdf#29"
   },
   {
     "term": "得",
@@ -491,20 +502,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "得",
-    "source": "教育局注釋 29"
+    "source": "KS4_04.pdf#29"
   },
   {
     "term": "鄉",
     "accepted": [
       "通「向」，過往",
       "通「向」",
-      "過往"
+      "過往",
+      "向"
     ],
     "dse_usage": "通「向」，過往",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "鄉",
-    "source": "教育局注釋 30"
+    "source": "KS4_04.pdf#30"
   },
   {
     "term": "已",
@@ -515,7 +527,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "已",
-    "source": "教育局注釋 31"
+    "source": "KS4_04.pdf#31"
   },
   {
     "term": "本心",
@@ -529,6 +541,6 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "本心",
-    "source": "教育局注釋 32"
+    "source": "KS4_04.pdf#32"
   }
 ]

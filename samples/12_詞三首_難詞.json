@@ -8,7 +8,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "故壘",
-    "source": "教育局注釋 1"
+    "source": "KS4_17a.pdf#1"
   },
   {
     "term": "周郎",
@@ -22,7 +22,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "周郎",
-    "source": "教育局注釋 2"
+    "source": "KS4_17a.pdf#2"
   },
   {
     "term": "小喬",
@@ -37,7 +37,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "小喬",
-    "source": "教育局注釋 3"
+    "source": "KS4_17a.pdf#3"
   },
   {
     "term": "羽扇",
@@ -48,7 +48,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "羽扇",
-    "source": "教育局注釋 4"
+    "source": "KS4_17a.pdf#4"
   },
   {
     "term": "綸巾",
@@ -59,18 +59,18 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "綸巾",
-    "source": "教育局注釋 4"
+    "source": "KS4_17a.pdf#4"
   },
   {
     "term": "綸",
     "accepted": [
       "[gwaan1]"
     ],
-    "dse_usage": "",
+    "dse_usage": "[gwaan1]",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "綸",
-    "source": "教育局注釋 4"
+    "source": "KS4_17a.pdf#4"
   },
   {
     "term": "檣櫓",
@@ -78,10 +78,10 @@
       "此處借代戰船"
     ],
     "dse_usage": "此處借代戰船",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "檣櫓",
-    "source": "教育局注釋 5"
+    "source": "KS4_17a.pdf#5"
   },
   {
     "term": "檣",
@@ -92,7 +92,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "檣",
-    "source": "教育局注釋 5"
+    "source": "KS4_17a.pdf#5"
   },
   {
     "term": "櫓",
@@ -103,7 +103,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "櫓",
-    "source": "教育局注釋 5"
+    "source": "KS4_17a.pdf#5"
   },
   {
     "term": "故國",
@@ -114,7 +114,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "故國",
-    "source": "教育局注釋 6"
+    "source": "KS4_17a.pdf#6"
   },
   {
     "term": "華髮",
@@ -125,31 +125,33 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "華髮",
-    "source": "教育局注釋 7"
+    "source": "KS4_17a.pdf#7"
   },
   {
     "term": "華",
     "accepted": [
-      "通「花」"
+      "通「花」",
+      "花"
     ],
     "dse_usage": "通「花」",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "華",
-    "source": "教育局注釋 7"
+    "source": "KS4_17a.pdf#7"
   },
   {
     "term": "尊",
     "accepted": [
       "通「樽」，借指酒",
       "通「樽」",
-      "借指酒"
+      "借指酒",
+      "樽"
     ],
     "dse_usage": "通「樽」，借指酒",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "尊",
-    "source": "教育局注釋 8"
+    "source": "KS4_17a.pdf#8"
   },
   {
     "term": "酹",
@@ -160,7 +162,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "酹",
-    "source": "教育局注釋 9"
+    "source": "KS4_17a.pdf#9"
   },
   {
     "term": "乍煖還寒",
@@ -173,7 +175,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "乍煖還寒",
-    "source": "教育局注釋 1"
+    "source": "KS4_17b.pdf#1"
   },
   {
     "term": "煖",
@@ -184,7 +186,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "煖",
-    "source": "教育局注釋 1"
+    "source": "KS4_17b.pdf#1"
   },
   {
     "term": "將息",
@@ -197,19 +199,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "將息",
-    "source": "教育局注釋 2"
+    "source": "KS4_17b.pdf#2"
   },
   {
     "term": "晚來風急",
     "accepted": [
+      "一作「曉來風急」，也作「晚來風力」",
       "一作「曉來風急」",
-      "也作「晚來風力」。 1"
+      "也作「晚來風力」"
     ],
-    "dse_usage": "一作「曉來風急」，也作「晚來風力」。 1",
+    "dse_usage": "一作「曉來風急」，也作「晚來風力」",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "晚來風急",
-    "source": "教育局注釋 3"
+    "source": "KS4_17b.pdf#3"
   },
   {
     "term": "憔悴損",
@@ -220,7 +223,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "憔悴損",
-    "source": "教育局注釋 4"
+    "source": "KS4_17b.pdf#4"
   },
   {
     "term": "次第",
@@ -233,7 +236,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "次第",
-    "source": "教育局注釋 5"
+    "source": "KS4_17b.pdf#5"
   },
   {
     "term": "了得",
@@ -244,18 +247,18 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "了得",
-    "source": "教育局注釋 6"
+    "source": "KS4_17b.pdf#6"
   },
   {
     "term": "青玉案",
     "accepted": [
-      "」"
+      "本指青玉所製的用來放置食物的短足托盤"
     ],
     "dse_usage": "本指青玉所製的用來放置食物的短足托盤。漢張衡《四愁詩》： 「美人贈我錦繡段，何以報之青玉案。」這裏用作詞牌。 。另一解謂「案」即「桉」，與「碗」的古字「椀」相通。 [wun2]； 。」",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "青玉案",
-    "source": "教育局注釋 1"
+    "source": "KS4_17c.pdf#1"
   },
   {
     "term": "元夕",
@@ -268,7 +271,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "元夕",
-    "source": "教育局注釋 2"
+    "source": "KS4_17c.pdf#2"
   },
   {
     "term": "東風",
@@ -279,7 +282,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "東風",
-    "source": "教育局注釋 3"
+    "source": "KS4_17c.pdf#3"
   },
   {
     "term": "花千樹",
@@ -290,7 +293,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "花千樹",
-    "source": "教育局注釋 3"
+    "source": "KS4_17c.pdf#3"
   },
   {
     "term": "星如雨",
@@ -301,19 +304,18 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "星如雨",
-    "source": "教育局注釋 4"
+    "source": "KS4_17c.pdf#4"
   },
   {
     "term": "星",
     "accepted": [
-      "指煙花",
-      "指煙花。一說指燈。 1"
+      "指煙花"
     ],
-    "dse_usage": "指煙花。一說指燈。 1",
+    "dse_usage": "指煙花。一說指燈",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "星",
-    "source": "教育局注釋 4"
+    "source": "KS4_17c.pdf#4"
   },
   {
     "term": "寶馬",
@@ -324,21 +326,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "寶馬",
-    "source": "教育局注釋 5"
+    "source": "KS4_17c.pdf#5"
   },
   {
     "term": "雕車",
     "accepted": [
       "飾有雕花、彩繪的車",
       "飾有雕花",
-      "彩繪的車",
-      "裝飾華麗的車"
+      "彩繪的車；裝飾華麗的車"
     ],
     "dse_usage": "飾有雕花、彩繪的車；裝飾華麗的車",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "雕車",
-    "source": "教育局注釋 5"
+    "source": "KS4_17c.pdf#5"
   },
   {
     "term": "香",
@@ -349,7 +350,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "香",
-    "source": "教育局注釋 5"
+    "source": "KS4_17c.pdf#5"
   },
   {
     "term": "鳳簫聲動",
@@ -360,11 +361,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "鳳簫聲動",
-    "source": "教育局注釋 6"
+    "source": "KS4_17c.pdf#6"
   },
   {
     "term": "鳳簫",
     "accepted": [
+      "即排簫，比竹為之，參差如鳳翼，故 名",
       "即排簫",
       "比竹為之",
       "參差如鳳翼",
@@ -374,7 +376,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "鳳簫",
-    "source": "教育局注釋 6"
+    "source": "KS4_17c.pdf#6"
   },
   {
     "term": "玉壺",
@@ -388,7 +390,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "玉壺",
-    "source": "教育局注釋 7"
+    "source": "KS4_17c.pdf#7"
   },
   {
     "term": "光轉",
@@ -401,7 +403,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "光轉",
-    "source": "教育局注釋 7"
+    "source": "KS4_17c.pdf#7"
   },
   {
     "term": "魚龍舞",
@@ -414,7 +416,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "魚龍舞",
-    "source": "教育局注釋 8"
+    "source": "KS4_17c.pdf#8"
   },
   {
     "term": "蛾兒雪柳黃金縷",
@@ -425,7 +427,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "蛾兒雪柳黃金縷",
-    "source": "教育局注釋 9"
+    "source": "KS4_17c.pdf#9"
   },
   {
     "term": "蛾兒",
@@ -437,7 +439,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "蛾兒",
-    "source": "教育局注釋 9"
+    "source": "KS4_17c.pdf#9"
   },
   {
     "term": "雪柳",
@@ -448,7 +450,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "雪柳",
-    "source": "教育局注釋 9"
+    "source": "KS4_17c.pdf#9"
   },
   {
     "term": "黃金縷",
@@ -459,7 +461,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "黃金縷",
-    "source": "教育局注釋 9"
+    "source": "KS4_17c.pdf#9"
   },
   {
     "term": "縷",
@@ -470,7 +472,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "縷",
-    "source": "教育局注釋 9"
+    "source": "KS4_17c.pdf#9"
   },
   {
     "term": "盈盈",
@@ -483,7 +485,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "盈盈",
-    "source": "教育局注釋 10"
+    "source": "KS4_17c.pdf#10"
   },
   {
     "term": "度",
@@ -496,7 +498,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "度",
-    "source": "教育局注釋 11"
+    "source": "KS4_17c.pdf#11"
   },
   {
     "term": "驀然",
@@ -509,7 +511,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "驀然",
-    "source": "教育局注釋 12"
+    "source": "KS4_17c.pdf#12"
   },
   {
     "term": "迴",
@@ -520,7 +522,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "迴",
-    "source": "教育局注釋 12"
+    "source": "KS4_17c.pdf#12"
   },
   {
     "term": "闌珊",
@@ -533,6 +535,6 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "闌珊",
-    "source": "教育局注釋 13"
+    "source": "KS4_17c.pdf#13"
   }
 ]

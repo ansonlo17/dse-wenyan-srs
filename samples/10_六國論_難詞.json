@@ -13,7 +13,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "六國",
-    "source": "教育局注釋 1"
+    "source": "KS4_15.pdf#1"
   },
   {
     "term": "兵",
@@ -27,7 +27,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "兵",
-    "source": "教育局注釋 2"
+    "source": "KS4_15.pdf#2"
   },
   {
     "term": "利",
@@ -40,7 +40,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "利",
-    "source": "教育局注釋 2"
+    "source": "KS4_15.pdf#2"
   },
   {
     "term": "戰不善",
@@ -51,7 +51,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "戰不善",
-    "source": "教育局注釋 3"
+    "source": "KS4_15.pdf#3"
   },
   {
     "term": "弊",
@@ -64,7 +64,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "弊",
-    "source": "教育局注釋 4"
+    "source": "KS4_15.pdf#4"
   },
   {
     "term": "賂",
@@ -75,7 +75,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "賂",
-    "source": "教育局注釋 4"
+    "source": "KS4_15.pdf#4"
   },
   {
     "term": "力虧",
@@ -86,7 +86,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "力虧",
-    "source": "教育局注釋 5"
+    "source": "KS4_15.pdf#5"
   },
   {
     "term": "道",
@@ -100,7 +100,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "道",
-    "source": "教育局注釋 6"
+    "source": "KS4_15.pdf#6"
   },
   {
     "term": "喪",
@@ -111,7 +111,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "喪",
-    "source": "教育局注釋 7"
+    "source": "KS4_15.pdf#7"
   },
   {
     "term": "率",
@@ -124,7 +124,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "率",
-    "source": "教育局注釋 8"
+    "source": "KS4_15.pdf#8"
   },
   {
     "term": "強援",
@@ -135,7 +135,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "強援",
-    "source": "教育局注釋 9"
+    "source": "KS4_15.pdf#9"
   },
   {
     "term": "完",
@@ -148,11 +148,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "完",
-    "source": "教育局注釋 10"
+    "source": "KS4_15.pdf#10"
   },
   {
     "term": "邑",
     "accepted": [
+      "古稱大城市為「都」，小城市為「邑」",
       "古稱大城市為「都」",
       "小城市為「邑」。引申作城市"
     ],
@@ -160,7 +161,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "邑",
-    "source": "教育局注釋 11"
+    "source": "KS4_15.pdf#11"
   },
   {
     "term": "所得",
@@ -171,7 +172,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "所得",
-    "source": "教育局注釋 12"
+    "source": "KS4_15.pdf#12"
   },
   {
     "term": "所亡",
@@ -182,7 +183,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "所亡",
-    "source": "教育局注釋 13"
+    "source": "KS4_15.pdf#13"
   },
   {
     "term": "亡",
@@ -195,20 +196,20 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "亡",
-    "source": "教育局注釋 13"
+    "source": "KS4_15.pdf#13"
   },
   {
     "term": "思",
     "accepted": [
       "想到",
-      "一解作助語詞",
+      "想到；一解作助語詞",
       "無實義"
     ],
     "dse_usage": "想到；一解作助語詞，無實義",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "思",
-    "source": "教育局注釋 14"
+    "source": "KS4_15.pdf#14"
   },
   {
     "term": "厥",
@@ -219,7 +220,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "厥",
-    "source": "教育局注釋 14"
+    "source": "KS4_15.pdf#14"
   },
   {
     "term": "先",
@@ -230,7 +231,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "先",
-    "source": "教育局注釋 14"
+    "source": "KS4_15.pdf#14"
   },
   {
     "term": "祖父",
@@ -243,11 +244,12 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "祖父",
-    "source": "教育局注釋 14"
+    "source": "KS4_15.pdf#14"
   },
   {
     "term": "斬荊棘",
     "accepted": [
+      "冒着風霜雨露，斬除荊棘，形容立國創始之難",
       "冒着風霜雨露",
       "斬除荊棘",
       "形容立國創始之難。斬荊"
@@ -256,7 +258,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "斬荊棘",
-    "source": "教育局注釋 15"
+    "source": "KS4_15.pdf#15"
   },
   {
     "term": "棘",
@@ -267,7 +269,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "棘",
-    "source": "教育局注釋 15"
+    "source": "KS4_15.pdf#15"
   },
   {
     "term": "尺寸",
@@ -278,7 +280,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "尺寸",
-    "source": "教育局注釋 16"
+    "source": "KS4_15.pdf#16"
   },
   {
     "term": "舉",
@@ -289,7 +291,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "舉",
-    "source": "教育局注釋 17"
+    "source": "KS4_15.pdf#17"
   },
   {
     "term": "草芥",
@@ -300,7 +302,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "草芥",
-    "source": "教育局注釋 18"
+    "source": "KS4_15.pdf#18"
   },
   {
     "term": "芥",
@@ -311,20 +313,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "芥",
-    "source": "教育局注釋 18"
+    "source": "KS4_15.pdf#18"
   },
   {
     "term": "厭",
     "accepted": [
       "通「饜」，滿足的意思",
       "通「饜」",
-      "滿足的意思"
+      "滿足的意思",
+      "饜"
     ],
     "dse_usage": "通「饜」，滿足的意思",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "厭",
-    "source": "教育局注釋 19"
+    "source": "KS4_15.pdf#19"
   },
   {
     "term": "彌",
@@ -337,7 +340,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "彌",
-    "source": "教育局注釋 20"
+    "source": "KS4_15.pdf#20"
   },
   {
     "term": "判",
@@ -348,7 +351,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "判",
-    "source": "教育局注釋 21"
+    "source": "KS4_15.pdf#21"
   },
   {
     "term": "顛覆",
@@ -361,7 +364,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "顛覆",
-    "source": "教育局注釋 22"
+    "source": "KS4_15.pdf#22"
   },
   {
     "term": "此言得之",
@@ -372,7 +375,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "此言得之",
-    "source": "教育局注釋 23"
+    "source": "KS4_15.pdf#23"
   },
   {
     "term": "遷滅",
@@ -383,7 +386,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "遷滅",
-    "source": "教育局注釋 24"
+    "source": "KS4_15.pdf#24"
   },
   {
     "term": "與",
@@ -398,7 +401,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "與",
-    "source": "教育局注釋 25"
+    "source": "KS4_15.pdf#25"
   },
   {
     "term": "嬴",
@@ -411,7 +414,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "嬴",
-    "source": "教育局注釋 25"
+    "source": "KS4_15.pdf#25"
   },
   {
     "term": "遠略",
@@ -422,7 +425,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "遠略",
-    "source": "教育局注釋 26"
+    "source": "KS4_15.pdf#26"
   },
   {
     "term": "義不賂秦",
@@ -435,7 +438,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "義不賂秦",
-    "source": "教育局注釋 27"
+    "source": "KS4_15.pdf#27"
   },
   {
     "term": "斯",
@@ -448,14 +451,13 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "斯",
-    "source": "教育局注釋 28"
+    "source": "KS4_15.pdf#28"
   },
   {
     "term": "丹以荊卿為計",
     "accepted": [
       "秦王命將軍王翦攻打燕國",
-      "燕王逃至遼 東",
-      "及後",
+      "燕王逃至遼 東；及後",
       "秦軍攻打遼東",
       "俘虜燕王而殲滅燕國"
     ],
@@ -463,7 +465,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "丹以荊卿為計",
-    "source": "教育局注釋 29"
+    "source": "KS4_15.pdf#29"
   },
   {
     "term": "始",
@@ -474,7 +476,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "始",
-    "source": "教育局注釋 30"
+    "source": "KS4_15.pdf#30"
   },
   {
     "term": "速",
@@ -487,7 +489,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "速",
-    "source": "教育局注釋 30"
+    "source": "KS4_15.pdf#30"
   },
   {
     "term": "二敗而三勝",
@@ -500,7 +502,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "二敗而三勝",
-    "source": "教育局注釋 31"
+    "source": "KS4_15.pdf#31"
   },
   {
     "term": "北說燕文侯曰",
@@ -517,7 +519,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "北說燕文侯曰",
-    "source": "教育局注釋 31"
+    "source": "KS4_15.pdf#31"
   },
   {
     "term": "李牧連卻之",
@@ -530,7 +532,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "李牧連卻之",
-    "source": "教育局注釋 32"
+    "source": "KS4_15.pdf#32"
   },
   {
     "term": "李牧",
@@ -545,7 +547,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "李牧",
-    "source": "教育局注釋 32"
+    "source": "KS4_15.pdf#32"
   },
   {
     "term": "連",
@@ -556,7 +558,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "連",
-    "source": "教育局注釋 32"
+    "source": "KS4_15.pdf#32"
   },
   {
     "term": "卻",
@@ -568,7 +570,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "卻",
-    "source": "教育局注釋 32"
+    "source": "KS4_15.pdf#32"
   },
   {
     "term": "曰",
@@ -586,7 +588,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "曰",
-    "source": "教育局注釋 32"
+    "source": "KS4_15.pdf#32"
   },
   {
     "term": "洎",
@@ -597,7 +599,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "洎",
-    "source": "教育局注釋 33"
+    "source": "KS4_15.pdf#33"
   },
   {
     "term": "誅",
@@ -608,7 +610,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "誅",
-    "source": "教育局注釋 33"
+    "source": "KS4_15.pdf#33"
   },
   {
     "term": "邯鄲為郡",
@@ -619,7 +621,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "邯鄲為郡",
-    "source": "教育局注釋 34"
+    "source": "KS4_15.pdf#34"
   },
   {
     "term": "邯鄲",
@@ -630,7 +632,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "邯鄲",
-    "source": "教育局注釋 34"
+    "source": "KS4_15.pdf#34"
   },
   {
     "term": "為郡",
@@ -641,7 +643,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "為郡",
-    "source": "教育局注釋 34"
+    "source": "KS4_15.pdf#34"
   },
   {
     "term": "用武",
@@ -654,7 +656,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "用武",
-    "source": "教育局注釋 35"
+    "source": "KS4_15.pdf#35"
   },
   {
     "term": "終",
@@ -668,19 +670,19 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "終",
-    "source": "教育局注釋 35"
+    "source": "KS4_15.pdf#35"
   },
   {
     "term": "革滅殆盡",
     "accepted": [
-      "幾乎完全消滅",
-      "指秦國差不多完全消滅六國"
+      "幾乎完全消滅，指秦國差不多完全消滅六國",
+      "幾乎完全消滅"
     ],
     "dse_usage": "幾乎完全消滅，指秦國差不多完全消滅六國",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "革滅殆盡",
-    "source": "教育局注釋 36"
+    "source": "KS4_15.pdf#36"
   },
   {
     "term": "革",
@@ -691,7 +693,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "革",
-    "source": "教育局注釋 36"
+    "source": "KS4_15.pdf#36"
   },
   {
     "term": "滅",
@@ -702,7 +704,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "滅",
-    "source": "教育局注釋 36"
+    "source": "KS4_15.pdf#36"
   },
   {
     "term": "殆",
@@ -713,7 +715,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "殆",
-    "source": "教育局注釋 36"
+    "source": "KS4_15.pdf#36"
   },
   {
     "term": "盡",
@@ -724,7 +726,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "盡",
-    "source": "教育局注釋 36"
+    "source": "KS4_15.pdf#36"
   },
   {
     "term": "孤危",
@@ -735,7 +737,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "孤危",
-    "source": "教育局注釋 37"
+    "source": "KS4_15.pdf#37"
   },
   {
     "term": "孤",
@@ -746,7 +748,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "孤",
-    "source": "教育局注釋 37"
+    "source": "KS4_15.pdf#37"
   },
   {
     "term": "向使",
@@ -757,7 +759,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "向使",
-    "source": "教育局注釋 38"
+    "source": "KS4_15.pdf#38"
   },
   {
     "term": "刺客不行",
@@ -768,7 +770,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "刺客不行",
-    "source": "教育局注釋 39"
+    "source": "KS4_15.pdf#39"
   },
   {
     "term": "不行",
@@ -781,7 +783,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不行",
-    "source": "教育局注釋 39"
+    "source": "KS4_15.pdf#39"
   },
   {
     "term": "良將",
@@ -792,7 +794,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "良將",
-    "source": "教育局注釋 40"
+    "source": "KS4_15.pdf#40"
   },
   {
     "term": "數",
@@ -803,7 +805,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "數",
-    "source": "教育局注釋 41"
+    "source": "KS4_15.pdf#41"
   },
   {
     "term": "或未易量",
@@ -816,7 +818,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "或未易量",
-    "source": "教育局注釋 42"
+    "source": "KS4_15.pdf#42"
   },
   {
     "term": "量",
@@ -829,7 +831,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "量",
-    "source": "教育局注釋 42"
+    "source": "KS4_15.pdf#42"
   },
   {
     "term": "禮",
@@ -842,7 +844,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "禮",
-    "source": "教育局注釋 43"
+    "source": "KS4_15.pdf#43"
   },
   {
     "term": "并力西嚮",
@@ -853,7 +855,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "并力西嚮",
-    "source": "教育局注釋 44"
+    "source": "KS4_15.pdf#44"
   },
   {
     "term": "并力",
@@ -864,7 +866,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "并力",
-    "source": "教育局注釋 44"
+    "source": "KS4_15.pdf#44"
   },
   {
     "term": "嚮",
@@ -875,7 +877,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "嚮",
-    "source": "教育局注釋 44"
+    "source": "KS4_15.pdf#44"
   },
   {
     "term": "秦人食之不得下嚥",
@@ -888,7 +890,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "秦人食之不得下嚥",
-    "source": "教育局注釋 45"
+    "source": "KS4_15.pdf#45"
   },
   {
     "term": "嚥",
@@ -896,13 +898,13 @@
       "通「咽」，吞食",
       "通「咽」",
       "吞食",
-      "[jin3]"
+      "咽"
     ],
     "dse_usage": "通「咽」，吞食",
     "difficulty": 3,
     "category": "異義",
     "sentence_snippet": "嚥",
-    "source": "教育局注釋 45"
+    "source": "KS4_15.pdf#45"
   },
   {
     "term": "劫",
@@ -915,7 +917,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "劫",
-    "source": "教育局注釋 46"
+    "source": "KS4_15.pdf#46"
   },
   {
     "term": "從六國破亡之故事",
@@ -926,7 +928,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "從六國破亡之故事",
-    "source": "教育局注釋 47"
+    "source": "KS4_15.pdf#47"
   },
   {
     "term": "從",
@@ -937,20 +939,21 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "從",
-    "source": "教育局注釋 47"
+    "source": "KS4_15.pdf#47"
   },
   {
     "term": "故事",
     "accepted": [
+      "舊事、前 例，此處取貶義，解作敗績",
       "舊事",
       "前 例",
       "此處取貶義",
       "解作敗績"
     ],
     "dse_usage": "舊事、前 例，此處取貶義，解作敗績",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "故事",
-    "source": "教育局注釋 47"
+    "source": "KS4_15.pdf#47"
   }
 ]

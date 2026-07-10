@@ -8,7 +8,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "暝",
-    "source": "教育局注釋 1"
+    "source": "KS4_16a.pdf#1"
   },
   {
     "term": "竹喧",
@@ -19,7 +19,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "竹喧",
-    "source": "教育局注釋 2"
+    "source": "KS4_16a.pdf#2"
   },
   {
     "term": "浣女",
@@ -30,7 +30,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "浣女",
-    "source": "教育局注釋 3"
+    "source": "KS4_16a.pdf#3"
   },
   {
     "term": "王孫自可留",
@@ -43,7 +43,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "王孫自可留",
-    "source": "教育局注釋 4"
+    "source": "KS4_16a.pdf#4"
+  },
+  {
+    "term": "王孫",
+    "accepted": [
+      "原指貴族子弟，這 裏指隱士",
+      "原指貴族子弟",
+      "春草生兮萋萋。」 「王孫兮歸來"
+    ],
+    "dse_usage": "原指貴族子弟，這 裏指隱士。《楚辭‧招隱士》：「王孫遊兮不歸，春草生兮萋萋。」 「王孫兮歸來，山中兮不可以久留。」這裏反用其意",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "王孫",
+    "source": "KS4_16a.pdf#4"
   },
   {
     "term": "獨酌無相親",
@@ -54,7 +67,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "獨酌無相親",
-    "source": "教育局注釋 1"
+    "source": "KS4_16b.pdf#1"
   },
   {
     "term": "相親",
@@ -64,13 +77,24 @@
       "親近。 此處指可相親近的人"
     ],
     "dse_usage": "互相親愛、親近。 此處指可相親近的人",
-    "difficulty": 3,
+    "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "相親",
-    "source": "教育局注釋 1"
+    "source": "KS4_16b.pdf#1"
   },
   {
-    "term": "三人",
+    "term": "對影成三人",
+    "accepted": [
+      "揮 杯勸孤影"
+    ],
+    "dse_usage": "語意出自陶潛《雜詩》：「欲言無予和，揮 杯勸孤影",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "對影成三人",
+    "source": "KS4_16b.pdf#2"
+  },
+  {
+    "term": "」三人",
     "accepted": [
       "指李白、月和李白的影子",
       "指李白",
@@ -79,8 +103,8 @@
     "dse_usage": "指李白、月和李白的影子",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "三人",
-    "source": "教育局注釋 2"
+    "sentence_snippet": "」三人",
+    "source": "KS4_16b.pdf#2"
   },
   {
     "term": "徒",
@@ -93,7 +117,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "徒",
-    "source": "教育局注釋 3"
+    "source": "KS4_16b.pdf#3"
   },
   {
     "term": "將",
@@ -106,7 +130,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "將",
-    "source": "教育局注釋 4"
+    "source": "KS4_16b.pdf#4"
   },
   {
     "term": "及春",
@@ -117,7 +141,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "及春",
-    "source": "教育局注釋 5"
+    "source": "KS4_16b.pdf#5"
   },
   {
     "term": "及",
@@ -126,9 +150,9 @@
     ],
     "dse_usage": "趁着",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "實詞",
     "sentence_snippet": "及",
-    "source": "教育局注釋 5"
+    "source": "KS4_16b.pdf#5"
   },
   {
     "term": "徘徊",
@@ -141,7 +165,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "徘徊",
-    "source": "教育局注釋 6"
+    "source": "KS4_16b.pdf#6"
   },
   {
     "term": "舞",
@@ -152,7 +176,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "舞",
-    "source": "教育局注釋 7"
+    "source": "KS4_16b.pdf#7"
   },
   {
     "term": "醒時同交歡",
@@ -165,7 +189,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "醒時同交歡",
-    "source": "教育局注釋 8"
+    "source": "KS4_16b.pdf#8"
   },
   {
     "term": "交歡",
@@ -176,7 +200,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "交歡",
-    "source": "教育局注釋 8"
+    "source": "KS4_16b.pdf#8"
   },
   {
     "term": "分散",
@@ -189,7 +213,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "分散",
-    "source": "教育局注釋 9"
+    "source": "KS4_16b.pdf#9"
   },
   {
     "term": "永結無情遊",
@@ -200,7 +224,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "永結無情遊",
-    "source": "教育局注釋 10"
+    "source": "KS4_16b.pdf#10"
   },
   {
     "term": "無情",
@@ -214,7 +238,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "無情",
-    "source": "教育局注釋 10"
+    "source": "KS4_16b.pdf#10"
   },
   {
     "term": "相期邈雲漢",
@@ -225,7 +249,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "相期邈雲漢",
-    "source": "教育局注釋 11"
+    "source": "KS4_16b.pdf#11"
   },
   {
     "term": "相期",
@@ -236,7 +260,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "相期",
-    "source": "教育局注釋 11"
+    "source": "KS4_16b.pdf#11"
   },
   {
     "term": "邈",
@@ -247,7 +271,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "邈",
-    "source": "教育局注釋 11"
+    "source": "KS4_16b.pdf#11"
   },
   {
     "term": "雲漢",
@@ -260,7 +284,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "雲漢",
-    "source": "教育局注釋 11"
+    "source": "KS4_16b.pdf#11"
   },
   {
     "term": "錦江",
@@ -273,7 +297,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "錦江",
-    "source": "教育局注釋 1"
+    "source": "KS4_16c.pdf#1"
   },
   {
     "term": "玉壘",
@@ -286,7 +310,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "玉壘",
-    "source": "教育局注釋 2"
+    "source": "KS4_16c.pdf#2"
   },
   {
     "term": "北極",
@@ -299,7 +323,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "北極",
-    "source": "教育局注釋 3"
+    "source": "KS4_16c.pdf#3"
   },
   {
     "term": "西山寇盜",
@@ -310,7 +334,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "西山寇盜",
-    "source": "教育局注釋 4"
+    "source": "KS4_16c.pdf#4"
   },
   {
     "term": "後主",
@@ -321,19 +345,6 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "後主",
-    "source": "教育局注釋 5"
-  },
-  {
-    "term": "《梁甫吟》",
-    "accepted": [
-      "一作《梁父吟》",
-      "諸葛亮在隆中躬 耕時",
-      "好為《梁父吟》"
-    ],
-    "dse_usage": "一作《梁父吟》。據《三國志‧蜀志》，諸葛亮在隆中躬 耕時，好為《梁父吟》",
-    "difficulty": 2,
-    "category": "實詞",
-    "sentence_snippet": "《梁甫吟》",
-    "source": "教育局注釋 6"
+    "source": "KS4_16c.pdf#5"
   }
 ]

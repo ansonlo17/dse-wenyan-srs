@@ -8,9 +8,9 @@
     ],
     "dse_usage": "用以、用來",
     "difficulty": 2,
-    "category": "結構",
+    "category": "實詞",
     "sentence_snippet": "所以",
-    "source": "教育局注釋 1"
+    "source": "KS4_12.pdf#1"
   },
   {
     "term": "道",
@@ -24,7 +24,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "道",
-    "source": "教育局注釋 1"
+    "source": "KS4_12.pdf#1"
   },
   {
     "term": "受業",
@@ -37,7 +37,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "受業",
-    "source": "教育局注釋 1"
+    "source": "KS4_12.pdf#1"
   },
   {
     "term": "固",
@@ -48,18 +48,18 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "固",
-    "source": "教育局注釋 2"
+    "source": "KS4_12.pdf#2"
   },
   {
     "term": "夫庸知其年之先後生於吾乎",
     "accepted": [
-      "豈用理會他的年齡比我大還"
+      "豈用理會他的年齡比我大還是比我小呢？"
     ],
     "dse_usage": "豈用理會他的年齡比我大還是比我小呢？",
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "夫庸知其年之先後生於吾乎",
-    "source": "教育局注釋 3"
+    "source": "KS4_12.pdf#3"
   },
   {
     "term": "庸知",
@@ -70,20 +70,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "庸知",
-    "source": "教育局注釋 3"
+    "source": "KS4_12.pdf#3"
   },
   {
     "term": "庸",
     "accepted": [
       "豈、難道",
       "豈",
-      "難道。 2"
+      "難道"
     ],
-    "dse_usage": "豈、難道。 2",
+    "dse_usage": "豈、難道",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "庸",
-    "source": "教育局注釋 3"
+    "source": "KS4_12.pdf#3"
   },
   {
     "term": "師之所存也",
@@ -94,7 +94,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "師之所存也",
-    "source": "教育局注釋 4"
+    "source": "KS4_12.pdf#4"
   },
   {
     "term": "其出人也遠矣",
@@ -105,7 +105,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其出人也遠矣",
-    "source": "教育局注釋 5"
+    "source": "KS4_12.pdf#5"
   },
   {
     "term": "下",
@@ -118,7 +118,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "下",
-    "source": "教育局注釋 6"
+    "source": "KS4_12.pdf#6"
   },
   {
     "term": "其皆出於此乎",
@@ -129,7 +129,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其皆出於此乎",
-    "source": "教育局注釋 7"
+    "source": "KS4_12.pdf#7"
   },
   {
     "term": "其",
@@ -138,20 +138,20 @@
     ],
     "dse_usage": "大概",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "實詞",
     "sentence_snippet": "其",
-    "source": "教育局注釋 7"
+    "source": "KS4_12.pdf#7"
   },
   {
     "term": "此",
     "accepted": [
-      "指前文提 到的「從師而問"
+      "指前文提 到的「從師而問」和「恥學於師」"
     ],
     "dse_usage": "指前文提 到的「從師而問」和「恥學於師」",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "此",
-    "source": "教育局注釋 7"
+    "source": "KS4_12.pdf#7"
   },
   {
     "term": "惑矣",
@@ -163,7 +163,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "惑矣",
-    "source": "教育局注釋 8"
+    "source": "KS4_12.pdf#8"
   },
   {
     "term": "授之書而習其句讀者",
@@ -174,7 +174,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "授之書而習其句讀者",
-    "source": "教育局注釋 9"
+    "source": "KS4_12.pdf#9"
   },
   {
     "term": "句讀",
@@ -186,24 +186,24 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "句讀",
-    "source": "教育局注釋 9"
+    "source": "KS4_12.pdf#9"
   },
   {
     "term": "也",
     "accepted": [
       "句讀不懂，就向老師求教",
       "句讀不懂",
-      "就向老師求教",
-      "疑難不解",
+      "就向老師求教；疑難不解",
       "卻不向老師請教。小問題願 意從師",
       "大道理卻遺漏忽略",
-      "通「否」"
+      "通「否」",
+      "否"
     ],
     "dse_usage": "句讀不懂，就向老師求教；疑難不解，卻不向老師請教。小問題願 意從師，大道理卻遺漏忽略，我看不出他的明智之處。「或不焉」之 「不」，通「否」",
     "difficulty": 3,
-    "category": "虛詞",
+    "category": "異義",
     "sentence_snippet": "也",
-    "source": "教育局注釋 10"
+    "source": "KS4_12.pdf#10"
   },
   {
     "term": "百工之人",
@@ -214,7 +214,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "百工之人",
-    "source": "教育局注釋 11"
+    "source": "KS4_12.pdf#11"
   },
   {
     "term": "相",
@@ -225,7 +225,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "相",
-    "source": "教育局注釋 11"
+    "source": "KS4_12.pdf#11"
   },
   {
     "term": "師",
@@ -236,7 +236,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "師",
-    "source": "教育局注釋 11"
+    "source": "KS4_12.pdf#11"
   },
   {
     "term": "則羣聚而笑之",
@@ -250,7 +250,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "則羣聚而笑之",
-    "source": "教育局注釋 12"
+    "source": "KS4_12.pdf#12"
   },
   {
     "term": "族",
@@ -261,11 +261,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "族",
-    "source": "教育局注釋 12"
+    "source": "KS4_12.pdf#12"
   },
   {
     "term": "道相似也",
     "accepted": [
+      "某人與某人年齡差不多，懂得的學問也接 近",
       "某人與某人年齡差不多",
       "懂得的學問也接 近"
     ],
@@ -273,7 +274,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "道相似也",
-    "source": "教育局注釋 13"
+    "source": "KS4_12.pdf#13"
   },
   {
     "term": "官盛則近諛",
@@ -284,7 +285,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "官盛則近諛",
-    "source": "教育局注釋 14"
+    "source": "KS4_12.pdf#14"
   },
   {
     "term": "諛",
@@ -297,7 +298,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "諛",
-    "source": "教育局注釋 14"
+    "source": "KS4_12.pdf#14"
   },
   {
     "term": "師道之不復",
@@ -308,7 +309,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "師道之不復",
-    "source": "教育局注釋 15"
+    "source": "KS4_12.pdf#15"
   },
   {
     "term": "君子",
@@ -319,7 +320,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "君子",
-    "source": "教育局注釋 16"
+    "source": "KS4_12.pdf#16"
   },
   {
     "term": "不齒",
@@ -334,7 +335,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不齒",
-    "source": "教育局注釋 16"
+    "source": "KS4_12.pdf#16"
   },
   {
     "term": "其可怪也歟",
@@ -346,7 +347,18 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "其可怪也歟",
-    "source": "教育局注釋 17"
+    "source": "KS4_12.pdf#17"
+  },
+  {
+    "term": "聖人無常師",
+    "accepted": [
+      "聖人沒有固定的老師"
+    ],
+    "dse_usage": "聖人沒有固定的老師。語出《論語‧子張》：",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "聖人無常師",
+    "source": "KS4_12.pdf#18"
   },
   {
     "term": "子貢曰",
@@ -357,7 +369,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "子貢曰",
-    "source": "教育局注釋 18"
+    "source": "KS4_12.pdf#18"
   },
   {
     "term": "郯子",
@@ -369,7 +381,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "郯子",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "郯",
@@ -380,7 +392,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "郯",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "萇弘",
@@ -393,7 +405,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "萇弘",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "萇",
@@ -404,11 +416,12 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "萇",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "師襄",
     "accepted": [
+      "春秋時魯國的樂官，孔子曾 跟他學琴",
       "春秋時魯國的樂官",
       "孔子曾 跟他學琴"
     ],
@@ -416,7 +429,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "師襄",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "老聃",
@@ -429,22 +442,32 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "老聃",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
     "term": "聃",
     "accepted": [
-      "相傳為老子之名",
-      "[daam1]"
+      "相傳為老子之名"
     ],
     "dse_usage": "相傳為老子之名",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "聃",
-    "source": "教育局注釋 19"
+    "source": "KS4_12.pdf#19"
   },
   {
-    "term": "子曰",
+    "term": "則必有我師",
+    "accepted": [
+      "幾個人走在一起"
+    ],
+    "dse_usage": "幾個人走在一起，其中就一定有可以作為我學習 的對象。語出《論語‧述而》：",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "則必有我師",
+    "source": "KS4_12.pdf#20"
+  },
+  {
+    "term": "「子曰",
     "accepted": [
       "『三人行，必有我師焉",
       "『三人行",
@@ -453,8 +476,8 @@
     "dse_usage": "『三人行，必有我師焉。』」",
     "difficulty": 2,
     "category": "實詞",
-    "sentence_snippet": "子曰",
-    "source": "教育局注釋 20"
+    "sentence_snippet": "「子曰",
+    "source": "KS4_12.pdf#20"
   },
   {
     "term": "術業有專攻",
@@ -467,7 +490,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "術業有專攻",
-    "source": "教育局注釋 21"
+    "source": "KS4_12.pdf#21"
   },
   {
     "term": "專攻",
@@ -478,7 +501,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "專攻",
-    "source": "教育局注釋 21"
+    "source": "KS4_12.pdf#21"
   },
   {
     "term": "李氏子蟠",
@@ -491,7 +514,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "李氏子蟠",
-    "source": "教育局注釋 22"
+    "source": "KS4_12.pdf#22"
   },
   {
     "term": "六藝",
@@ -507,7 +530,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "六藝",
-    "source": "教育局注釋 23"
+    "source": "KS4_12.pdf#23"
   },
   {
     "term": "經",
@@ -518,7 +541,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "經",
-    "source": "教育局注釋 23"
+    "source": "KS4_12.pdf#23"
   },
   {
     "term": "傳",
@@ -529,7 +552,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "傳",
-    "source": "教育局注釋 23"
+    "source": "KS4_12.pdf#23"
   },
   {
     "term": "不拘於時",
@@ -540,20 +563,20 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "不拘於時",
-    "source": "教育局注釋 24"
+    "source": "KS4_12.pdf#24"
   },
   {
     "term": "拘",
     "accepted": [
       "拘限、拘束",
       "拘限",
-      "拘束。 3"
+      "拘束"
     ],
-    "dse_usage": "拘限、拘束。 3",
+    "dse_usage": "拘限、拘束",
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "拘",
-    "source": "教育局注釋 24"
+    "source": "KS4_12.pdf#24"
   },
   {
     "term": "余嘉其能行古道",
@@ -564,7 +587,7 @@
     "difficulty": 2,
     "category": "實詞",
     "sentence_snippet": "余嘉其能行古道",
-    "source": "教育局注釋 25"
+    "source": "KS4_12.pdf#25"
   },
   {
     "term": "嘉",
@@ -577,7 +600,7 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "嘉",
-    "source": "教育局注釋 25"
+    "source": "KS4_12.pdf#25"
   },
   {
     "term": "貽",
@@ -588,6 +611,6 @@
     "difficulty": 3,
     "category": "實詞",
     "sentence_snippet": "貽",
-    "source": "教育局注釋 26"
+    "source": "KS4_12.pdf#26"
   }
 ]
