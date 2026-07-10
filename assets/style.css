@@ -1,0 +1,245 @@
+/* HKDSE 文言文精華 — mobile-first card UI */
+
+:root {
+  --bg: #f7f4ef;
+  --card: #ffffff;
+  --ink: #1f2a24;
+  --muted: #5c6b63;
+  --primary: #2f5d50;
+  --primary-soft: #e4efe9;
+  --accent: #c4783a;
+  --accent-soft: #f6e8d8;
+  --danger: #b54a3c;
+  --line: #e6e0d6;
+  --radius: 16px;
+  --shadow: 0 6px 20px rgba(31, 42, 36, 0.06);
+  --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC",
+    sans-serif;
+}
+
+html, body, [data-testid="stAppViewContainer"] {
+  background: var(--bg) !important;
+  font-family: var(--font) !important;
+  color: var(--ink);
+}
+
+/* Center column for phone feel */
+.main .block-container {
+  max-width: 480px !important;
+  padding-top: 1rem !important;
+  padding-bottom: 5rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Hide streamlit chrome noise */
+#MainMenu { visibility: hidden; }
+footer { visibility: hidden; }
+header[data-testid="stHeader"] {
+  background: transparent;
+}
+
+h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
+  font-family: var(--font) !important;
+  color: var(--ink) !important;
+  letter-spacing: 0.02em;
+}
+
+/* Cards */
+.wy-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1rem 1.1rem;
+  margin: 0.65rem 0;
+}
+
+.wy-card-title {
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.wy-original {
+  font-size: 1.15rem;
+  line-height: 1.85;
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.wy-translation {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--line);
+}
+
+.wy-hero {
+  background: linear-gradient(145deg, #2f5d50 0%, #3d7a68 55%, #c4783a 140%);
+  color: #fff;
+  border-radius: 20px;
+  padding: 1.25rem 1.3rem;
+  box-shadow: 0 10px 28px rgba(47, 93, 80, 0.25);
+  margin-bottom: 1rem;
+}
+
+.wy-hero h1 {
+  color: #fff !important;
+  font-size: 1.45rem !important;
+  margin: 0 0 0.35rem 0 !important;
+  font-weight: 700;
+}
+
+.wy-hero p {
+  margin: 0;
+  opacity: 0.92;
+  font-size: 0.95rem;
+}
+
+.wy-stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.55rem;
+  margin: 0.85rem 0 0.2rem;
+}
+
+.wy-stat {
+  background: var(--card);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.wy-stat .num {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--primary);
+  line-height: 1.1;
+}
+
+.wy-stat .label {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.wy-chip {
+  display: inline-block;
+  background: var(--primary-soft);
+  color: var(--primary);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.78rem;
+  margin: 0.15rem 0.2rem 0.15rem 0;
+  font-weight: 600;
+}
+
+.wy-chip-accent {
+  background: var(--accent-soft);
+  color: #8a4e1a;
+}
+
+.wy-progress-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.wy-muted {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.wy-tip {
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 12px 12px 0;
+  padding: 0.75rem 0.9rem;
+  color: #5c3a18;
+  font-size: 0.92rem;
+  margin: 0.75rem 0;
+}
+
+.wy-flash-term {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary);
+  padding: 1.2rem 0.5rem 0.4rem;
+  letter-spacing: 0.06em;
+}
+
+.wy-flash-meta {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.8rem;
+}
+
+/* highlights in original text */
+mark.hl-weak {
+  background: #f6d9a8;
+  color: inherit;
+  padding: 0 0.12em;
+  border-radius: 3px;
+}
+mark.hl-learning {
+  background: #cfe5f5;
+  color: inherit;
+  padding: 0 0.12em;
+  border-radius: 3px;
+}
+mark.hl-mastered {
+  background: #d5eddf;
+  color: inherit;
+  padding: 0 0.12em;
+  border-radius: 3px;
+}
+
+/* Bigger touch targets */
+div.stButton > button {
+  border-radius: 12px !important;
+  min-height: 2.75rem;
+  font-weight: 600;
+  border: 1px solid var(--line) !important;
+}
+
+div.stButton > button[kind="primary"],
+div.stButton > button[data-testid="baseButton-primary"] {
+  background: var(--primary) !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+/* Metric polish */
+[data-testid="stMetricValue"] {
+  color: var(--primary) !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+  background: #eef3ef;
+}
+
+section[data-testid="stSidebar"] * {
+  font-family: var(--font) !important;
+}
+
+.wy-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--muted);
+}
+
+.wy-empty .emoji {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,26 @@
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+# 0.0.0.0 = 允許區網／部署平台用瀏覽器開啟
+address = "0.0.0.0"
+port = 8501
+# 上傳官方 PDF 可能較大
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
+# 本機啟動時自動開瀏覽器；雲端部署時平台會覆寫
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+base = "light"
+primaryColor = "#2F5D50"
+backgroundColor = "#F7F4EF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1F2A24"
+font = "sans serif"
+
+[client]
+toolbarMode = "minimal"

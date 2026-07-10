@@ -1,0 +1,9 @@
+services:
+  wenyan:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      # 讓學習進度與上傳檔在重啟後仍保留
+      - ./data:/app/data
+    restart: unless-stopped

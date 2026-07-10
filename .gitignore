@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+data/app.db
+data/uploads/*
+!data/uploads/.gitkeep
+.DS_Store
