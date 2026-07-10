@@ -623,11 +623,9 @@ def update_srs(
         )
 
 
-def due_cards(limit: int = 50) -> list[dict[str, Any]]:
+def due_cards(limit: int = 50, text_id: str | None = None) -> list[dict[str, Any]]:
     now = now_iso()
-    with connect() as conn:
-        rows = conn.execute(
-            """
+    q = """
             SELECT v.*, t.title AS text_title,
                    s.ease_factor, s.interval_days, s.repetitions, s.due_at,
                    s.last_reviewed_at, s.lapses
@@ -636,19 +634,21 @@ def due_cards(limit: int = 50) -> list[dict[str, Any]]:
             JOIN texts t ON t.id = v.text_id
             WHERE v.status = 'learning'
               AND s.due_at <= ?
-            ORDER BY s.due_at ASC
-            LIMIT ?
-            """,
-            (now, limit),
-        ).fetchall()
+    """
+    params: list[Any] = [now]
+    if text_id:
+        q += " AND v.text_id = ?"
+        params.append(text_id)
+    q += " ORDER BY s.due_at ASC LIMIT ?"
+    params.append(limit)
+    with connect() as conn:
+        rows = conn.execute(q, params).fetchall()
         return [dict(r) for r in rows]
 
 
-def new_cards(limit: int = 10) -> list[dict[str, Any]]:
+def new_cards(limit: int = 10, text_id: str | None = None) -> list[dict[str, Any]]:
     """Cards in learning with never reviewed / zero interval ready as new."""
-    with connect() as conn:
-        rows = conn.execute(
-            """
+    q = """
             SELECT v.*, t.title AS text_title,
                    s.ease_factor, s.interval_days, s.repetitions, s.due_at,
                    s.last_reviewed_at, s.lapses
@@ -657,25 +657,43 @@ def new_cards(limit: int = 10) -> list[dict[str, Any]]:
             LEFT JOIN srs_cards s ON s.vocab_id = v.id
             WHERE v.status = 'learning'
               AND (s.vocab_id IS NULL OR (s.repetitions = 0 AND s.last_reviewed_at IS NULL))
-            ORDER BY v.created_at ASC
-            LIMIT ?
-            """,
-            (limit,),
-        ).fetchall()
+    """
+    params: list[Any] = []
+    if text_id:
+        q += " AND v.text_id = ?"
+        params.append(text_id)
+    q += " ORDER BY v.created_at ASC LIMIT ?"
+    params.append(limit)
+    with connect() as conn:
+        rows = conn.execute(q, params).fetchall()
         return [dict(r) for r in rows]
 
 
-def count_due() -> int:
+def count_due(text_id: str | None = None) -> int:
     now = now_iso()
-    with connect() as conn:
-        return conn.execute(
-            """
+    q = """
             SELECT COUNT(*) AS c
             FROM srs_cards s
             JOIN vocab_items v ON v.id = s.vocab_id
             WHERE v.status='learning' AND s.due_at <= ?
-            """,
-            (now,),
+    """
+    params: list[Any] = [now]
+    if text_id:
+        q += " AND v.text_id = ?"
+        params.append(text_id)
+    with connect() as conn:
+        return conn.execute(q, params).fetchone()["c"]
+
+
+def count_vocab(text_id: str | None = None) -> int:
+    with connect() as conn:
+        if text_id:
+            return conn.execute(
+                "SELECT COUNT(*) AS c FROM vocab_items WHERE text_id=? AND status IN ('learning','mastered')",
+                (text_id,),
+            ).fetchone()["c"]
+        return conn.execute(
+            "SELECT COUNT(*) AS c FROM vocab_items WHERE status IN ('learning','mastered')"
         ).fetchone()["c"]
 
 

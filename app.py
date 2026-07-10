@@ -76,6 +76,9 @@ def bootstrap() -> None:
         st.session_state.answer_feedback = None  # None | "exact" | "partial" | "miss" | "skip"
     if "session_stats" not in st.session_state:
         st.session_state.session_stats = {"done": 0, "again": 0, "good": 0, "typed_ok": 0}
+    # Which chapter the student is focusing on (None = 全部已載入篇章)
+    if "study_text_id" not in st.session_state:
+        st.session_state.study_text_id = None
 
 
 def nav() -> str:
@@ -98,9 +101,14 @@ def nav() -> str:
             ):
                 go_page(p)
                 st.rerun()
-        due = db.count_due()
+        due = db.count_due(st.session_state.get("study_text_id"))
         if due:
-            st.info(f"今日到期 **{due}** 張")
+            st.info(f"到期 **{due}** 張")
+        focus = st.session_state.get("study_text_id")
+        if focus:
+            t = db.get_text(focus)
+            if t:
+                st.caption(f"目前溫習：{t['title']}")
 
     # Top mobile nav: no sticky key conflict — drive purely from session_state.page
     # (button navigation previously lost because a keyed selectbox overwrote page).
@@ -161,43 +169,92 @@ def page_home() -> None:
     )
     st.markdown(f'<div class="wy-tip">{s["tip"]}</div>', unsafe_allow_html=True)
 
-    c1, c2 = st.columns(2)
-    with c1:
-        if st.button("▶ 開始複習", type="primary", use_container_width=True, key="home_review"):
+    # ── Choose which chapter to study ──
+    st.markdown("#### 選擇要溫習的篇章")
+    ready = [p for p in s["progress"] if p.get("has_original") and p.get("vocab_count", 0) > 0]
+    if not ready:
+        st.caption("尚無已載入篇章。")
+    else:
+        options = ["全部已載入篇章"] + [p["title"] for p in ready]
+        id_by_title = {p["title"]: p["id"] for p in ready}
+        current = st.session_state.study_text_id
+        if current and any(p["id"] == current for p in ready):
+            cur_title = next(p["title"] for p in ready if p["id"] == current)
+            default_idx = options.index(cur_title)
+        else:
+            default_idx = 0
+        choice = st.selectbox(
+            "溫習範圍",
+            options,
+            index=default_idx,
+            key="home_study_select",
+            label_visibility="collapsed",
+        )
+        new_id = None if choice == "全部已載入篇章" else id_by_title[choice]
+        if new_id != st.session_state.study_text_id:
+            st.session_state.study_text_id = new_id
             st.session_state.review_queue = []
             st.session_state.review_idx = 0
             _reset_card_ui()
-            go_page("複習")
-            st.rerun()
-    with c2:
-        if st.button("📚 打開文庫", use_container_width=True, key="home_library"):
-            go_page("文庫")
-            st.rerun()
 
-    st.markdown("#### 本週進度")
-    st.caption(f"本週已複習 {s['week_reviews']} 次 · 字庫 {s['total_vocab']} 詞 · 已掌握 {s['total_mastered']}")
+        focus_id = st.session_state.study_text_id
+        due_n = db.count_due(focus_id)
+        vocab_n = db.count_vocab(focus_id)
+        scope = choice if choice == "全部已載入篇章" else f"《{choice}》"
+        st.caption(f"目前範圍：{scope} · 字詞 {vocab_n} · 到期 {due_n}")
 
-    st.markdown("#### 十二篇")
-    for p in s["progress"]:
-        flags = []
-        if p["has_original"]:
-            flags.append("原文")
-        if p["has_translation"]:
-            flags.append("語譯")
-        flag_txt = " · ".join(flags) if flags else "尚未上傳"
-        st.markdown(
-            f"""
-            <div class="wy-card">
-              <div class="wy-progress-label">
-                <span><strong>{p['title']}</strong></span>
-                <span>{p['mastery_pct']}%</span>
-              </div>
-              <div class="wy-muted">{flag_txt} · {p['vocab_count']} 詞</div>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
-        st.progress(min(100, int(p["mastery_pct"])) / 100.0)
+        b1, b2, b3 = st.columns(3)
+        with b1:
+            if st.button("▶ 複習此篇", type="primary", use_container_width=True, key="home_review"):
+                st.session_state.review_queue = []
+                st.session_state.review_idx = 0
+                _reset_card_ui()
+                go_page("複習")
+                st.rerun()
+        with b2:
+            if st.button("📖 閱讀", use_container_width=True, key="home_read"):
+                if focus_id:
+                    st.session_state.reader_text_id = focus_id
+                elif ready:
+                    st.session_state.reader_text_id = ready[0]["id"]
+                go_page("閱讀")
+                st.rerun()
+        with b3:
+            if st.button("📚 文庫", use_container_width=True, key="home_library"):
+                go_page("文庫")
+                st.rerun()
+
+        st.markdown("#### 各篇進度")
+        for p in ready:
+            active = focus_id == p["id"] or (
+                focus_id is None and choice == "全部已載入篇章"
+            )
+            mark = "● " if st.session_state.study_text_id == p["id"] else ""
+            st.markdown(
+                f"""
+                <div class="wy-card">
+                  <div class="wy-progress-label">
+                    <span><strong>{mark}{p['title']}</strong></span>
+                    <span>{p['mastery_pct']}%</span>
+                  </div>
+                  <div class="wy-muted">字詞 {p['vocab_count']} · 到期 {db.count_due(p['id'])}</div>
+                </div>
+                """,
+                unsafe_allow_html=True,
+            )
+            st.progress(min(100, int(p["mastery_pct"])) / 100.0)
+            if st.button(
+                f"溫習《{p['title']}》",
+                key=f"pick_{p['id']}",
+                use_container_width=True,
+            ):
+                st.session_state.study_text_id = p["id"]
+                st.session_state.reader_text_id = p["id"]
+                st.session_state.review_queue = []
+                st.session_state.review_idx = 0
+                _reset_card_ui()
+                go_page("複習")
+                st.rerun()
 
 
 # Bundled sample packs: (text_id, display name, original path, translation path, vocab json path)
@@ -306,7 +363,7 @@ def page_library() -> None:
             unsafe_allow_html=True,
         )
         if ready:
-            b1, b2 = st.columns(2)
+            b1, b2, b3 = st.columns(3)
             with b1:
                 if st.button(
                     "閱讀",
@@ -315,15 +372,29 @@ def page_library() -> None:
                     type="primary",
                 ):
                     st.session_state.reader_text_id = t["id"]
+                    st.session_state.study_text_id = t["id"]
                     go_page("閱讀")
                     st.rerun()
             with b2:
+                if st.button(
+                    "複習",
+                    key=f"lib_rev_{t['id']}",
+                    use_container_width=True,
+                ):
+                    st.session_state.study_text_id = t["id"]
+                    st.session_state.review_queue = []
+                    st.session_state.review_idx = 0
+                    _reset_card_ui()
+                    go_page("複習")
+                    st.rerun()
+            with b3:
                 if st.button(
                     "難字",
                     key=f"lib_q_{t['id']}",
                     use_container_width=True,
                 ):
                     st.session_state.reader_text_id = t["id"]
+                    st.session_state.study_text_id = t["id"]
                     go_page("難字審核")
                     st.rerun()
         else:
@@ -333,13 +404,28 @@ def page_library() -> None:
 def page_reader() -> None:
     st.markdown("### 📖 對照閱讀")
     texts = db.list_texts()
+    # Prefer chapters that already have content
+    content_ids = [
+        t["id"] for t in texts if db.text_status(t["id"])["has_original"]
+    ]
     labels = {f"{t['order_index']:02d} · {t['title']}": t["id"] for t in texts}
-    default_id = st.session_state.get("reader_text_id") or texts[0]["id"]
+    # Default: study focus → reader_text_id → first with content
+    default_id = (
+        st.session_state.get("reader_text_id")
+        or st.session_state.get("study_text_id")
+        or (content_ids[0] if content_ids else texts[0]["id"])
+    )
     keys = list(labels.keys())
     default_label = next((k for k, v in labels.items() if v == default_id), keys[0])
-    selected_label = st.selectbox("篇章", keys, index=keys.index(default_label))
+    selected_label = st.selectbox(
+        "選擇篇章",
+        keys,
+        index=keys.index(default_label),
+        key="reader_chapter_select",
+    )
     text_id = labels[selected_label]
     st.session_state.reader_text_id = text_id
+    st.session_state.study_text_id = text_id  # keep study focus in sync
 
     status = db.text_status(text_id)
     st.progress(min(100, int(status["mastery_pct"])) / 100.0)
@@ -601,13 +687,14 @@ def page_review_queue() -> None:
 def _build_review_queue() -> list[dict]:
     daily = int(db.get_setting("daily_limit", "50") or 50)
     new_n = int(db.get_setting("new_cards_per_day", "10") or 10)
-    due = db.due_cards(limit=daily)
+    focus = st.session_state.get("study_text_id")
+    due = db.due_cards(limit=daily, text_id=focus)
     have_ids = {c["id"] for c in due}
     # fill with new if room
     remaining = max(0, daily - len(due))
     news = []
     if remaining and new_n:
-        for c in db.new_cards(limit=new_n):
+        for c in db.new_cards(limit=new_n, text_id=focus):
             if c["id"] not in have_ids:
                 news.append(c)
             if len(news) >= min(new_n, remaining):
@@ -662,6 +749,35 @@ def _reset_card_ui() -> None:
 
 def page_review() -> None:
     st.markdown("### 🔁 今日複習")
+
+    # Chapter filter on review page
+    ready_texts = [
+        t
+        for t in db.list_texts()
+        if db.text_status(t["id"])["has_original"]
+        and db.text_status(t["id"])["vocab_count"] > 0
+    ]
+    if ready_texts:
+        labels = ["全部已載入篇章"] + [
+            f"{t['order_index']:02d} · {t['title']}" for t in ready_texts
+        ]
+        id_map = {
+            f"{t['order_index']:02d} · {t['title']}": t["id"] for t in ready_texts
+        }
+        cur = st.session_state.get("study_text_id")
+        if cur and any(t["id"] == cur for t in ready_texts):
+            t0 = next(t for t in ready_texts if t["id"] == cur)
+            idx0 = labels.index(f"{t0['order_index']:02d} · {t0['title']}")
+        else:
+            idx0 = 0
+        pick = st.selectbox("溫習篇章", labels, index=idx0, key="review_chapter_select")
+        new_focus = None if pick == "全部已載入篇章" else id_map[pick]
+        if new_focus != st.session_state.get("study_text_id"):
+            st.session_state.study_text_id = new_focus
+            st.session_state.review_queue = []
+            st.session_state.review_idx = 0
+            _reset_card_ui()
+            st.rerun()
 
     if st.button("重新整理佇列", use_container_width=True, key="review_rebuild"):
         st.session_state.review_queue = _build_review_queue()
