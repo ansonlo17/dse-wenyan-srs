@@ -1,0 +1,258 @@
+[
+  {
+    "term": "暝",
+    "accepted": [
+      "黃昏時候。"
+    ],
+    "dse_usage": "黃昏時候。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "暝"
+  },
+  {
+    "term": "竹喧",
+    "accepted": [
+      "竹林中的喧鬧聲"
+    ],
+    "dse_usage": "竹林中的喧鬧聲",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "竹喧"
+  },
+  {
+    "term": "浣女",
+    "accepted": [
+      "洗衣女"
+    ],
+    "dse_usage": "洗衣女",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "浣女"
+  },
+  {
+    "term": "隨意春芳歇，王孫自可留",
+    "accepted": [
+      "任憑春天的花草凋謝",
+      "秋色仍然很美",
+      "王孫 自可留在山中。歇："
+    ],
+    "dse_usage": "任憑春天的花草凋謝，秋色仍然很美，王孫 自可留在山中。歇：；。王孫：原指貴族子弟，這 裏指隱士。《楚辭‧招隱士》：「王孫遊兮不歸，春草生兮萋萋。」 「王孫兮歸來，山中兮不可以久留。」這裏反用其意。 1",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "隨意春芳歇，王孫自可留"
+  },
+  {
+    "term": "獨酌無相親",
+    "accepted": [
+      "獨自飲酒而沒有可"
+    ],
+    "dse_usage": "獨自飲酒而沒有可相親近的人。相親：互相親愛、親近。 此處指可相親近的人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "獨酌無相親"
+  },
+  {
+    "term": "舉杯邀明月，對影成三人",
+    "accepted": [
+      "月和李白的影子"
+    ],
+    "dse_usage": "語意出自陶潛《雜詩》：「欲言無予和，揮 杯勸孤影。」三人：指李白、月和李白的影子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "舉杯邀明月，對影成三人"
+  },
+  {
+    "term": "徒",
+    "accepted": [
+      "徒然",
+      "空"
+    ],
+    "dse_usage": "徒然、空",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "徒"
+  },
+  {
+    "term": "將",
+    "accepted": [
+      "和",
+      "共"
+    ],
+    "dse_usage": "和、共",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "將"
+  },
+  {
+    "term": "及春",
+    "accepted": [
+      "趁着春天。及：趁着"
+    ],
+    "dse_usage": "趁着春天。及：趁着",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "及春"
+  },
+  {
+    "term": "徘徊",
+    "accepted": [
+      "往返迴旋",
+      "來回走動"
+    ],
+    "dse_usage": "往返迴旋、來回走動",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "徘徊"
+  },
+  {
+    "term": "舞",
+    "accepted": [
+      "此處指跳舞"
+    ],
+    "dse_usage": "此處指跳舞",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "舞"
+  },
+  {
+    "term": "醒時同交歡",
+    "accepted": [
+      "清醒時與月",
+      "身影一起歡樂。交歡：一同歡樂"
+    ],
+    "dse_usage": "清醒時與月、身影一起歡樂。交歡：一同歡樂",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "醒時同交歡"
+  },
+  {
+    "term": "分散",
+    "accepted": [
+      "離散",
+      "別離"
+    ],
+    "dse_usage": "離散、別離",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "分散"
+  },
+  {
+    "term": "永結無情遊",
+    "accepted": [
+      "與月光和身影",
+      "語出《莊子‧德充符》",
+      "指泯除是非得失",
+      "物我之別的境界"
+    ],
+    "dse_usage": "與月光和身影(本為無情之物)永遠結伴交遊。無情：即忘 情，語出《莊子‧德充符》，指泯除是非得失、物我之別的境界",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "永結無情遊"
+  },
+  {
+    "term": "相期邈雲漢",
+    "accepted": [
+      "。雲漢：銀漢",
+      "即銀河"
+    ],
+    "dse_usage": "（與月和身影）相約於遙遠的銀河之上。相期：相約。 邈：遙遠。；。雲漢：銀漢，即銀河",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "相期邈雲漢"
+  },
+  {
+    "term": "獨酌",
+    "accepted": [
+      "獨自飲酒"
+    ],
+    "dse_usage": "獨自飲酒",
+    "difficulty": 1,
+    "category": "實詞",
+    "sentence_snippet": "獨酌"
+  },
+  {
+    "term": "錦江",
+    "accepted": [
+      "岷江的支流",
+      "大部分河段流經成都"
+    ],
+    "dse_usage": "岷江的支流，大部分河段流經成都",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "錦江"
+  },
+  {
+    "term": "玉壘",
+    "accepted": [
+      "山名",
+      "玉壘山位於四川灌縣"
+    ],
+    "dse_usage": "山名，玉壘山位於四川灌縣（今四川省都江堰市）西北。 一說位 1 於四川汶川縣附近",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "玉壘"
+  },
+  {
+    "term": "北極",
+    "accepted": [
+      "北極星",
+      "比喻北方的朝廷"
+    ],
+    "dse_usage": "北極星，比喻北方的朝廷",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "北極"
+  },
+  {
+    "term": "西山寇盜",
+    "accepted": [
+      "指吐蕃"
+    ],
+    "dse_usage": "指吐蕃",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "西山寇盜"
+  },
+  {
+    "term": "後主",
+    "accepted": [
+      "三國時期蜀漢的後主劉禪"
+    ],
+    "dse_usage": "三國時期蜀漢的後主劉禪",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "後主"
+  },
+  {
+    "term": "《梁甫吟》",
+    "accepted": [
+      "諸葛亮在隆中躬 耕時",
+      "好為《梁父吟》"
+    ],
+    "dse_usage": "一作《梁父吟》。據《三國志‧蜀志》，諸葛亮在隆中躬 耕時，好為《梁父吟》",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "《梁甫吟》"
+  },
+  {
+    "term": "萬方多難",
+    "accepted": [
+      "天下多難"
+    ],
+    "dse_usage": "四面八方多災多難",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "萬方多難"
+  },
+  {
+    "term": "梁甫吟",
+    "accepted": [
+      "梁父吟",
+      "樂府曲"
+    ],
+    "dse_usage": "樂府曲名，相傳諸葛亮好為梁甫吟",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "梁甫吟"
+  }
+]

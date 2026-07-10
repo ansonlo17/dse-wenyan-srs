@@ -1,0 +1,314 @@
+[
+  {
+    "term": "故壘",
+    "accepted": [
+      "舊的營壘"
+    ],
+    "dse_usage": "舊的營壘",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "故壘"
+  },
+  {
+    "term": "周郎",
+    "accepted": [
+      "周瑜",
+      "字公瑾",
+      "三國時吳國的大都督"
+    ],
+    "dse_usage": "周瑜，字公瑾，三國時吳國的大都督",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "周郎"
+  },
+  {
+    "term": "小喬",
+    "accepted": [
+      "皆 國色也。策自納大喬",
+      "瑜納小喬。」"
+    ],
+    "dse_usage": "三國時喬玄的幼女。喬玄有兩個女兒，皆國色天香。大喬嫁給孫 1 策，小喬則嫁給周瑜。《三國志‧吳書‧周瑜傳》：「時喬公兩女，皆 國色也。策自納大喬，瑜納小喬。」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "小喬"
+  },
+  {
+    "term": "羽扇",
+    "accepted": [
+      "[gwaan1]"
+    ],
+    "dse_usage": "用羽毛製成的扇。綸巾：用絲帶製成的頭巾。綸：○粵 [關]， [gwaan1]；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "羽扇"
+  },
+  {
+    "term": "檣櫓",
+    "accepted": [
+      "此處借代戰船。",
+      "。檣：船的 桅杆。櫓：船槳"
+    ],
+    "dse_usage": "此處借代戰船。；。檣：船的 桅杆。櫓：船槳",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "檣櫓"
+  },
+  {
+    "term": "故國",
+    "accepted": [
+      "當日的赤壁戰場"
+    ],
+    "dse_usage": "當日的赤壁戰場",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "故國"
+  },
+  {
+    "term": "華髮",
+    "accepted": [
+      "半白的頭髮。華：通「花」"
+    ],
+    "dse_usage": "半白的頭髮。華：通「花」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "華髮"
+  },
+  {
+    "term": "尊",
+    "accepted": [
+      "通「樽」",
+      "借指酒"
+    ],
+    "dse_usage": "通「樽」，借指酒",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "尊"
+  },
+  {
+    "term": "酹",
+    "accepted": [
+      "把酒灑在地上表示祭奠。"
+    ],
+    "dse_usage": "把酒灑在地上表示祭奠。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "酹"
+  },
+  {
+    "term": "羽扇綸巾",
+    "accepted": [
+      "儒將裝束",
+      "從容貌"
+    ],
+    "dse_usage": "手持羽扇、頭戴綸巾，形容從容儒雅",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "羽扇綸巾"
+  },
+  {
+    "term": "乍煖還寒",
+    "accepted": [
+      "剛剛還很暖和",
+      "很快又變冷"
+    ],
+    "dse_usage": "剛剛還很暖和，很快又變冷，指深秋天氣變化無常。煖：同 「暖」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "乍煖還寒"
+  },
+  {
+    "term": "將息",
+    "accepted": [
+      "調養",
+      "休息"
+    ],
+    "dse_usage": "調養、休息",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "將息"
+  },
+  {
+    "term": "晚來風急",
+    "accepted": [
+      "一作「曉來風急」",
+      "也作「晚來風力」。 1"
+    ],
+    "dse_usage": "一作「曉來風急」，也作「晚來風力」。 1",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "晚來風急"
+  },
+  {
+    "term": "憔悴損",
+    "accepted": [
+      "指黃花凋謝枯萎"
+    ],
+    "dse_usage": "指黃花凋謝枯萎",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "憔悴損"
+  },
+  {
+    "term": "次第",
+    "accepted": [
+      "光景",
+      "情形"
+    ],
+    "dse_usage": "光景、情形",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "次第"
+  },
+  {
+    "term": "了得",
+    "accepted": [
+      "概括得了"
+    ],
+    "dse_usage": "概括得了",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "了得"
+  },
+  {
+    "term": "青玉案",
+    "accepted": [
+      "與「碗」的古字「椀」相通。",
+      "。」"
+    ],
+    "dse_usage": "本指青玉所製的用來放置食物的短足托盤。漢張衡《四愁詩》： 「美人贈我錦繡段，何以報之青玉案。」這裏用作詞牌。； 。另一解謂「案」即「桉」，與「碗」的古字「椀」相通。； 。」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "青玉案"
+  },
+  {
+    "term": "元夕",
+    "accepted": [
+      "舊稱農曆正月十五日為上元節",
+      "是夜稱元夕",
+      "元夜或元宵"
+    ],
+    "dse_usage": "舊稱農曆正月十五日為上元節，是夜稱元夕、元夜或元宵",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "元夕"
+  },
+  {
+    "term": "東風",
+    "accepted": [
+      "指春風。花千樹："
+    ],
+    "dse_usage": "指春風。花千樹：花燈多如千樹開花",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "東風"
+  },
+  {
+    "term": "星如雨",
+    "accepted": [
+      "指煙花如雨般落下"
+    ],
+    "dse_usage": "指煙花如雨般落下。星：指煙花。一說指燈。 1",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "星如雨"
+  },
+  {
+    "term": "寶馬",
+    "accepted": [
+      "名貴的駿馬。雕車：飾有雕花",
+      "彩繪的車"
+    ],
+    "dse_usage": "名貴的駿馬。雕車：飾有雕花、彩繪的車；裝飾華麗的車。香： 指車中人的衣鬢之香",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "寶馬"
+  },
+  {
+    "term": "鳳簫聲動",
+    "accepted": [
+      "比竹為之",
+      "參差如鳳翼",
+      "故 名。一說是簫的美稱"
+    ],
+    "dse_usage": "樂聲四處繚繞。鳳簫：即排簫，比竹為之，參差如鳳翼，故 名。一說是簫的美稱",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "鳳簫聲動"
+  },
+  {
+    "term": "玉壺",
+    "accepted": [
+      "一說指漏壺",
+      "意指時間推移。"
+    ],
+    "dse_usage": "喻明月。一說指白玉造的燈，一說指漏壺，即古代計時器。光轉： 月光照射的位置轉變，意指時間推移。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "玉壺"
+  },
+  {
+    "term": "魚龍舞",
+    "accepted": [
+      "指舞動魚形",
+      "龍形的彩燈"
+    ],
+    "dse_usage": "指舞動魚形、龍形的彩燈",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "魚龍舞"
+  },
+  {
+    "term": "蛾兒雪柳黃金縷",
+    "accepted": [
+      "描寫路上的女子穿"
+    ],
+    "dse_usage": "描寫路上的女子穿戴着各種頭飾。蛾兒：古代婦女於 元宵節前後插戴在頭上，用烏金紙剪裁成蝶或蛾狀的飾物。雪柳：宋代 婦女在立春日和元宵節時插戴的一種絹或紙製成的頭花。黃金縷：古代 婦女戴在頭上的金色頭飾。縷：泛指線狀物。；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "蛾兒雪柳黃金縷"
+  },
+  {
+    "term": "盈盈",
+    "accepted": [
+      "儀態美好",
+      "微笑含情的樣子"
+    ],
+    "dse_usage": "儀態美好，微笑含情的樣子",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "盈盈"
+  },
+  {
+    "term": "度",
+    "accepted": [
+      "次",
+      "回"
+    ],
+    "dse_usage": "次、回",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "度"
+  },
+  {
+    "term": "驀然",
+    "accepted": [
+      "突然",
+      "忽然。迴：一作「回」"
+    ],
+    "dse_usage": "突然、忽然。迴：一作「回」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "驀然"
+  },
+  {
+    "term": "闌珊",
+    "accepted": [
+      "冷落",
+      "將盡"
+    ],
+    "dse_usage": "零落、冷落",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "燈火闌珊"
+  }
+]

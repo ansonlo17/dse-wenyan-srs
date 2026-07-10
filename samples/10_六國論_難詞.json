@@ -1,0 +1,427 @@
+[
+  {
+    "term": "積威",
+    "accepted": [
+      "長期威勢",
+      "積累的威勢"
+    ],
+    "dse_usage": "長期累積的威勢",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "為秦人積威之所劫"
+  },
+  {
+    "term": "抱薪救火",
+    "accepted": [
+      "抱柴救火",
+      "方法錯"
+    ],
+    "dse_usage": "比喻方法不對，禍害更大",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "猶抱薪救火"
+  },
+  {
+    "term": "賂秦",
+    "accepted": [
+      "賄賂秦",
+      "割地事秦"
+    ],
+    "dse_usage": "割地賄賂秦國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "弊在賂秦"
+  },
+  {
+    "term": "六國",
+    "accepted": [
+      "戰國末期被秦國所滅的韓",
+      "趙",
+      "魏",
+      "楚",
+      "燕"
+    ],
+    "dse_usage": "戰國末期被秦國所滅的韓、趙、魏、楚、燕、齊",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "六國"
+  },
+  {
+    "term": "兵",
+    "accepted": [
+      "兵器",
+      "借代為軍隊",
+      "兵力。利︰鋒利",
+      "厲害"
+    ],
+    "dse_usage": "兵器，借代為軍隊、兵力。利︰鋒利、厲害",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "兵"
+  },
+  {
+    "term": "戰不善",
+    "accepted": [
+      "作戰失誤"
+    ],
+    "dse_usage": "作戰失誤",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "戰不善"
+  },
+  {
+    "term": "弊",
+    "accepted": [
+      "弊端",
+      "癥結。賂︰贈送財物討好對方"
+    ],
+    "dse_usage": "弊端、癥結。賂︰贈送財物討好對方",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "弊"
+  },
+  {
+    "term": "力虧",
+    "accepted": [
+      "國力損耗"
+    ],
+    "dse_usage": "國力損耗",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "力虧"
+  },
+  {
+    "term": "道",
+    "accepted": [
+      "道理",
+      "理由",
+      "關鍵原因"
+    ],
+    "dse_usage": "道理、理由、關鍵原因",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "道"
+  },
+  {
+    "term": "喪",
+    "accepted": [
+      "滅亡"
+    ],
+    "dse_usage": "滅亡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "喪"
+  },
+  {
+    "term": "率",
+    "accepted": [
+      "皆",
+      "都"
+    ],
+    "dse_usage": "皆、都",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "率"
+  },
+  {
+    "term": "強援",
+    "accepted": [
+      "強大支援"
+    ],
+    "dse_usage": "強大支援",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "強援"
+  },
+  {
+    "term": "完",
+    "accepted": [
+      "保全",
+      "完好無缺"
+    ],
+    "dse_usage": "保全、完好無缺",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "完"
+  },
+  {
+    "term": "邑",
+    "accepted": [
+      "古稱大城市為「都」",
+      "小城市為「邑」。引申作城市"
+    ],
+    "dse_usage": "古稱大城市為「都」，小城市為「邑」。引申作城市",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "邑"
+  },
+  {
+    "term": "所得",
+    "accepted": [
+      "因六國奉獻而得到的"
+    ],
+    "dse_usage": "因六國奉獻而得到的（土地）",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "所得"
+  },
+  {
+    "term": "所亡",
+    "accepted": [
+      "因討好秦國而失去的",
+      "喪失"
+    ],
+    "dse_usage": "因討好秦國而失去的（土地）。亡︰失去、喪失",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "所亡"
+  },
+  {
+    "term": "思",
+    "accepted": [
+      "想到",
+      "一解作助語詞",
+      "泛指祖先"
+    ],
+    "dse_usage": "想到；一解作助語詞，無實義。厥︰其。先：對去世尊長的敬稱。 祖父︰祖輩與父輩，泛指祖先",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "思"
+  },
+  {
+    "term": "暴霜露，斬荊棘",
+    "accepted": [
+      "冒着風霜雨露",
+      "斬除荊棘"
+    ],
+    "dse_usage": "冒着風霜雨露，斬除荊棘，形容立國創始之難。斬荊 棘︰引申作開墾荒蕪之地",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "暴霜露，斬荊棘"
+  },
+  {
+    "term": "尺寸",
+    "accepted": [
+      "形容土地之小"
+    ],
+    "dse_usage": "形容土地之小",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "尺寸"
+  },
+  {
+    "term": "舉",
+    "accepted": [
+      "全部"
+    ],
+    "dse_usage": "全部",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "舉"
+  },
+  {
+    "term": "草芥",
+    "accepted": [
+      "形容輕賤之物。芥︰小草"
+    ],
+    "dse_usage": "形容輕賤之物。芥︰小草",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "草芥"
+  },
+  {
+    "term": "厭",
+    "accepted": [
+      "通「饜」",
+      "滿足的意思"
+    ],
+    "dse_usage": "通「饜」，滿足的意思",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "厭"
+  },
+  {
+    "term": "彌",
+    "accepted": [
+      "更甚",
+      "越加"
+    ],
+    "dse_usage": "更甚、越加",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "彌"
+  },
+  {
+    "term": "判",
+    "accepted": [
+      "清晰分明的意思"
+    ],
+    "dse_usage": "清晰分明的意思",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "判"
+  },
+  {
+    "term": "顛覆",
+    "accepted": [
+      "敗亡",
+      "滅亡"
+    ],
+    "dse_usage": "敗亡、滅亡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "顛覆"
+  },
+  {
+    "term": "此言得之",
+    "accepted": [
+      "這話說出了其中道理"
+    ],
+    "dse_usage": "這話說出了其中道理",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "此言得之"
+  },
+  {
+    "term": "遷滅",
+    "accepted": [
+      "即亡國"
+    ],
+    "dse_usage": "即亡國",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "遷滅"
+  },
+  {
+    "term": "與",
+    "accepted": [
+      "幫助",
+      "親附",
+      "結交之意",
+      "作動詞用。嬴︰秦王的姓氏",
+      "此處借代秦 國。"
+    ],
+    "dse_usage": "幫助、親附、結交之意，作動詞用。嬴︰秦王的姓氏，此處借代秦 國。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "與"
+  },
+  {
+    "term": "遠略",
+    "accepted": [
+      "長遠謀略"
+    ],
+    "dse_usage": "長遠謀略",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "遠略"
+  },
+  {
+    "term": "義不賂秦",
+    "accepted": [
+      "堅守正義",
+      "不割地賄賂秦國"
+    ],
+    "dse_usage": "堅守正義，不割地賄賂秦國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "義不賂秦"
+  },
+  {
+    "term": "斯",
+    "accepted": [
+      "此",
+      "這"
+    ],
+    "dse_usage": "此、這",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "斯"
+  },
+  {
+    "term": "丹以荊卿為計",
+    "accepted": [
+      "秦王命將軍王翦攻打燕國",
+      "燕王逃至遼 東",
+      "及後",
+      "秦軍攻打遼東",
+      "俘虜燕王而殲滅燕國"
+    ],
+    "dse_usage": "指燕國太子丹使荊軻佯裝向秦王獻督亢地圖，密謀行刺 秦王一事。荊軻刺秦事敗被殺，秦王命將軍王翦攻打燕國，燕王逃至遼 東；及後，秦軍攻打遼東，俘虜燕王而殲滅燕國",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "丹以荊卿為計"
+  },
+  {
+    "term": "始",
+    "accepted": [
+      "才。速︰加速",
+      "或解作「招致」"
+    ],
+    "dse_usage": "才。速︰加速，或解作「招致」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "始"
+  },
+  {
+    "term": "趙嘗五戰于秦，二敗而三勝",
+    "accepted": [
+      "據《戰國策．燕策》",
+      "「蘇秦將為從",
+      "北說燕文侯曰：『秦",
+      "趙五戰",
+      "秦"
+    ],
+    "dse_usage": "據《戰國策．燕策》，「蘇秦將為從（合 縱），北說燕文侯曰：『秦、趙五戰，秦再勝而趙三勝。』」惟經後世 3 學者考證，秦、趙歷年交戰不只五次，然而，趙國確有至少三次擊敗秦 軍的戰績。蘇洵引用蘇秦之說，目的在增強本文的說服力",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "趙嘗五戰于秦，二敗而三勝"
+  },
+  {
+    "term": "李牧連卻之",
+    "accepted": [
+      "趙幽繆王時",
+      "與白起",
+      "廉頗",
+      "秦攻赤麗",
+      "宜安"
+    ],
+    "dse_usage": "趙幽繆王時，李牧屢次打敗秦軍。李牧：趙國將軍。戰功 顯赫，與白起、廉頗、王翦合稱戰國四大名將。連：接連。卻：擊退。 《史記‧趙世家》曰︰「趙王遷三年，秦攻赤麗、宜安，李牧率師與戰 肥下，卻之。四年，秦攻番吾，李牧與之戰，卻之。」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "李牧連卻之"
+  },
+  {
+    "term": "洎",
+    "accepted": [
+      "及至。",
+      "。誅︰誅殺"
+    ],
+    "dse_usage": "及至。；。誅︰誅殺",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "洎"
+  },
+  {
+    "term": "邯鄲為郡",
+    "accepted": [
+      "指趙國滅亡。邯鄲"
+    ],
+    "dse_usage": "指趙國滅亡。邯鄲︰趙國首都。為郡︰成為秦郡",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "邯鄲為郡"
+  },
+  {
+    "term": "用武",
+    "accepted": [
+      "用兵",
+      "最後",
+      "指堅持到底"
+    ],
+    "dse_usage": "用兵，指以武力對抗秦國。終︰終結、最後，指堅持到底",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "用武"
+  }
+]

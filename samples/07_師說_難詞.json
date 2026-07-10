@@ -1,0 +1,312 @@
+[
+  {
+    "term": "不齒",
+    "accepted": [
+      "不屑並列",
+      "瞧不起"
+    ],
+    "dse_usage": "不與並列、不屑提及",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "君子不齒"
+  },
+  {
+    "term": "受業",
+    "accepted": [
+      "授業",
+      "傳授學業"
+    ],
+    "dse_usage": "受通「授」，講授課業",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "受業"
+  },
+  {
+    "term": "所以",
+    "accepted": [
+      "用以",
+      "用來。道︰道理",
+      "主要指儒家之道統",
+      "後來多寫作「授」"
+    ],
+    "dse_usage": "用以、用來。道︰道理，主要指儒家之道統、學說。受業︰講授 經書課業。「受」，後來多寫作「授」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "所以"
+  },
+  {
+    "term": "固",
+    "accepted": [
+      "本來"
+    ],
+    "dse_usage": "本來",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "固"
+  },
+  {
+    "term": "夫庸知其年之先後生於吾乎",
+    "accepted": [
+      "難道。 2"
+    ],
+    "dse_usage": "豈用理會他的年齡比我大還是比我小呢？ 庸知︰豈知。庸︰豈、難道。 2",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "夫庸知其年之先後生於吾乎"
+  },
+  {
+    "term": "道之所存，師之所存也",
+    "accepted": [
+      "道理存在的地方就"
+    ],
+    "dse_usage": "道理存在的地方就是老師存在的地方",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "道之所存，師之所存也"
+  },
+  {
+    "term": "其出人也遠矣",
+    "accepted": [
+      "他們"
+    ],
+    "dse_usage": "他們（的學問）遠遠超出一般人",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "其出人也遠矣"
+  },
+  {
+    "term": "下",
+    "accepted": [
+      "低於",
+      "及不上"
+    ],
+    "dse_usage": "低於、及不上",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "下"
+  },
+  {
+    "term": "其皆出於此乎",
+    "accepted": [
+      "大概都是出於這樣"
+    ],
+    "dse_usage": "大概都是出於這樣的原因吧。其︰大概。此：指前文提 到的「從師而問」和「恥學於師」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "其皆出於此乎"
+  },
+  {
+    "term": "於其身也，則恥師焉，惑矣",
+    "accepted": [
+      "實 在是糊塗啊！"
+    ],
+    "dse_usage": "對於自己本身卻把從師學習視為羞恥，實 在是糊塗啊！",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "於其身也，則恥師焉，惑矣"
+  },
+  {
+    "term": "授之書而習其句讀者",
+    "accepted": [
+      "教授小孩子文句基"
+    ],
+    "dse_usage": "教授小孩子文句基本知識的人。句讀︰古人指文 辭停頓處。文辭語意已盡處為句，未盡而須停頓的地方為讀。 讀︰；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "授之書而習其句讀者"
+  },
+  {
+    "term": "句讀之不知",
+    "accepted": [
+      "句讀不懂",
+      "就向老師求教",
+      "疑難不解",
+      "大道理卻遺漏忽略",
+      "通「否」"
+    ],
+    "dse_usage": "句讀不懂，就向老師求教；疑難不解，卻不向老師請教。小問題願 意從師，大道理卻遺漏忽略，我看不出他的明智之處。「或不焉」之 「不」，通「否」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "句讀之不知"
+  },
+  {
+    "term": "百工之人",
+    "accepted": [
+      "各種工匠。相：互相。師：學習"
+    ],
+    "dse_usage": "各種工匠。相：互相。師：學習",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "百工之人"
+  },
+  {
+    "term": "士大夫之族",
+    "accepted": [
+      "士大夫一類有官職的 人",
+      "聽到叫「老師」",
+      "「弟子」等稱呼時",
+      "就聚在一起來嘲笑。族︰ 類"
+    ],
+    "dse_usage": "士大夫一類有官職的 人，聽到叫「老師」、「弟子」等稱呼時，就聚在一起來嘲笑。族︰ 類",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "士大夫之族"
+  },
+  {
+    "term": "彼與彼年相若也，道相似也",
+    "accepted": [
+      "某人與某人年齡差不多",
+      "懂得的學問也接 近"
+    ],
+    "dse_usage": "某人與某人年齡差不多，懂得的學問也接 近",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "彼與彼年相若也，道相似也"
+  },
+  {
+    "term": "位卑則足羞，官盛則近諛",
+    "accepted": [
+      "拜地位低的人為師會感到羞恥",
+      "奉承。"
+    ],
+    "dse_usage": "拜地位低的人為師會感到羞恥，拜地位高的 人為師則認為有諂媚之嫌。諛︰諂媚、奉承。；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "位卑則足羞，官盛則近諛"
+  },
+  {
+    "term": "師道之不復",
+    "accepted": [
+      "從師學習的風尚不能恢復"
+    ],
+    "dse_usage": "從師學習的風尚不能恢復",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "師道之不復"
+  },
+  {
+    "term": "君子",
+    "accepted": [
+      "指不屑與巫",
+      "醫",
+      "樂師",
+      "百工之人 並列"
+    ],
+    "dse_usage": "這裏指士大夫。不齒︰不屑，指不屑與巫、醫、樂師、百工之人 並列",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "君子"
+  },
+  {
+    "term": "今其智乃反不能及，其可怪也歟",
+    "accepted": [
+      "現在士大夫的才智反不如他們",
+      "這真 是奇怪啊！"
+    ],
+    "dse_usage": "現在士大夫的才智反不如他們，這真 是奇怪啊！",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "今其智乃反不能及，其可怪也歟"
+  },
+  {
+    "term": "聖人無常師",
+    "accepted": [
+      "聖人沒有固定的老"
+    ],
+    "dse_usage": "聖人沒有固定的老師。語出《論語‧子張》：子貢曰： 「夫子焉不學？而亦何常師之有？」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "聖人無常師"
+  },
+  {
+    "term": "郯子",
+    "accepted": [
+      "春秋時郯國的國君",
+      "。萇弘︰周敬王的大夫",
+      "。師襄︰春秋時魯國的樂官",
+      "[daam1]"
+    ],
+    "dse_usage": "春秋時郯國的國君，孔子曾向他請教官職的名稱。郯：；。萇弘︰周敬王的大夫，孔子曾向他請教音樂。萇：姓 氏。；。師襄︰春秋時魯國的樂官，孔子曾 跟他學琴。老聃︰即老子，孔子曾向他問禮。聃︰相傳為老子之名。○粵 [耽]，[daam1]；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "郯子"
+  },
+  {
+    "term": "三人行，則必有我師",
+    "accepted": [
+      "幾個人走在一起",
+      "必有我師焉。』」"
+    ],
+    "dse_usage": "幾個人走在一起，其中就一定有可以作為我學習 的對象。語出《論語‧述而》：「子曰：『三人行，必有我師焉。』」",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "三人行，則必有我師"
+  },
+  {
+    "term": "術業有專攻",
+    "accepted": [
+      "學問",
+      "技藝各有專長。專攻：專門研究"
+    ],
+    "dse_usage": "學問、技藝各有專長。專攻：專門研究",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "術業有專攻"
+  },
+  {
+    "term": "李氏子蟠",
+    "accepted": [
+      "李蟠",
+      "唐貞元十九年進士。蟠︰"
+    ],
+    "dse_usage": "李蟠，唐貞元十九年進士。蟠︰；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "李氏子蟠"
+  },
+  {
+    "term": "六藝",
+    "accepted": [
+      "指《詩》",
+      "《書》",
+      "《禮》",
+      "《樂》",
+      "《易》"
+    ],
+    "dse_usage": "指《詩》、《書》、《禮》、《樂》、《易》、《春秋》六部經 書。經︰六經原文。傳︰注釋六經的文字",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "六藝"
+  },
+  {
+    "term": "不拘於時",
+    "accepted": [
+      "不受時俗",
+      "拘束。 3"
+    ],
+    "dse_usage": "不受時俗（不從師）所拘限。拘：拘限、拘束。 3",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "不拘於時"
+  },
+  {
+    "term": "余嘉其能行古道",
+    "accepted": [
+      "讚賞"
+    ],
+    "dse_usage": "我讚賞他能夠踐行古人從師之道。嘉：讚許、讚賞",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "余嘉其能行古道"
+  },
+  {
+    "term": "貽",
+    "accepted": [
+      "贈送。"
+    ],
+    "dse_usage": "贈送。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "貽"
+  }
+]

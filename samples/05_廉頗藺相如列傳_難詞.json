@@ -1,0 +1,422 @@
+[
+  {
+    "term": "先國家之急而後私仇",
+    "accepted": [
+      "先公後私",
+      "先國後私"
+    ],
+    "dse_usage": "把國家急難放在前、私仇放在後",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "先國家之急而後私仇"
+  },
+  {
+    "term": "刎頸之交",
+    "accepted": [
+      "生死之交",
+      "至交"
+    ],
+    "dse_usage": "可同生共死的交情",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "為刎頸之交"
+  },
+  {
+    "term": "負荊",
+    "accepted": [
+      "背荊請罪",
+      "請罪"
+    ],
+    "dse_usage": "背着荊條請罪",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "肉袒負荊"
+  },
+  {
+    "term": "趙惠文王",
+    "accepted": [
+      "是趙武靈王的兒子"
+    ],
+    "dse_usage": "是趙武靈王的兒子",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "趙惠文王"
+  },
+  {
+    "term": "為",
+    "accepted": [
+      "做",
+      "作為。○粵 [圍]",
+      "[wai4]"
+    ],
+    "dse_usage": "做、作為。○粵 [圍]，[wai4]；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "為"
+  },
+  {
+    "term": "陽晉",
+    "accepted": [
+      "在今山東省鄆城縣"
+    ],
+    "dse_usage": "在今山東省鄆城縣西。上卿：戰國時代的高級官員",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "陽晉"
+  },
+  {
+    "term": "宦者令",
+    "accepted": [
+      "宦官的頭目。舍人：戰國至漢初",
+      "王公貴族的侍從",
+      "賓客"
+    ],
+    "dse_usage": "宦官的頭目。舍人：戰國至漢初，王公貴族的侍從、賓客",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "宦者令"
+  },
+  {
+    "term": "楚和氏璧",
+    "accepted": [
+      "春秋時楚人卞和發現一塊璞玉",
+      "先後獻給楚厲王和武王",
+      "於是以為卞和存心欺 騙",
+      "卞和抱玉哭於荊山下",
+      "王 使人剖璞"
+    ],
+    "dse_usage": "春秋時楚人卞和發現一塊璞玉，先後獻給楚厲王和武王， 但二人命人鑑別後都認為這只是普通的石頭，於是以為卞和存心欺 騙，結果分別斷其左足和右足。到文王時，卞和抱玉哭於荊山下，王 使人剖璞，果真得到寶玉，於是命人把它雕成玉璧，名為「和氏璧」。 璧，圓形而中間有孔的玉器",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "楚和氏璧"
+  },
+  {
+    "term": "遺",
+    "accepted": [
+      "給予",
+      "送。○粵 [惠]",
+      "[wai6]"
+    ],
+    "dse_usage": "給予、送。○粵 [惠]，[wai6]；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "遺"
+  },
+  {
+    "term": "徒見欺",
+    "accepted": [
+      "白白被欺騙。見：被",
+      "受",
+      "表示被動的意思"
+    ],
+    "dse_usage": "白白被欺騙。見：被、受，表示被動的意思",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "徒見欺"
+  },
+  {
+    "term": "求人可使報秦者",
+    "accepted": [
+      "回 覆"
+    ],
+    "dse_usage": "徵求可以作為使臣去答覆秦國的人。報：答覆、回 覆",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "求人可使報秦者"
+  },
+  {
+    "term": "使",
+    "accepted": [
+      "出使。"
+    ],
+    "dse_usage": "出使。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "使"
+  },
+  {
+    "term": "竊",
+    "accepted": [
+      "私下",
+      "多作謙詞用。亡：逃亡"
+    ],
+    "dse_usage": "私下，多作謙詞用。亡：逃亡",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "竊"
+  },
+  {
+    "term": "語",
+    "accepted": [
+      "告訴",
+      "作動詞用。"
+    ],
+    "dse_usage": "告訴，作動詞用。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "語"
+  },
+  {
+    "term": "彊",
+    "accepted": [
+      "同「強」"
+    ],
+    "dse_usage": "同「強」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "彊"
+  },
+  {
+    "term": "幸",
+    "accepted": [
+      "寵幸"
+    ],
+    "dse_usage": "寵幸",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "幸"
+  },
+  {
+    "term": "肉袒伏斧質請罪",
+    "accepted": [
+      "赤身伏在斧質上",
+      "鐵砧"
+    ],
+    "dse_usage": "赤身伏在斧質上，請求降罪。斧質：古代一種腰斬 的刑具。質：也寫作「鑕」，鐵砧",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "肉袒伏斧質請罪"
+  },
+  {
+    "term": "不",
+    "accepted": [
+      "通「否」"
+    ],
+    "dse_usage": "通「否」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "不"
+  },
+  {
+    "term": "曲",
+    "accepted": [
+      "理虧"
+    ],
+    "dse_usage": "理虧",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "曲"
+  },
+  {
+    "term": "均之二策",
+    "accepted": [
+      "這"
+    ],
+    "dse_usage": "比較這兩個對策。均︰衡量。之：此、這",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "均之二策"
+  },
+  {
+    "term": "寧許以負秦曲",
+    "accepted": [
+      "寧可答應將和氏璧給予秦國",
+      "使秦負上理虧的責任"
+    ],
+    "dse_usage": "寧可答應將和氏璧給予秦國（假如秦王受璧而不予 城），使秦負上理虧的責任",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "寧許以負秦曲"
+  },
+  {
+    "term": "必",
+    "accepted": [
+      "倘若",
+      "如果。 5"
+    ],
+    "dse_usage": "倘若、如果。 5",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "必"
+  },
+  {
+    "term": "完璧歸趙",
+    "accepted": [
+      "表示物歸原主的意思"
+    ],
+    "dse_usage": "把璧玉完完整整地帶回趙國。「完璧歸趙」後來成為成語， 表示物歸原主的意思",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "完璧歸趙"
+  },
+  {
+    "term": "章臺",
+    "accepted": [
+      "有輕視之意"
+    ],
+    "dse_usage": "秦宮名。章臺本是供登臨遊樂的離宮，昭王不在正殿而在章臺 召見趙國使臣藺相如，有輕視之意",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "章臺"
+  },
+  {
+    "term": "瑕",
+    "accepted": [
+      "玉石上的斑點"
+    ],
+    "dse_usage": "玉石上的斑點",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "瑕"
+  },
+  {
+    "term": "卻立",
+    "accepted": [
+      "後退站立"
+    ],
+    "dse_usage": "後退站立",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "卻立"
+  },
+  {
+    "term": "負",
+    "accepted": [
+      "倚仗",
+      "恃着"
+    ],
+    "dse_usage": "倚仗、恃着",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "負"
+  },
+  {
+    "term": "布衣",
+    "accepted": [
+      "麻布衣服",
+      "借指平民百姓"
+    ],
+    "dse_usage": "麻布衣服，借指平民百姓",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "布衣"
+  },
+  {
+    "term": "逆",
+    "accepted": [
+      "拂逆。驩：同「歡」"
+    ],
+    "dse_usage": "拂逆。驩：同「歡」",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "逆"
+  },
+  {
+    "term": "齋戒",
+    "accepted": [
+      "古時候舉行祭祀",
+      "主祭的人先要齋戒",
+      "住在清淨的房子裏",
+      "不 同外人往來",
+      "誠心誠意準備敬神"
+    ],
+    "dse_usage": "古時候舉行祭祀，主祭的人先要齋戒，住在清淨的房子裏，不 同外人往來，誠心誠意準備敬神",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "齋戒"
+  },
+  {
+    "term": "拜送書於庭",
+    "accepted": [
+      "送出國書。庭：通「廷」",
+      "國君聽政的朝堂"
+    ],
+    "dse_usage": "（相如）在朝廷上行了禮，送出國書。庭：通「廷」， 國君聽政的朝堂",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "拜送書於庭"
+  },
+  {
+    "term": "嚴大國之威以修敬也",
+    "accepted": [
+      "尊重大國的威嚴而"
+    ],
+    "dse_usage": "尊重大國的威嚴而表達敬意。嚴：尊重",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "嚴大國之威以修敬也"
+  },
+  {
+    "term": "見臣列觀",
+    "accepted": [
+      "於一般宮殿中",
+      "即指章臺。"
+    ],
+    "dse_usage": "於一般宮殿中（而不是正殿）接見微臣。觀：用作遊樂的 宮殿，即指章臺。；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "見臣列觀"
+  },
+  {
+    "term": "倨",
+    "accepted": [
+      "傲慢。"
+    ],
+    "dse_usage": "傲慢。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "倨"
+  },
+  {
+    "term": "急",
+    "accepted": [
+      "逼迫"
+    ],
+    "dse_usage": "逼迫",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "急"
+  },
+  {
+    "term": "睨",
+    "accepted": [
+      "斜視。"
+    ],
+    "dse_usage": "斜視。；",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "睨"
+  },
+  {
+    "term": "乃辭謝固請",
+    "accepted": [
+      "於是婉言道歉"
+    ],
+    "dse_usage": "於是婉言道歉，堅決請求藺相如不要這樣做。辭謝：婉 言道歉。固請：堅決請求",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "乃辭謝固請"
+  },
+  {
+    "term": "召有司案圖",
+    "accepted": [
+      "查考",
+      "按照。都：城"
+    ],
+    "dse_usage": "召喚負責掌管版圖的官吏查考 地圖，指着從這裏到那裏的十五座城給予趙國。有司：官吏的通稱。 案：通「按」，查考、按照。都：城",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "召有司案圖"
+  },
+  {
+    "term": "相如度秦王特以詐佯為予趙城",
+    "accepted": [
+      "。特：僅",
+      "只是。佯︰ 假裝。"
+    ],
+    "dse_usage": "相如估計秦王只是以狡詐的話假裝給 趙國都城。度：揣度。；。特：僅、只是。佯︰ 假裝。；",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "相如度秦王特以詐佯為予趙城"
+  }
+]
