@@ -147,7 +147,7 @@ def page_home() -> None:
         f"""
         <div class="wy-hero">
           <h1>文言精華</h1>
-          <p>指定十二篇 · 字詞對照 · 間隔複習<br/>在星空下，把經典一點一點讀通。</p>
+          <p>十二篇指定文言 · 字詞對照 · 間隔複習</p>
         </div>
         <div class="wy-stat-row">
           <div class="wy-stat"><div class="num">{s['due']}</div><div class="label">到期</div></div>

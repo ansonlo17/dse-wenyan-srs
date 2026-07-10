@@ -16,11 +16,11 @@ serverAddress = "localhost"
 serverPort = 8501
 
 [theme]
-base = "dark"
-primaryColor = "#7EB6FF"
-backgroundColor = "#070B16"
-secondaryBackgroundColor = "#121F3F"
-textColor = "#F3EFE6"
+base = "light"
+primaryColor = "#0071E3"
+backgroundColor = "#F5F5F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1D1D1F"
 font = "sans serif"
 
 [client]

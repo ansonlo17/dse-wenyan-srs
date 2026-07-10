@@ -1,385 +1,318 @@
-/* HKDSE 文言文精華 — night-sky magical blue (inspired by HP-style dark UI) */
+/* HKDSE 文言文精華 — Apple-inspired premium minimal UI */
 
 :root {
-  --bg: #070b16;
-  --bg-mid: #0d1630;
-  --card: rgba(16, 28, 58, 0.78);
-  --card-solid: #121f3f;
-  --ink: #f3efe6;
-  --muted: #a8b6d4;
-  --primary: #7eb6ff;
-  --primary-deep: #3d7dd6;
-  --primary-soft: rgba(126, 182, 255, 0.14);
-  --accent: #c9a86c;
-  --accent-soft: rgba(201, 168, 108, 0.16);
-  --accent-ink: #f0e2c0;
-  --danger: #e07a7a;
-  --line: rgba(140, 170, 230, 0.22);
+  /* Apple-like neutrals + system blue */
+  --bg: #f5f5f7;
+  --card: #ffffff;
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --primary: #0071e3;
+  --primary-hover: #0077ed;
+  --primary-soft: rgba(0, 113, 227, 0.08);
+  --accent: #0071e3;
+  --accent-soft: rgba(0, 113, 227, 0.06);
+  --accent-ink: #0071e3;
+  --danger: #ff3b30;
+  --line: rgba(0, 0, 0, 0.06);
+  --line-strong: rgba(0, 0, 0, 0.1);
   --radius: 18px;
-  --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
-  --font: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Heiti TC",
+  --radius-sm: 12px;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei",
     sans-serif;
-  --serif: "Iowan Old Style", "Palatino Linotype", "Songti TC", "Noto Serif TC",
-    "Times New Roman", serif;
 }
 
 html, body, [data-testid="stAppViewContainer"] {
   background: var(--bg) !important;
   font-family: var(--font) !important;
   color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Starfield + soft constellation grid + nebula wash */
 [data-testid="stAppViewContainer"] > .main {
-  background:
-    /* denser stars */
-    radial-gradient(1.2px 1.2px at 8% 12%, rgba(255,255,255,0.78), transparent),
-    radial-gradient(1px 1px at 14% 55%, rgba(255,255,255,0.45), transparent),
-    radial-gradient(1.4px 1.4px at 22% 40%, rgba(255,255,255,0.58), transparent),
-    radial-gradient(1px 1px at 28% 8%, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1.3px 1.3px at 33% 72%, rgba(255,255,255,0.42), transparent),
-    radial-gradient(1px 1px at 40% 18%, rgba(255,255,255,0.68), transparent),
-    radial-gradient(1.5px 1.5px at 47% 48%, rgba(200,220,255,0.55), transparent),
-    radial-gradient(1px 1px at 55% 70%, rgba(255,255,255,0.48), transparent),
-    radial-gradient(1.2px 1.2px at 61% 22%, rgba(255,255,255,0.62), transparent),
-    radial-gradient(1px 1px at 68% 84%, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1.4px 1.4px at 72% 28%, rgba(255,255,255,0.72), transparent),
-    radial-gradient(1px 1px at 78% 62%, rgba(255,255,255,0.46), transparent),
-    radial-gradient(1.2px 1.2px at 85% 36%, rgba(210,230,255,0.55), transparent),
-    radial-gradient(1px 1px at 88% 55%, rgba(255,255,255,0.52), transparent),
-    radial-gradient(1.3px 1.3px at 15% 78%, rgba(255,255,255,0.58), transparent),
-    radial-gradient(1px 1px at 63% 88%, rgba(255,255,255,0.42), transparent),
-    radial-gradient(1.1px 1.1px at 92% 14%, rgba(255,255,255,0.62), transparent),
-    radial-gradient(1px 1px at 96% 78%, rgba(255,255,255,0.38), transparent),
-    /* faint diagonal sparkles */
-    radial-gradient(1.6px 1.6px at 18% 30%, rgba(126,182,255,0.55), transparent),
-    radial-gradient(1.8px 1.8px at 75% 45%, rgba(180,210,255,0.45), transparent),
-    /* soft constellation mesh (subtle pattern) */
-    repeating-linear-gradient(
-      0deg,
-      transparent 0,
-      transparent 47px,
-      rgba(120, 160, 230, 0.035) 48px,
-      transparent 49px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      transparent 0,
-      transparent 47px,
-      rgba(120, 160, 230, 0.03) 48px,
-      transparent 49px
-    ),
-    /* gentle diagonal runes / fabric grain */
-    repeating-linear-gradient(
-      125deg,
-      transparent 0,
-      transparent 11px,
-      rgba(150, 180, 240, 0.018) 11px,
-      rgba(150, 180, 240, 0.018) 12px
-    ),
-    /* nebula clouds */
-    radial-gradient(900px 500px at 80% 20%, rgba(45, 90, 180, 0.38), transparent 60%),
-    radial-gradient(700px 420px at 15% 80%, rgba(70, 50, 140, 0.26), transparent 55%),
-    radial-gradient(600px 360px at 50% 0%, rgba(30, 70, 150, 0.28), transparent 50%),
-    radial-gradient(500px 320px at 60% 90%, rgba(50, 100, 190, 0.18), transparent 55%),
-    linear-gradient(165deg, #050812 0%, #0b1530 45%, #101c3c 100%) !important;
+  background: var(--bg) !important;
   min-height: 100vh;
 }
 
-/* Extra texture layer on app wrapper */
 [data-testid="stAppViewContainer"]::before {
-  content: "";
-  pointer-events: none;
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  opacity: 0.45;
-  background-image:
-    /* tiny cross stars */
-    linear-gradient(rgba(200,220,255,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(200,220,255,0.05) 1px, transparent 1px);
-  background-size: 72px 72px, 72px 72px;
-  background-position: 0 0, 0 0;
-  mask-image: radial-gradient(ellipse at center, black 25%, transparent 78%);
-  -webkit-mask-image: radial-gradient(ellipse at center, black 25%, transparent 78%);
-}
-
-[data-testid="stAppViewContainer"] > .main {
-  position: relative;
-  z-index: 1;
+  display: none;
 }
 
 .main .block-container {
   max-width: 480px !important;
-  padding-top: 1rem !important;
+  padding-top: 1.25rem !important;
   padding-bottom: 5rem !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-left: 1.15rem !important;
+  padding-right: 1.15rem !important;
 }
 
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
 header[data-testid="stHeader"] {
-  background: transparent;
+  background: rgba(245, 245, 247, 0.72);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid transparent;
 }
 
 h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
-  font-family: var(--serif) !important;
+  font-family: var(--font) !important;
   color: var(--ink) !important;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   font-weight: 600;
 }
 
-.stMarkdown p, .stCaption, label, .stTextInput label {
+.stMarkdown p, .stCaption {
   color: var(--muted) !important;
+  letter-spacing: -0.01em;
 }
 
-/* Cards — glass on night sky */
+/* Cards — pure white, soft elevation */
 .wy-card {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 1.05rem 1.15rem;
-  margin: 0.7rem 0;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  padding: 1.15rem 1.2rem;
+  margin: 0.75rem 0;
 }
 
 .wy-card-title {
   font-size: 0.72rem;
-  color: var(--accent);
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  text-transform: none;
   margin-bottom: 0.4rem;
-  font-family: var(--font);
+  font-weight: 500;
 }
 
 .wy-original {
   font-size: 1.12rem;
-  line-height: 1.9;
+  line-height: 1.85;
   color: var(--ink);
   font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .wy-translation {
   font-size: 0.94rem;
   line-height: 1.7;
   color: var(--muted);
-  margin-top: 0.65rem;
-  padding-top: 0.65rem;
-  border-top: 1px dashed rgba(140, 170, 230, 0.28);
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--line);
 }
 
-/* Hero like reference: dark panel + luminous blue art */
+/* Hero — product-style feature block */
 .wy-hero {
-  background:
-    radial-gradient(circle at 85% 40%, rgba(90, 140, 220, 0.28), transparent 45%),
-    radial-gradient(circle at 70% 70%, rgba(40, 70, 150, 0.35), transparent 50%),
-    linear-gradient(135deg, rgba(12, 22, 48, 0.92) 0%, rgba(18, 36, 78, 0.88) 55%, rgba(22, 48, 100, 0.85) 100%);
-  color: #f7f3ea;
+  background: linear-gradient(180deg, #1d1d1f 0%, #2c2c2e 100%);
+  color: #f5f5f7;
   border-radius: 22px;
-  padding: 1.45rem 1.35rem 1.35rem;
-  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
-  margin-bottom: 1rem;
-  border: 1px solid rgba(150, 180, 240, 0.22);
+  padding: 1.6rem 1.4rem 1.5rem;
+  box-shadow: var(--shadow-lg);
+  margin-bottom: 1.1rem;
+  border: none;
   position: relative;
   overflow: hidden;
 }
 
 .wy-hero::before {
-  content: "INTRODUCING";
-  display: block;
-  font-size: 0.68rem;
-  letter-spacing: 0.28em;
-  color: rgba(230, 220, 190, 0.72);
-  margin-bottom: 0.55rem;
-  font-family: var(--font);
-  font-weight: 500;
+  content: none;
 }
 
 .wy-hero::after {
   content: "";
   position: absolute;
-  right: -8%;
-  top: 10%;
-  width: 46%;
-  height: 80%;
-  background:
-    radial-gradient(ellipse at center, rgba(120, 170, 255, 0.18), transparent 68%);
+  right: -20%;
+  top: -50%;
+  width: 60%;
+  height: 180%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 113, 227, 0.35) 0%,
+    transparent 65%
+  );
   pointer-events: none;
 }
 
 .wy-hero h1 {
-  color: #f7f3ea !important;
-  font-family: var(--serif) !important;
-  font-size: 1.65rem !important;
-  margin: 0 0 0.45rem 0 !important;
+  color: #f5f5f7 !important;
+  font-family: var(--font) !important;
+  font-size: 1.75rem !important;
+  margin: 0 0 0.4rem 0 !important;
   font-weight: 600;
-  letter-spacing: 0.01em;
-  line-height: 1.25;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
   position: relative;
   z-index: 1;
 }
 
 .wy-hero p {
   margin: 0;
-  opacity: 0.88;
-  font-size: 0.92rem;
-  color: #d5dceb;
-  line-height: 1.55;
+  opacity: 0.72;
+  font-size: 0.95rem;
+  color: #f5f5f7;
+  line-height: 1.5;
   position: relative;
   z-index: 1;
-  max-width: 92%;
+  font-weight: 400;
+  letter-spacing: -0.01em;
 }
 
 .wy-stat-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.55rem;
-  margin: 0.9rem 0 0.25rem;
+  gap: 0.6rem;
+  margin: 1rem 0 0.3rem;
 }
 
 .wy-stat {
-  background: rgba(14, 24, 52, 0.75);
-  border-radius: 14px;
+  background: var(--card);
+  border-radius: 16px;
   border: 1px solid var(--line);
-  padding: 0.8rem 0.45rem;
+  padding: 0.9rem 0.45rem;
   text-align: center;
   box-shadow: var(--shadow);
-  backdrop-filter: blur(8px);
 }
 
 .wy-stat .num {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--primary);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--ink);
   line-height: 1.1;
-  font-family: var(--serif);
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
 }
 
 .wy-stat .label {
   font-size: 0.7rem;
   color: var(--muted);
-  margin-top: 0.25rem;
-  letter-spacing: 0.04em;
+  margin-top: 0.3rem;
+  font-weight: 500;
 }
 
 .wy-chip {
   display: inline-block;
   background: var(--primary-soft);
-  color: #b9d7ff;
-  border: 1px solid rgba(126, 182, 255, 0.28);
-  border-radius: 999px;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.76rem;
-  margin: 0.15rem 0.2rem 0.15rem 0;
-  font-weight: 600;
+  color: var(--primary);
+  border: none;
+  border-radius: 980px;
+  padding: 0.22rem 0.72rem;
+  font-size: 0.75rem;
+  margin: 0.12rem 0.18rem 0.12rem 0;
+  font-weight: 500;
 }
 
 .wy-chip-accent {
-  background: var(--accent-soft);
-  color: var(--accent-ink);
-  border-color: rgba(201, 168, 108, 0.35);
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--ink);
 }
 
 .wy-progress-label {
   display: flex;
   justify-content: space-between;
-  font-size: 0.85rem;
-  margin-bottom: 0.25rem;
+  font-size: 0.88rem;
+  margin-bottom: 0.3rem;
   color: var(--ink);
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .wy-muted {
   color: var(--muted);
   font-size: 0.88rem;
+  letter-spacing: -0.01em;
 }
 
 .wy-tip {
-  background: rgba(30, 55, 110, 0.45);
-  border-left: 4px solid var(--primary);
-  border-radius: 0 12px 12px 0;
-  padding: 0.8rem 0.95rem;
-  color: #d8e6ff;
+  background: var(--card);
+  border-left: none;
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1rem;
+  color: var(--ink);
   font-size: 0.92rem;
-  margin: 0.8rem 0;
-  border-top: 1px solid var(--line);
-  border-right: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  margin: 0.85rem 0;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
 }
 
 .wy-flash-term {
-  font-size: 2.1rem;
+  font-size: 2.2rem;
   font-weight: 600;
   text-align: center;
-  color: #f4efe4;
-  padding: 1.25rem 0.5rem 0.45rem;
-  letter-spacing: 0.08em;
-  font-family: var(--serif);
-  text-shadow: 0 0 24px rgba(126, 182, 255, 0.25);
+  color: var(--ink);
+  padding: 1.35rem 0.5rem 0.5rem;
+  letter-spacing: -0.02em;
 }
 
 .wy-flash-meta {
   text-align: center;
   color: var(--muted);
-  font-size: 0.85rem;
-  margin-bottom: 0.8rem;
-  letter-spacing: 0.06em;
+  font-size: 0.84rem;
+  margin-bottom: 0.85rem;
+  font-weight: 500;
 }
 
 .wy-term-title {
-  font-size: 1.3rem;
+  font-size: 1.28rem;
   font-weight: 600;
-  color: #eef4ff;
-  font-family: var(--serif);
+  color: var(--ink);
+  letter-spacing: -0.02em;
 }
 
 .wy-accept {
   font-size: 1.12rem;
-  color: #dce9ff;
-  font-family: var(--serif);
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
-/* highlights */
+/* highlights — soft, Apple-like */
 mark.hl-weak {
-  background: rgba(201, 168, 108, 0.35);
+  background: #fff1cc;
   color: inherit;
-  padding: 0 0.12em;
-  border-radius: 3px;
+  padding: 0 0.14em;
+  border-radius: 4px;
 }
 mark.hl-learning {
-  background: rgba(90, 150, 230, 0.35);
+  background: #d6e9ff;
   color: inherit;
-  padding: 0 0.12em;
-  border-radius: 3px;
+  padding: 0 0.14em;
+  border-radius: 4px;
 }
 mark.hl-mastered {
-  background: rgba(90, 180, 150, 0.3);
+  background: #d4f5e2;
   color: inherit;
-  padding: 0 0.12em;
-  border-radius: 3px;
+  padding: 0 0.14em;
+  border-radius: 4px;
 }
 
-/* Buttons — outline pill like reference + filled primary */
+/* Buttons — continuous corner, Apple-like */
 div.stButton > button {
-  border-radius: 999px !important;
+  border-radius: 980px !important;
   min-height: 2.85rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  border: 1.5px solid rgba(200, 215, 245, 0.45) !important;
+  font-weight: 500 !important;
+  letter-spacing: -0.01em;
+  border: 1px solid var(--line-strong) !important;
   pointer-events: auto !important;
   cursor: pointer !important;
   position: relative;
   z-index: 2;
-  color: #e8eefc !important;
-  background: rgba(12, 22, 48, 0.55) !important;
+  color: var(--ink) !important;
+  background: rgba(0, 0, 0, 0.04) !important;
   box-shadow: none !important;
+  transition: background 0.15s ease, transform 0.1s ease !important;
 }
 
 div.stButton > button:hover {
-  border-color: rgba(180, 210, 255, 0.75) !important;
-  background: rgba(30, 55, 110, 0.55) !important;
+  background: rgba(0, 0, 0, 0.07) !important;
+}
+
+div.stButton > button:active {
+  transform: scale(0.98);
 }
 
 .wy-hero, .wy-card, .wy-stat-row, .wy-tip {
@@ -391,38 +324,30 @@ div.stButton > button:hover {
 
 div.stButton > button[kind="primary"],
 div.stButton > button[data-testid="baseButton-primary"] {
-  background: linear-gradient(180deg, #4f8fe0 0%, #2a6ec4 100%) !important;
+  background: var(--primary) !important;
   color: #fff !important;
-  border: 1px solid rgba(170, 205, 255, 0.45) !important;
-  box-shadow: 0 8px 22px rgba(40, 100, 200, 0.35) !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 div.stButton > button[kind="primary"]:hover,
 div.stButton > button[data-testid="baseButton-primary"]:hover {
-  filter: brightness(1.08);
+  background: var(--primary-hover) !important;
+  filter: none;
 }
 
 [data-testid="stMetricValue"] {
-  color: var(--primary) !important;
-  font-family: var(--serif) !important;
+  color: var(--ink) !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em;
 }
 
-/* Sidebar night panel */
+/* Sidebar — frosted light */
 section[data-testid="stSidebar"] {
-  background:
-    radial-gradient(1px 1px at 20% 15%, rgba(255,255,255,0.45), transparent),
-    radial-gradient(1px 1px at 70% 40%, rgba(255,255,255,0.35), transparent),
-    radial-gradient(1.2px 1.2px at 40% 75%, rgba(255,255,255,0.4), transparent),
-    repeating-linear-gradient(
-      125deg,
-      transparent 0,
-      transparent 14px,
-      rgba(150, 180, 240, 0.02) 14px,
-      rgba(150, 180, 240, 0.02) 15px
-    ),
-    radial-gradient(500px 300px at 20% 0%, rgba(50, 90, 180, 0.28), transparent 60%),
-    linear-gradient(180deg, #0a1228 0%, #0e1834 100%) !important;
+  background: rgba(245, 245, 247, 0.92) !important;
   border-right: 1px solid var(--line);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 section[data-testid="stSidebar"] * {
@@ -431,42 +356,63 @@ section[data-testid="stSidebar"] * {
 }
 
 section[data-testid="stSidebar"] .stMarkdown h3 {
-  font-family: var(--serif) !important;
-  color: #f0ebe0 !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em;
+  color: var(--ink) !important;
 }
 
-/* Inputs on dark */
+/* Inputs */
 div[data-baseweb="input"] > div,
 div[data-baseweb="select"] > div,
 div[data-baseweb="textarea"] > div {
-  border-radius: 14px !important;
-  background-color: rgba(10, 18, 40, 0.85) !important;
-  border-color: var(--line) !important;
+  border-radius: 12px !important;
+  background-color: #fff !important;
+  border-color: var(--line-strong) !important;
+  box-shadow: none !important;
 }
 
 div[data-baseweb="input"] input,
 div[data-baseweb="textarea"] textarea {
   color: var(--ink) !important;
+  font-size: 1rem !important;
 }
 
-/* Progress bar */
+div[data-baseweb="input"] > div:focus-within,
+div[data-baseweb="select"] > div:focus-within {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 3px rgba(0, 113, 227, 0.18) !important;
+}
+
+/* Progress */
+div[data-testid="stProgress"] > div {
+  background: rgba(0, 0, 0, 0.06) !important;
+  border-radius: 980px !important;
+  height: 6px !important;
+}
 div[data-testid="stProgress"] > div > div {
-  background: linear-gradient(90deg, #2a6ec4, #7eb6ff) !important;
+  background: var(--primary) !important;
+  border-radius: 980px !important;
 }
 
 .wy-empty {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   color: var(--muted);
 }
 
 .wy-empty .emoji {
-  font-size: 2.2rem;
-  margin-bottom: 0.5rem;
-  filter: drop-shadow(0 0 12px rgba(126, 182, 255, 0.4));
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  filter: none;
+  opacity: 0.9;
 }
 
-/* Alert boxes on dark */
 div[data-testid="stAlert"] {
   border-radius: 14px;
+  border: 1px solid var(--line);
+}
+
+/* Selectbox / radio cleaner */
+div[data-baseweb="select"] {
+  font-weight: 500;
 }
