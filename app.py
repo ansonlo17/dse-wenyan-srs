@@ -33,7 +33,7 @@ from src.suggest import (  # noqa: E402
 )
 
 APP_NAME = "12篇範文語譯溫習"
-BRAND = "ansonlo.17"
+BRAND = "@anson.17"
 
 st.set_page_config(
     page_title=APP_NAME,
