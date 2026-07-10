@@ -1,0 +1,275 @@
+[
+  {
+    "term": "舍",
+    "accepted": [
+      "捨",
+      "放棄",
+      "捨棄"
+    ],
+    "dse_usage": "通「捨」，放棄",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "舍魚而取熊掌"
+  },
+  {
+    "term": "義",
+    "accepted": [
+      "道義",
+      "正義",
+      "善性良知"
+    ],
+    "dse_usage": "正義、道義；善性良知的實踐",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "義亦我所欲也"
+  },
+  {
+    "term": "甚於",
+    "accepted": [
+      "超過",
+      "勝過",
+      "比……更"
+    ],
+    "dse_usage": "在程度上超過",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "所欲有甚於生者"
+  },
+  {
+    "term": "苟得",
+    "accepted": [
+      "苟且偷生",
+      "隨便求生"
+    ],
+    "dse_usage": "苟且偷生",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "故不為苟得也"
+  },
+  {
+    "term": "惡",
+    "accepted": [
+      "憎厭",
+      "厭惡",
+      "討厭"
+    ],
+    "dse_usage": "憎厭",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "死亦我所惡"
+  },
+  {
+    "term": "辟",
+    "accepted": [
+      "避",
+      "躲避"
+    ],
+    "dse_usage": "通「避」",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "故患有所不辟也"
+  },
+  {
+    "term": "是故",
+    "accepted": [
+      "因此",
+      "所以"
+    ],
+    "dse_usage": "因此之故",
+    "difficulty": 1,
+    "category": "結構",
+    "sentence_snippet": "是故所欲有甚於生者"
+  },
+  {
+    "term": "耳",
+    "accepted": [
+      "罷了",
+      "而已"
+    ],
+    "dse_usage": "句末語助詞，「而已」合音",
+    "difficulty": 2,
+    "category": "虛詞",
+    "sentence_snippet": "賢者能勿喪耳"
+  },
+  {
+    "term": "簞",
+    "accepted": [
+      "竹器",
+      "盛飯竹器"
+    ],
+    "dse_usage": "盛飯的竹器",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "一簞食"
+  },
+  {
+    "term": "豆",
+    "accepted": [
+      "食器",
+      "高腳盤"
+    ],
+    "dse_usage": "盛載食物的器皿，形似高腳盤",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "一豆羹"
+  },
+  {
+    "term": "弗",
+    "accepted": [
+      "不"
+    ],
+    "dse_usage": "通「不」",
+    "difficulty": 2,
+    "category": "虛詞",
+    "sentence_snippet": "弗得則死"
+  },
+  {
+    "term": "嘑爾",
+    "accepted": [
+      "呵斥",
+      "呼叱",
+      "大聲喝斥"
+    ],
+    "dse_usage": "大聲呼叱",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "嘑爾而與之"
+  },
+  {
+    "term": "蹴",
+    "accepted": [
+      "踐踏",
+      "踩"
+    ],
+    "dse_usage": "踐踏",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "蹴爾而與之"
+  },
+  {
+    "term": "不屑",
+    "accepted": [
+      "輕視",
+      "不願意",
+      "瞧不起"
+    ],
+    "dse_usage": "輕視",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "乞人不屑也"
+  },
+  {
+    "term": "萬鍾",
+    "accepted": [
+      "厚祿",
+      "豐厚俸祿",
+      "高官厚祿"
+    ],
+    "dse_usage": "達官貴人豐厚的俸祿",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "萬鍾則不辯禮義而受之"
+  },
+  {
+    "term": "辯",
+    "accepted": [
+      "辨",
+      "辨別"
+    ],
+    "dse_usage": "通「辨」，辨別",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "不辯禮義而受之"
+  },
+  {
+    "term": "何加",
+    "accepted": [
+      "有什麼好處",
+      "有何益處"
+    ],
+    "dse_usage": "有甚麼好處？加：增益",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "萬鍾於我何加焉"
+  },
+  {
+    "term": "宮室",
+    "accepted": [
+      "居所",
+      "房屋",
+      "住宅"
+    ],
+    "dse_usage": "居所（非皇宮）",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "為宮室之美"
+  },
+  {
+    "term": "奉",
+    "accepted": [
+      "侍奉",
+      "供奉",
+      "服侍"
+    ],
+    "dse_usage": "供奉、服侍",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "妻妾之奉"
+  },
+  {
+    "term": "得",
+    "accepted": [
+      "德",
+      "感激"
+    ],
+    "dse_usage": "通「德」，感激",
+    "difficulty": 4,
+    "category": "異義",
+    "sentence_snippet": "所識窮乏者得我與"
+  },
+  {
+    "term": "鄉",
+    "accepted": [
+      "向",
+      "從前",
+      "過往"
+    ],
+    "dse_usage": "通「向」，過往",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "鄉為身死而不受"
+  },
+  {
+    "term": "已",
+    "accepted": [
+      "停止"
+    ],
+    "dse_usage": "停止",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "是亦不可以已乎"
+  },
+  {
+    "term": "本心",
+    "accepted": [
+      "良心",
+      "本性",
+      "羞惡之心"
+    ],
+    "dse_usage": "本來就有的良心、本性",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "此之謂失其本心"
+  },
+  {
+    "term": "舍生而取義",
+    "accepted": [
+      "捨生取義",
+      "犧牲生命取道義"
+    ],
+    "dse_usage": "犧牲生命而選取道義",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "舍生而取義者也"
+  }
+]

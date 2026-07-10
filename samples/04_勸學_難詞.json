@@ -1,0 +1,313 @@
+[
+  {
+    "term": "已",
+    "accepted": [
+      "停止",
+      "終止",
+      "放棄"
+    ],
+    "dse_usage": "終止、放棄",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "學不可以已"
+  },
+  {
+    "term": "青於藍",
+    "accepted": [
+      "比藍更青",
+      "勝過原來"
+    ],
+    "dse_usage": "比藍草更青；喻學習可提升",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "青於藍"
+  },
+  {
+    "term": "中",
+    "accepted": [
+      "符合",
+      "合於"
+    ],
+    "dse_usage": "符合、合於",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "木直中繩"
+  },
+  {
+    "term": "輮",
+    "accepted": [
+      "揉",
+      "煣",
+      "烘彎"
+    ],
+    "dse_usage": "通「揉／煣」，使木材彎曲",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "輮以為輪"
+  },
+  {
+    "term": "槁暴",
+    "accepted": [
+      "乾晒",
+      "枯乾曝晒"
+    ],
+    "dse_usage": "槁：枯乾；暴通「曝」",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "雖有槁暴"
+  },
+  {
+    "term": "就礪",
+    "accepted": [
+      "上磨石",
+      "磨礪"
+    ],
+    "dse_usage": "在磨刀石上磨",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "金就礪則利"
+  },
+  {
+    "term": "參省",
+    "accepted": [
+      "反省",
+      "檢討",
+      "三省"
+    ],
+    "dse_usage": "檢討反省",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "日參省乎己"
+  },
+  {
+    "term": "知明",
+    "accepted": [
+      "智明",
+      "心智清明"
+    ],
+    "dse_usage": "知通「智」；心智清明",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "則知明而行無過矣"
+  },
+  {
+    "term": "須臾",
+    "accepted": [
+      "片刻",
+      "一會兒"
+    ],
+    "dse_usage": "片刻",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "須臾之所學"
+  },
+  {
+    "term": "跂",
+    "accepted": [
+      "踮腳",
+      "踮起腳跟"
+    ],
+    "dse_usage": "踮起腳跟",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "吾嘗跂而望矣"
+  },
+  {
+    "term": "疾",
+    "accepted": [
+      "宏亮",
+      "猛烈"
+    ],
+    "dse_usage": "聲音宏亮",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "聲非加疾也"
+  },
+  {
+    "term": "彰",
+    "accepted": [
+      "清晰",
+      "明顯"
+    ],
+    "dse_usage": "明顯、清晰",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "而聞者彰"
+  },
+  {
+    "term": "假",
+    "accepted": [
+      "藉助",
+      "憑藉",
+      "利用"
+    ],
+    "dse_usage": "假借、憑藉",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "假輿馬者"
+  },
+  {
+    "term": "致",
+    "accepted": [
+      "達到"
+    ],
+    "dse_usage": "達到",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "而致千里"
+  },
+  {
+    "term": "絕",
+    "accepted": [
+      "橫渡",
+      "渡過"
+    ],
+    "dse_usage": "渡過",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "而絕江河"
+  },
+  {
+    "term": "生",
+    "accepted": [
+      "性",
+      "本性"
+    ],
+    "dse_usage": "通「性」，本性",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "君子生非異也"
+  },
+  {
+    "term": "善假於物",
+    "accepted": [
+      "善於藉助外物",
+      "善用外物"
+    ],
+    "dse_usage": "善於借助外在條件",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "善假於物也"
+  },
+  {
+    "term": "跬步",
+    "accepted": [
+      "半步",
+      "一小步"
+    ],
+    "dse_usage": "半步",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "不積跬步"
+  },
+  {
+    "term": "騏驥",
+    "accepted": [
+      "駿馬",
+      "好馬"
+    ],
+    "dse_usage": "駿馬",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "騏驥一躍"
+  },
+  {
+    "term": "駑馬",
+    "accepted": [
+      "劣馬",
+      "慢馬"
+    ],
+    "dse_usage": "劣馬",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "駑馬十駕"
+  },
+  {
+    "term": "舍",
+    "accepted": [
+      "捨",
+      "放棄"
+    ],
+    "dse_usage": "通「捨」，放棄",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "功在不舍"
+  },
+  {
+    "term": "鍥",
+    "accepted": [
+      "雕刻",
+      "刻"
+    ],
+    "dse_usage": "雕刻",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "鍥而不舍"
+  },
+  {
+    "term": "鏤",
+    "accepted": [
+      "雕刻",
+      "鏤刻"
+    ],
+    "dse_usage": "雕刻",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "金石可鏤"
+  },
+  {
+    "term": "螾",
+    "accepted": [
+      "蚓",
+      "蚯蚓"
+    ],
+    "dse_usage": "同「蚓」，蚯蚓",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "螾無爪牙之利"
+  },
+  {
+    "term": "跪",
+    "accepted": [
+      "足",
+      "腳"
+    ],
+    "dse_usage": "足",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "蟹六跪而二螯"
+  },
+  {
+    "term": "螯",
+    "accepted": [
+      "鉗",
+      "蟹鉗"
+    ],
+    "dse_usage": "蟹鉗",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "二螯"
+  },
+  {
+    "term": "躁",
+    "accepted": [
+      "浮躁",
+      "不專心"
+    ],
+    "dse_usage": "浮躁、不專心",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "用心躁也"
+  },
+  {
+    "term": "鍥而不舍",
+    "accepted": [
+      "堅持不懈",
+      "不斷雕刻"
+    ],
+    "dse_usage": "堅持雕刻不停止",
+    "difficulty": 2,
+    "category": "結構",
+    "sentence_snippet": "鍥而不舍"
+  }
+]

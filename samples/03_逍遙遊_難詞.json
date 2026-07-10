@@ -1,0 +1,308 @@
+[
+  {
+    "term": "貽",
+    "accepted": [
+      "贈送",
+      "送給"
+    ],
+    "dse_usage": "贈送",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "魏王貽我大瓠之種"
+  },
+  {
+    "term": "瓠",
+    "accepted": [
+      "葫蘆"
+    ],
+    "dse_usage": "葫蘆",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "大瓠之種"
+  },
+  {
+    "term": "石",
+    "accepted": [
+      "容量單位",
+      "十斗"
+    ],
+    "dse_usage": "古代容量單位，十斗為一石",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "實五石"
+  },
+  {
+    "term": "掊",
+    "accepted": [
+      "擊破",
+      "打碎"
+    ],
+    "dse_usage": "擊破",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "掊之"
+  },
+  {
+    "term": "拙於用大",
+    "accepted": [
+      "不善用大",
+      "不會用大物"
+    ],
+    "dse_usage": "不善於利用大物",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "拙於用大"
+  },
+  {
+    "term": "龜手",
+    "accepted": [
+      "凍裂",
+      "手凍裂"
+    ],
+    "dse_usage": "皮膚受凍裂開；龜通「皸」",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "不龜手之藥"
+  },
+  {
+    "term": "洴澼絖",
+    "accepted": [
+      "漂洗棉絮",
+      "漂絮"
+    ],
+    "dse_usage": "漂洗棉絮",
+    "difficulty": 5,
+    "category": "實詞",
+    "sentence_snippet": "洴澼絖為事"
+  },
+  {
+    "term": "鬻",
+    "accepted": [
+      "賣",
+      "出售"
+    ],
+    "dse_usage": "賣",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "鬻技百金"
+  },
+  {
+    "term": "說",
+    "accepted": [
+      "遊說"
+    ],
+    "dse_usage": "遊說",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "以說吳王"
+  },
+  {
+    "term": "將",
+    "accepted": [
+      "領兵",
+      "率領"
+    ],
+    "dse_usage": "領兵，動詞",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "吳王使之將"
+  },
+  {
+    "term": "裂地",
+    "accepted": [
+      "割地",
+      "封地"
+    ],
+    "dse_usage": "割出一塊土地",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "裂地而封之"
+  },
+  {
+    "term": "大樽",
+    "accepted": [
+      "腰舟",
+      "助浮器具"
+    ],
+    "dse_usage": "形似酒器、可拴腰漂浮的工具",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "大樽而浮於江湖"
+  },
+  {
+    "term": "蓬之心",
+    "accepted": [
+      "心思閉塞",
+      "心塞不通"
+    ],
+    "dse_usage": "心思閉塞不通",
+    "difficulty": 4,
+    "category": "結構",
+    "sentence_snippet": "有蓬之心"
+  },
+  {
+    "term": "樗",
+    "accepted": [
+      "臭椿",
+      "劣質樹"
+    ],
+    "dse_usage": "落葉喬木，木材皮粗質劣",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "人謂之樗"
+  },
+  {
+    "term": "擁腫",
+    "accepted": [
+      "臃腫",
+      "盤結"
+    ],
+    "dse_usage": "擁通「臃」；盤結",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "大本擁腫"
+  },
+  {
+    "term": "中",
+    "accepted": [
+      "符合",
+      "合於"
+    ],
+    "dse_usage": "符合",
+    "difficulty": 3,
+    "category": "異義",
+    "sentence_snippet": "不中繩墨"
+  },
+  {
+    "term": "塗",
+    "accepted": [
+      "途",
+      "路"
+    ],
+    "dse_usage": "通「途」",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "立之塗"
+  },
+  {
+    "term": "去",
+    "accepted": [
+      "離棄",
+      "捨棄"
+    ],
+    "dse_usage": "離棄",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "眾所同去也"
+  },
+  {
+    "term": "敖",
+    "accepted": [
+      "遨",
+      "出遊"
+    ],
+    "dse_usage": "通「遨」，出遊",
+    "difficulty": 4,
+    "category": "異義",
+    "sentence_snippet": "以候敖者"
+  },
+  {
+    "term": "跳梁",
+    "accepted": [
+      "跳躍",
+      "跳踉"
+    ],
+    "dse_usage": "梁通「踉」，跳躍",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "東西跳梁"
+  },
+  {
+    "term": "辟",
+    "accepted": [
+      "避",
+      "躲避"
+    ],
+    "dse_usage": "通「避」",
+    "difficulty": 2,
+    "category": "異義",
+    "sentence_snippet": "不辟高下"
+  },
+  {
+    "term": "機辟",
+    "accepted": [
+      "陷阱",
+      "捕獸工具"
+    ],
+    "dse_usage": "捕捉鳥獸的工具",
+    "difficulty": 4,
+    "category": "實詞",
+    "sentence_snippet": "中於機辟"
+  },
+  {
+    "term": "罔罟",
+    "accepted": [
+      "網",
+      "羅網"
+    ],
+    "dse_usage": "漁獵的網具",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "死於罔罟"
+  },
+  {
+    "term": "無何有之鄉",
+    "accepted": [
+      "空曠之處",
+      "虛無之境"
+    ],
+    "dse_usage": "什麼都沒有的地方",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "無何有之鄉"
+  },
+  {
+    "term": "廣莫",
+    "accepted": [
+      "廣漠",
+      "遼闊"
+    ],
+    "dse_usage": "遼闊空曠",
+    "difficulty": 3,
+    "category": "實詞",
+    "sentence_snippet": "廣莫之野"
+  },
+  {
+    "term": "逍遙",
+    "accepted": [
+      "優游自在",
+      "自由自在"
+    ],
+    "dse_usage": "優游自在",
+    "difficulty": 2,
+    "category": "實詞",
+    "sentence_snippet": "逍遙乎寢卧其下"
+  },
+  {
+    "term": "不夭斤斧",
+    "accepted": [
+      "不被砍伐",
+      "不遭斧斤"
+    ],
+    "dse_usage": "不遭受斧頭砍伐",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "不夭斤斧"
+  },
+  {
+    "term": "無用之用",
+    "accepted": [
+      "無用也有用",
+      "大用"
+    ],
+    "dse_usage": "看似無用而實有大用",
+    "difficulty": 3,
+    "category": "結構",
+    "sentence_snippet": "患其無用"
+  }
+]
